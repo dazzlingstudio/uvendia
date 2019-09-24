@@ -1,4 +1,3 @@
-* [Home](/)
 * [Quick start](quickstart.md)
 * [Report issues](reportissues.md)
 * **Settings**
