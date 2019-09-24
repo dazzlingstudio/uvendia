@@ -1,4 +1,4 @@
-# Version History
+# Uvendia Version History
 
 Prefix the description of the change with `[major]`, `[minor]`, or `[patch]` in accordance with [Semantic Versioning](https://semver.org/).
 
