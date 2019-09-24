@@ -37,7 +37,7 @@ public override Product Single(int id)
 }
 ```
 ### Source code documentation
-For accessing complex assets like ``Product``, ``Category``, ``Event``, ``Store`` and ``Order``, it is very important you take a look at our [Source code documentation](#).
+For accessing complex assets like ``Product``, ``Category``, ``Event``, ``Store`` and ``Order``, it is very important you take a look at our [Source code documentation](https://dazzlingstudio.github.io/uvendia/api_docs/_site/api/).
 
 ## Querying the database
 When querying all assets using conditions (like the ``where`` clause), take a look first at your Visual Studio documentation intellisense when accessing the ``All`` method. The documentation is also available [here](#)

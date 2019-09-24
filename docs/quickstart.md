@@ -21,5 +21,5 @@ Username: info@snuffo.com
 Password: Y(I=%&aG.+
 ```
 
-## Source code demo
+## Source code of the demo
 To download the demo source code, go to [github.com/dazzlingstudio/snuffo](https://github.com/dazzlingstudio/snuffo)
