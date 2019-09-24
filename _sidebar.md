@@ -1,5 +1,6 @@
 * [Home](/)
 * [Quick start](quickstart.md)
+* [Release notes](releasenotes.md)
 * [Report issues](reportissues.md)
 * [Source code documentation](https://dazzlingstudio.github.io/uvendia/api_docs/_site/api/)
 * **Settings**
