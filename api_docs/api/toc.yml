@@ -1,0 +1,504 @@
+### YamlMime:TableOfContent
+- uid: Uvendia.Domain
+  name: Uvendia.Domain
+  items:
+  - uid: Uvendia.Domain.ActionType
+    name: ActionType
+  - uid: Uvendia.Domain.Address
+    name: Address
+  - uid: Uvendia.Domain.Category
+    name: Category
+  - uid: Uvendia.Domain.CategoryDefinition
+    name: CategoryDefinition
+  - uid: Uvendia.Domain.CloudinaryMediaObject
+    name: CloudinaryMediaObject
+  - uid: Uvendia.Domain.CurrentUser
+    name: CurrentUser
+  - uid: Uvendia.Domain.Customer
+    name: Customer
+  - uid: Uvendia.Domain.CustomOrderEmailArgs
+    name: CustomOrderEmailArgs
+  - uid: Uvendia.Domain.Definition
+    name: Definition
+  - uid: Uvendia.Domain.Event
+    name: Event
+  - uid: Uvendia.Domain.Extendable
+    name: Extendable
+  - uid: Uvendia.Domain.ICustomOrderEmailTransfer
+    name: ICustomOrderEmailTransfer
+  - uid: Uvendia.Domain.Inventory
+    name: Inventory
+  - uid: Uvendia.Domain.IPriceable
+    name: IPriceable
+  - uid: Uvendia.Domain.ITranslation
+    name: ITranslation
+  - uid: Uvendia.Domain.Order
+    name: Order
+  - uid: Uvendia.Domain.PaymentMethod
+    name: PaymentMethod
+  - uid: Uvendia.Domain.PaymentMethodSetting
+    name: PaymentMethodSetting
+  - uid: Uvendia.Domain.Price
+    name: Price
+  - uid: Uvendia.Domain.PriceDefinition
+    name: PriceDefinition
+  - uid: Uvendia.Domain.Product
+    name: Product
+  - uid: Uvendia.Domain.ProductOrderDetail
+    name: ProductOrderDetail
+  - uid: Uvendia.Domain.Property
+    name: Property
+  - uid: Uvendia.Domain.PropertyValue
+    name: PropertyValue
+  - uid: Uvendia.Domain.Review
+    name: Review
+  - uid: Uvendia.Domain.ShippingMethod
+    name: ShippingMethod
+  - uid: Uvendia.Domain.Store
+    name: Store
+  - uid: Uvendia.Domain.Subscription
+    name: Subscription
+  - uid: Uvendia.Domain.TicketOrderDetail
+    name: TicketOrderDetail
+  - uid: Uvendia.Domain.TicketSale
+    name: TicketSale
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+  - uid: Uvendia.Domain.UmbracoUtils
+    name: UmbracoUtils
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+  - uid: Uvendia.Domain.WebshopUtils
+    name: WebshopUtils
+- uid: Uvendia.Domain.Cart
+  name: Uvendia.Domain.Cart
+  items:
+  - uid: Uvendia.Domain.Cart.CartAction
+    name: CartAction
+  - uid: Uvendia.Domain.Cart.CartItem
+    name: CartItem
+  - uid: Uvendia.Domain.Cart.CurrentCart
+    name: CurrentCart
+- uid: Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  items:
+  - uid: Uvendia.Domain.Entities.Country
+    name: Country
+  - uid: Uvendia.Domain.Entities.EventSearch
+    name: EventSearch
+  - uid: Uvendia.Domain.Entities.InvoiceDataTransferObject
+    name: InvoiceDataTransferObject
+  - uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+    name: InvoiceDetailDataTransferObject
+  - uid: Uvendia.Domain.Entities.Language
+    name: Language
+  - uid: Uvendia.Domain.Entities.OrderSearch
+    name: OrderSearch
+  - uid: Uvendia.Domain.Entities.ProductSearch
+    name: ProductSearch
+  - uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+    name: ProductStockIndicationDataTransferObject
+  - uid: Uvendia.Domain.Entities.SoldTicketDataTransferObject
+    name: SoldTicketDataTransferObject
+  - uid: Uvendia.Domain.Entities.TicketDataTransferObject
+    name: TicketDataTransferObject
+- uid: Uvendia.Domain.Entities.Api
+  name: Uvendia.Domain.Entities.Api
+  items:
+  - uid: Uvendia.Domain.Entities.Api.ApiCategory
+    name: ApiCategory
+  - uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+    name: ApiJsTreeNode
+  - uid: Uvendia.Domain.Entities.Api.ApiProduct
+    name: ApiProduct
+  - uid: Uvendia.Domain.Entities.Api.ApiStore
+    name: ApiStore
+- uid: Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  items:
+  - uid: Uvendia.Domain.Enums.AddressType
+    name: AddressType
+  - uid: Uvendia.Domain.Enums.CloudinaryFileType
+    name: CloudinaryFileType
+  - uid: Uvendia.Domain.Enums.DataType
+    name: DataType
+  - uid: Uvendia.Domain.Enums.DefinitionType
+    name: DefinitionType
+  - uid: Uvendia.Domain.Enums.EventStatus
+    name: EventStatus
+  - uid: Uvendia.Domain.Enums.EventType
+    name: EventType
+  - uid: Uvendia.Domain.Enums.OrderStatus
+    name: OrderStatus
+  - uid: Uvendia.Domain.Enums.PersonTitle
+    name: PersonTitle
+  - uid: Uvendia.Domain.Enums.ProductPictureType
+    name: ProductPictureType
+  - uid: Uvendia.Domain.Enums.ProductSortyBy
+    name: ProductSortyBy
+  - uid: Uvendia.Domain.Enums.RoleType
+    name: RoleType
+- uid: Uvendia.Domain.Exceptions
+  name: Uvendia.Domain.Exceptions
+  items:
+  - uid: Uvendia.Domain.Exceptions.ItemNotFoundException
+    name: ItemNotFoundException
+  - uid: Uvendia.Domain.Exceptions.LicenseInvalidException
+    name: LicenseInvalidException
+  - uid: Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+    name: OrderAlreadyProcessedException
+  - uid: Uvendia.Domain.Exceptions.OrderInvalidException
+    name: OrderInvalidException
+  - uid: Uvendia.Domain.Exceptions.UvendiaException
+    name: UvendiaException
+- uid: Uvendia.Domain.Factories
+  name: Uvendia.Domain.Factories
+  items:
+  - uid: Uvendia.Domain.Factories.EmailHelper
+    name: EmailHelper
+  - uid: Uvendia.Domain.Factories.PriceCreator
+    name: PriceCreator
+  - uid: Uvendia.Domain.Factories.ReportCreator
+    name: ReportCreator
+  - uid: Uvendia.Domain.Factories.TranslationCreator
+    name: TranslationCreator
+- uid: Uvendia.Domain.Mail
+  name: Uvendia.Domain.Mail
+  items:
+  - uid: Uvendia.Domain.Mail.TestCustomOrderEmailTranser
+    name: TestCustomOrderEmailTranser
+- uid: Uvendia.Domain.Mappings
+  name: Uvendia.Domain.Mappings
+  items:
+  - uid: Uvendia.Domain.Mappings.EventDisplayNameResolver
+    name: EventDisplayNameResolver
+  - uid: Uvendia.Domain.Mappings.ProductDiscountDecimalToStringResolver
+    name: ProductDiscountDecimalToStringResolver
+  - uid: Uvendia.Domain.Mappings.ProductDisplayNameResolver
+    name: ProductDisplayNameResolver
+  - uid: Uvendia.Domain.Mappings.ProductPriceDecimalToStringResolver
+    name: ProductPriceDecimalToStringResolver
+  - uid: Uvendia.Domain.Mappings.ProductTotalDecimalToStringResolver
+    name: ProductTotalDecimalToStringResolver
+  - uid: Uvendia.Domain.Mappings.TicketDiscountDecimalToStringResolver
+    name: TicketDiscountDecimalToStringResolver
+  - uid: Uvendia.Domain.Mappings.TicketPriceDecimalToStringResolver
+    name: TicketPriceDecimalToStringResolver
+  - uid: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+    name: TicketTotalDecimalToStringResolver
+- uid: Uvendia.Domain.Mvc
+  name: Uvendia.Domain.Mvc
+  items:
+  - uid: Uvendia.Domain.Mvc.BundleConfig
+    name: BundleConfig
+  - uid: Uvendia.Domain.Mvc.RouteConfig
+    name: RouteConfig
+  - uid: Uvendia.Domain.Mvc.UmbracoStartUpHandlers
+    name: UmbracoStartUpHandlers
+  - uid: Uvendia.Domain.Mvc.UvendiaSection
+    name: UvendiaSection
+  - uid: Uvendia.Domain.Mvc.UvendiaTreeController
+    name: UvendiaTreeController
+- uid: Uvendia.Domain.Mvc.Controllers
+  name: Uvendia.Domain.Mvc.Controllers
+  items:
+  - uid: Uvendia.Domain.Mvc.Controllers.BaseController
+    name: BaseController
+  - uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+    name: CatalogApiController
+  - uid: Uvendia.Domain.Mvc.Controllers.CategoryController
+    name: CategoryController
+  - uid: Uvendia.Domain.Mvc.Controllers.DefinitionController
+    name: DefinitionController
+  - uid: Uvendia.Domain.Mvc.Controllers.EventController
+    name: EventController
+  - uid: Uvendia.Domain.Mvc.Controllers.MailController
+    name: MailController
+  - uid: Uvendia.Domain.Mvc.Controllers.OrderController
+    name: OrderController
+  - uid: Uvendia.Domain.Mvc.Controllers.PaymentMethodController
+    name: PaymentMethodController
+  - uid: Uvendia.Domain.Mvc.Controllers.PriceController
+    name: PriceController
+  - uid: Uvendia.Domain.Mvc.Controllers.ProductController
+    name: ProductController
+  - uid: Uvendia.Domain.Mvc.Controllers.ProductOrderDetailController
+    name: ProductOrderDetailController
+  - uid: Uvendia.Domain.Mvc.Controllers.PropertyController
+    name: PropertyController
+  - uid: Uvendia.Domain.Mvc.Controllers.SearchController
+    name: SearchController
+  - uid: Uvendia.Domain.Mvc.Controllers.SettingsController
+    name: SettingsController
+  - uid: Uvendia.Domain.Mvc.Controllers.ShippingMethodController
+    name: ShippingMethodController
+  - uid: Uvendia.Domain.Mvc.Controllers.StoreController
+    name: StoreController
+  - uid: Uvendia.Domain.Mvc.Controllers.TicketOrderDetailController
+    name: TicketOrderDetailController
+  - uid: Uvendia.Domain.Mvc.Controllers.TicketSaleController
+    name: TicketSaleController
+- uid: Uvendia.Domain.Mvc.HtmlControls
+  name: Uvendia.Domain.Mvc.HtmlControls
+  items:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+    name: BaseControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.CheckBoxControl
+    name: CheckBoxControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.CloudinaryFileControl
+    name: CloudinaryFileControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+    name: CloudinaryImageControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.CloudinaryVideoControl
+    name: CloudinaryVideoControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.DateTimeControl
+    name: DateTimeControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.DropDownListControl
+    name: DropDownListControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.EditorControl
+    name: EditorControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.HtmlControlFactory
+    name: HtmlControlFactory
+  - uid: Uvendia.Domain.Mvc.HtmlControls.LabelControl
+    name: LabelControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.NumberControl
+    name: NumberControl
+  - uid: Uvendia.Domain.Mvc.HtmlControls.TextBoxControl
+    name: TextBoxControl
+- uid: Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  items:
+  - uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel
+    name: AvailableInCountryModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.CategoriesModel
+    name: CategoriesModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.CategoryDeleteModel
+    name: CategoryDeleteModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.CategoryModel
+    name: CategoryModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+    name: CloudinaryFileModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+    name: DefinitionModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.DefinitionsModel
+    name: DefinitionsModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+    name: DeleteModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.eTicketSettingModel
+    name: eTicketSettingModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.EventModel
+    name: EventModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.EventsModel
+    name: EventsModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.InvoiceSettingModel
+    name: InvoiceSettingModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.IPriceModel
+    name: IPriceModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.ITranslationModel
+    name: ITranslationModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+    name: OrderDetailModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.OrderModel
+    name: OrderModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.OrderNumberModel
+    name: OrderNumberModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.OrdersModel
+    name: OrdersModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1
+    name: PagedListWebshopModel<T>
+    name.vb: PagedListWebshopModel(Of T)
+  - uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+    name: PaymentMethodModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodsModel
+    name: PaymentMethodsModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel
+    name: PriceDefinitionModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionsModel
+    name: PriceDefinitionsModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.ProductModel
+    name: ProductModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.ProductsModel
+    name: ProductsModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.PropertiesModel
+    name: PropertiesModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.PropertyModel
+    name: PropertyModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.ReportModel
+    name: ReportModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.SearchEventModel
+    name: SearchEventModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.SearchOrderModel
+    name: SearchOrderModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.SearchProductModel
+    name: SearchProductModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.ShippingMethodModel
+    name: ShippingMethodModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.ShippingMethodsModel
+    name: ShippingMethodsModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.StoreModel
+    name: StoreModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.StoresModel
+    name: StoresModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.TicketTypeModel
+    name: TicketTypeModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.TicketTypesModel
+    name: TicketTypesModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+    name: WebshopModel
+- uid: Uvendia.Domain.Mvc.ViewModels.Mail
+  name: Uvendia.Domain.Mvc.ViewModels.Mail
+  items:
+  - uid: Uvendia.Domain.Mvc.ViewModels.Mail.OrderMailModel
+    name: OrderMailModel
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings
+  name: Uvendia.Domain.Mvc.ViewModels.Settings
+  items:
+  - uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+    name: OrderEmailTemplateSettingModel
+  - uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingsModel
+    name: OrderEmailTemplateSettingsModel
+- uid: Uvendia.Domain.Proxies
+  name: Uvendia.Domain.Proxies
+  items:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy<TEntity>
+    name.vb: Proxy(Of TEntity)
+  - uid: Uvendia.Domain.Proxies.ProxyCategory
+    name: ProxyCategory
+  - uid: Uvendia.Domain.Proxies.ProxyCategoryProducts
+    name: ProxyCategoryProducts
+  - uid: Uvendia.Domain.Proxies.ProxyCategoryTranslations
+    name: ProxyCategoryTranslations
+  - uid: Uvendia.Domain.Proxies.ProxyDefinition
+    name: ProxyDefinition
+  - uid: Uvendia.Domain.Proxies.ProxyEvent
+    name: ProxyEvent
+  - uid: Uvendia.Domain.Proxies.ProxyEventCancellationPriceCollection
+    name: ProxyEventCancellationPriceCollection
+  - uid: Uvendia.Domain.Proxies.ProxyEventTranslations
+    name: ProxyEventTranslations
+  - uid: Uvendia.Domain.Proxies.ProxyList`1
+    name: ProxyList<T>
+    name.vb: ProxyList(Of T)
+  - uid: Uvendia.Domain.Proxies.ProxyParentProduct
+    name: ProxyParentProduct
+  - uid: Uvendia.Domain.Proxies.ProxyPaymentPriceCollection
+    name: ProxyPaymentPriceCollection
+  - uid: Uvendia.Domain.Proxies.ProxyProduct
+    name: ProxyProduct
+  - uid: Uvendia.Domain.Proxies.ProxyProductCategories
+    name: ProxyProductCategories
+  - uid: Uvendia.Domain.Proxies.ProxyProductInventory
+    name: ProxyProductInventory
+  - uid: Uvendia.Domain.Proxies.ProxyProductPriceCollection
+    name: ProxyProductPriceCollection
+  - uid: Uvendia.Domain.Proxies.ProxyProductReviews
+    name: ProxyProductReviews
+  - uid: Uvendia.Domain.Proxies.ProxyProductTranslations
+    name: ProxyProductTranslations
+  - uid: Uvendia.Domain.Proxies.ProxyProductVariants
+    name: ProxyProductVariants
+  - uid: Uvendia.Domain.Proxies.ProxyPropertyValues
+    name: ProxyPropertyValues
+  - uid: Uvendia.Domain.Proxies.ProxyShippingPriceCollection
+    name: ProxyShippingPriceCollection
+  - uid: Uvendia.Domain.Proxies.ProxyStoreCategories
+    name: ProxyStoreCategories
+  - uid: Uvendia.Domain.Proxies.ProxyStoreTranslations
+    name: ProxyStoreTranslations
+  - uid: Uvendia.Domain.Proxies.ProxySubCategories
+    name: ProxySubCategories
+  - uid: Uvendia.Domain.Proxies.ProxyTicketSale
+    name: ProxyTicketSale
+  - uid: Uvendia.Domain.Proxies.ProxyTicketType
+    name: ProxyTicketType
+  - uid: Uvendia.Domain.Proxies.ProxyTotalTicketAvailable
+    name: ProxyTotalTicketAvailable
+- uid: Uvendia.Domain.Repositories
+  name: Uvendia.Domain.Repositories
+  items:
+  - uid: Uvendia.Domain.Repositories.Addresses
+    name: Addresses
+  - uid: Uvendia.Domain.Repositories.Cart
+    name: Cart
+  - uid: Uvendia.Domain.Repositories.Categories
+    name: Categories
+  - uid: Uvendia.Domain.Repositories.CloudinaryMediaObjects
+    name: CloudinaryMediaObjects
+  - uid: Uvendia.Domain.Repositories.Definitions
+    name: Definitions
+  - uid: Uvendia.Domain.Repositories.Events
+    name: Events
+  - uid: Uvendia.Domain.Repositories.Inventories
+    name: Inventories
+  - uid: Uvendia.Domain.Repositories.Orders
+    name: Orders
+  - uid: Uvendia.Domain.Repositories.PaymentMethods
+    name: PaymentMethods
+  - uid: Uvendia.Domain.Repositories.PriceDefinitions
+    name: PriceDefinitions
+  - uid: Uvendia.Domain.Repositories.Prices
+    name: Prices
+  - uid: Uvendia.Domain.Repositories.ProductOrderDetails
+    name: ProductOrderDetails
+  - uid: Uvendia.Domain.Repositories.Products
+    name: Products
+  - uid: Uvendia.Domain.Repositories.Properties
+    name: Properties
+  - uid: Uvendia.Domain.Repositories.PropertyValues
+    name: PropertyValues
+  - uid: Uvendia.Domain.Repositories.Reviews
+    name: Reviews
+  - uid: Uvendia.Domain.Repositories.ShippingMethods
+    name: ShippingMethods
+  - uid: Uvendia.Domain.Repositories.Stores
+    name: Stores
+  - uid: Uvendia.Domain.Repositories.Subscriptions
+    name: Subscriptions
+  - uid: Uvendia.Domain.Repositories.TicketOrderDetails
+    name: TicketOrderDetails
+  - uid: Uvendia.Domain.Repositories.TicketSales
+    name: TicketSales
+  - uid: Uvendia.Domain.Repositories.Translations
+    name: Translations
+  - uid: Uvendia.Domain.Repositories.UmbracoSettings
+    name: UmbracoSettings
+  - uid: Uvendia.Domain.Repositories.UvendiaContext
+    name: UvendiaContext
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository<TEntity>
+    name.vb: UvendiaRepository(Of TEntity)
+  - uid: Uvendia.Domain.Repositories.UvendiaSettings
+    name: UvendiaSettings
+- uid: Uvendia.Domain.Settings
+  name: Uvendia.Domain.Settings
+  items:
+  - uid: Uvendia.Domain.Settings.AvailableInCountry
+    name: AvailableInCountry
+  - uid: Uvendia.Domain.Settings.eTicketSetting
+    name: eTicketSetting
+  - uid: Uvendia.Domain.Settings.eTicketSettingDetail
+    name: eTicketSettingDetail
+  - uid: Uvendia.Domain.Settings.InvoiceSetting
+    name: InvoiceSetting
+  - uid: Uvendia.Domain.Settings.InvoiceSettingDetail
+    name: InvoiceSettingDetail
+  - uid: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+    name: OrderEmailTemplateSetting
+  - uid: Uvendia.Domain.Settings.OrderEmailTemplateSettingDetail
+    name: OrderEmailTemplateSettingDetail
+  - uid: Uvendia.Domain.Settings.OrderNumber
+    name: OrderNumber
+  - uid: Uvendia.Domain.Settings.SerializedSettings
+    name: SerializedSettings
+  - uid: Uvendia.Domain.Settings.TicketType
+    name: TicketType
+- uid: Uvendia.Domain.Validation
+  name: Uvendia.Domain.Validation
+  items:
+  - uid: Uvendia.Domain.Validation.ExtendedPropertyValidateAttribute
+    name: ExtendedPropertyValidateAttribute
+  - uid: Uvendia.Domain.Validation.IPropertyValidation
+    name: IPropertyValidation
+  - uid: Uvendia.Domain.Validation.TestValidation
+    name: TestValidation

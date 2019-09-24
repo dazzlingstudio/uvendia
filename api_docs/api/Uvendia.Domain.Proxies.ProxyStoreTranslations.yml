@@ -1,0 +1,2007 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Proxies.ProxyStoreTranslations
+  commentId: T:Uvendia.Domain.Proxies.ProxyStoreTranslations
+  id: ProxyStoreTranslations
+  parent: Uvendia.Domain.Proxies
+  children:
+  - Uvendia.Domain.Proxies.ProxyStoreTranslations.#ctor(System.Int64)
+  - Uvendia.Domain.Proxies.ProxyStoreTranslations.LoadList
+  langs:
+  - csharp
+  - vb
+  name: ProxyStoreTranslations
+  nameWithType: ProxyStoreTranslations
+  fullName: Uvendia.Domain.Proxies.ProxyStoreTranslations
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Proxies/ProxyStoreTranslations.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProxyStoreTranslations
+    path: ../../dazzling.studio/Uvendia.Domain/Proxies/ProxyStoreTranslations.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Proxies
+  syntax:
+    content: 'public class ProxyStoreTranslations : ProxyList<Translation>, IList<Translation>, ICollection<Translation>, IEnumerable<Translation>, IEnumerable'
+    content.vb: >-
+      Public Class ProxyStoreTranslations
+          Inherits ProxyList(Of Translation)
+          Implements IList(Of Translation), ICollection(Of Translation), IEnumerable(Of Translation), IEnumerable
+  inheritance:
+  - System.Object
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  implements:
+  - System.Collections.Generic.IList{Uvendia.Domain.Translation}
+  - System.Collections.Generic.ICollection{Uvendia.Domain.Translation}
+  - System.Collections.Generic.IEnumerable{Uvendia.Domain.Translation}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.List
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Parent
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.IndexOf(Uvendia.Domain.Translation)
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Insert(System.Int32,Uvendia.Domain.Translation)
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.RemoveAt(System.Int32)
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Item(System.Int32)
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.LoadAll
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Add(Uvendia.Domain.Translation)
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Clear
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Contains(Uvendia.Domain.Translation)
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.CopyTo(Uvendia.Domain.Translation[],System.Int32)
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Count
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.IsReadOnly
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Any(System.Func{Uvendia.Domain.Translation,System.Boolean})
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Remove(Uvendia.Domain.Translation)
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.GetEnumerator
+  - Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.System#Collections#IEnumerable#GetEnumerator
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Proxies.ProxyStoreTranslations.#ctor(System.Int64)
+  commentId: M:Uvendia.Domain.Proxies.ProxyStoreTranslations.#ctor(System.Int64)
+  id: '#ctor(System.Int64)'
+  parent: Uvendia.Domain.Proxies.ProxyStoreTranslations
+  langs:
+  - csharp
+  - vb
+  name: ProxyStoreTranslations(Int64)
+  nameWithType: ProxyStoreTranslations.ProxyStoreTranslations(Int64)
+  fullName: Uvendia.Domain.Proxies.ProxyStoreTranslations.ProxyStoreTranslations(System.Int64)
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Proxies/ProxyStoreTranslations.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Proxies/ProxyStoreTranslations.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Proxies
+  syntax:
+    content: public ProxyStoreTranslations(long storeId)
+    parameters:
+    - id: storeId
+      type: System.Int64
+    content.vb: Public Sub New(storeId As Long)
+  overload: Uvendia.Domain.Proxies.ProxyStoreTranslations.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Proxies.ProxyStoreTranslations.LoadList
+  commentId: M:Uvendia.Domain.Proxies.ProxyStoreTranslations.LoadList
+  id: LoadList
+  parent: Uvendia.Domain.Proxies.ProxyStoreTranslations
+  langs:
+  - csharp
+  - vb
+  name: LoadList()
+  nameWithType: ProxyStoreTranslations.LoadList()
+  fullName: Uvendia.Domain.Proxies.ProxyStoreTranslations.LoadList()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Proxies/ProxyStoreTranslations.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: LoadList
+    path: ../../dazzling.studio/Uvendia.Domain/Proxies/ProxyStoreTranslations.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Proxies
+  syntax:
+    content: protected override int LoadList()
+    return:
+      type: System.Int32
+    content.vb: Protected Overrides Function LoadList As Integer
+  overridden: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.LoadList
+  overload: Uvendia.Domain.Proxies.ProxyStoreTranslations.LoadList*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Uvendia.Domain.Proxies
+  commentId: N:Uvendia.Domain.Proxies
+  name: Uvendia.Domain.Proxies
+  nameWithType: Uvendia.Domain.Proxies
+  fullName: Uvendia.Domain.Proxies
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  commentId: T:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  parent: Uvendia.Domain.Proxies
+  definition: Uvendia.Domain.Proxies.ProxyList`1
+  name: ProxyList<Translation>
+  nameWithType: ProxyList<Translation>
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>
+  nameWithType.vb: ProxyList(Of Translation)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation)
+  name.vb: ProxyList(Of Translation)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1
+    name: ProxyList
+    nameWithType: ProxyList
+    fullName: Uvendia.Domain.Proxies.ProxyList
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1
+    name: ProxyList
+    nameWithType: ProxyList
+    fullName: Uvendia.Domain.Proxies.ProxyList
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList{Uvendia.Domain.Translation}
+  commentId: T:System.Collections.Generic.IList{Uvendia.Domain.Translation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Translation>
+  nameWithType: IList<Translation>
+  fullName: System.Collections.Generic.IList<Uvendia.Domain.Translation>
+  nameWithType.vb: IList(Of Translation)
+  fullName.vb: System.Collections.Generic.IList(Of Uvendia.Domain.Translation)
+  name.vb: IList(Of Translation)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection{Uvendia.Domain.Translation}
+  commentId: T:System.Collections.Generic.ICollection{Uvendia.Domain.Translation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<Translation>
+  nameWithType: ICollection<Translation>
+  fullName: System.Collections.Generic.ICollection<Uvendia.Domain.Translation>
+  nameWithType.vb: ICollection(Of Translation)
+  fullName.vb: System.Collections.Generic.ICollection(Of Uvendia.Domain.Translation)
+  name.vb: ICollection(Of Translation)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Translation}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Translation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Translation>
+  nameWithType: IEnumerable<Translation>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Translation>
+  nameWithType.vb: IEnumerable(Of Translation)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Translation)
+  name.vb: IEnumerable(Of Translation)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.List
+  commentId: P:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.List
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.List
+  name: List
+  nameWithType: ProxyList<Translation>.List
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.List
+  nameWithType.vb: ProxyList(Of Translation).List
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).List
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Parent
+  commentId: P:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Parent
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Parent
+  name: Parent
+  nameWithType: ProxyList<Translation>.Parent
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Parent
+  nameWithType.vb: ProxyList(Of Translation).Parent
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Parent
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.IndexOf(Uvendia.Domain.Translation)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.IndexOf(Uvendia.Domain.Translation)
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.IndexOf(`0)
+  name: IndexOf(Translation)
+  nameWithType: ProxyList<Translation>.IndexOf(Translation)
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.IndexOf(Uvendia.Domain.Translation)
+  nameWithType.vb: ProxyList(Of Translation).IndexOf(Translation)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).IndexOf(Uvendia.Domain.Translation)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.IndexOf(`0)
+    name: IndexOf
+    nameWithType: ProxyList<Translation>.IndexOf
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.IndexOf
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.IndexOf(`0)
+    name: IndexOf
+    nameWithType: ProxyList(Of Translation).IndexOf
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).IndexOf
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Insert(System.Int32,Uvendia.Domain.Translation)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Insert(System.Int32,Uvendia.Domain.Translation)
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Insert(System.Int32,`0)
+  name: Insert(Int32, Translation)
+  nameWithType: ProxyList<Translation>.Insert(Int32, Translation)
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Insert(System.Int32, Uvendia.Domain.Translation)
+  nameWithType.vb: ProxyList(Of Translation).Insert(Int32, Translation)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Insert(System.Int32, Uvendia.Domain.Translation)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Insert(System.Int32,`0)
+    name: Insert
+    nameWithType: ProxyList<Translation>.Insert
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Insert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Insert(System.Int32,`0)
+    name: Insert
+    nameWithType: ProxyList(Of Translation).Insert
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Insert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.RemoveAt(System.Int32)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.RemoveAt(System.Int32)
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.RemoveAt(System.Int32)
+  name: RemoveAt(Int32)
+  nameWithType: ProxyList<Translation>.RemoveAt(Int32)
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.RemoveAt(System.Int32)
+  nameWithType.vb: ProxyList(Of Translation).RemoveAt(Int32)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).RemoveAt(System.Int32)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: ProxyList<Translation>.RemoveAt
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: ProxyList(Of Translation).RemoveAt
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Item(System.Int32)
+  commentId: P:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Item(System.Int32)
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Item(System.Int32)
+  name: Item[Int32]
+  nameWithType: ProxyList<Translation>.Item[Int32]
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Item[System.Int32]
+  nameWithType.vb: ProxyList(Of Translation).Item(Int32)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Item(System.Int32)
+    name: Item
+    nameWithType: ProxyList<Translation>.Item
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Item(System.Int32)
+    name: Item
+    nameWithType: ProxyList(Of Translation).Item
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.LoadAll
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.LoadAll
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.LoadAll
+  name: LoadAll()
+  nameWithType: ProxyList<Translation>.LoadAll()
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.LoadAll()
+  nameWithType.vb: ProxyList(Of Translation).LoadAll()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).LoadAll()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.LoadAll
+    name: LoadAll
+    nameWithType: ProxyList<Translation>.LoadAll
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.LoadAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.LoadAll
+    name: LoadAll
+    nameWithType: ProxyList(Of Translation).LoadAll
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).LoadAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Add(Uvendia.Domain.Translation)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Add(Uvendia.Domain.Translation)
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Add(`0)
+  name: Add(Translation)
+  nameWithType: ProxyList<Translation>.Add(Translation)
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Add(Uvendia.Domain.Translation)
+  nameWithType.vb: ProxyList(Of Translation).Add(Translation)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Add(Uvendia.Domain.Translation)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Add(`0)
+    name: Add
+    nameWithType: ProxyList<Translation>.Add
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Add(`0)
+    name: Add
+    nameWithType: ProxyList(Of Translation).Add
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Clear
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Clear
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Clear
+  name: Clear()
+  nameWithType: ProxyList<Translation>.Clear()
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Clear()
+  nameWithType.vb: ProxyList(Of Translation).Clear()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Clear()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Clear
+    name: Clear
+    nameWithType: ProxyList<Translation>.Clear
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Clear
+    name: Clear
+    nameWithType: ProxyList(Of Translation).Clear
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Contains(Uvendia.Domain.Translation)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Contains(Uvendia.Domain.Translation)
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Contains(`0)
+  name: Contains(Translation)
+  nameWithType: ProxyList<Translation>.Contains(Translation)
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Contains(Uvendia.Domain.Translation)
+  nameWithType.vb: ProxyList(Of Translation).Contains(Translation)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Contains(Uvendia.Domain.Translation)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Contains(`0)
+    name: Contains
+    nameWithType: ProxyList<Translation>.Contains
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Contains
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Contains(`0)
+    name: Contains
+    nameWithType: ProxyList(Of Translation).Contains
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Contains
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.CopyTo(Uvendia.Domain.Translation[],System.Int32)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.CopyTo(Uvendia.Domain.Translation[],System.Int32)
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(Translation[], Int32)
+  nameWithType: ProxyList<Translation>.CopyTo(Translation[], Int32)
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.CopyTo(Uvendia.Domain.Translation[], System.Int32)
+  nameWithType.vb: ProxyList(Of Translation).CopyTo(Translation(), Int32)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).CopyTo(Uvendia.Domain.Translation(), System.Int32)
+  name.vb: CopyTo(Translation(), Int32)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    nameWithType: ProxyList<Translation>.CopyTo
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.CopyTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    nameWithType: ProxyList(Of Translation).CopyTo
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).CopyTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Count
+  commentId: P:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Count
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Count
+  name: Count
+  nameWithType: ProxyList<Translation>.Count
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Count
+  nameWithType.vb: ProxyList(Of Translation).Count
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Count
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.IsReadOnly
+  commentId: P:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.IsReadOnly
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.IsReadOnly
+  name: IsReadOnly
+  nameWithType: ProxyList<Translation>.IsReadOnly
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.IsReadOnly
+  nameWithType.vb: ProxyList(Of Translation).IsReadOnly
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).IsReadOnly
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Any(System.Func{Uvendia.Domain.Translation,System.Boolean})
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Any(System.Func{Uvendia.Domain.Translation,System.Boolean})
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Any(System.Func{`0,System.Boolean})
+  name: Any(Func<Translation, Boolean>)
+  nameWithType: ProxyList<Translation>.Any(Func<Translation, Boolean>)
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Any(System.Func<Uvendia.Domain.Translation, System.Boolean>)
+  nameWithType.vb: ProxyList(Of Translation).Any(Func(Of Translation, Boolean))
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Any(System.Func(Of Uvendia.Domain.Translation, System.Boolean))
+  name.vb: Any(Func(Of Translation, Boolean))
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Any(System.Func{`0,System.Boolean})
+    name: Any
+    nameWithType: ProxyList<Translation>.Any
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Any
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Any(System.Func{`0,System.Boolean})
+    name: Any
+    nameWithType: ProxyList(Of Translation).Any
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Any
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Remove(Uvendia.Domain.Translation)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.Remove(Uvendia.Domain.Translation)
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.Remove(`0)
+  name: Remove(Translation)
+  nameWithType: ProxyList<Translation>.Remove(Translation)
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Remove(Uvendia.Domain.Translation)
+  nameWithType.vb: ProxyList(Of Translation).Remove(Translation)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Remove(Uvendia.Domain.Translation)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Remove(`0)
+    name: Remove
+    nameWithType: ProxyList<Translation>.Remove
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Remove(`0)
+    name: Remove
+    nameWithType: ProxyList(Of Translation).Remove
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.GetEnumerator
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.GetEnumerator
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.GetEnumerator
+  name: GetEnumerator()
+  nameWithType: ProxyList<Translation>.GetEnumerator()
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.GetEnumerator()
+  nameWithType.vb: ProxyList(Of Translation).GetEnumerator()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).GetEnumerator()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ProxyList<Translation>.GetEnumerator
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ProxyList(Of Translation).GetEnumerator
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.System#Collections#IEnumerable#GetEnumerator
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  nameWithType: ProxyList<Translation>.IEnumerable.GetEnumerator()
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType.vb: ProxyList(Of Translation).System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.System#Collections#IEnumerable#GetEnumerator
+    name: IEnumerable.GetEnumerator
+    nameWithType: ProxyList<Translation>.IEnumerable.GetEnumerator
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.System.Collections.IEnumerable.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.System#Collections#IEnumerable#GetEnumerator
+    name: System.Collections.IEnumerable.GetEnumerator
+    nameWithType: ProxyList(Of Translation).System.Collections.IEnumerable.GetEnumerator
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).System.Collections.IEnumerable.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Proxies.ProxyList`1
+  commentId: T:Uvendia.Domain.Proxies.ProxyList`1
+  name: ProxyList<T>
+  nameWithType: ProxyList<T>
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>
+  nameWithType.vb: ProxyList(Of T)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T)
+  name.vb: ProxyList(Of T)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1
+    name: ProxyList
+    nameWithType: ProxyList
+    fullName: Uvendia.Domain.Proxies.ProxyList
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1
+    name: ProxyList
+    nameWithType: ProxyList
+    fullName: Uvendia.Domain.Proxies.ProxyList
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Uvendia.Domain.Proxies.ProxyList`1.List
+  commentId: P:Uvendia.Domain.Proxies.ProxyList`1.List
+  name: List
+  nameWithType: ProxyList<T>.List
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.List
+  nameWithType.vb: ProxyList(Of T).List
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).List
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Parent
+  commentId: P:Uvendia.Domain.Proxies.ProxyList`1.Parent
+  name: Parent
+  nameWithType: ProxyList<T>.Parent
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Parent
+  nameWithType.vb: ProxyList(Of T).Parent
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Parent
+- uid: Uvendia.Domain.Proxies.ProxyList`1.IndexOf(`0)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.IndexOf(`0)
+  name: IndexOf(T)
+  nameWithType: ProxyList<T>.IndexOf(T)
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.IndexOf(T)
+  nameWithType.vb: ProxyList(Of T).IndexOf(T)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).IndexOf(T)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.IndexOf(`0)
+    name: IndexOf
+    nameWithType: ProxyList<T>.IndexOf
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.IndexOf
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.IndexOf(`0)
+    name: IndexOf
+    nameWithType: ProxyList(Of T).IndexOf
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).IndexOf
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Insert(System.Int32,`0)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.Insert(System.Int32,`0)
+  isExternal: true
+  name: Insert(Int32, T)
+  nameWithType: ProxyList<T>.Insert(Int32, T)
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Insert(System.Int32, T)
+  nameWithType.vb: ProxyList(Of T).Insert(Int32, T)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Insert(System.Int32, T)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Insert(System.Int32,`0)
+    name: Insert
+    nameWithType: ProxyList<T>.Insert
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.Insert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Insert(System.Int32,`0)
+    name: Insert
+    nameWithType: ProxyList(Of T).Insert
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).Insert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.RemoveAt(System.Int32)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.RemoveAt(System.Int32)
+  isExternal: true
+  name: RemoveAt(Int32)
+  nameWithType: ProxyList<T>.RemoveAt(Int32)
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.RemoveAt(System.Int32)
+  nameWithType.vb: ProxyList(Of T).RemoveAt(Int32)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).RemoveAt(System.Int32)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: ProxyList<T>.RemoveAt
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: ProxyList(Of T).RemoveAt
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Item(System.Int32)
+  commentId: P:Uvendia.Domain.Proxies.ProxyList`1.Item(System.Int32)
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: ProxyList<T>.Item[Int32]
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Item[System.Int32]
+  nameWithType.vb: ProxyList(Of T).Item(Int32)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Item(System.Int32)
+    name: Item
+    nameWithType: ProxyList<T>.Item
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Item(System.Int32)
+    name: Item
+    nameWithType: ProxyList(Of T).Item
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.LoadAll
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.LoadAll
+  name: LoadAll()
+  nameWithType: ProxyList<T>.LoadAll()
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.LoadAll()
+  nameWithType.vb: ProxyList(Of T).LoadAll()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).LoadAll()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.LoadAll
+    name: LoadAll
+    nameWithType: ProxyList<T>.LoadAll
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.LoadAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.LoadAll
+    name: LoadAll
+    nameWithType: ProxyList(Of T).LoadAll
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).LoadAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Add(`0)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.Add(`0)
+  name: Add(T)
+  nameWithType: ProxyList<T>.Add(T)
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Add(T)
+  nameWithType.vb: ProxyList(Of T).Add(T)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Add(T)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Add(`0)
+    name: Add
+    nameWithType: ProxyList<T>.Add
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Add(`0)
+    name: Add
+    nameWithType: ProxyList(Of T).Add
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Clear
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.Clear
+  name: Clear()
+  nameWithType: ProxyList<T>.Clear()
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Clear()
+  nameWithType.vb: ProxyList(Of T).Clear()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Clear()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Clear
+    name: Clear
+    nameWithType: ProxyList<T>.Clear
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Clear
+    name: Clear
+    nameWithType: ProxyList(Of T).Clear
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Contains(`0)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.Contains(`0)
+  name: Contains(T)
+  nameWithType: ProxyList<T>.Contains(T)
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Contains(T)
+  nameWithType.vb: ProxyList(Of T).Contains(T)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Contains(T)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Contains(`0)
+    name: Contains
+    nameWithType: ProxyList<T>.Contains
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.Contains
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Contains(`0)
+    name: Contains
+    nameWithType: ProxyList(Of T).Contains
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).Contains
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.CopyTo(`0[],System.Int32)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.CopyTo(`0[],System.Int32)
+  isExternal: true
+  name: CopyTo(T[], Int32)
+  nameWithType: ProxyList<T>.CopyTo(T[], Int32)
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.CopyTo(T[], System.Int32)
+  nameWithType.vb: ProxyList(Of T).CopyTo(T(), Int32)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).CopyTo(T(), System.Int32)
+  name.vb: CopyTo(T(), Int32)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    nameWithType: ProxyList<T>.CopyTo
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.CopyTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    nameWithType: ProxyList(Of T).CopyTo
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).CopyTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Count
+  commentId: P:Uvendia.Domain.Proxies.ProxyList`1.Count
+  name: Count
+  nameWithType: ProxyList<T>.Count
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Count
+  nameWithType.vb: ProxyList(Of T).Count
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Count
+- uid: Uvendia.Domain.Proxies.ProxyList`1.IsReadOnly
+  commentId: P:Uvendia.Domain.Proxies.ProxyList`1.IsReadOnly
+  name: IsReadOnly
+  nameWithType: ProxyList<T>.IsReadOnly
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.IsReadOnly
+  nameWithType.vb: ProxyList(Of T).IsReadOnly
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).IsReadOnly
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Any(System.Func{`0,System.Boolean})
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.Any(System.Func{`0,System.Boolean})
+  isExternal: true
+  name: Any(Func<T, Boolean>)
+  nameWithType: ProxyList<T>.Any(Func<T, Boolean>)
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Any(System.Func<T, System.Boolean>)
+  nameWithType.vb: ProxyList(Of T).Any(Func(Of T, Boolean))
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Any(System.Func(Of T, System.Boolean))
+  name.vb: Any(Func(Of T, Boolean))
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Any(System.Func{`0,System.Boolean})
+    name: Any
+    nameWithType: ProxyList<T>.Any
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.Any
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Any(System.Func{`0,System.Boolean})
+    name: Any
+    nameWithType: ProxyList(Of T).Any
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).Any
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.Remove(`0)
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.Remove(`0)
+  name: Remove(T)
+  nameWithType: ProxyList<T>.Remove(T)
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.Remove(T)
+  nameWithType.vb: ProxyList(Of T).Remove(T)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).Remove(T)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Remove(`0)
+    name: Remove
+    nameWithType: ProxyList<T>.Remove
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.Remove(`0)
+    name: Remove
+    nameWithType: ProxyList(Of T).Remove
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.GetEnumerator
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.GetEnumerator
+  name: GetEnumerator()
+  nameWithType: ProxyList<T>.GetEnumerator()
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.GetEnumerator()
+  nameWithType.vb: ProxyList(Of T).GetEnumerator()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ProxyList<T>.GetEnumerator
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ProxyList(Of T).GetEnumerator
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyList`1.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  nameWithType: ProxyList<T>.IEnumerable.GetEnumerator()
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType.vb: ProxyList(Of T).System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.System#Collections#IEnumerable#GetEnumerator
+    name: IEnumerable.GetEnumerator
+    nameWithType: ProxyList<T>.IEnumerable.GetEnumerator
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.System.Collections.IEnumerable.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.System#Collections#IEnumerable#GetEnumerator
+    name: System.Collections.IEnumerable.GetEnumerator
+    nameWithType: ProxyList(Of T).System.Collections.IEnumerable.GetEnumerator
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).System.Collections.IEnumerable.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyStoreTranslations.#ctor*
+  commentId: Overload:Uvendia.Domain.Proxies.ProxyStoreTranslations.#ctor
+  name: ProxyStoreTranslations
+  nameWithType: ProxyStoreTranslations.ProxyStoreTranslations
+  fullName: Uvendia.Domain.Proxies.ProxyStoreTranslations.ProxyStoreTranslations
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.LoadList
+  commentId: M:Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}.LoadList
+  parent: Uvendia.Domain.Proxies.ProxyList{Uvendia.Domain.Translation}
+  definition: Uvendia.Domain.Proxies.ProxyList`1.LoadList
+  name: LoadList()
+  nameWithType: ProxyList<Translation>.LoadList()
+  fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.LoadList()
+  nameWithType.vb: ProxyList(Of Translation).LoadList()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).LoadList()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.LoadList
+    name: LoadList
+    nameWithType: ProxyList<Translation>.LoadList
+    fullName: Uvendia.Domain.Proxies.ProxyList<Uvendia.Domain.Translation>.LoadList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.LoadList
+    name: LoadList
+    nameWithType: ProxyList(Of Translation).LoadList
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of Uvendia.Domain.Translation).LoadList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyStoreTranslations.LoadList*
+  commentId: Overload:Uvendia.Domain.Proxies.ProxyStoreTranslations.LoadList
+  name: LoadList
+  nameWithType: ProxyStoreTranslations.LoadList
+  fullName: Uvendia.Domain.Proxies.ProxyStoreTranslations.LoadList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Proxies.ProxyList`1.LoadList
+  commentId: M:Uvendia.Domain.Proxies.ProxyList`1.LoadList
+  name: LoadList()
+  nameWithType: ProxyList<T>.LoadList()
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>.LoadList()
+  nameWithType.vb: ProxyList(Of T).LoadList()
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T).LoadList()
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.LoadList
+    name: LoadList
+    nameWithType: ProxyList<T>.LoadList
+    fullName: Uvendia.Domain.Proxies.ProxyList<T>.LoadList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1.LoadList
+    name: LoadList
+    nameWithType: ProxyList(Of T).LoadList
+    fullName: Uvendia.Domain.Proxies.ProxyList(Of T).LoadList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

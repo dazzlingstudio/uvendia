@@ -1,0 +1,1472 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Repositories.UvendiaContext
+  commentId: T:Uvendia.Domain.Repositories.UvendiaContext
+  id: UvendiaContext
+  parent: Uvendia.Domain.Repositories
+  children:
+  - Uvendia.Domain.Repositories.UvendiaContext.Addresses
+  - Uvendia.Domain.Repositories.UvendiaContext.Cart
+  - Uvendia.Domain.Repositories.UvendiaContext.Categories
+  - Uvendia.Domain.Repositories.UvendiaContext.CloudinaryMediaObjects
+  - Uvendia.Domain.Repositories.UvendiaContext.Definitions
+  - Uvendia.Domain.Repositories.UvendiaContext.Events
+  - Uvendia.Domain.Repositories.UvendiaContext.Inventories
+  - Uvendia.Domain.Repositories.UvendiaContext.Orders
+  - Uvendia.Domain.Repositories.UvendiaContext.PaymentMethods
+  - Uvendia.Domain.Repositories.UvendiaContext.PriceDefinitions
+  - Uvendia.Domain.Repositories.UvendiaContext.Prices
+  - Uvendia.Domain.Repositories.UvendiaContext.ProductOrderDetails
+  - Uvendia.Domain.Repositories.UvendiaContext.Products
+  - Uvendia.Domain.Repositories.UvendiaContext.Properties
+  - Uvendia.Domain.Repositories.UvendiaContext.PropertyValues
+  - Uvendia.Domain.Repositories.UvendiaContext.Reviews
+  - Uvendia.Domain.Repositories.UvendiaContext.ShippingMethods
+  - Uvendia.Domain.Repositories.UvendiaContext.Stores
+  - Uvendia.Domain.Repositories.UvendiaContext.Subscriptions
+  - Uvendia.Domain.Repositories.UvendiaContext.TicketOrderDetails
+  - Uvendia.Domain.Repositories.UvendiaContext.TicketSales
+  - Uvendia.Domain.Repositories.UvendiaContext.Translations
+  - Uvendia.Domain.Repositories.UvendiaContext.WebshopSettings
+  langs:
+  - csharp
+  - vb
+  name: UvendiaContext
+  nameWithType: UvendiaContext
+  fullName: Uvendia.Domain.Repositories.UvendiaContext
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UvendiaContext
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  summary: "\nContext that represents all the repositories\n"
+  example: []
+  syntax:
+    content: public static class UvendiaContext
+    content.vb: Public Module UvendiaContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Products
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Products
+  id: Products
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Products
+  nameWithType: UvendiaContext.Products
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Products
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Products
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Products Products { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Products
+    content.vb: Public Shared ReadOnly Property Products As Products
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Products*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Inventories
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Inventories
+  id: Inventories
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Inventories
+  nameWithType: UvendiaContext.Inventories
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Inventories
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Inventories
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Inventories Inventories { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Inventories
+    content.vb: Public Shared ReadOnly Property Inventories As Inventories
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Inventories*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Categories
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Categories
+  id: Categories
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Categories
+  nameWithType: UvendiaContext.Categories
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Categories
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Categories
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Categories Categories { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Categories
+    content.vb: Public Shared ReadOnly Property Categories As Categories
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Categories*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Stores
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Stores
+  id: Stores
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Stores
+  nameWithType: UvendiaContext.Stores
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Stores
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Stores
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Stores Stores { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Stores
+    content.vb: Public Shared ReadOnly Property Stores As Stores
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Stores*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Translations
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Translations
+  id: Translations
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Translations
+  nameWithType: UvendiaContext.Translations
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Translations
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Translations
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Translations Translations { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Translations
+    content.vb: Public Shared ReadOnly Property Translations As Translations
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Translations*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Definitions
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Definitions
+  id: Definitions
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Definitions
+  nameWithType: UvendiaContext.Definitions
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Definitions
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Definitions
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Definitions Definitions { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Definitions
+    content.vb: Public Shared ReadOnly Property Definitions As Definitions
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Definitions*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Properties
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Properties
+  id: Properties
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: UvendiaContext.Properties
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Properties
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Properties
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Properties Properties { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Properties
+    content.vb: Public Shared ReadOnly Property Properties As Properties
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Properties*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.PropertyValues
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.PropertyValues
+  id: PropertyValues
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: PropertyValues
+  nameWithType: UvendiaContext.PropertyValues
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.PropertyValues
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PropertyValues
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static PropertyValues PropertyValues { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.PropertyValues
+    content.vb: Public Shared ReadOnly Property PropertyValues As PropertyValues
+  overload: Uvendia.Domain.Repositories.UvendiaContext.PropertyValues*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Prices
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Prices
+  id: Prices
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Prices
+  nameWithType: UvendiaContext.Prices
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Prices
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Prices
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Prices Prices { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Prices
+    content.vb: Public Shared ReadOnly Property Prices As Prices
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Prices*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.PriceDefinitions
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.PriceDefinitions
+  id: PriceDefinitions
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: PriceDefinitions
+  nameWithType: UvendiaContext.PriceDefinitions
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.PriceDefinitions
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PriceDefinitions
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static PriceDefinitions PriceDefinitions { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.PriceDefinitions
+    content.vb: Public Shared ReadOnly Property PriceDefinitions As PriceDefinitions
+  overload: Uvendia.Domain.Repositories.UvendiaContext.PriceDefinitions*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.CloudinaryMediaObjects
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.CloudinaryMediaObjects
+  id: CloudinaryMediaObjects
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: CloudinaryMediaObjects
+  nameWithType: UvendiaContext.CloudinaryMediaObjects
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.CloudinaryMediaObjects
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CloudinaryMediaObjects
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static CloudinaryMediaObjects CloudinaryMediaObjects { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.CloudinaryMediaObjects
+    content.vb: Public Shared ReadOnly Property CloudinaryMediaObjects As CloudinaryMediaObjects
+  overload: Uvendia.Domain.Repositories.UvendiaContext.CloudinaryMediaObjects*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.WebshopSettings
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.WebshopSettings
+  id: WebshopSettings
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: WebshopSettings
+  nameWithType: UvendiaContext.WebshopSettings
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.WebshopSettings
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: WebshopSettings
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static UvendiaSettings WebshopSettings { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.UvendiaSettings
+    content.vb: Public Shared ReadOnly Property WebshopSettings As UvendiaSettings
+  overload: Uvendia.Domain.Repositories.UvendiaContext.WebshopSettings*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.ShippingMethods
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.ShippingMethods
+  id: ShippingMethods
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: ShippingMethods
+  nameWithType: UvendiaContext.ShippingMethods
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.ShippingMethods
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShippingMethods
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 25
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static ShippingMethods ShippingMethods { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.ShippingMethods
+    content.vb: Public Shared ReadOnly Property ShippingMethods As ShippingMethods
+  overload: Uvendia.Domain.Repositories.UvendiaContext.ShippingMethods*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.PaymentMethods
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.PaymentMethods
+  id: PaymentMethods
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: PaymentMethods
+  nameWithType: UvendiaContext.PaymentMethods
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.PaymentMethods
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PaymentMethods
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static PaymentMethods PaymentMethods { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.PaymentMethods
+    content.vb: Public Shared ReadOnly Property PaymentMethods As PaymentMethods
+  overload: Uvendia.Domain.Repositories.UvendiaContext.PaymentMethods*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Orders
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Orders
+  id: Orders
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Orders
+  nameWithType: UvendiaContext.Orders
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Orders
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Orders
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 27
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Orders Orders { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Orders
+    content.vb: Public Shared ReadOnly Property Orders As Orders
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Orders*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Addresses
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Addresses
+  id: Addresses
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Addresses
+  nameWithType: UvendiaContext.Addresses
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Addresses
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Addresses
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 28
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Addresses Addresses { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Addresses
+    content.vb: Public Shared ReadOnly Property Addresses As Addresses
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Addresses*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Events
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Events
+  id: Events
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Events
+  nameWithType: UvendiaContext.Events
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Events
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Events
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 29
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Events Events { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Events
+    content.vb: Public Shared ReadOnly Property Events As Events
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Events*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.ProductOrderDetails
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.ProductOrderDetails
+  id: ProductOrderDetails
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: ProductOrderDetails
+  nameWithType: UvendiaContext.ProductOrderDetails
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.ProductOrderDetails
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductOrderDetails
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 30
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static ProductOrderDetails ProductOrderDetails { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.ProductOrderDetails
+    content.vb: Public Shared ReadOnly Property ProductOrderDetails As ProductOrderDetails
+  overload: Uvendia.Domain.Repositories.UvendiaContext.ProductOrderDetails*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.TicketOrderDetails
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.TicketOrderDetails
+  id: TicketOrderDetails
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: TicketOrderDetails
+  nameWithType: UvendiaContext.TicketOrderDetails
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.TicketOrderDetails
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketOrderDetails
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static TicketOrderDetails TicketOrderDetails { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.TicketOrderDetails
+    content.vb: Public Shared ReadOnly Property TicketOrderDetails As TicketOrderDetails
+  overload: Uvendia.Domain.Repositories.UvendiaContext.TicketOrderDetails*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.TicketSales
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.TicketSales
+  id: TicketSales
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: TicketSales
+  nameWithType: UvendiaContext.TicketSales
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.TicketSales
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketSales
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 32
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static TicketSales TicketSales { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.TicketSales
+    content.vb: Public Shared ReadOnly Property TicketSales As TicketSales
+  overload: Uvendia.Domain.Repositories.UvendiaContext.TicketSales*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Cart
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Cart
+  id: Cart
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Cart
+  nameWithType: UvendiaContext.Cart
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Cart
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Cart
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 33
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Cart Cart { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Cart
+    content.vb: Public Shared ReadOnly Property Cart As Cart
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Cart*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Reviews
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Reviews
+  id: Reviews
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Reviews
+  nameWithType: UvendiaContext.Reviews
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Reviews
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Reviews
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 34
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Reviews Reviews { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Reviews
+    content.vb: Public Shared ReadOnly Property Reviews As Reviews
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Reviews*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Subscriptions
+  commentId: P:Uvendia.Domain.Repositories.UvendiaContext.Subscriptions
+  id: Subscriptions
+  parent: Uvendia.Domain.Repositories.UvendiaContext
+  langs:
+  - csharp
+  - vb
+  name: Subscriptions
+  nameWithType: UvendiaContext.Subscriptions
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Subscriptions
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/UvendiaContext.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Subscriptions
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/UvendiaContext.cs
+    startLine: 35
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public static Subscriptions Subscriptions { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Repositories.Subscriptions
+    content.vb: Public Shared ReadOnly Property Subscriptions As Subscriptions
+  overload: Uvendia.Domain.Repositories.UvendiaContext.Subscriptions*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Uvendia.Domain.Repositories
+  commentId: N:Uvendia.Domain.Repositories
+  name: Uvendia.Domain.Repositories
+  nameWithType: Uvendia.Domain.Repositories
+  fullName: Uvendia.Domain.Repositories
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Products*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Products
+  name: Products
+  nameWithType: UvendiaContext.Products
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Products
+- uid: Uvendia.Domain.Repositories.Products
+  commentId: T:Uvendia.Domain.Repositories.Products
+  parent: Uvendia.Domain.Repositories
+  name: Products
+  nameWithType: Products
+  fullName: Uvendia.Domain.Repositories.Products
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Inventories*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Inventories
+  name: Inventories
+  nameWithType: UvendiaContext.Inventories
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Inventories
+- uid: Uvendia.Domain.Repositories.Inventories
+  commentId: T:Uvendia.Domain.Repositories.Inventories
+  parent: Uvendia.Domain.Repositories
+  name: Inventories
+  nameWithType: Inventories
+  fullName: Uvendia.Domain.Repositories.Inventories
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Categories*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Categories
+  name: Categories
+  nameWithType: UvendiaContext.Categories
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Categories
+- uid: Uvendia.Domain.Repositories.Categories
+  commentId: T:Uvendia.Domain.Repositories.Categories
+  parent: Uvendia.Domain.Repositories
+  name: Categories
+  nameWithType: Categories
+  fullName: Uvendia.Domain.Repositories.Categories
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Stores*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Stores
+  name: Stores
+  nameWithType: UvendiaContext.Stores
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Stores
+- uid: Uvendia.Domain.Repositories.Stores
+  commentId: T:Uvendia.Domain.Repositories.Stores
+  parent: Uvendia.Domain.Repositories
+  name: Stores
+  nameWithType: Stores
+  fullName: Uvendia.Domain.Repositories.Stores
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Translations*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Translations
+  name: Translations
+  nameWithType: UvendiaContext.Translations
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Translations
+- uid: Uvendia.Domain.Repositories.Translations
+  commentId: T:Uvendia.Domain.Repositories.Translations
+  parent: Uvendia.Domain.Repositories
+  name: Translations
+  nameWithType: Translations
+  fullName: Uvendia.Domain.Repositories.Translations
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Definitions*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Definitions
+  name: Definitions
+  nameWithType: UvendiaContext.Definitions
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Definitions
+- uid: Uvendia.Domain.Repositories.Definitions
+  commentId: T:Uvendia.Domain.Repositories.Definitions
+  parent: Uvendia.Domain.Repositories
+  name: Definitions
+  nameWithType: Definitions
+  fullName: Uvendia.Domain.Repositories.Definitions
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Properties*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Properties
+  name: Properties
+  nameWithType: UvendiaContext.Properties
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Properties
+- uid: Uvendia.Domain.Repositories.Properties
+  commentId: T:Uvendia.Domain.Repositories.Properties
+  parent: Uvendia.Domain.Repositories
+  name: Properties
+  nameWithType: Properties
+  fullName: Uvendia.Domain.Repositories.Properties
+- uid: Uvendia.Domain.Repositories.UvendiaContext.PropertyValues*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.PropertyValues
+  name: PropertyValues
+  nameWithType: UvendiaContext.PropertyValues
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.PropertyValues
+- uid: Uvendia.Domain.Repositories.PropertyValues
+  commentId: T:Uvendia.Domain.Repositories.PropertyValues
+  parent: Uvendia.Domain.Repositories
+  name: PropertyValues
+  nameWithType: PropertyValues
+  fullName: Uvendia.Domain.Repositories.PropertyValues
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Prices*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Prices
+  name: Prices
+  nameWithType: UvendiaContext.Prices
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Prices
+- uid: Uvendia.Domain.Repositories.Prices
+  commentId: T:Uvendia.Domain.Repositories.Prices
+  parent: Uvendia.Domain.Repositories
+  name: Prices
+  nameWithType: Prices
+  fullName: Uvendia.Domain.Repositories.Prices
+- uid: Uvendia.Domain.Repositories.UvendiaContext.PriceDefinitions*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.PriceDefinitions
+  name: PriceDefinitions
+  nameWithType: UvendiaContext.PriceDefinitions
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.PriceDefinitions
+- uid: Uvendia.Domain.Repositories.PriceDefinitions
+  commentId: T:Uvendia.Domain.Repositories.PriceDefinitions
+  parent: Uvendia.Domain.Repositories
+  name: PriceDefinitions
+  nameWithType: PriceDefinitions
+  fullName: Uvendia.Domain.Repositories.PriceDefinitions
+- uid: Uvendia.Domain.Repositories.UvendiaContext.CloudinaryMediaObjects*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.CloudinaryMediaObjects
+  name: CloudinaryMediaObjects
+  nameWithType: UvendiaContext.CloudinaryMediaObjects
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.CloudinaryMediaObjects
+- uid: Uvendia.Domain.Repositories.CloudinaryMediaObjects
+  commentId: T:Uvendia.Domain.Repositories.CloudinaryMediaObjects
+  parent: Uvendia.Domain.Repositories
+  name: CloudinaryMediaObjects
+  nameWithType: CloudinaryMediaObjects
+  fullName: Uvendia.Domain.Repositories.CloudinaryMediaObjects
+- uid: Uvendia.Domain.Repositories.UvendiaContext.WebshopSettings*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.WebshopSettings
+  name: WebshopSettings
+  nameWithType: UvendiaContext.WebshopSettings
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.WebshopSettings
+- uid: Uvendia.Domain.Repositories.UvendiaSettings
+  commentId: T:Uvendia.Domain.Repositories.UvendiaSettings
+  parent: Uvendia.Domain.Repositories
+  name: UvendiaSettings
+  nameWithType: UvendiaSettings
+  fullName: Uvendia.Domain.Repositories.UvendiaSettings
+- uid: Uvendia.Domain.Repositories.UvendiaContext.ShippingMethods*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.ShippingMethods
+  name: ShippingMethods
+  nameWithType: UvendiaContext.ShippingMethods
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.ShippingMethods
+- uid: Uvendia.Domain.Repositories.ShippingMethods
+  commentId: T:Uvendia.Domain.Repositories.ShippingMethods
+  parent: Uvendia.Domain.Repositories
+  name: ShippingMethods
+  nameWithType: ShippingMethods
+  fullName: Uvendia.Domain.Repositories.ShippingMethods
+- uid: Uvendia.Domain.Repositories.UvendiaContext.PaymentMethods*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.PaymentMethods
+  name: PaymentMethods
+  nameWithType: UvendiaContext.PaymentMethods
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.PaymentMethods
+- uid: Uvendia.Domain.Repositories.PaymentMethods
+  commentId: T:Uvendia.Domain.Repositories.PaymentMethods
+  parent: Uvendia.Domain.Repositories
+  name: PaymentMethods
+  nameWithType: PaymentMethods
+  fullName: Uvendia.Domain.Repositories.PaymentMethods
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Orders*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Orders
+  name: Orders
+  nameWithType: UvendiaContext.Orders
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Orders
+- uid: Uvendia.Domain.Repositories.Orders
+  commentId: T:Uvendia.Domain.Repositories.Orders
+  parent: Uvendia.Domain.Repositories
+  name: Orders
+  nameWithType: Orders
+  fullName: Uvendia.Domain.Repositories.Orders
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Addresses*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Addresses
+  name: Addresses
+  nameWithType: UvendiaContext.Addresses
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Addresses
+- uid: Uvendia.Domain.Repositories.Addresses
+  commentId: T:Uvendia.Domain.Repositories.Addresses
+  parent: Uvendia.Domain.Repositories
+  name: Addresses
+  nameWithType: Addresses
+  fullName: Uvendia.Domain.Repositories.Addresses
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Events*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Events
+  name: Events
+  nameWithType: UvendiaContext.Events
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Events
+- uid: Uvendia.Domain.Repositories.Events
+  commentId: T:Uvendia.Domain.Repositories.Events
+  parent: Uvendia.Domain.Repositories
+  name: Events
+  nameWithType: Events
+  fullName: Uvendia.Domain.Repositories.Events
+- uid: Uvendia.Domain.Repositories.UvendiaContext.ProductOrderDetails*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.ProductOrderDetails
+  name: ProductOrderDetails
+  nameWithType: UvendiaContext.ProductOrderDetails
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.ProductOrderDetails
+- uid: Uvendia.Domain.Repositories.ProductOrderDetails
+  commentId: T:Uvendia.Domain.Repositories.ProductOrderDetails
+  parent: Uvendia.Domain.Repositories
+  name: ProductOrderDetails
+  nameWithType: ProductOrderDetails
+  fullName: Uvendia.Domain.Repositories.ProductOrderDetails
+- uid: Uvendia.Domain.Repositories.UvendiaContext.TicketOrderDetails*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.TicketOrderDetails
+  name: TicketOrderDetails
+  nameWithType: UvendiaContext.TicketOrderDetails
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.TicketOrderDetails
+- uid: Uvendia.Domain.Repositories.TicketOrderDetails
+  commentId: T:Uvendia.Domain.Repositories.TicketOrderDetails
+  parent: Uvendia.Domain.Repositories
+  name: TicketOrderDetails
+  nameWithType: TicketOrderDetails
+  fullName: Uvendia.Domain.Repositories.TicketOrderDetails
+- uid: Uvendia.Domain.Repositories.UvendiaContext.TicketSales*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.TicketSales
+  name: TicketSales
+  nameWithType: UvendiaContext.TicketSales
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.TicketSales
+- uid: Uvendia.Domain.Repositories.TicketSales
+  commentId: T:Uvendia.Domain.Repositories.TicketSales
+  parent: Uvendia.Domain.Repositories
+  name: TicketSales
+  nameWithType: TicketSales
+  fullName: Uvendia.Domain.Repositories.TicketSales
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Cart*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Cart
+  name: Cart
+  nameWithType: UvendiaContext.Cart
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Cart
+- uid: Uvendia.Domain.Repositories.Cart
+  commentId: T:Uvendia.Domain.Repositories.Cart
+  parent: Uvendia.Domain.Repositories
+  name: Cart
+  nameWithType: Cart
+  fullName: Uvendia.Domain.Repositories.Cart
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Reviews*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Reviews
+  name: Reviews
+  nameWithType: UvendiaContext.Reviews
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Reviews
+- uid: Uvendia.Domain.Repositories.Reviews
+  commentId: T:Uvendia.Domain.Repositories.Reviews
+  parent: Uvendia.Domain.Repositories
+  name: Reviews
+  nameWithType: Reviews
+  fullName: Uvendia.Domain.Repositories.Reviews
+- uid: Uvendia.Domain.Repositories.UvendiaContext.Subscriptions*
+  commentId: Overload:Uvendia.Domain.Repositories.UvendiaContext.Subscriptions
+  name: Subscriptions
+  nameWithType: UvendiaContext.Subscriptions
+  fullName: Uvendia.Domain.Repositories.UvendiaContext.Subscriptions
+- uid: Uvendia.Domain.Repositories.Subscriptions
+  commentId: T:Uvendia.Domain.Repositories.Subscriptions
+  parent: Uvendia.Domain.Repositories
+  name: Subscriptions
+  nameWithType: Subscriptions
+  fullName: Uvendia.Domain.Repositories.Subscriptions

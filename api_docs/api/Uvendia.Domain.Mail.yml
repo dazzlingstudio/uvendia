@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mail
+  commentId: N:Uvendia.Domain.Mail
+  id: Uvendia.Domain.Mail
+  children:
+  - Uvendia.Domain.Mail.TestCustomOrderEmailTranser
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Mail
+  nameWithType: Uvendia.Domain.Mail
+  fullName: Uvendia.Domain.Mail
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Mail.TestCustomOrderEmailTranser
+  commentId: T:Uvendia.Domain.Mail.TestCustomOrderEmailTranser
+  name: TestCustomOrderEmailTranser
+  nameWithType: TestCustomOrderEmailTranser
+  fullName: Uvendia.Domain.Mail.TestCustomOrderEmailTranser

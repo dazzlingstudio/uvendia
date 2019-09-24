@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Factories
+  commentId: N:Uvendia.Domain.Factories
+  id: Uvendia.Domain.Factories
+  children:
+  - Uvendia.Domain.Factories.EmailHelper
+  - Uvendia.Domain.Factories.PriceCreator
+  - Uvendia.Domain.Factories.ReportCreator
+  - Uvendia.Domain.Factories.TranslationCreator
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Factories
+  nameWithType: Uvendia.Domain.Factories
+  fullName: Uvendia.Domain.Factories
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Factories.EmailHelper
+  commentId: T:Uvendia.Domain.Factories.EmailHelper
+  name: EmailHelper
+  nameWithType: EmailHelper
+  fullName: Uvendia.Domain.Factories.EmailHelper
+- uid: Uvendia.Domain.Factories.PriceCreator
+  commentId: T:Uvendia.Domain.Factories.PriceCreator
+  name: PriceCreator
+  nameWithType: PriceCreator
+  fullName: Uvendia.Domain.Factories.PriceCreator
+- uid: Uvendia.Domain.Factories.ReportCreator
+  commentId: T:Uvendia.Domain.Factories.ReportCreator
+  name: ReportCreator
+  nameWithType: ReportCreator
+  fullName: Uvendia.Domain.Factories.ReportCreator
+- uid: Uvendia.Domain.Factories.TranslationCreator
+  commentId: T:Uvendia.Domain.Factories.TranslationCreator
+  name: TranslationCreator
+  nameWithType: TranslationCreator
+  fullName: Uvendia.Domain.Factories.TranslationCreator

@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.ActionType
+  commentId: T:Uvendia.Domain.ActionType
+  id: ActionType
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.ActionType.Create
+  - Uvendia.Domain.ActionType.Delete
+  - Uvendia.Domain.ActionType.Save
+  - Uvendia.Domain.ActionType.Update
+  langs:
+  - csharp
+  - vb
+  name: ActionType
+  nameWithType: ActionType
+  fullName: Uvendia.Domain.ActionType
+  type: Enum
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ActionType
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 132
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public enum ActionType
+    content.vb: Public Enum ActionType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Uvendia.Domain.ActionType.Create
+  commentId: F:Uvendia.Domain.ActionType.Create
+  id: Create
+  parent: Uvendia.Domain.ActionType
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: ActionType.Create
+  fullName: Uvendia.Domain.ActionType.Create
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Create
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 134
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: Create = 0
+    return:
+      type: Uvendia.Domain.ActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.ActionType.Save
+  commentId: F:Uvendia.Domain.ActionType.Save
+  id: Save
+  parent: Uvendia.Domain.ActionType
+  langs:
+  - csharp
+  - vb
+  name: Save
+  nameWithType: ActionType.Save
+  fullName: Uvendia.Domain.ActionType.Save
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Save
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 135
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: Save = 1
+    return:
+      type: Uvendia.Domain.ActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.ActionType.Update
+  commentId: F:Uvendia.Domain.ActionType.Update
+  id: Update
+  parent: Uvendia.Domain.ActionType
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: ActionType.Update
+  fullName: Uvendia.Domain.ActionType.Update
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Update
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 136
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: Update = 2
+    return:
+      type: Uvendia.Domain.ActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.ActionType.Delete
+  commentId: F:Uvendia.Domain.ActionType.Delete
+  id: Delete
+  parent: Uvendia.Domain.ActionType
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: ActionType.Delete
+  fullName: Uvendia.Domain.ActionType.Delete
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Delete
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 137
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: Delete = 3
+    return:
+      type: Uvendia.Domain.ActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.ActionType
+  commentId: T:Uvendia.Domain.ActionType
+  parent: Uvendia.Domain
+  name: ActionType
+  nameWithType: ActionType
+  fullName: Uvendia.Domain.ActionType

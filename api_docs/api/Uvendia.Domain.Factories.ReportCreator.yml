@@ -1,0 +1,862 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Factories.ReportCreator
+  commentId: T:Uvendia.Domain.Factories.ReportCreator
+  id: ReportCreator
+  parent: Uvendia.Domain.Factories
+  children:
+  - Uvendia.Domain.Factories.ReportCreator.GenerateOrderInvoicePDF(Uvendia.Domain.Order,System.String)
+  - Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream(Uvendia.Domain.Mvc.ViewModels.ReportModel,System.String@)
+  - Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets(System.Int64,Uvendia.Domain.Enums.OrderStatus[])
+  - Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order,System.Collections.Generic.List{Uvendia.Domain.Entities.TicketDataTransferObject},System.String)
+  - Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order,System.String)
+  - Uvendia.Domain.Factories.ReportCreator.GetTicketBarcode(System.String,System.Guid)
+  - Uvendia.Domain.Factories.ReportCreator.MapTicket(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Order,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ReportCreator
+  nameWithType: ReportCreator
+  fullName: Uvendia.Domain.Factories.ReportCreator
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Factories/ReportCreator.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ReportCreator
+    path: ../../dazzling.studio/Uvendia.Domain/Factories/ReportCreator.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Factories
+  syntax:
+    content: public class ReportCreator
+    content.vb: Public Class ReportCreator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream(Uvendia.Domain.Mvc.ViewModels.ReportModel,System.String@)
+  commentId: M:Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream(Uvendia.Domain.Mvc.ViewModels.ReportModel,System.String@)
+  id: GenerateReportAsStream(Uvendia.Domain.Mvc.ViewModels.ReportModel,System.String@)
+  parent: Uvendia.Domain.Factories.ReportCreator
+  langs:
+  - csharp
+  - vb
+  name: GenerateReportAsStream(ReportModel, out String)
+  nameWithType: ReportCreator.GenerateReportAsStream(ReportModel, out String)
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream(Uvendia.Domain.Mvc.ViewModels.ReportModel, out System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Factories/ReportCreator.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GenerateReportAsStream
+    path: ../../dazzling.studio/Uvendia.Domain/Factories/ReportCreator.cs
+    startLine: 58
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Factories
+  syntax:
+    content: public static byte[] GenerateReportAsStream(ReportModel model, out string mimeType)
+    parameters:
+    - id: model
+      type: Uvendia.Domain.Mvc.ViewModels.ReportModel
+    - id: mimeType
+      type: System.String
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function GenerateReportAsStream(model As ReportModel, ByRef mimeType As String) As Byte()
+  overload: Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream*
+  nameWithType.vb: ReportCreator.GenerateReportAsStream(ReportModel, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream(Uvendia.Domain.Mvc.ViewModels.ReportModel, ByRef System.String)
+  name.vb: GenerateReportAsStream(ReportModel, ByRef String)
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateOrderInvoicePDF(Uvendia.Domain.Order,System.String)
+  commentId: M:Uvendia.Domain.Factories.ReportCreator.GenerateOrderInvoicePDF(Uvendia.Domain.Order,System.String)
+  id: GenerateOrderInvoicePDF(Uvendia.Domain.Order,System.String)
+  parent: Uvendia.Domain.Factories.ReportCreator
+  langs:
+  - csharp
+  - vb
+  name: GenerateOrderInvoicePDF(Order, String)
+  nameWithType: ReportCreator.GenerateOrderInvoicePDF(Order, String)
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateOrderInvoicePDF(Uvendia.Domain.Order, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Factories/ReportCreator.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GenerateOrderInvoicePDF
+    path: ../../dazzling.studio/Uvendia.Domain/Factories/ReportCreator.cs
+    startLine: 110
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Factories
+  syntax:
+    content: public static ReportModel GenerateOrderInvoicePDF(Order order, string cultureInfo)
+    parameters:
+    - id: order
+      type: Uvendia.Domain.Order
+    - id: cultureInfo
+      type: System.String
+    return:
+      type: Uvendia.Domain.Mvc.ViewModels.ReportModel
+    content.vb: Public Shared Function GenerateOrderInvoicePDF(order As Order, cultureInfo As String) As ReportModel
+  overload: Uvendia.Domain.Factories.ReportCreator.GenerateOrderInvoicePDF*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order,System.String)
+  commentId: M:Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order,System.String)
+  id: GenerateTicketPDF(Uvendia.Domain.Order,System.String)
+  parent: Uvendia.Domain.Factories.ReportCreator
+  langs:
+  - csharp
+  - vb
+  name: GenerateTicketPDF(Order, String)
+  nameWithType: ReportCreator.GenerateTicketPDF(Order, String)
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Factories/ReportCreator.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GenerateTicketPDF
+    path: ../../dazzling.studio/Uvendia.Domain/Factories/ReportCreator.cs
+    startLine: 203
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Factories
+  syntax:
+    content: public static ReportModel GenerateTicketPDF(Order order, string cultureInfo)
+    parameters:
+    - id: order
+      type: Uvendia.Domain.Order
+    - id: cultureInfo
+      type: System.String
+    return:
+      type: Uvendia.Domain.Mvc.ViewModels.ReportModel
+    content.vb: Public Shared Function GenerateTicketPDF(order As Order, cultureInfo As String) As ReportModel
+  overload: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order,System.Collections.Generic.List{Uvendia.Domain.Entities.TicketDataTransferObject},System.String)
+  commentId: M:Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order,System.Collections.Generic.List{Uvendia.Domain.Entities.TicketDataTransferObject},System.String)
+  id: GenerateTicketPDF(Uvendia.Domain.Order,System.Collections.Generic.List{Uvendia.Domain.Entities.TicketDataTransferObject},System.String)
+  parent: Uvendia.Domain.Factories.ReportCreator
+  langs:
+  - csharp
+  - vb
+  name: GenerateTicketPDF(Order, List<TicketDataTransferObject>, String)
+  nameWithType: ReportCreator.GenerateTicketPDF(Order, List<TicketDataTransferObject>, String)
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order, System.Collections.Generic.List<Uvendia.Domain.Entities.TicketDataTransferObject>, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Factories/ReportCreator.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GenerateTicketPDF
+    path: ../../dazzling.studio/Uvendia.Domain/Factories/ReportCreator.cs
+    startLine: 216
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Factories
+  syntax:
+    content: public static ReportModel GenerateTicketPDF(Order order, List<TicketDataTransferObject> tickets, string cultureInfo)
+    parameters:
+    - id: order
+      type: Uvendia.Domain.Order
+    - id: tickets
+      type: System.Collections.Generic.List{Uvendia.Domain.Entities.TicketDataTransferObject}
+    - id: cultureInfo
+      type: System.String
+    return:
+      type: Uvendia.Domain.Mvc.ViewModels.ReportModel
+    content.vb: Public Shared Function GenerateTicketPDF(order As Order, tickets As List(Of TicketDataTransferObject), cultureInfo As String) As ReportModel
+  overload: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF*
+  nameWithType.vb: ReportCreator.GenerateTicketPDF(Order, List(Of TicketDataTransferObject), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF(Uvendia.Domain.Order, System.Collections.Generic.List(Of Uvendia.Domain.Entities.TicketDataTransferObject), System.String)
+  name.vb: GenerateTicketPDF(Order, List(Of TicketDataTransferObject), String)
+- uid: Uvendia.Domain.Factories.ReportCreator.GetTicketBarcode(System.String,System.Guid)
+  commentId: M:Uvendia.Domain.Factories.ReportCreator.GetTicketBarcode(System.String,System.Guid)
+  id: GetTicketBarcode(System.String,System.Guid)
+  parent: Uvendia.Domain.Factories.ReportCreator
+  langs:
+  - csharp
+  - vb
+  name: GetTicketBarcode(String, Guid)
+  nameWithType: ReportCreator.GetTicketBarcode(String, Guid)
+  fullName: Uvendia.Domain.Factories.ReportCreator.GetTicketBarcode(System.String, System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Factories/ReportCreator.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetTicketBarcode
+    path: ../../dazzling.studio/Uvendia.Domain/Factories/ReportCreator.cs
+    startLine: 251
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Factories
+  syntax:
+    content: public static string GetTicketBarcode(string orderNumber, Guid ticketUniqueId)
+    parameters:
+    - id: orderNumber
+      type: System.String
+    - id: ticketUniqueId
+      type: System.Guid
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetTicketBarcode(orderNumber As String, ticketUniqueId As Guid) As String
+  overload: Uvendia.Domain.Factories.ReportCreator.GetTicketBarcode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets(System.Int64,Uvendia.Domain.Enums.OrderStatus[])
+  commentId: M:Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets(System.Int64,Uvendia.Domain.Enums.OrderStatus[])
+  id: GenerateReportSoldTickets(System.Int64,Uvendia.Domain.Enums.OrderStatus[])
+  parent: Uvendia.Domain.Factories.ReportCreator
+  langs:
+  - csharp
+  - vb
+  name: GenerateReportSoldTickets(Int64, OrderStatus[])
+  nameWithType: ReportCreator.GenerateReportSoldTickets(Int64, OrderStatus[])
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets(System.Int64, Uvendia.Domain.Enums.OrderStatus[])
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Factories/ReportCreator.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GenerateReportSoldTickets
+    path: ../../dazzling.studio/Uvendia.Domain/Factories/ReportCreator.cs
+    startLine: 257
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Factories
+  syntax:
+    content: public static ReportModel GenerateReportSoldTickets(long eventId, params OrderStatus[] orderStatus)
+    parameters:
+    - id: eventId
+      type: System.Int64
+    - id: orderStatus
+      type: Uvendia.Domain.Enums.OrderStatus[]
+    return:
+      type: Uvendia.Domain.Mvc.ViewModels.ReportModel
+    content.vb: Public Shared Function GenerateReportSoldTickets(eventId As Long, ParamArray orderStatus As OrderStatus()) As ReportModel
+  overload: Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets*
+  nameWithType.vb: ReportCreator.GenerateReportSoldTickets(Int64, OrderStatus())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets(System.Int64, Uvendia.Domain.Enums.OrderStatus())
+  name.vb: GenerateReportSoldTickets(Int64, OrderStatus())
+- uid: Uvendia.Domain.Factories.ReportCreator.MapTicket(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Order,System.String)
+  commentId: M:Uvendia.Domain.Factories.ReportCreator.MapTicket(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Order,System.String)
+  id: MapTicket(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Order,System.String)
+  parent: Uvendia.Domain.Factories.ReportCreator
+  langs:
+  - csharp
+  - vb
+  name: MapTicket(TicketOrderDetail, Order, String)
+  nameWithType: ReportCreator.MapTicket(TicketOrderDetail, Order, String)
+  fullName: Uvendia.Domain.Factories.ReportCreator.MapTicket(Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Order, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Factories/ReportCreator.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MapTicket
+    path: ../../dazzling.studio/Uvendia.Domain/Factories/ReportCreator.cs
+    startLine: 295
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Factories
+  syntax:
+    content: public static TicketDataTransferObject MapTicket(TicketOrderDetail item, Order order, string cultureInfo)
+    parameters:
+    - id: item
+      type: Uvendia.Domain.TicketOrderDetail
+    - id: order
+      type: Uvendia.Domain.Order
+    - id: cultureInfo
+      type: System.String
+    return:
+      type: Uvendia.Domain.Entities.TicketDataTransferObject
+    content.vb: Public Shared Function MapTicket(item As TicketOrderDetail, order As Order, cultureInfo As String) As TicketDataTransferObject
+  overload: Uvendia.Domain.Factories.ReportCreator.MapTicket*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Uvendia.Domain.Factories
+  commentId: N:Uvendia.Domain.Factories
+  name: Uvendia.Domain.Factories
+  nameWithType: Uvendia.Domain.Factories
+  fullName: Uvendia.Domain.Factories
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream*
+  commentId: Overload:Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream
+  name: GenerateReportAsStream
+  nameWithType: ReportCreator.GenerateReportAsStream
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateReportAsStream
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.ReportModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  name: ReportModel
+  nameWithType: ReportModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateOrderInvoicePDF*
+  commentId: Overload:Uvendia.Domain.Factories.ReportCreator.GenerateOrderInvoicePDF
+  name: GenerateOrderInvoicePDF
+  nameWithType: ReportCreator.GenerateOrderInvoicePDF
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateOrderInvoicePDF
+- uid: Uvendia.Domain.Order
+  commentId: T:Uvendia.Domain.Order
+  parent: Uvendia.Domain
+  name: Order
+  nameWithType: Order
+  fullName: Uvendia.Domain.Order
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF*
+  commentId: Overload:Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF
+  name: GenerateTicketPDF
+  nameWithType: ReportCreator.GenerateTicketPDF
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateTicketPDF
+- uid: System.Collections.Generic.List{Uvendia.Domain.Entities.TicketDataTransferObject}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Entities.TicketDataTransferObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TicketDataTransferObject>
+  nameWithType: List<TicketDataTransferObject>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Entities.TicketDataTransferObject>
+  nameWithType.vb: List(Of TicketDataTransferObject)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Entities.TicketDataTransferObject)
+  name.vb: List(Of TicketDataTransferObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.TicketDataTransferObject
+    name: TicketDataTransferObject
+    nameWithType: TicketDataTransferObject
+    fullName: Uvendia.Domain.Entities.TicketDataTransferObject
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.TicketDataTransferObject
+    name: TicketDataTransferObject
+    nameWithType: TicketDataTransferObject
+    fullName: Uvendia.Domain.Entities.TicketDataTransferObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Factories.ReportCreator.GetTicketBarcode*
+  commentId: Overload:Uvendia.Domain.Factories.ReportCreator.GetTicketBarcode
+  name: GetTicketBarcode
+  nameWithType: ReportCreator.GetTicketBarcode
+  fullName: Uvendia.Domain.Factories.ReportCreator.GetTicketBarcode
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets*
+  commentId: Overload:Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets
+  name: GenerateReportSoldTickets
+  nameWithType: ReportCreator.GenerateReportSoldTickets
+  fullName: Uvendia.Domain.Factories.ReportCreator.GenerateReportSoldTickets
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Enums.OrderStatus[]
+  isExternal: true
+  name: OrderStatus[]
+  nameWithType: OrderStatus[]
+  fullName: Uvendia.Domain.Enums.OrderStatus[]
+  nameWithType.vb: OrderStatus()
+  fullName.vb: Uvendia.Domain.Enums.OrderStatus()
+  name.vb: OrderStatus()
+  spec.csharp:
+  - uid: Uvendia.Domain.Enums.OrderStatus
+    name: OrderStatus
+    nameWithType: OrderStatus
+    fullName: Uvendia.Domain.Enums.OrderStatus
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Uvendia.Domain.Enums.OrderStatus
+    name: OrderStatus
+    nameWithType: OrderStatus
+    fullName: Uvendia.Domain.Enums.OrderStatus
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Uvendia.Domain.Factories.ReportCreator.MapTicket*
+  commentId: Overload:Uvendia.Domain.Factories.ReportCreator.MapTicket
+  name: MapTicket
+  nameWithType: ReportCreator.MapTicket
+  fullName: Uvendia.Domain.Factories.ReportCreator.MapTicket
+- uid: Uvendia.Domain.TicketOrderDetail
+  commentId: T:Uvendia.Domain.TicketOrderDetail
+  parent: Uvendia.Domain
+  name: TicketOrderDetail
+  nameWithType: TicketOrderDetail
+  fullName: Uvendia.Domain.TicketOrderDetail
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject
+  commentId: T:Uvendia.Domain.Entities.TicketDataTransferObject
+  parent: Uvendia.Domain.Entities
+  name: TicketDataTransferObject
+  nameWithType: TicketDataTransferObject
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities

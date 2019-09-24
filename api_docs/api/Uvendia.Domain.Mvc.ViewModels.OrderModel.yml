@@ -1,0 +1,1082 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.OrderModel
+  id: OrderModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.#ctor
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.AllCountries
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.AllOrderStatus
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.DownloadCookeValue
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.EmailTemplates
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.IsShippingAddressSameAsInvoiceAddress
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.Languages
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.Order
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.PaymentMethods
+  - Uvendia.Domain.Mvc.ViewModels.OrderModel.ShippingMethods
+  langs:
+  - csharp
+  - vb
+  name: OrderModel
+  nameWithType: OrderModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class OrderModel : ReportModel'
+    content.vb: >-
+      Public Class OrderModel
+          Inherits ReportModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel
+  inheritedMembers:
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel.ManifestResourceStream
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportDataSourceName
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportParameters
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportDataSources
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel.FileName
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel.Format
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel.RenderReportOK
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.#ctor
+  commentId: M:Uvendia.Domain.Mvc.ViewModels.OrderModel.#ctor
+  id: '#ctor'
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: OrderModel()
+  nameWithType: OrderModel.OrderModel()
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.OrderModel()
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public OrderModel()
+    content.vb: Public Sub New
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.DownloadCookeValue
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.DownloadCookeValue
+  id: DownloadCookeValue
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: DownloadCookeValue
+  nameWithType: OrderModel.DownloadCookeValue
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.DownloadCookeValue
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DownloadCookeValue
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 25
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string DownloadCookeValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DownloadCookeValue As String
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.DownloadCookeValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.Order
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.Order
+  id: Order
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: OrderModel.Order
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.Order
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Order
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public Order Order { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Order
+    content.vb: Public Property Order As Order
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.Order*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.IsShippingAddressSameAsInvoiceAddress
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.IsShippingAddressSameAsInvoiceAddress
+  id: IsShippingAddressSameAsInvoiceAddress
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: IsShippingAddressSameAsInvoiceAddress
+  nameWithType: OrderModel.IsShippingAddressSameAsInvoiceAddress
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.IsShippingAddressSameAsInvoiceAddress
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsShippingAddressSameAsInvoiceAddress
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 28
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public bool IsShippingAddressSameAsInvoiceAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsShippingAddressSameAsInvoiceAddress As Boolean
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.IsShippingAddressSameAsInvoiceAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllCountries
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.AllCountries
+  id: AllCountries
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: AllCountries
+  nameWithType: OrderModel.AllCountries
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllCountries
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AllCountries
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IList<SelectListItem> AllCountries { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+    content.vb: Public ReadOnly Property AllCountries As IList(Of SelectListItem)
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllCountries*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllOrderStatus
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.AllOrderStatus
+  id: AllOrderStatus
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: AllOrderStatus
+  nameWithType: OrderModel.AllOrderStatus
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllOrderStatus
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AllOrderStatus
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 46
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IList<SelectListItem> AllOrderStatus { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+    content.vb: Public ReadOnly Property AllOrderStatus As IList(Of SelectListItem)
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllOrderStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.PaymentMethods
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.PaymentMethods
+  id: PaymentMethods
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: PaymentMethods
+  nameWithType: OrderModel.PaymentMethods
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.PaymentMethods
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PaymentMethods
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 61
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IList<SelectListItem> PaymentMethods { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+    content.vb: Public Property PaymentMethods As IList(Of SelectListItem)
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.PaymentMethods*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.ShippingMethods
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.ShippingMethods
+  id: ShippingMethods
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: ShippingMethods
+  nameWithType: OrderModel.ShippingMethods
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.ShippingMethods
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShippingMethods
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 62
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IList<SelectListItem> ShippingMethods { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+    content.vb: Public Property ShippingMethods As IList(Of SelectListItem)
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.ShippingMethods*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.Languages
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.Languages
+  id: Languages
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: Languages
+  nameWithType: OrderModel.Languages
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.Languages
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Languages
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 65
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public List<Language> Languages { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Entities.Language}
+    content.vb: Public ReadOnly Property Languages As List(Of Language)
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.Languages*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.EmailTemplates
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderModel.EmailTemplates
+  id: EmailTemplates
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderModel
+  langs:
+  - csharp
+  - vb
+  name: EmailTemplates
+  nameWithType: OrderModel.EmailTemplates
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.EmailTemplates
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: EmailTemplates
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderModel.cs
+    startLine: 78
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public List<OrderEmailTemplateSetting> EmailTemplates { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Settings.OrderEmailTemplateSetting}
+    content.vb: Public ReadOnly Property EmailTemplates As List(Of OrderEmailTemplateSetting)
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderModel.EmailTemplates*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  name: WebshopModel
+  nameWithType: WebshopModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.ReportModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  name: ReportModel
+  nameWithType: ReportModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel.ManifestResourceStream
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.ReportModel.ManifestResourceStream
+  parent: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  name: ManifestResourceStream
+  nameWithType: ReportModel.ManifestResourceStream
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel.ManifestResourceStream
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportDataSourceName
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportDataSourceName
+  parent: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  name: ReportDataSourceName
+  nameWithType: ReportModel.ReportDataSourceName
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportDataSourceName
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportParameters
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportParameters
+  parent: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  name: ReportParameters
+  nameWithType: ReportModel.ReportParameters
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportParameters
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportDataSources
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportDataSources
+  parent: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  name: ReportDataSources
+  nameWithType: ReportModel.ReportDataSources
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel.ReportDataSources
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel.FileName
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.ReportModel.FileName
+  parent: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  name: FileName
+  nameWithType: ReportModel.FileName
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel.FileName
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel.Format
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.ReportModel.Format
+  parent: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  name: Format
+  nameWithType: ReportModel.Format
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel.Format
+- uid: Uvendia.Domain.Mvc.ViewModels.ReportModel.RenderReportOK
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.ReportModel.RenderReportOK
+  parent: Uvendia.Domain.Mvc.ViewModels.ReportModel
+  name: RenderReportOK
+  nameWithType: ReportModel.RenderReportOK
+  fullName: Uvendia.Domain.Mvc.ViewModels.ReportModel.RenderReportOK
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreePath
+  nameWithType: WebshopModel.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreeSelectedNodePath
+  nameWithType: WebshopModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.#ctor*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.#ctor
+  name: OrderModel
+  nameWithType: OrderModel.OrderModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.OrderModel
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.DownloadCookeValue*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.DownloadCookeValue
+  name: DownloadCookeValue
+  nameWithType: OrderModel.DownloadCookeValue
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.DownloadCookeValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.Order*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.Order
+  name: Order
+  nameWithType: OrderModel.Order
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.Order
+- uid: Uvendia.Domain.Order
+  commentId: T:Uvendia.Domain.Order
+  parent: Uvendia.Domain
+  name: Order
+  nameWithType: Order
+  fullName: Uvendia.Domain.Order
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.IsShippingAddressSameAsInvoiceAddress*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.IsShippingAddressSameAsInvoiceAddress
+  name: IsShippingAddressSameAsInvoiceAddress
+  nameWithType: OrderModel.IsShippingAddressSameAsInvoiceAddress
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.IsShippingAddressSameAsInvoiceAddress
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllCountries*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.AllCountries
+  name: AllCountries
+  nameWithType: OrderModel.AllCountries
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllCountries
+- uid: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+  commentId: T:System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SelectListItem>
+  nameWithType: IList<SelectListItem>
+  fullName: System.Collections.Generic.IList<System.Web.Mvc.SelectListItem>
+  nameWithType.vb: IList(Of SelectListItem)
+  fullName.vb: System.Collections.Generic.IList(Of System.Web.Mvc.SelectListItem)
+  name.vb: IList(Of SelectListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Web.Mvc.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: System.Web.Mvc.SelectListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Web.Mvc.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: System.Web.Mvc.SelectListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllOrderStatus*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.AllOrderStatus
+  name: AllOrderStatus
+  nameWithType: OrderModel.AllOrderStatus
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.AllOrderStatus
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.PaymentMethods*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.PaymentMethods
+  name: PaymentMethods
+  nameWithType: OrderModel.PaymentMethods
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.PaymentMethods
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.ShippingMethods*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.ShippingMethods
+  name: ShippingMethods
+  nameWithType: OrderModel.ShippingMethods
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.ShippingMethods
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.Languages*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.Languages
+  name: Languages
+  nameWithType: OrderModel.Languages
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.Languages
+- uid: System.Collections.Generic.List{Uvendia.Domain.Entities.Language}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Entities.Language}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Language>
+  nameWithType: List<Language>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Entities.Language>
+  nameWithType.vb: List(Of Language)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Entities.Language)
+  name.vb: List(Of Language)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.Language
+    name: Language
+    nameWithType: Language
+    fullName: Uvendia.Domain.Entities.Language
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.Language
+    name: Language
+    nameWithType: Language
+    fullName: Uvendia.Domain.Entities.Language
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderModel.EmailTemplates*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderModel.EmailTemplates
+  name: EmailTemplates
+  nameWithType: OrderModel.EmailTemplates
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderModel.EmailTemplates
+- uid: System.Collections.Generic.List{Uvendia.Domain.Settings.OrderEmailTemplateSetting}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Settings.OrderEmailTemplateSetting}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<OrderEmailTemplateSetting>
+  nameWithType: List<OrderEmailTemplateSetting>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Settings.OrderEmailTemplateSetting>
+  nameWithType.vb: List(Of OrderEmailTemplateSetting)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Settings.OrderEmailTemplateSetting)
+  name.vb: List(Of OrderEmailTemplateSetting)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+    name: OrderEmailTemplateSetting
+    nameWithType: OrderEmailTemplateSetting
+    fullName: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+    name: OrderEmailTemplateSetting
+    nameWithType: OrderEmailTemplateSetting
+    fullName: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+  - name: )
+    nameWithType: )
+    fullName: )

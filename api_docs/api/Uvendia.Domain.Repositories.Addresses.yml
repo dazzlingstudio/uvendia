@@ -1,0 +1,2477 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Repositories.Addresses
+  commentId: T:Uvendia.Domain.Repositories.Addresses
+  id: Addresses
+  parent: Uvendia.Domain.Repositories
+  children:
+  - Uvendia.Domain.Repositories.Addresses.AllByUserId(System.String)
+  - Uvendia.Domain.Repositories.Addresses.DeleteByUseryIdAndAddressType(System.String,Uvendia.Domain.Enums.AddressType)
+  - Uvendia.Domain.Repositories.Addresses.Save(System.Collections.Generic.IEnumerable{Uvendia.Domain.Address})
+  langs:
+  - csharp
+  - vb
+  name: Addresses
+  nameWithType: Addresses
+  fullName: Uvendia.Domain.Repositories.Addresses
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Addresses.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Addresses
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Addresses.cs
+    startLine: 9
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: 'public class Addresses : UvendiaRepository<Address>, IBaseRepository<Address>'
+    content.vb: >-
+      Public Class Addresses
+          Inherits UvendiaRepository(Of Address)
+          Implements IBaseRepository(Of Address)
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  - Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}
+  implements:
+  - Dazzling.Studio.SqlRepository.IBaseRepository{Uvendia.Domain.Address}
+  inheritedMembers:
+  - Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.CreateUnitOfWork
+  - Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.Save(Uvendia.Domain.Address)
+  - Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._syncLock
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._connectionStringName
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._tableSchema
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._tableName
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Instance``1
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.TableSchema
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.TableName
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.CreateConnection
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.SetConnection(System.Data.SqlClient.SqlConnection)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Single``1({IID})
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Single(System.String,System.Object)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.All``1({TType}[])
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.All(System.String,System.String,System.Int32,System.Object)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Insert``1(Uvendia.Domain.Address)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Update(Uvendia.Domain.Address)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Delete(Uvendia.Domain.Address)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.DeleteById``1({Y})
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Count(System.String,System.Object)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Repositories.Addresses.AllByUserId(System.String)
+  commentId: M:Uvendia.Domain.Repositories.Addresses.AllByUserId(System.String)
+  id: AllByUserId(System.String)
+  parent: Uvendia.Domain.Repositories.Addresses
+  langs:
+  - csharp
+  - vb
+  name: AllByUserId(String)
+  nameWithType: Addresses.AllByUserId(String)
+  fullName: Uvendia.Domain.Repositories.Addresses.AllByUserId(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Addresses.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AllByUserId
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Addresses.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public IEnumerable<Address> AllByUserId(string userId)
+    parameters:
+    - id: userId
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Address}
+    content.vb: Public Function AllByUserId(userId As String) As IEnumerable(Of Address)
+  overload: Uvendia.Domain.Repositories.Addresses.AllByUserId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Repositories.Addresses.DeleteByUseryIdAndAddressType(System.String,Uvendia.Domain.Enums.AddressType)
+  commentId: M:Uvendia.Domain.Repositories.Addresses.DeleteByUseryIdAndAddressType(System.String,Uvendia.Domain.Enums.AddressType)
+  id: DeleteByUseryIdAndAddressType(System.String,Uvendia.Domain.Enums.AddressType)
+  parent: Uvendia.Domain.Repositories.Addresses
+  langs:
+  - csharp
+  - vb
+  name: DeleteByUseryIdAndAddressType(String, AddressType)
+  nameWithType: Addresses.DeleteByUseryIdAndAddressType(String, AddressType)
+  fullName: Uvendia.Domain.Repositories.Addresses.DeleteByUseryIdAndAddressType(System.String, Uvendia.Domain.Enums.AddressType)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Addresses.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DeleteByUseryIdAndAddressType
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Addresses.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  summary: "\nDeletes the type of the by usery-identifier and address-type.\n"
+  example: []
+  syntax:
+    content: public void DeleteByUseryIdAndAddressType(string userId, AddressType addressType)
+    parameters:
+    - id: userId
+      type: System.String
+      description: The user identifier.
+    - id: addressType
+      type: Uvendia.Domain.Enums.AddressType
+      description: Type of the address.
+    content.vb: Public Sub DeleteByUseryIdAndAddressType(userId As String, addressType As AddressType)
+  overload: Uvendia.Domain.Repositories.Addresses.DeleteByUseryIdAndAddressType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Repositories.Addresses.Save(System.Collections.Generic.IEnumerable{Uvendia.Domain.Address})
+  commentId: M:Uvendia.Domain.Repositories.Addresses.Save(System.Collections.Generic.IEnumerable{Uvendia.Domain.Address})
+  id: Save(System.Collections.Generic.IEnumerable{Uvendia.Domain.Address})
+  parent: Uvendia.Domain.Repositories.Addresses
+  langs:
+  - csharp
+  - vb
+  name: Save(IEnumerable<Address>)
+  nameWithType: Addresses.Save(IEnumerable<Address>)
+  fullName: Uvendia.Domain.Repositories.Addresses.Save(System.Collections.Generic.IEnumerable<Uvendia.Domain.Address>)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Addresses.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Save
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Addresses.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  example: []
+  syntax:
+    content: public void Save(IEnumerable<Address> addresses)
+    parameters:
+    - id: addresses
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Address}
+    content.vb: Public Sub Save(addresses As IEnumerable(Of Address))
+  overload: Uvendia.Domain.Repositories.Addresses.Save*
+  nameWithType.vb: Addresses.Save(IEnumerable(Of Address))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Uvendia.Domain.Repositories.Addresses.Save(System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Address))
+  name.vb: Save(IEnumerable(Of Address))
+references:
+- uid: Uvendia.Domain.Repositories
+  commentId: N:Uvendia.Domain.Repositories
+  name: Uvendia.Domain.Repositories
+  nameWithType: Uvendia.Domain.Repositories
+  fullName: Uvendia.Domain.Repositories
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  commentId: T:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  parent: Dazzling.Studio.SqlRepository
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1
+  name: BaseRepository<Address>
+  nameWithType: BaseRepository<Address>
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>
+  nameWithType.vb: BaseRepository(Of Address)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address)
+  name.vb: BaseRepository(Of Address)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+    name: BaseRepository
+    nameWithType: BaseRepository
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+    name: BaseRepository
+    nameWithType: BaseRepository
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}
+  commentId: T:Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}
+  parent: Uvendia.Domain.Repositories
+  definition: Uvendia.Domain.Repositories.UvendiaRepository`1
+  name: UvendiaRepository<Address>
+  nameWithType: UvendiaRepository<Address>
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Address>
+  nameWithType.vb: UvendiaRepository(Of Address)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Address)
+  name.vb: UvendiaRepository(Of Address)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository
+    nameWithType: UvendiaRepository
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository
+    nameWithType: UvendiaRepository
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.IBaseRepository{Uvendia.Domain.Address}
+  commentId: T:Dazzling.Studio.SqlRepository.IBaseRepository{Uvendia.Domain.Address}
+  parent: Dazzling.Studio.SqlRepository
+  definition: Dazzling.Studio.SqlRepository.IBaseRepository`1
+  name: IBaseRepository<Address>
+  nameWithType: IBaseRepository<Address>
+  fullName: Dazzling.Studio.SqlRepository.IBaseRepository<Uvendia.Domain.Address>
+  nameWithType.vb: IBaseRepository(Of Address)
+  fullName.vb: Dazzling.Studio.SqlRepository.IBaseRepository(Of Uvendia.Domain.Address)
+  name.vb: IBaseRepository(Of Address)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+    name: IBaseRepository
+    nameWithType: IBaseRepository
+    fullName: Dazzling.Studio.SqlRepository.IBaseRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+    name: IBaseRepository
+    nameWithType: IBaseRepository
+    fullName: Dazzling.Studio.SqlRepository.IBaseRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.CreateUnitOfWork
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.CreateUnitOfWork
+  parent: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}
+  definition: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+  name: CreateUnitOfWork()
+  nameWithType: UvendiaRepository<Address>.CreateUnitOfWork()
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Address>.CreateUnitOfWork()
+  nameWithType.vb: UvendiaRepository(Of Address).CreateUnitOfWork()
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Address).CreateUnitOfWork()
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+    name: CreateUnitOfWork
+    nameWithType: UvendiaRepository<Address>.CreateUnitOfWork
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Address>.CreateUnitOfWork
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+    name: CreateUnitOfWork
+    nameWithType: UvendiaRepository(Of Address).CreateUnitOfWork
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Address).CreateUnitOfWork
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.Save(Uvendia.Domain.Address)
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.Save(Uvendia.Domain.Address)
+  parent: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}
+  definition: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+  name: Save(Address)
+  nameWithType: UvendiaRepository<Address>.Save(Address)
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Address>.Save(Uvendia.Domain.Address)
+  nameWithType.vb: UvendiaRepository(Of Address).Save(Address)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Address).Save(Uvendia.Domain.Address)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+    name: Save
+    nameWithType: UvendiaRepository<Address>.Save
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Address>.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+    name: Save
+    nameWithType: UvendiaRepository(Of Address).Save
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Address).Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  parent: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Address}
+  definition: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  name: SetAuditInfo(Webshop, Webshop)
+  nameWithType: UvendiaRepository<Address>.SetAuditInfo(Webshop, Webshop)
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Address>.SetAuditInfo(Uvendia.Domain.Webshop, Uvendia.Domain.Webshop)
+  nameWithType.vb: UvendiaRepository(Of Address).SetAuditInfo(Webshop, Webshop)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Address).SetAuditInfo(Uvendia.Domain.Webshop, Uvendia.Domain.Webshop)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+    name: SetAuditInfo
+    nameWithType: UvendiaRepository<Address>.SetAuditInfo
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Address>.SetAuditInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+    name: SetAuditInfo
+    nameWithType: UvendiaRepository(Of Address).SetAuditInfo
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Address).SetAuditInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._syncLock
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._syncLock
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1._syncLock
+  name: _syncLock
+  nameWithType: BaseRepository<Address>._syncLock
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>._syncLock
+  nameWithType.vb: BaseRepository(Of Address)._syncLock
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address)._syncLock
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._connectionStringName
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._connectionStringName
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1._connectionStringName
+  name: _connectionStringName
+  nameWithType: BaseRepository<Address>._connectionStringName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>._connectionStringName
+  nameWithType.vb: BaseRepository(Of Address)._connectionStringName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address)._connectionStringName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._tableSchema
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._tableSchema
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1._tableSchema
+  name: _tableSchema
+  nameWithType: BaseRepository<Address>._tableSchema
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>._tableSchema
+  nameWithType.vb: BaseRepository(Of Address)._tableSchema
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address)._tableSchema
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._tableName
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}._tableName
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1._tableName
+  name: _tableName
+  nameWithType: BaseRepository<Address>._tableName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>._tableName
+  nameWithType.vb: BaseRepository(Of Address)._tableName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address)._tableName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Instance``1
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Instance``1
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+  name: Instance<R>()
+  nameWithType: BaseRepository<Address>.Instance<R>()
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Instance<R>()
+  nameWithType.vb: BaseRepository(Of Address).Instance(Of R)()
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Instance(Of R)()
+  name.vb: Instance(Of R)()
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+    name: Instance<R>
+    nameWithType: BaseRepository<Address>.Instance<R>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Instance<R>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+    name: Instance(Of R)
+    nameWithType: BaseRepository(Of Address).Instance(Of R)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Instance(Of R)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.TableSchema
+  commentId: P:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.TableSchema
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.TableSchema
+  name: TableSchema
+  nameWithType: BaseRepository<Address>.TableSchema
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.TableSchema
+  nameWithType.vb: BaseRepository(Of Address).TableSchema
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).TableSchema
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.TableName
+  commentId: P:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.TableName
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.TableName
+  name: TableName
+  nameWithType: BaseRepository<Address>.TableName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.TableName
+  nameWithType.vb: BaseRepository(Of Address).TableName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).TableName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.CreateConnection
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.CreateConnection
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+  name: CreateConnection()
+  nameWithType: BaseRepository<Address>.CreateConnection()
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.CreateConnection()
+  nameWithType.vb: BaseRepository(Of Address).CreateConnection()
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).CreateConnection()
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+    name: CreateConnection
+    nameWithType: BaseRepository<Address>.CreateConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.CreateConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+    name: CreateConnection
+    nameWithType: BaseRepository(Of Address).CreateConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).CreateConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.SetConnection(System.Data.SqlClient.SqlConnection)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.SetConnection(System.Data.SqlClient.SqlConnection)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+  name: SetConnection(SqlConnection)
+  nameWithType: BaseRepository<Address>.SetConnection(SqlConnection)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.SetConnection(System.Data.SqlClient.SqlConnection)
+  nameWithType.vb: BaseRepository(Of Address).SetConnection(SqlConnection)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).SetConnection(System.Data.SqlClient.SqlConnection)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+    name: SetConnection
+    nameWithType: BaseRepository<Address>.SetConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.SetConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.SqlClient.SqlConnection
+    name: SqlConnection
+    nameWithType: SqlConnection
+    fullName: System.Data.SqlClient.SqlConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+    name: SetConnection
+    nameWithType: BaseRepository(Of Address).SetConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).SetConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.SqlClient.SqlConnection
+    name: SqlConnection
+    nameWithType: SqlConnection
+    fullName: System.Data.SqlClient.SqlConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Single``1({IID})
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Single``1(``0)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+  name: Single<IID>(IID)
+  nameWithType: BaseRepository<Address>.Single<IID>(IID)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Single<IID>(IID)
+  nameWithType.vb: BaseRepository(Of Address).Single(Of IID)(IID)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Single(Of IID)(IID)
+  name.vb: Single(Of IID)(IID)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single<IID>
+    nameWithType: BaseRepository<Address>.Single<IID>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Single<IID>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single(Of IID)
+    nameWithType: BaseRepository(Of Address).Single(Of IID)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Single(Of IID)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Single(System.String,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Single(System.String,System.Object)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+  name: Single(String, Object)
+  nameWithType: BaseRepository<Address>.Single(String, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Single(System.String, System.Object)
+  nameWithType.vb: BaseRepository(Of Address).Single(String, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Single(System.String, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+    name: Single
+    nameWithType: BaseRepository<Address>.Single
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Single
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+    name: Single
+    nameWithType: BaseRepository(Of Address).Single
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Single
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.All``1({TType}[])
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.All``1(``0[])
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+  name: All<TType>(TType[])
+  nameWithType: BaseRepository<Address>.All<TType>(TType[])
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.All<TType>(TType[])
+  nameWithType.vb: BaseRepository(Of Address).All(Of TType)(TType())
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).All(Of TType)(TType())
+  name.vb: All(Of TType)(TType())
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+    name: All<TType>
+    nameWithType: BaseRepository<Address>.All<TType>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.All<TType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+    name: All(Of TType)
+    nameWithType: BaseRepository(Of Address).All(Of TType)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).All(Of TType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.All(System.String,System.String,System.Int32,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.All(System.String,System.String,System.Int32,System.Object)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+  name: All(String, String, Int32, Object)
+  nameWithType: BaseRepository<Address>.All(String, String, Int32, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.All(System.String, System.String, System.Int32, System.Object)
+  nameWithType.vb: BaseRepository(Of Address).All(String, String, Int32, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).All(System.String, System.String, System.Int32, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+    name: All
+    nameWithType: BaseRepository<Address>.All
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.All
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+    name: All
+    nameWithType: BaseRepository(Of Address).All
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).All
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  name: Paged(Int32, String, String, Int32, Int32, Object)
+  nameWithType: BaseRepository<Address>.Paged(Int32, String, String, Int32, Int32, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Paged(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Object)
+  nameWithType.vb: BaseRepository(Of Address).Paged(Int32, String, String, Int32, Int32, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Paged(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+    name: Paged
+    nameWithType: BaseRepository<Address>.Paged
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Paged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+    name: Paged
+    nameWithType: BaseRepository(Of Address).Paged
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Paged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Insert``1(Uvendia.Domain.Address)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Insert``1(Uvendia.Domain.Address)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+  name: Insert<Y>(Address)
+  nameWithType: BaseRepository<Address>.Insert<Y>(Address)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Insert<Y>(Uvendia.Domain.Address)
+  nameWithType.vb: BaseRepository(Of Address).Insert(Of Y)(Address)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Insert(Of Y)(Uvendia.Domain.Address)
+  name.vb: Insert(Of Y)(Address)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+    name: Insert<Y>
+    nameWithType: BaseRepository<Address>.Insert<Y>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Insert<Y>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+    name: Insert(Of Y)
+    nameWithType: BaseRepository(Of Address).Insert(Of Y)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Insert(Of Y)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Update(Uvendia.Domain.Address)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Update(Uvendia.Domain.Address)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+  name: Update(Address)
+  nameWithType: BaseRepository<Address>.Update(Address)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Update(Uvendia.Domain.Address)
+  nameWithType.vb: BaseRepository(Of Address).Update(Address)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Update(Uvendia.Domain.Address)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+    name: Update
+    nameWithType: BaseRepository<Address>.Update
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+    name: Update
+    nameWithType: BaseRepository(Of Address).Update
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Delete(Uvendia.Domain.Address)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Delete(Uvendia.Domain.Address)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+  name: Delete(Address)
+  nameWithType: BaseRepository<Address>.Delete(Address)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Delete(Uvendia.Domain.Address)
+  nameWithType.vb: BaseRepository(Of Address).Delete(Address)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Delete(Uvendia.Domain.Address)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+    name: Delete
+    nameWithType: BaseRepository<Address>.Delete
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Delete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+    name: Delete
+    nameWithType: BaseRepository(Of Address).Delete
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Delete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.DeleteById``1({Y})
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.DeleteById``1(``0)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+  name: DeleteById<Y>(Y)
+  nameWithType: BaseRepository<Address>.DeleteById<Y>(Y)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.DeleteById<Y>(Y)
+  nameWithType.vb: BaseRepository(Of Address).DeleteById(Of Y)(Y)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).DeleteById(Of Y)(Y)
+  name.vb: DeleteById(Of Y)(Y)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+    name: DeleteById<Y>
+    nameWithType: BaseRepository<Address>.DeleteById<Y>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.DeleteById<Y>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: Y
+    nameWithType: Y
+    fullName: Y
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+    name: DeleteById(Of Y)
+    nameWithType: BaseRepository(Of Address).DeleteById(Of Y)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).DeleteById(Of Y)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: Y
+    nameWithType: Y
+    fullName: Y
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Count(System.String,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}.Count(System.String,System.Object)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Address}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+  name: Count(String, Object)
+  nameWithType: BaseRepository<Address>.Count(String, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Count(System.String, System.Object)
+  nameWithType.vb: BaseRepository(Of Address).Count(String, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Count(System.String, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+    name: Count
+    nameWithType: BaseRepository<Address>.Count
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Address>.Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+    name: Count
+    nameWithType: BaseRepository(Of Address).Count
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Address).Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+  commentId: T:Dazzling.Studio.SqlRepository.BaseRepository`1
+  name: BaseRepository<TEntity>
+  nameWithType: BaseRepository<TEntity>
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>
+  nameWithType.vb: BaseRepository(Of TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)
+  name.vb: BaseRepository(Of TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+    name: BaseRepository
+    nameWithType: BaseRepository
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+    name: BaseRepository
+    nameWithType: BaseRepository
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository
+  commentId: N:Dazzling.Studio.SqlRepository
+  name: Dazzling.Studio.SqlRepository
+  nameWithType: Dazzling.Studio.SqlRepository
+  fullName: Dazzling.Studio.SqlRepository
+- uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+  commentId: T:Uvendia.Domain.Repositories.UvendiaRepository`1
+  name: UvendiaRepository<TEntity>
+  nameWithType: UvendiaRepository<TEntity>
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>
+  nameWithType.vb: UvendiaRepository(Of TEntity)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity)
+  name.vb: UvendiaRepository(Of TEntity)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository
+    nameWithType: UvendiaRepository
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository
+    nameWithType: UvendiaRepository
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+  commentId: T:Dazzling.Studio.SqlRepository.IBaseRepository`1
+  name: IBaseRepository<TEntity>
+  nameWithType: IBaseRepository<TEntity>
+  fullName: Dazzling.Studio.SqlRepository.IBaseRepository<TEntity>
+  nameWithType.vb: IBaseRepository(Of TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.IBaseRepository(Of TEntity)
+  name.vb: IBaseRepository(Of TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+    name: IBaseRepository
+    nameWithType: IBaseRepository
+    fullName: Dazzling.Studio.SqlRepository.IBaseRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+    name: IBaseRepository
+    nameWithType: IBaseRepository
+    fullName: Dazzling.Studio.SqlRepository.IBaseRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+  name: CreateUnitOfWork()
+  nameWithType: UvendiaRepository<TEntity>.CreateUnitOfWork()
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.CreateUnitOfWork()
+  nameWithType.vb: UvendiaRepository(Of TEntity).CreateUnitOfWork()
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).CreateUnitOfWork()
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+    name: CreateUnitOfWork
+    nameWithType: UvendiaRepository<TEntity>.CreateUnitOfWork
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.CreateUnitOfWork
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+    name: CreateUnitOfWork
+    nameWithType: UvendiaRepository(Of TEntity).CreateUnitOfWork
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).CreateUnitOfWork
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+  name: Save(TEntity)
+  nameWithType: UvendiaRepository<TEntity>.Save(TEntity)
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.Save(TEntity)
+  nameWithType.vb: UvendiaRepository(Of TEntity).Save(TEntity)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).Save(TEntity)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+    name: Save
+    nameWithType: UvendiaRepository<TEntity>.Save
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+    name: Save
+    nameWithType: UvendiaRepository(Of TEntity).Save
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  name: SetAuditInfo(Webshop, Webshop)
+  nameWithType: UvendiaRepository<TEntity>.SetAuditInfo(Webshop, Webshop)
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.SetAuditInfo(Uvendia.Domain.Webshop, Uvendia.Domain.Webshop)
+  nameWithType.vb: UvendiaRepository(Of TEntity).SetAuditInfo(Webshop, Webshop)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).SetAuditInfo(Uvendia.Domain.Webshop, Uvendia.Domain.Webshop)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+    name: SetAuditInfo
+    nameWithType: UvendiaRepository<TEntity>.SetAuditInfo
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.SetAuditInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+    name: SetAuditInfo
+    nameWithType: UvendiaRepository(Of TEntity).SetAuditInfo
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).SetAuditInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1._syncLock
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository`1._syncLock
+  name: _syncLock
+  nameWithType: BaseRepository<TEntity>._syncLock
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>._syncLock
+  nameWithType.vb: BaseRepository(Of TEntity)._syncLock
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)._syncLock
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1._connectionStringName
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository`1._connectionStringName
+  name: _connectionStringName
+  nameWithType: BaseRepository<TEntity>._connectionStringName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>._connectionStringName
+  nameWithType.vb: BaseRepository(Of TEntity)._connectionStringName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)._connectionStringName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1._tableSchema
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository`1._tableSchema
+  name: _tableSchema
+  nameWithType: BaseRepository<TEntity>._tableSchema
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>._tableSchema
+  nameWithType.vb: BaseRepository(Of TEntity)._tableSchema
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)._tableSchema
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1._tableName
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository`1._tableName
+  name: _tableName
+  nameWithType: BaseRepository<TEntity>._tableName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>._tableName
+  nameWithType.vb: BaseRepository(Of TEntity)._tableName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)._tableName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+  name: Instance<R>()
+  nameWithType: BaseRepository<TEntity>.Instance<R>()
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Instance<R>()
+  nameWithType.vb: BaseRepository(Of TEntity).Instance(Of R)()
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Instance(Of R)()
+  name.vb: Instance(Of R)()
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+    name: Instance<R>
+    nameWithType: BaseRepository<TEntity>.Instance<R>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Instance<R>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+    name: Instance(Of R)
+    nameWithType: BaseRepository(Of TEntity).Instance(Of R)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Instance(Of R)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.TableSchema
+  commentId: P:Dazzling.Studio.SqlRepository.BaseRepository`1.TableSchema
+  name: TableSchema
+  nameWithType: BaseRepository<TEntity>.TableSchema
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.TableSchema
+  nameWithType.vb: BaseRepository(Of TEntity).TableSchema
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).TableSchema
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.TableName
+  commentId: P:Dazzling.Studio.SqlRepository.BaseRepository`1.TableName
+  name: TableName
+  nameWithType: BaseRepository<TEntity>.TableName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.TableName
+  nameWithType.vb: BaseRepository(Of TEntity).TableName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).TableName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+  name: CreateConnection()
+  nameWithType: BaseRepository<TEntity>.CreateConnection()
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.CreateConnection()
+  nameWithType.vb: BaseRepository(Of TEntity).CreateConnection()
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).CreateConnection()
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+    name: CreateConnection
+    nameWithType: BaseRepository<TEntity>.CreateConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.CreateConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+    name: CreateConnection
+    nameWithType: BaseRepository(Of TEntity).CreateConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).CreateConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+  isExternal: true
+  name: SetConnection(SqlConnection)
+  nameWithType: BaseRepository<TEntity>.SetConnection(SqlConnection)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.SetConnection(System.Data.SqlClient.SqlConnection)
+  nameWithType.vb: BaseRepository(Of TEntity).SetConnection(SqlConnection)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).SetConnection(System.Data.SqlClient.SqlConnection)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+    name: SetConnection
+    nameWithType: BaseRepository<TEntity>.SetConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.SetConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.SqlClient.SqlConnection
+    name: SqlConnection
+    nameWithType: SqlConnection
+    fullName: System.Data.SqlClient.SqlConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+    name: SetConnection
+    nameWithType: BaseRepository(Of TEntity).SetConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).SetConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.SqlClient.SqlConnection
+    name: SqlConnection
+    nameWithType: SqlConnection
+    fullName: System.Data.SqlClient.SqlConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+  name: Single<IID>(IID)
+  nameWithType: BaseRepository<TEntity>.Single<IID>(IID)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Single<IID>(IID)
+  nameWithType.vb: BaseRepository(Of TEntity).Single(Of IID)(IID)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Single(Of IID)(IID)
+  name.vb: Single(Of IID)(IID)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single<IID>
+    nameWithType: BaseRepository<TEntity>.Single<IID>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Single<IID>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single(Of IID)
+    nameWithType: BaseRepository(Of TEntity).Single(Of IID)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Single(Of IID)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+  isExternal: true
+  name: Single(String, Object)
+  nameWithType: BaseRepository<TEntity>.Single(String, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Single(System.String, System.Object)
+  nameWithType.vb: BaseRepository(Of TEntity).Single(String, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Single(System.String, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+    name: Single
+    nameWithType: BaseRepository<TEntity>.Single
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Single
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+    name: Single
+    nameWithType: BaseRepository(Of TEntity).Single
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Single
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+  name: All<TType>(TType[])
+  nameWithType: BaseRepository<TEntity>.All<TType>(TType[])
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.All<TType>(TType[])
+  nameWithType.vb: BaseRepository(Of TEntity).All(Of TType)(TType())
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).All(Of TType)(TType())
+  name.vb: All(Of TType)(TType())
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+    name: All<TType>
+    nameWithType: BaseRepository<TEntity>.All<TType>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.All<TType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+    name: All(Of TType)
+    nameWithType: BaseRepository(Of TEntity).All(Of TType)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).All(Of TType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+  isExternal: true
+  name: All(String, String, Int32, Object)
+  nameWithType: BaseRepository<TEntity>.All(String, String, Int32, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.All(System.String, System.String, System.Int32, System.Object)
+  nameWithType.vb: BaseRepository(Of TEntity).All(String, String, Int32, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).All(System.String, System.String, System.Int32, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+    name: All
+    nameWithType: BaseRepository<TEntity>.All
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.All
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+    name: All
+    nameWithType: BaseRepository(Of TEntity).All
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).All
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  isExternal: true
+  name: Paged(Int32, String, String, Int32, Int32, Object)
+  nameWithType: BaseRepository<TEntity>.Paged(Int32, String, String, Int32, Int32, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Paged(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Object)
+  nameWithType.vb: BaseRepository(Of TEntity).Paged(Int32, String, String, Int32, Int32, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Paged(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+    name: Paged
+    nameWithType: BaseRepository<TEntity>.Paged
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Paged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+    name: Paged
+    nameWithType: BaseRepository(Of TEntity).Paged
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Paged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+  name: Insert<Y>(TEntity)
+  nameWithType: BaseRepository<TEntity>.Insert<Y>(TEntity)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Insert<Y>(TEntity)
+  nameWithType.vb: BaseRepository(Of TEntity).Insert(Of Y)(TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Insert(Of Y)(TEntity)
+  name.vb: Insert(Of Y)(TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+    name: Insert<Y>
+    nameWithType: BaseRepository<TEntity>.Insert<Y>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Insert<Y>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+    name: Insert(Of Y)
+    nameWithType: BaseRepository(Of TEntity).Insert(Of Y)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Insert(Of Y)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+  name: Update(TEntity)
+  nameWithType: BaseRepository<TEntity>.Update(TEntity)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Update(TEntity)
+  nameWithType.vb: BaseRepository(Of TEntity).Update(TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Update(TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+    name: Update
+    nameWithType: BaseRepository<TEntity>.Update
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+    name: Update
+    nameWithType: BaseRepository(Of TEntity).Update
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+  name: Delete(TEntity)
+  nameWithType: BaseRepository<TEntity>.Delete(TEntity)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Delete(TEntity)
+  nameWithType.vb: BaseRepository(Of TEntity).Delete(TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Delete(TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+    name: Delete
+    nameWithType: BaseRepository<TEntity>.Delete
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Delete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+    name: Delete
+    nameWithType: BaseRepository(Of TEntity).Delete
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Delete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+  name: DeleteById<Y>(Y)
+  nameWithType: BaseRepository<TEntity>.DeleteById<Y>(Y)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.DeleteById<Y>(Y)
+  nameWithType.vb: BaseRepository(Of TEntity).DeleteById(Of Y)(Y)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).DeleteById(Of Y)(Y)
+  name.vb: DeleteById(Of Y)(Y)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+    name: DeleteById<Y>
+    nameWithType: BaseRepository<TEntity>.DeleteById<Y>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.DeleteById<Y>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: Y
+    nameWithType: Y
+    fullName: Y
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+    name: DeleteById(Of Y)
+    nameWithType: BaseRepository(Of TEntity).DeleteById(Of Y)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).DeleteById(Of Y)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: Y
+    nameWithType: Y
+    fullName: Y
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+  isExternal: true
+  name: Count(String, Object)
+  nameWithType: BaseRepository<TEntity>.Count(String, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Count(System.String, System.Object)
+  nameWithType.vb: BaseRepository(Of TEntity).Count(String, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Count(System.String, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+    name: Count
+    nameWithType: BaseRepository<TEntity>.Count
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+    name: Count
+    nameWithType: BaseRepository(Of TEntity).Count
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.Addresses.AllByUserId*
+  commentId: Overload:Uvendia.Domain.Repositories.Addresses.AllByUserId
+  name: AllByUserId
+  nameWithType: Addresses.AllByUserId
+  fullName: Uvendia.Domain.Repositories.Addresses.AllByUserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Address}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Address}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Address>
+  nameWithType: IEnumerable<Address>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Address>
+  nameWithType.vb: IEnumerable(Of Address)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Address)
+  name.vb: IEnumerable(Of Address)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Address
+    name: Address
+    nameWithType: Address
+    fullName: Uvendia.Domain.Address
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Repositories.Addresses.DeleteByUseryIdAndAddressType*
+  commentId: Overload:Uvendia.Domain.Repositories.Addresses.DeleteByUseryIdAndAddressType
+  name: DeleteByUseryIdAndAddressType
+  nameWithType: Addresses.DeleteByUseryIdAndAddressType
+  fullName: Uvendia.Domain.Repositories.Addresses.DeleteByUseryIdAndAddressType
+- uid: Uvendia.Domain.Enums.AddressType
+  commentId: T:Uvendia.Domain.Enums.AddressType
+  parent: Uvendia.Domain.Enums
+  name: AddressType
+  nameWithType: AddressType
+  fullName: Uvendia.Domain.Enums.AddressType
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: Uvendia.Domain.Repositories.Addresses.Save*
+  commentId: Overload:Uvendia.Domain.Repositories.Addresses.Save
+  name: Save
+  nameWithType: Addresses.Save
+  fullName: Uvendia.Domain.Repositories.Addresses.Save

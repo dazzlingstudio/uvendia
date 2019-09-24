@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.Mail
+  commentId: N:Uvendia.Domain.Mvc.ViewModels.Mail
+  id: Uvendia.Domain.Mvc.ViewModels.Mail
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.Mail.OrderMailModel
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Mvc.ViewModels.Mail
+  nameWithType: Uvendia.Domain.Mvc.ViewModels.Mail
+  fullName: Uvendia.Domain.Mvc.ViewModels.Mail
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels.Mail.OrderMailModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.Mail.OrderMailModel
+  name: OrderMailModel
+  nameWithType: OrderMailModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.Mail.OrderMailModel

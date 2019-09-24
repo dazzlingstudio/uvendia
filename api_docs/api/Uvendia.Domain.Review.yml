@@ -1,0 +1,1159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Review
+  commentId: T:Uvendia.Domain.Review
+  id: Review
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.Review.Comment
+  - Uvendia.Domain.Review.Email
+  - Uvendia.Domain.Review.ExternalItemId
+  - Uvendia.Domain.Review.ItemId
+  - Uvendia.Domain.Review.Location
+  - Uvendia.Domain.Review.Name
+  - Uvendia.Domain.Review.Stars
+  - Uvendia.Domain.Review.Subject
+  langs:
+  - csharp
+  - vb
+  name: Review
+  nameWithType: Review
+  fullName: Uvendia.Domain.Review
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Review
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: 'public class Review : Webshop, IDazzlingEntity'
+    content.vb: >-
+      Public Class Review
+          Inherits Webshop
+          Implements IDazzlingEntity
+  inheritance:
+  - System.Object
+  - Uvendia.Domain.Webshop
+  implements:
+  - Dazzling.Studio.SqlRepository.IDazzlingEntity
+  inheritedMembers:
+  - Uvendia.Domain.Webshop.PropertyIdChanged
+  - Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  - Uvendia.Domain.Webshop.Id
+  - Uvendia.Domain.Webshop.CreatedOn
+  - Uvendia.Domain.Webshop.ModifiedOn
+  - Uvendia.Domain.Webshop.CreatedBy
+  - Uvendia.Domain.Webshop.ModifiedBy
+  - Uvendia.Domain.Webshop.PublicatedOn
+  - Uvendia.Domain.Webshop.Rowversion
+  - Uvendia.Domain.Webshop.IsValid
+  - Uvendia.Domain.Webshop.IsValid(System.String)
+  - Uvendia.Domain.Webshop.GetValidationErrors
+  - Uvendia.Domain.Webshop.GetCurrentCultureName
+  - Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Review.Name
+  commentId: P:Uvendia.Domain.Review.Name
+  id: Name
+  parent: Uvendia.Domain.Review
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Review.Name
+  fullName: Uvendia.Domain.Review.Name
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Name
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [Required(ErrorMessage = "Name is required")]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required(ErrorMessage:="Name is required")>
+
+      Public Property Name As String
+  overload: Uvendia.Domain.Review.Name*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Name is required
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Review.Email
+  commentId: P:Uvendia.Domain.Review.Email
+  id: Email
+  parent: Uvendia.Domain.Review
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: Review.Email
+  fullName: Uvendia.Domain.Review.Email
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Email
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [EmailAddress(ErrorMessage = "E-mail is invalid")]
+
+      public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <EmailAddress(ErrorMessage:="E-mail is invalid")>
+
+      Public Property Email As String
+  overload: Uvendia.Domain.Review.Email*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.EmailAddressAttribute
+    ctor: System.ComponentModel.DataAnnotations.EmailAddressAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: E-mail is invalid
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Review.Location
+  commentId: P:Uvendia.Domain.Review.Location
+  id: Location
+  parent: Uvendia.Domain.Review
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: Review.Location
+  fullName: Uvendia.Domain.Review.Location
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Location
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Location As String
+  overload: Uvendia.Domain.Review.Location*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Review.Stars
+  commentId: P:Uvendia.Domain.Review.Stars
+  id: Stars
+  parent: Uvendia.Domain.Review
+  langs:
+  - csharp
+  - vb
+  name: Stars
+  nameWithType: Review.Stars
+  fullName: Uvendia.Domain.Review.Stars
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Stars
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [Range(0.5, 5, ErrorMessage = "Stars must be between 0.5 and 5")]
+
+      public float Stars { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: >-
+      <Range(0.5, 5, ErrorMessage:="Stars must be between 0.5 and 5")>
+
+      Public Property Stars As Single
+  overload: Uvendia.Domain.Review.Stars*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Double,System.Double)
+    arguments:
+    - type: System.Double
+      value: 0.5
+    - type: System.Double
+      value: 5
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Stars must be between 0.5 and 5
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Review.ItemId
+  commentId: P:Uvendia.Domain.Review.ItemId
+  id: ItemId
+  parent: Uvendia.Domain.Review
+  langs:
+  - csharp
+  - vb
+  name: ItemId
+  nameWithType: Review.ItemId
+  fullName: Uvendia.Domain.Review.ItemId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ItemId
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 28
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [Required]
+
+      public long ItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <Required>
+
+      Public Property ItemId As Long
+  overload: Uvendia.Domain.Review.ItemId*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Review.Subject
+  commentId: P:Uvendia.Domain.Review.Subject
+  id: Subject
+  parent: Uvendia.Domain.Review
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: Review.Subject
+  fullName: Uvendia.Domain.Review.Subject
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Subject
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [StringLength(225, ErrorMessage = "Subject must be 255 characters long")]
+
+      public string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(225, ErrorMessage:="Subject must be 255 characters long")>
+
+      Public Property Subject As String
+  overload: Uvendia.Domain.Review.Subject*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 225
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Subject must be 255 characters long
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Review.Comment
+  commentId: P:Uvendia.Domain.Review.Comment
+  id: Comment
+  parent: Uvendia.Domain.Review
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: Review.Comment
+  fullName: Uvendia.Domain.Review.Comment
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Comment
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 35
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [Required(ErrorMessage = "Comment is required")]
+
+      public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required(ErrorMessage:="Comment is required")>
+
+      Public Property Comment As String
+  overload: Uvendia.Domain.Review.Comment*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Comment is required
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Review.ExternalItemId
+  commentId: P:Uvendia.Domain.Review.ExternalItemId
+  id: ExternalItemId
+  parent: Uvendia.Domain.Review
+  langs:
+  - csharp
+  - vb
+  name: ExternalItemId
+  nameWithType: Review.ExternalItemId
+  fullName: Uvendia.Domain.Review.ExternalItemId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Review.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ExternalItemId
+    path: ../../dazzling.studio/Uvendia.Domain/Review.cs
+    startLine: 39
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [StringLength(255)]
+
+      public string ExternalItemId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(255)>
+
+      Public Property ExternalItemId As String
+  overload: Uvendia.Domain.Review.ExternalItemId*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 255
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Uvendia.Domain.Webshop
+  commentId: T:Uvendia.Domain.Webshop
+  parent: Uvendia.Domain
+  name: Webshop
+  nameWithType: Webshop
+  fullName: Uvendia.Domain.Webshop
+- uid: Dazzling.Studio.SqlRepository.IDazzlingEntity
+  commentId: T:Dazzling.Studio.SqlRepository.IDazzlingEntity
+  parent: Dazzling.Studio.SqlRepository
+  name: IDazzlingEntity
+  nameWithType: IDazzlingEntity
+  fullName: Dazzling.Studio.SqlRepository.IDazzlingEntity
+- uid: Uvendia.Domain.Webshop.PropertyIdChanged
+  commentId: E:Uvendia.Domain.Webshop.PropertyIdChanged
+  parent: Uvendia.Domain.Webshop
+  name: PropertyIdChanged
+  nameWithType: Webshop.PropertyIdChanged
+  fullName: Uvendia.Domain.Webshop.PropertyIdChanged
+- uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  commentId: M:Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: OnPropertyIdChanged(Object, EventArgs)
+  nameWithType: Webshop.OnPropertyIdChanged(Object, EventArgs)
+  fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object, System.EventArgs)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+    name: OnPropertyIdChanged
+    nameWithType: Webshop.OnPropertyIdChanged
+    fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+    name: OnPropertyIdChanged
+    nameWithType: Webshop.OnPropertyIdChanged
+    fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.Id
+  commentId: P:Uvendia.Domain.Webshop.Id
+  parent: Uvendia.Domain.Webshop
+  name: Id
+  nameWithType: Webshop.Id
+  fullName: Uvendia.Domain.Webshop.Id
+- uid: Uvendia.Domain.Webshop.CreatedOn
+  commentId: P:Uvendia.Domain.Webshop.CreatedOn
+  parent: Uvendia.Domain.Webshop
+  name: CreatedOn
+  nameWithType: Webshop.CreatedOn
+  fullName: Uvendia.Domain.Webshop.CreatedOn
+- uid: Uvendia.Domain.Webshop.ModifiedOn
+  commentId: P:Uvendia.Domain.Webshop.ModifiedOn
+  parent: Uvendia.Domain.Webshop
+  name: ModifiedOn
+  nameWithType: Webshop.ModifiedOn
+  fullName: Uvendia.Domain.Webshop.ModifiedOn
+- uid: Uvendia.Domain.Webshop.CreatedBy
+  commentId: P:Uvendia.Domain.Webshop.CreatedBy
+  parent: Uvendia.Domain.Webshop
+  name: CreatedBy
+  nameWithType: Webshop.CreatedBy
+  fullName: Uvendia.Domain.Webshop.CreatedBy
+- uid: Uvendia.Domain.Webshop.ModifiedBy
+  commentId: P:Uvendia.Domain.Webshop.ModifiedBy
+  parent: Uvendia.Domain.Webshop
+  name: ModifiedBy
+  nameWithType: Webshop.ModifiedBy
+  fullName: Uvendia.Domain.Webshop.ModifiedBy
+- uid: Uvendia.Domain.Webshop.PublicatedOn
+  commentId: P:Uvendia.Domain.Webshop.PublicatedOn
+  parent: Uvendia.Domain.Webshop
+  name: PublicatedOn
+  nameWithType: Webshop.PublicatedOn
+  fullName: Uvendia.Domain.Webshop.PublicatedOn
+- uid: Uvendia.Domain.Webshop.Rowversion
+  commentId: P:Uvendia.Domain.Webshop.Rowversion
+  parent: Uvendia.Domain.Webshop
+  name: Rowversion
+  nameWithType: Webshop.Rowversion
+  fullName: Uvendia.Domain.Webshop.Rowversion
+- uid: Uvendia.Domain.Webshop.IsValid
+  commentId: M:Uvendia.Domain.Webshop.IsValid
+  parent: Uvendia.Domain.Webshop
+  name: IsValid()
+  nameWithType: Webshop.IsValid()
+  fullName: Uvendia.Domain.Webshop.IsValid()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.IsValid
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.IsValid
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.IsValid(System.String)
+  commentId: M:Uvendia.Domain.Webshop.IsValid(System.String)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: IsValid(String)
+  nameWithType: Webshop.IsValid(String)
+  fullName: Uvendia.Domain.Webshop.IsValid(System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.IsValid(System.String)
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.IsValid(System.String)
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetValidationErrors
+  commentId: M:Uvendia.Domain.Webshop.GetValidationErrors
+  parent: Uvendia.Domain.Webshop
+  name: GetValidationErrors()
+  nameWithType: Webshop.GetValidationErrors()
+  fullName: Uvendia.Domain.Webshop.GetValidationErrors()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: Webshop.GetValidationErrors
+    fullName: Uvendia.Domain.Webshop.GetValidationErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: Webshop.GetValidationErrors
+    fullName: Uvendia.Domain.Webshop.GetValidationErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+  commentId: M:Uvendia.Domain.Webshop.GetCurrentCultureName
+  parent: Uvendia.Domain.Webshop
+  name: GetCurrentCultureName()
+  nameWithType: Webshop.GetCurrentCultureName()
+  fullName: Uvendia.Domain.Webshop.GetCurrentCultureName()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+    name: GetCurrentCultureName
+    nameWithType: Webshop.GetCurrentCultureName
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+    name: GetCurrentCultureName
+    nameWithType: Webshop.GetCurrentCultureName
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  commentId: M:Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  parent: Uvendia.Domain.Webshop
+  name: GetCurrentCultureInfo()
+  nameWithType: Webshop.GetCurrentCultureInfo()
+  fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+    name: GetCurrentCultureInfo
+    nameWithType: Webshop.GetCurrentCultureInfo
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+    name: GetCurrentCultureInfo
+    nameWithType: Webshop.GetCurrentCultureInfo
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  commentId: M:Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: GetTranslation(IList<Translation>, String)
+  nameWithType: Webshop.GetTranslation(IList<Translation>, String)
+  fullName: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList<Uvendia.Domain.Translation>, System.String)
+  nameWithType.vb: Webshop.GetTranslation(IList(Of Translation), String)
+  fullName.vb: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList(Of Uvendia.Domain.Translation), System.String)
+  name.vb: GetTranslation(IList(Of Translation), String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+    name: GetTranslation
+    nameWithType: Webshop.GetTranslation
+    fullName: Uvendia.Domain.Webshop.GetTranslation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+    name: GetTranslation
+    nameWithType: Webshop.GetTranslation
+    fullName: Uvendia.Domain.Webshop.GetTranslation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.SqlRepository
+  commentId: N:Dazzling.Studio.SqlRepository
+  name: Dazzling.Studio.SqlRepository
+  nameWithType: Dazzling.Studio.SqlRepository
+  fullName: Dazzling.Studio.SqlRepository
+- uid: Uvendia.Domain.Review.Name*
+  commentId: Overload:Uvendia.Domain.Review.Name
+  name: Name
+  nameWithType: Review.Name
+  fullName: Uvendia.Domain.Review.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Review.Email*
+  commentId: Overload:Uvendia.Domain.Review.Email
+  name: Email
+  nameWithType: Review.Email
+  fullName: Uvendia.Domain.Review.Email
+- uid: Uvendia.Domain.Review.Location*
+  commentId: Overload:Uvendia.Domain.Review.Location
+  name: Location
+  nameWithType: Review.Location
+  fullName: Uvendia.Domain.Review.Location
+- uid: Uvendia.Domain.Review.Stars*
+  commentId: Overload:Uvendia.Domain.Review.Stars
+  name: Stars
+  nameWithType: Review.Stars
+  fullName: Uvendia.Domain.Review.Stars
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Uvendia.Domain.Review.ItemId*
+  commentId: Overload:Uvendia.Domain.Review.ItemId
+  name: ItemId
+  nameWithType: Review.ItemId
+  fullName: Uvendia.Domain.Review.ItemId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Review.Subject*
+  commentId: Overload:Uvendia.Domain.Review.Subject
+  name: Subject
+  nameWithType: Review.Subject
+  fullName: Uvendia.Domain.Review.Subject
+- uid: Uvendia.Domain.Review.Comment*
+  commentId: Overload:Uvendia.Domain.Review.Comment
+  name: Comment
+  nameWithType: Review.Comment
+  fullName: Uvendia.Domain.Review.Comment
+- uid: Uvendia.Domain.Review.ExternalItemId*
+  commentId: Overload:Uvendia.Domain.Review.ExternalItemId
+  name: ExternalItemId
+  nameWithType: Review.ExternalItemId
+  fullName: Uvendia.Domain.Review.ExternalItemId

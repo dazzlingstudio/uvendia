@@ -1,0 +1,1483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail
+  commentId: T:Uvendia.Domain.Settings.InvoiceSettingDetail
+  id: InvoiceSettingDetail
+  parent: Uvendia.Domain.Settings
+  children:
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.CustomerNumber
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Date
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Discount
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Footer
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.InvoiceAddress
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.LanguageCultureName
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Note
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDate
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDetails
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.OrderedItemsText
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.OrderNumber
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Price
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Product
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.ProductInformation
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Quantity
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.RetouredItemsText
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.ServiceCost
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingAddress
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingCost
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Sku
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.SubTotal
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Tax
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Title
+  - Uvendia.Domain.Settings.InvoiceSettingDetail.Total
+  langs:
+  - csharp
+  - vb
+  name: InvoiceSettingDetail
+  nameWithType: InvoiceSettingDetail
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceSettingDetail
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public class InvoiceSettingDetail
+    content.vb: Public Class InvoiceSettingDetail
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.LanguageCultureName
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.LanguageCultureName
+  id: LanguageCultureName
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: LanguageCultureName
+  nameWithType: InvoiceSettingDetail.LanguageCultureName
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.LanguageCultureName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: LanguageCultureName
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string LanguageCultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property LanguageCultureName As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.LanguageCultureName*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Title
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Title
+  id: Title
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: InvoiceSettingDetail.Title
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Title
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Title
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 30
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Title As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Title*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.InvoiceAddress
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.InvoiceAddress
+  id: InvoiceAddress
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: InvoiceAddress
+  nameWithType: InvoiceSettingDetail.InvoiceAddress
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.InvoiceAddress
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceAddress
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 33
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string InvoiceAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property InvoiceAddress As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.InvoiceAddress*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingAddress
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingAddress
+  id: ShippingAddress
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: ShippingAddress
+  nameWithType: InvoiceSettingDetail.ShippingAddress
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingAddress
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShippingAddress
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 36
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string ShippingAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property ShippingAddress As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingAddress*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDetails
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDetails
+  id: OrderDetails
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: OrderDetails
+  nameWithType: InvoiceSettingDetail.OrderDetails
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDetails
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderDetails
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 39
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string OrderDetails { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderDetails As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDetails*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderNumber
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.OrderNumber
+  id: OrderNumber
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: OrderNumber
+  nameWithType: InvoiceSettingDetail.OrderNumber
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderNumber
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderNumber
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 41
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string OrderNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property OrderNumber As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderNumber*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Date
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Date
+  id: Date
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: InvoiceSettingDetail.Date
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Date
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Date
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 44
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string Date { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Date As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Date*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDate
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDate
+  id: OrderDate
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: OrderDate
+  nameWithType: InvoiceSettingDetail.OrderDate
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDate
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderDate
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 47
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string OrderDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property OrderDate As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDate*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.CustomerNumber
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.CustomerNumber
+  id: CustomerNumber
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: CustomerNumber
+  nameWithType: InvoiceSettingDetail.CustomerNumber
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.CustomerNumber
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CustomerNumber
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 50
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string CustomerNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property CustomerNumber As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.CustomerNumber*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Sku
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Sku
+  id: Sku
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Sku
+  nameWithType: InvoiceSettingDetail.Sku
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Sku
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Sku
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 53
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string Sku { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Sku As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Sku*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Product
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Product
+  id: Product
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: InvoiceSettingDetail.Product
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Product
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Product
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 56
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string Product { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Product As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Product*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.ProductInformation
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.ProductInformation
+  id: ProductInformation
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: ProductInformation
+  nameWithType: InvoiceSettingDetail.ProductInformation
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.ProductInformation
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductInformation
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 58
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string ProductInformation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property ProductInformation As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.ProductInformation*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderedItemsText
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.OrderedItemsText
+  id: OrderedItemsText
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: OrderedItemsText
+  nameWithType: InvoiceSettingDetail.OrderedItemsText
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderedItemsText
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderedItemsText
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 62
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string OrderedItemsText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderedItemsText As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderedItemsText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.RetouredItemsText
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.RetouredItemsText
+  id: RetouredItemsText
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: RetouredItemsText
+  nameWithType: InvoiceSettingDetail.RetouredItemsText
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.RetouredItemsText
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: RetouredItemsText
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 65
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string RetouredItemsText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RetouredItemsText As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.RetouredItemsText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Price
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Price
+  id: Price
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: InvoiceSettingDetail.Price
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Price
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Price
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 68
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string Price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Price As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Price*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Quantity
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Quantity
+  id: Quantity
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: InvoiceSettingDetail.Quantity
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Quantity
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Quantity
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 71
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Quantity As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Quantity*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Total
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Total
+  id: Total
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: InvoiceSettingDetail.Total
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Total
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Total
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 74
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string Total { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Total As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Total*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.SubTotal
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.SubTotal
+  id: SubTotal
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: SubTotal
+  nameWithType: InvoiceSettingDetail.SubTotal
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.SubTotal
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: SubTotal
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 76
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string SubTotal { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property SubTotal As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.SubTotal*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingCost
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingCost
+  id: ShippingCost
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: ShippingCost
+  nameWithType: InvoiceSettingDetail.ShippingCost
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingCost
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShippingCost
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 79
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string ShippingCost { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShippingCost As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingCost*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.ServiceCost
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.ServiceCost
+  id: ServiceCost
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: ServiceCost
+  nameWithType: InvoiceSettingDetail.ServiceCost
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.ServiceCost
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ServiceCost
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 82
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string ServiceCost { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceCost As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.ServiceCost*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Discount
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Discount
+  id: Discount
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Discount
+  nameWithType: InvoiceSettingDetail.Discount
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Discount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Discount
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 84
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string Discount { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Discount As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Discount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Tax
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Tax
+  id: Tax
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Tax
+  nameWithType: InvoiceSettingDetail.Tax
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Tax
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Tax
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 85
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string Tax { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tax As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Tax*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Note
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Note
+  id: Note
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: InvoiceSettingDetail.Note
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Note
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Note
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 86
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string Note { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Note As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Note*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Footer
+  commentId: P:Uvendia.Domain.Settings.InvoiceSettingDetail.Footer
+  id: Footer
+  parent: Uvendia.Domain.Settings.InvoiceSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Footer
+  nameWithType: InvoiceSettingDetail.Footer
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Footer
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/InvoiceSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Footer
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/InvoiceSetting.cs
+    startLine: 87
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string Footer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Footer As String
+  overload: Uvendia.Domain.Settings.InvoiceSettingDetail.Footer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Settings
+  commentId: N:Uvendia.Domain.Settings
+  name: Uvendia.Domain.Settings
+  nameWithType: Uvendia.Domain.Settings
+  fullName: Uvendia.Domain.Settings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.LanguageCultureName*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.LanguageCultureName
+  name: LanguageCultureName
+  nameWithType: InvoiceSettingDetail.LanguageCultureName
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.LanguageCultureName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Title*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Title
+  name: Title
+  nameWithType: InvoiceSettingDetail.Title
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Title
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.InvoiceAddress*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.InvoiceAddress
+  name: InvoiceAddress
+  nameWithType: InvoiceSettingDetail.InvoiceAddress
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.InvoiceAddress
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingAddress*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingAddress
+  name: ShippingAddress
+  nameWithType: InvoiceSettingDetail.ShippingAddress
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingAddress
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDetails*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDetails
+  name: OrderDetails
+  nameWithType: InvoiceSettingDetail.OrderDetails
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDetails
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderNumber*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.OrderNumber
+  name: OrderNumber
+  nameWithType: InvoiceSettingDetail.OrderNumber
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderNumber
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Date*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Date
+  name: Date
+  nameWithType: InvoiceSettingDetail.Date
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Date
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDate*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDate
+  name: OrderDate
+  nameWithType: InvoiceSettingDetail.OrderDate
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderDate
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.CustomerNumber*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.CustomerNumber
+  name: CustomerNumber
+  nameWithType: InvoiceSettingDetail.CustomerNumber
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.CustomerNumber
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Sku*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Sku
+  name: Sku
+  nameWithType: InvoiceSettingDetail.Sku
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Sku
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Product*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Product
+  name: Product
+  nameWithType: InvoiceSettingDetail.Product
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Product
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.ProductInformation*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.ProductInformation
+  name: ProductInformation
+  nameWithType: InvoiceSettingDetail.ProductInformation
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.ProductInformation
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderedItemsText*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.OrderedItemsText
+  name: OrderedItemsText
+  nameWithType: InvoiceSettingDetail.OrderedItemsText
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.OrderedItemsText
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.RetouredItemsText*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.RetouredItemsText
+  name: RetouredItemsText
+  nameWithType: InvoiceSettingDetail.RetouredItemsText
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.RetouredItemsText
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Price*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Price
+  name: Price
+  nameWithType: InvoiceSettingDetail.Price
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Price
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Quantity*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Quantity
+  name: Quantity
+  nameWithType: InvoiceSettingDetail.Quantity
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Quantity
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Total*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Total
+  name: Total
+  nameWithType: InvoiceSettingDetail.Total
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Total
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.SubTotal*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.SubTotal
+  name: SubTotal
+  nameWithType: InvoiceSettingDetail.SubTotal
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.SubTotal
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingCost*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingCost
+  name: ShippingCost
+  nameWithType: InvoiceSettingDetail.ShippingCost
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.ShippingCost
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.ServiceCost*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.ServiceCost
+  name: ServiceCost
+  nameWithType: InvoiceSettingDetail.ServiceCost
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.ServiceCost
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Discount*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Discount
+  name: Discount
+  nameWithType: InvoiceSettingDetail.Discount
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Discount
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Tax*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Tax
+  name: Tax
+  nameWithType: InvoiceSettingDetail.Tax
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Tax
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Note*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Note
+  name: Note
+  nameWithType: InvoiceSettingDetail.Note
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Note
+- uid: Uvendia.Domain.Settings.InvoiceSettingDetail.Footer*
+  commentId: Overload:Uvendia.Domain.Settings.InvoiceSettingDetail.Footer
+  name: Footer
+  nameWithType: InvoiceSettingDetail.Footer
+  fullName: Uvendia.Domain.Settings.InvoiceSettingDetail.Footer

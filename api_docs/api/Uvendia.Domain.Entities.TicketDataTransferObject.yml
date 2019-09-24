@@ -1,0 +1,1284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject
+  commentId: T:Uvendia.Domain.Entities.TicketDataTransferObject
+  id: TicketDataTransferObject
+  parent: Uvendia.Domain.Entities
+  children:
+  - Uvendia.Domain.Entities.TicketDataTransferObject.Barcode
+  - Uvendia.Domain.Entities.TicketDataTransferObject.CancellationInsured
+  - Uvendia.Domain.Entities.TicketDataTransferObject.City
+  - Uvendia.Domain.Entities.TicketDataTransferObject.Country
+  - Uvendia.Domain.Entities.TicketDataTransferObject.Customer
+  - Uvendia.Domain.Entities.TicketDataTransferObject.CustomerNr
+  - Uvendia.Domain.Entities.TicketDataTransferObject.EventName
+  - Uvendia.Domain.Entities.TicketDataTransferObject.EventType
+  - Uvendia.Domain.Entities.TicketDataTransferObject.IsCancellationInsured
+  - Uvendia.Domain.Entities.TicketDataTransferObject.Location
+  - Uvendia.Domain.Entities.TicketDataTransferObject.MetaData
+  - Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeBarcode
+  - Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeQRCode
+  - Uvendia.Domain.Entities.TicketDataTransferObject.Organizer
+  - Uvendia.Domain.Entities.TicketDataTransferObject.Postcode
+  - Uvendia.Domain.Entities.TicketDataTransferObject.Price
+  - Uvendia.Domain.Entities.TicketDataTransferObject.QRCode
+  - Uvendia.Domain.Entities.TicketDataTransferObject.StartDate
+  - Uvendia.Domain.Entities.TicketDataTransferObject.Street
+  - Uvendia.Domain.Entities.TicketDataTransferObject.TicketPictureUrl
+  - Uvendia.Domain.Entities.TicketDataTransferObject.TicketType
+  - Uvendia.Domain.Entities.TicketDataTransferObject.UniqueID
+  langs:
+  - csharp
+  - vb
+  name: TicketDataTransferObject
+  nameWithType: TicketDataTransferObject
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketDataTransferObject
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public class TicketDataTransferObject
+    content.vb: Public Class TicketDataTransferObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.UniqueID
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.UniqueID
+  id: UniqueID
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: UniqueID
+  nameWithType: TicketDataTransferObject.UniqueID
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.UniqueID
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UniqueID
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string UniqueID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UniqueID As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.UniqueID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.EventName
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.EventName
+  id: EventName
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: EventName
+  nameWithType: TicketDataTransferObject.EventName
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.EventName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: EventName
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string EventName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EventName As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.EventName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.EventType
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.EventType
+  id: EventType
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: EventType
+  nameWithType: TicketDataTransferObject.EventType
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.EventType
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: EventType
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string EventType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EventType As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.EventType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.TicketType
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.TicketType
+  id: TicketType
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: TicketType
+  nameWithType: TicketDataTransferObject.TicketType
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.TicketType
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketType
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string TicketType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TicketType As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.TicketType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Location
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.Location
+  id: Location
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: TicketDataTransferObject.Location
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Location
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Location
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Location As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.Location*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Street
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.Street
+  id: Street
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Street
+  nameWithType: TicketDataTransferObject.Street
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Street
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Street
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Street { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Street As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.Street*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.City
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.City
+  id: City
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: TicketDataTransferObject.City
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.City
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: City
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property City As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.City*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Postcode
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.Postcode
+  id: Postcode
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Postcode
+  nameWithType: TicketDataTransferObject.Postcode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Postcode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Postcode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Postcode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Postcode As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.Postcode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Country
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.Country
+  id: Country
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: TicketDataTransferObject.Country
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Country
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Country
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Country As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.Country*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.CustomerNr
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.CustomerNr
+  id: CustomerNr
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: CustomerNr
+  nameWithType: TicketDataTransferObject.CustomerNr
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.CustomerNr
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CustomerNr
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string CustomerNr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomerNr As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.CustomerNr*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Customer
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.Customer
+  id: Customer
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Customer
+  nameWithType: TicketDataTransferObject.Customer
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Customer
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Customer
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Customer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Customer As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.Customer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Organizer
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.Organizer
+  id: Organizer
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Organizer
+  nameWithType: TicketDataTransferObject.Organizer
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Organizer
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Organizer
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Organizer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Organizer As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.Organizer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Price
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.Price
+  id: Price
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: TicketDataTransferObject.Price
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Price
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Price
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 25
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Price As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.Price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Barcode
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.Barcode
+  id: Barcode
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Barcode
+  nameWithType: TicketDataTransferObject.Barcode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Barcode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Barcode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 27
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public byte[] Barcode { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Barcode As Byte()
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.Barcode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeBarcode
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeBarcode
+  id: MIMETypeBarcode
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: MIMETypeBarcode
+  nameWithType: TicketDataTransferObject.MIMETypeBarcode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeBarcode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MIMETypeBarcode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 28
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string MIMETypeBarcode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MIMETypeBarcode As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeBarcode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.QRCode
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.QRCode
+  id: QRCode
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: QRCode
+  nameWithType: TicketDataTransferObject.QRCode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.QRCode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: QRCode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 30
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public byte[] QRCode { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property QRCode As Byte()
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.QRCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeQRCode
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeQRCode
+  id: MIMETypeQRCode
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: MIMETypeQRCode
+  nameWithType: TicketDataTransferObject.MIMETypeQRCode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeQRCode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MIMETypeQRCode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string MIMETypeQRCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MIMETypeQRCode As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeQRCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.StartDate
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.StartDate
+  id: StartDate
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: TicketDataTransferObject.StartDate
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.StartDate
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: StartDate
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 33
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartDate As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.TicketPictureUrl
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.TicketPictureUrl
+  id: TicketPictureUrl
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: TicketPictureUrl
+  nameWithType: TicketDataTransferObject.TicketPictureUrl
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.TicketPictureUrl
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketPictureUrl
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 35
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string TicketPictureUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TicketPictureUrl As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.TicketPictureUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.IsCancellationInsured
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.IsCancellationInsured
+  id: IsCancellationInsured
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: IsCancellationInsured
+  nameWithType: TicketDataTransferObject.IsCancellationInsured
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.IsCancellationInsured
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsCancellationInsured
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 37
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public bool IsCancellationInsured { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsCancellationInsured As Boolean
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.IsCancellationInsured*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.CancellationInsured
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.CancellationInsured
+  id: CancellationInsured
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: CancellationInsured
+  nameWithType: TicketDataTransferObject.CancellationInsured
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.CancellationInsured
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CancellationInsured
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 38
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string CancellationInsured { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CancellationInsured As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.CancellationInsured*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.MetaData
+  commentId: P:Uvendia.Domain.Entities.TicketDataTransferObject.MetaData
+  id: MetaData
+  parent: Uvendia.Domain.Entities.TicketDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: MetaData
+  nameWithType: TicketDataTransferObject.MetaData
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.MetaData
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/TicketDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MetaData
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/TicketDataTransferObject.cs
+    startLine: 39
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string MetaData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MetaData As String
+  overload: Uvendia.Domain.Entities.TicketDataTransferObject.MetaData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.UniqueID*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.UniqueID
+  name: UniqueID
+  nameWithType: TicketDataTransferObject.UniqueID
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.UniqueID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.EventName*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.EventName
+  name: EventName
+  nameWithType: TicketDataTransferObject.EventName
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.EventName
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.EventType*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.EventType
+  name: EventType
+  nameWithType: TicketDataTransferObject.EventType
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.EventType
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.TicketType*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.TicketType
+  name: TicketType
+  nameWithType: TicketDataTransferObject.TicketType
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.TicketType
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Location*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.Location
+  name: Location
+  nameWithType: TicketDataTransferObject.Location
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Location
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Street*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.Street
+  name: Street
+  nameWithType: TicketDataTransferObject.Street
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Street
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.City*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.City
+  name: City
+  nameWithType: TicketDataTransferObject.City
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.City
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Postcode*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.Postcode
+  name: Postcode
+  nameWithType: TicketDataTransferObject.Postcode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Postcode
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Country*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.Country
+  name: Country
+  nameWithType: TicketDataTransferObject.Country
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Country
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.CustomerNr*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.CustomerNr
+  name: CustomerNr
+  nameWithType: TicketDataTransferObject.CustomerNr
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.CustomerNr
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Customer*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.Customer
+  name: Customer
+  nameWithType: TicketDataTransferObject.Customer
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Customer
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Organizer*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.Organizer
+  name: Organizer
+  nameWithType: TicketDataTransferObject.Organizer
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Organizer
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Price*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.Price
+  name: Price
+  nameWithType: TicketDataTransferObject.Price
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Price
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.Barcode*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.Barcode
+  name: Barcode
+  nameWithType: TicketDataTransferObject.Barcode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.Barcode
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeBarcode*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeBarcode
+  name: MIMETypeBarcode
+  nameWithType: TicketDataTransferObject.MIMETypeBarcode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeBarcode
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.QRCode*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.QRCode
+  name: QRCode
+  nameWithType: TicketDataTransferObject.QRCode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.QRCode
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeQRCode*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeQRCode
+  name: MIMETypeQRCode
+  nameWithType: TicketDataTransferObject.MIMETypeQRCode
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.MIMETypeQRCode
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.StartDate*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.StartDate
+  name: StartDate
+  nameWithType: TicketDataTransferObject.StartDate
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.StartDate
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.TicketPictureUrl*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.TicketPictureUrl
+  name: TicketPictureUrl
+  nameWithType: TicketDataTransferObject.TicketPictureUrl
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.TicketPictureUrl
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.IsCancellationInsured*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.IsCancellationInsured
+  name: IsCancellationInsured
+  nameWithType: TicketDataTransferObject.IsCancellationInsured
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.IsCancellationInsured
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.CancellationInsured*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.CancellationInsured
+  name: CancellationInsured
+  nameWithType: TicketDataTransferObject.CancellationInsured
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.CancellationInsured
+- uid: Uvendia.Domain.Entities.TicketDataTransferObject.MetaData*
+  commentId: Overload:Uvendia.Domain.Entities.TicketDataTransferObject.MetaData
+  name: MetaData
+  nameWithType: TicketDataTransferObject.MetaData
+  fullName: Uvendia.Domain.Entities.TicketDataTransferObject.MetaData

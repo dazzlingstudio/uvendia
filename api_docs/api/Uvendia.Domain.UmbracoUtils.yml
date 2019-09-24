@@ -1,0 +1,680 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.UmbracoUtils
+  commentId: T:Uvendia.Domain.UmbracoUtils
+  id: UmbracoUtils
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.UmbracoUtils.GetLanguages
+  - Uvendia.Domain.UmbracoUtils.GetUmbracoImageUrl(System.Int32)
+  - Uvendia.Domain.UmbracoUtils.GetUmbracoTreeSelectedNodePath(System.String)
+  - Uvendia.Domain.UmbracoUtils.GetUser
+  - Uvendia.Domain.UmbracoUtils.IsUserAllowedToModify
+  langs:
+  - csharp
+  - vb
+  name: UmbracoUtils
+  nameWithType: UmbracoUtils
+  fullName: Uvendia.Domain.UmbracoUtils
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/UmbracoUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UmbracoUtils
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/UmbracoUtils.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static class UmbracoUtils
+    content.vb: Public Module UmbracoUtils
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Uvendia.Domain.UmbracoUtils.GetUser
+  commentId: M:Uvendia.Domain.UmbracoUtils.GetUser
+  id: GetUser
+  parent: Uvendia.Domain.UmbracoUtils
+  langs:
+  - csharp
+  - vb
+  name: GetUser()
+  nameWithType: UmbracoUtils.GetUser()
+  fullName: Uvendia.Domain.UmbracoUtils.GetUser()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/UmbracoUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetUser
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/UmbracoUtils.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static IUser GetUser()
+    return:
+      type: Umbraco.Core.Models.Membership.IUser
+    content.vb: Public Shared Function GetUser As IUser
+  overload: Uvendia.Domain.UmbracoUtils.GetUser*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.UmbracoUtils.GetLanguages
+  commentId: M:Uvendia.Domain.UmbracoUtils.GetLanguages
+  id: GetLanguages
+  parent: Uvendia.Domain.UmbracoUtils
+  langs:
+  - csharp
+  - vb
+  name: GetLanguages()
+  nameWithType: UmbracoUtils.GetLanguages()
+  fullName: Uvendia.Domain.UmbracoUtils.GetLanguages()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/UmbracoUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetLanguages
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/UmbracoUtils.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static IEnumerable<ILanguage> GetLanguages()
+    return:
+      type: System.Collections.Generic.IEnumerable{Umbraco.Core.Models.ILanguage}
+    content.vb: Public Shared Function GetLanguages As IEnumerable(Of ILanguage)
+  overload: Uvendia.Domain.UmbracoUtils.GetLanguages*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.UmbracoUtils.GetUmbracoTreeSelectedNodePath(System.String)
+  commentId: M:Uvendia.Domain.UmbracoUtils.GetUmbracoTreeSelectedNodePath(System.String)
+  id: GetUmbracoTreeSelectedNodePath(System.String)
+  isExtensionMethod: true
+  parent: Uvendia.Domain.UmbracoUtils
+  langs:
+  - csharp
+  - vb
+  name: GetUmbracoTreeSelectedNodePath(String)
+  nameWithType: UmbracoUtils.GetUmbracoTreeSelectedNodePath(String)
+  fullName: Uvendia.Domain.UmbracoUtils.GetUmbracoTreeSelectedNodePath(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/UmbracoUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetUmbracoTreeSelectedNodePath
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/UmbracoUtils.cs
+    startLine: 33
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets the umbraco tree selected node path.\n"
+  example: []
+  syntax:
+    content: public static string GetUmbracoTreeSelectedNodePath(this string nodeKeyPath)
+    parameters:
+    - id: nodeKeyPath
+      type: System.String
+      description: The (custom) node key path.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetUmbracoTreeSelectedNodePath(nodeKeyPath As String) As String
+  overload: Uvendia.Domain.UmbracoUtils.GetUmbracoTreeSelectedNodePath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.UmbracoUtils.IsUserAllowedToModify
+  commentId: M:Uvendia.Domain.UmbracoUtils.IsUserAllowedToModify
+  id: IsUserAllowedToModify
+  parent: Uvendia.Domain.UmbracoUtils
+  langs:
+  - csharp
+  - vb
+  name: IsUserAllowedToModify()
+  nameWithType: UmbracoUtils.IsUserAllowedToModify()
+  fullName: Uvendia.Domain.UmbracoUtils.IsUserAllowedToModify()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/UmbracoUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsUserAllowedToModify
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/UmbracoUtils.cs
+    startLine: 62
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static bool IsUserAllowedToModify()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUserAllowedToModify As Boolean
+  overload: Uvendia.Domain.UmbracoUtils.IsUserAllowedToModify*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.UmbracoUtils.GetUmbracoImageUrl(System.Int32)
+  commentId: M:Uvendia.Domain.UmbracoUtils.GetUmbracoImageUrl(System.Int32)
+  id: GetUmbracoImageUrl(System.Int32)
+  parent: Uvendia.Domain.UmbracoUtils
+  langs:
+  - csharp
+  - vb
+  name: GetUmbracoImageUrl(Int32)
+  nameWithType: UmbracoUtils.GetUmbracoImageUrl(Int32)
+  fullName: Uvendia.Domain.UmbracoUtils.GetUmbracoImageUrl(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/UmbracoUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetUmbracoImageUrl
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/UmbracoUtils.cs
+    startLine: 80
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static string GetUmbracoImageUrl(int imageId)
+    parameters:
+    - id: imageId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUmbracoImageUrl(imageId As Integer) As String
+  overload: Uvendia.Domain.UmbracoUtils.GetUmbracoImageUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.UmbracoUtils.GetUser*
+  commentId: Overload:Uvendia.Domain.UmbracoUtils.GetUser
+  name: GetUser
+  nameWithType: UmbracoUtils.GetUser
+  fullName: Uvendia.Domain.UmbracoUtils.GetUser
+- uid: Umbraco.Core.Models.Membership.IUser
+  commentId: T:Umbraco.Core.Models.Membership.IUser
+  parent: Umbraco.Core.Models.Membership
+  isExternal: true
+  name: IUser
+  nameWithType: IUser
+  fullName: Umbraco.Core.Models.Membership.IUser
+- uid: Umbraco.Core.Models.Membership
+  commentId: N:Umbraco.Core.Models.Membership
+  isExternal: true
+  name: Umbraco.Core.Models.Membership
+  nameWithType: Umbraco.Core.Models.Membership
+  fullName: Umbraco.Core.Models.Membership
+- uid: Uvendia.Domain.UmbracoUtils.GetLanguages*
+  commentId: Overload:Uvendia.Domain.UmbracoUtils.GetLanguages
+  name: GetLanguages
+  nameWithType: UmbracoUtils.GetLanguages
+  fullName: Uvendia.Domain.UmbracoUtils.GetLanguages
+- uid: System.Collections.Generic.IEnumerable{Umbraco.Core.Models.ILanguage}
+  commentId: T:System.Collections.Generic.IEnumerable{Umbraco.Core.Models.ILanguage}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ILanguage>
+  nameWithType: IEnumerable<ILanguage>
+  fullName: System.Collections.Generic.IEnumerable<Umbraco.Core.Models.ILanguage>
+  nameWithType.vb: IEnumerable(Of ILanguage)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Umbraco.Core.Models.ILanguage)
+  name.vb: IEnumerable(Of ILanguage)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Umbraco.Core.Models.ILanguage
+    name: ILanguage
+    nameWithType: ILanguage
+    fullName: Umbraco.Core.Models.ILanguage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Umbraco.Core.Models.ILanguage
+    name: ILanguage
+    nameWithType: ILanguage
+    fullName: Umbraco.Core.Models.ILanguage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.UmbracoUtils.GetUmbracoTreeSelectedNodePath*
+  commentId: Overload:Uvendia.Domain.UmbracoUtils.GetUmbracoTreeSelectedNodePath
+  name: GetUmbracoTreeSelectedNodePath
+  nameWithType: UmbracoUtils.GetUmbracoTreeSelectedNodePath
+  fullName: Uvendia.Domain.UmbracoUtils.GetUmbracoTreeSelectedNodePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.UmbracoUtils.IsUserAllowedToModify*
+  commentId: Overload:Uvendia.Domain.UmbracoUtils.IsUserAllowedToModify
+  name: IsUserAllowedToModify
+  nameWithType: UmbracoUtils.IsUserAllowedToModify
+  fullName: Uvendia.Domain.UmbracoUtils.IsUserAllowedToModify
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.UmbracoUtils.GetUmbracoImageUrl*
+  commentId: Overload:Uvendia.Domain.UmbracoUtils.GetUmbracoImageUrl
+  name: GetUmbracoImageUrl
+  nameWithType: UmbracoUtils.GetUmbracoImageUrl
+  fullName: Uvendia.Domain.UmbracoUtils.GetUmbracoImageUrl
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

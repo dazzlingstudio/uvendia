@@ -1,0 +1,643 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  commentId: T:Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  id: ApiJsTreeNode
+  parent: Uvendia.Domain.Entities.Api
+  children:
+  - Uvendia.Domain.Entities.Api.ApiJsTreeNode.children
+  - Uvendia.Domain.Entities.Api.ApiJsTreeNode.id
+  - Uvendia.Domain.Entities.Api.ApiJsTreeNode.li_attr
+  - Uvendia.Domain.Entities.Api.ApiJsTreeNode.parent
+  - Uvendia.Domain.Entities.Api.ApiJsTreeNode.state
+  - Uvendia.Domain.Entities.Api.ApiJsTreeNode.text
+  - Uvendia.Domain.Entities.Api.ApiJsTreeNode.type
+  langs:
+  - csharp
+  - vb
+  name: ApiJsTreeNode
+  nameWithType: ApiJsTreeNode
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ApiJsTreeNode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public class ApiJsTreeNode
+    content.vb: Public Class ApiJsTreeNode
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.id
+  commentId: P:Uvendia.Domain.Entities.Api.ApiJsTreeNode.id
+  id: id
+  parent: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: ApiJsTreeNode.id
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: id
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public string id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property id As String
+  overload: Uvendia.Domain.Entities.Api.ApiJsTreeNode.id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.parent
+  commentId: P:Uvendia.Domain.Entities.Api.ApiJsTreeNode.parent
+  id: parent
+  parent: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  langs:
+  - csharp
+  - vb
+  name: parent
+  nameWithType: ApiJsTreeNode.parent
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.parent
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: parent
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public string parent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property parent As String
+  overload: Uvendia.Domain.Entities.Api.ApiJsTreeNode.parent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.text
+  commentId: P:Uvendia.Domain.Entities.Api.ApiJsTreeNode.text
+  id: text
+  parent: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: ApiJsTreeNode.text
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.text
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: text
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public string text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property text As String
+  overload: Uvendia.Domain.Entities.Api.ApiJsTreeNode.text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.type
+  commentId: P:Uvendia.Domain.Entities.Api.ApiJsTreeNode.type
+  id: type
+  parent: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: ApiJsTreeNode.type
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.type
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: type
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public string type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property type As String
+  overload: Uvendia.Domain.Entities.Api.ApiJsTreeNode.type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.children
+  commentId: P:Uvendia.Domain.Entities.Api.ApiJsTreeNode.children
+  id: children
+  parent: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  langs:
+  - csharp
+  - vb
+  name: children
+  nameWithType: ApiJsTreeNode.children
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.children
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: children
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public bool children { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property children As Boolean
+  overload: Uvendia.Domain.Entities.Api.ApiJsTreeNode.children*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.state
+  commentId: P:Uvendia.Domain.Entities.Api.ApiJsTreeNode.state
+  id: state
+  parent: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  langs:
+  - csharp
+  - vb
+  name: state
+  nameWithType: ApiJsTreeNode.state
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.state
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: state
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public dynamic state { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property state As Object
+  overload: Uvendia.Domain.Entities.Api.ApiJsTreeNode.state*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.li_attr
+  commentId: P:Uvendia.Domain.Entities.Api.ApiJsTreeNode.li_attr
+  id: li_attr
+  parent: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  langs:
+  - csharp
+  - vb
+  name: li_attr
+  nameWithType: ApiJsTreeNode.li_attr
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.li_attr
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: li_attr
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiJsTreeNode.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public dynamic li_attr { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property li_attr As Object
+  overload: Uvendia.Domain.Entities.Api.ApiJsTreeNode.li_attr*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Entities.Api
+  commentId: N:Uvendia.Domain.Entities.Api
+  name: Uvendia.Domain.Entities.Api
+  nameWithType: Uvendia.Domain.Entities.Api
+  fullName: Uvendia.Domain.Entities.Api
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.id*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiJsTreeNode.id
+  name: id
+  nameWithType: ApiJsTreeNode.id
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.parent*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiJsTreeNode.parent
+  name: parent
+  nameWithType: ApiJsTreeNode.parent
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.parent
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.text*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiJsTreeNode.text
+  name: text
+  nameWithType: ApiJsTreeNode.text
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.text
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.type*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiJsTreeNode.type
+  name: type
+  nameWithType: ApiJsTreeNode.type
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.type
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.children*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiJsTreeNode.children
+  name: children
+  nameWithType: ApiJsTreeNode.children
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.children
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.state*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiJsTreeNode.state
+  name: state
+  nameWithType: ApiJsTreeNode.state
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.state
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode.li_attr*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiJsTreeNode.li_attr
+  name: li_attr
+  nameWithType: ApiJsTreeNode.li_attr
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode.li_attr

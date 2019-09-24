@@ -1,0 +1,805 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.OrdersModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.OrdersModel
+  id: OrdersModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.OrdersModel.#ctor
+  - Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrderStatusId
+  langs:
+  - csharp
+  - vb
+  name: OrdersModel
+  nameWithType: OrdersModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrdersModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrdersModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrdersModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrdersModel.cs
+    startLine: 9
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class OrdersModel : PagedListWebshopModel<Order>'
+    content.vb: >-
+      Public Class OrdersModel
+          Inherits PagedListWebshopModel(Of Order)
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  - Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}
+  inheritedMembers:
+  - Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}.TreePath
+  - Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}.TreeSelectedNodePath
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.Items
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.PageIndex
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.PageSize
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.TotalRows
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.FirstRow
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.LastRow
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.Range
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.TotalPages
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.HasPreviousPage
+  - Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.HasNextPage
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.OrdersModel.#ctor
+  commentId: M:Uvendia.Domain.Mvc.ViewModels.OrdersModel.#ctor
+  id: '#ctor'
+  parent: Uvendia.Domain.Mvc.ViewModels.OrdersModel
+  langs:
+  - csharp
+  - vb
+  name: OrdersModel()
+  nameWithType: OrdersModel.OrdersModel()
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrdersModel()
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrdersModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrdersModel.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public OrdersModel()
+    content.vb: Public Sub New
+  overload: Uvendia.Domain.Mvc.ViewModels.OrdersModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrderStatusId
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrderStatusId
+  id: OrderStatusId
+  parent: Uvendia.Domain.Mvc.ViewModels.OrdersModel
+  langs:
+  - csharp
+  - vb
+  name: OrderStatusId
+  nameWithType: OrdersModel.OrderStatusId
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrderStatusId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrdersModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderStatusId
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrdersModel.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public short OrderStatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property OrderStatusId As Short
+  overload: Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrderStatusId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  commentId: T:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  parent: Dazzling.Studio.Utils
+  definition: Dazzling.Studio.Utils.PagedList`1
+  name: PagedList<Order>
+  nameWithType: PagedList<Order>
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>
+  nameWithType.vb: PagedList(Of Order)
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order)
+  name.vb: PagedList(Of Order)
+  spec.csharp:
+  - uid: Dazzling.Studio.Utils.PagedList`1
+    name: PagedList
+    nameWithType: PagedList
+    fullName: Dazzling.Studio.Utils.PagedList
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Order
+    name: Order
+    nameWithType: Order
+    fullName: Uvendia.Domain.Order
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.Utils.PagedList`1
+    name: PagedList
+    nameWithType: PagedList
+    fullName: Dazzling.Studio.Utils.PagedList
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Order
+    name: Order
+    nameWithType: Order
+    fullName: Uvendia.Domain.Order
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}
+  parent: Uvendia.Domain.Mvc.ViewModels
+  definition: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1
+  name: PagedListWebshopModel<Order>
+  nameWithType: PagedListWebshopModel<Order>
+  fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel<Uvendia.Domain.Order>
+  nameWithType.vb: PagedListWebshopModel(Of Order)
+  fullName.vb: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel(Of Uvendia.Domain.Order)
+  name.vb: PagedListWebshopModel(Of Order)
+  spec.csharp:
+  - uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1
+    name: PagedListWebshopModel
+    nameWithType: PagedListWebshopModel
+    fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Order
+    name: Order
+    nameWithType: Order
+    fullName: Uvendia.Domain.Order
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1
+    name: PagedListWebshopModel
+    nameWithType: PagedListWebshopModel
+    fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Order
+    name: Order
+    nameWithType: Order
+    fullName: Uvendia.Domain.Order
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}.TreePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}.TreePath
+  parent: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}
+  definition: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1.TreePath
+  name: TreePath
+  nameWithType: PagedListWebshopModel<Order>.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel<Uvendia.Domain.Order>.TreePath
+  nameWithType.vb: PagedListWebshopModel(Of Order).TreePath
+  fullName.vb: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel(Of Uvendia.Domain.Order).TreePath
+- uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}.TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel{Uvendia.Domain.Order}
+  definition: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1.TreeSelectedNodePath
+  name: TreeSelectedNodePath
+  nameWithType: PagedListWebshopModel<Order>.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel<Uvendia.Domain.Order>.TreeSelectedNodePath
+  nameWithType.vb: PagedListWebshopModel(Of Order).TreeSelectedNodePath
+  fullName.vb: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel(Of Uvendia.Domain.Order).TreeSelectedNodePath
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.Items
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.Items
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.Items
+  name: Items
+  nameWithType: PagedList<Order>.Items
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.Items
+  nameWithType.vb: PagedList(Of Order).Items
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).Items
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.PageIndex
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.PageIndex
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.PageIndex
+  name: PageIndex
+  nameWithType: PagedList<Order>.PageIndex
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.PageIndex
+  nameWithType.vb: PagedList(Of Order).PageIndex
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).PageIndex
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.PageSize
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.PageSize
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.PageSize
+  name: PageSize
+  nameWithType: PagedList<Order>.PageSize
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.PageSize
+  nameWithType.vb: PagedList(Of Order).PageSize
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).PageSize
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.TotalRows
+  commentId: F:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.TotalRows
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.TotalRows
+  name: TotalRows
+  nameWithType: PagedList<Order>.TotalRows
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.TotalRows
+  nameWithType.vb: PagedList(Of Order).TotalRows
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).TotalRows
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.FirstRow
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.FirstRow
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.FirstRow
+  name: FirstRow
+  nameWithType: PagedList<Order>.FirstRow
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.FirstRow
+  nameWithType.vb: PagedList(Of Order).FirstRow
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).FirstRow
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.LastRow
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.LastRow
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.LastRow
+  name: LastRow
+  nameWithType: PagedList<Order>.LastRow
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.LastRow
+  nameWithType.vb: PagedList(Of Order).LastRow
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).LastRow
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.Range
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.Range
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.Range
+  name: Range
+  nameWithType: PagedList<Order>.Range
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.Range
+  nameWithType.vb: PagedList(Of Order).Range
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).Range
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.TotalPages
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.TotalPages
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.TotalPages
+  name: TotalPages
+  nameWithType: PagedList<Order>.TotalPages
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.TotalPages
+  nameWithType.vb: PagedList(Of Order).TotalPages
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).TotalPages
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.HasPreviousPage
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.HasPreviousPage
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.HasPreviousPage
+  name: HasPreviousPage
+  nameWithType: PagedList<Order>.HasPreviousPage
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.HasPreviousPage
+  nameWithType.vb: PagedList(Of Order).HasPreviousPage
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).HasPreviousPage
+- uid: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.HasNextPage
+  commentId: P:Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}.HasNextPage
+  parent: Dazzling.Studio.Utils.PagedList{Uvendia.Domain.Order}
+  definition: Dazzling.Studio.Utils.PagedList`1.HasNextPage
+  name: HasNextPage
+  nameWithType: PagedList<Order>.HasNextPage
+  fullName: Dazzling.Studio.Utils.PagedList<Uvendia.Domain.Order>.HasNextPage
+  nameWithType.vb: PagedList(Of Order).HasNextPage
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of Uvendia.Domain.Order).HasNextPage
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Dazzling.Studio.Utils.PagedList`1
+  commentId: T:Dazzling.Studio.Utils.PagedList`1
+  name: PagedList<T>
+  nameWithType: PagedList<T>
+  fullName: Dazzling.Studio.Utils.PagedList<T>
+  nameWithType.vb: PagedList(Of T)
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T)
+  name.vb: PagedList(Of T)
+  spec.csharp:
+  - uid: Dazzling.Studio.Utils.PagedList`1
+    name: PagedList
+    nameWithType: PagedList
+    fullName: Dazzling.Studio.Utils.PagedList
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.Utils.PagedList`1
+    name: PagedList
+    nameWithType: PagedList
+    fullName: Dazzling.Studio.Utils.PagedList
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1
+  name: PagedListWebshopModel<T>
+  nameWithType: PagedListWebshopModel<T>
+  fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel<T>
+  nameWithType.vb: PagedListWebshopModel(Of T)
+  fullName.vb: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel(Of T)
+  name.vb: PagedListWebshopModel(Of T)
+  spec.csharp:
+  - uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1
+    name: PagedListWebshopModel
+    nameWithType: PagedListWebshopModel
+    fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1
+    name: PagedListWebshopModel
+    nameWithType: PagedListWebshopModel
+    fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1.TreePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1.TreePath
+  name: TreePath
+  nameWithType: PagedListWebshopModel<T>.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel<T>.TreePath
+  nameWithType.vb: PagedListWebshopModel(Of T).TreePath
+  fullName.vb: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel(Of T).TreePath
+- uid: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel`1.TreeSelectedNodePath
+  name: TreeSelectedNodePath
+  nameWithType: PagedListWebshopModel<T>.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel<T>.TreeSelectedNodePath
+  nameWithType.vb: PagedListWebshopModel(Of T).TreeSelectedNodePath
+  fullName.vb: Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel(Of T).TreeSelectedNodePath
+- uid: Dazzling.Studio.Utils.PagedList`1.Items
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.Items
+  name: Items
+  nameWithType: PagedList<T>.Items
+  fullName: Dazzling.Studio.Utils.PagedList<T>.Items
+  nameWithType.vb: PagedList(Of T).Items
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).Items
+- uid: Dazzling.Studio.Utils.PagedList`1.PageIndex
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.PageIndex
+  name: PageIndex
+  nameWithType: PagedList<T>.PageIndex
+  fullName: Dazzling.Studio.Utils.PagedList<T>.PageIndex
+  nameWithType.vb: PagedList(Of T).PageIndex
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).PageIndex
+- uid: Dazzling.Studio.Utils.PagedList`1.PageSize
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.PageSize
+  name: PageSize
+  nameWithType: PagedList<T>.PageSize
+  fullName: Dazzling.Studio.Utils.PagedList<T>.PageSize
+  nameWithType.vb: PagedList(Of T).PageSize
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).PageSize
+- uid: Dazzling.Studio.Utils.PagedList`1.TotalRows
+  commentId: F:Dazzling.Studio.Utils.PagedList`1.TotalRows
+  name: TotalRows
+  nameWithType: PagedList<T>.TotalRows
+  fullName: Dazzling.Studio.Utils.PagedList<T>.TotalRows
+  nameWithType.vb: PagedList(Of T).TotalRows
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).TotalRows
+- uid: Dazzling.Studio.Utils.PagedList`1.FirstRow
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.FirstRow
+  name: FirstRow
+  nameWithType: PagedList<T>.FirstRow
+  fullName: Dazzling.Studio.Utils.PagedList<T>.FirstRow
+  nameWithType.vb: PagedList(Of T).FirstRow
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).FirstRow
+- uid: Dazzling.Studio.Utils.PagedList`1.LastRow
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.LastRow
+  name: LastRow
+  nameWithType: PagedList<T>.LastRow
+  fullName: Dazzling.Studio.Utils.PagedList<T>.LastRow
+  nameWithType.vb: PagedList(Of T).LastRow
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).LastRow
+- uid: Dazzling.Studio.Utils.PagedList`1.Range
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.Range
+  name: Range
+  nameWithType: PagedList<T>.Range
+  fullName: Dazzling.Studio.Utils.PagedList<T>.Range
+  nameWithType.vb: PagedList(Of T).Range
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).Range
+- uid: Dazzling.Studio.Utils.PagedList`1.TotalPages
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.TotalPages
+  name: TotalPages
+  nameWithType: PagedList<T>.TotalPages
+  fullName: Dazzling.Studio.Utils.PagedList<T>.TotalPages
+  nameWithType.vb: PagedList(Of T).TotalPages
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).TotalPages
+- uid: Dazzling.Studio.Utils.PagedList`1.HasPreviousPage
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.HasPreviousPage
+  name: HasPreviousPage
+  nameWithType: PagedList<T>.HasPreviousPage
+  fullName: Dazzling.Studio.Utils.PagedList<T>.HasPreviousPage
+  nameWithType.vb: PagedList(Of T).HasPreviousPage
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).HasPreviousPage
+- uid: Dazzling.Studio.Utils.PagedList`1.HasNextPage
+  commentId: P:Dazzling.Studio.Utils.PagedList`1.HasNextPage
+  name: HasNextPage
+  nameWithType: PagedList<T>.HasNextPage
+  fullName: Dazzling.Studio.Utils.PagedList<T>.HasNextPage
+  nameWithType.vb: PagedList(Of T).HasNextPage
+  fullName.vb: Dazzling.Studio.Utils.PagedList(Of T).HasNextPage
+- uid: Uvendia.Domain.Mvc.ViewModels.OrdersModel.#ctor*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrdersModel.#ctor
+  name: OrdersModel
+  nameWithType: OrdersModel.OrdersModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrdersModel
+- uid: Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrderStatusId*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrderStatusId
+  name: OrderStatusId
+  nameWithType: OrdersModel.OrderStatusId
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrdersModel.OrderStatusId
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

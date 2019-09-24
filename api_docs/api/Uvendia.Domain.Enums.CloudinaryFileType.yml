@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Enums.CloudinaryFileType
+  commentId: T:Uvendia.Domain.Enums.CloudinaryFileType
+  id: CloudinaryFileType
+  parent: Uvendia.Domain.Enums
+  children:
+  - Uvendia.Domain.Enums.CloudinaryFileType.File
+  - Uvendia.Domain.Enums.CloudinaryFileType.Image
+  - Uvendia.Domain.Enums.CloudinaryFileType.Video
+  langs:
+  - csharp
+  - vb
+  name: CloudinaryFileType
+  nameWithType: CloudinaryFileType
+  fullName: Uvendia.Domain.Enums.CloudinaryFileType
+  type: Enum
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/CloudinaryFileType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CloudinaryFileType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/CloudinaryFileType.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public enum CloudinaryFileType
+    content.vb: Public Enum CloudinaryFileType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Uvendia.Domain.Enums.CloudinaryFileType.Image
+  commentId: F:Uvendia.Domain.Enums.CloudinaryFileType.Image
+  id: Image
+  parent: Uvendia.Domain.Enums.CloudinaryFileType
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: CloudinaryFileType.Image
+  fullName: Uvendia.Domain.Enums.CloudinaryFileType.Image
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/CloudinaryFileType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Image
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/CloudinaryFileType.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Image = 0
+    return:
+      type: Uvendia.Domain.Enums.CloudinaryFileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.CloudinaryFileType.Video
+  commentId: F:Uvendia.Domain.Enums.CloudinaryFileType.Video
+  id: Video
+  parent: Uvendia.Domain.Enums.CloudinaryFileType
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: CloudinaryFileType.Video
+  fullName: Uvendia.Domain.Enums.CloudinaryFileType.Video
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/CloudinaryFileType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Video
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/CloudinaryFileType.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Video = 1
+    return:
+      type: Uvendia.Domain.Enums.CloudinaryFileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.CloudinaryFileType.File
+  commentId: F:Uvendia.Domain.Enums.CloudinaryFileType.File
+  id: File
+  parent: Uvendia.Domain.Enums.CloudinaryFileType
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: CloudinaryFileType.File
+  fullName: Uvendia.Domain.Enums.CloudinaryFileType.File
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/CloudinaryFileType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: File
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/CloudinaryFileType.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: File = 2
+    return:
+      type: Uvendia.Domain.Enums.CloudinaryFileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: Uvendia.Domain.Enums.CloudinaryFileType
+  commentId: T:Uvendia.Domain.Enums.CloudinaryFileType
+  parent: Uvendia.Domain.Enums
+  name: CloudinaryFileType
+  nameWithType: CloudinaryFileType
+  fullName: Uvendia.Domain.Enums.CloudinaryFileType

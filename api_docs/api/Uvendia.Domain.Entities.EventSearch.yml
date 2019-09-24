@@ -1,0 +1,846 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.EventSearch
+  commentId: T:Uvendia.Domain.Entities.EventSearch
+  id: EventSearch
+  parent: Uvendia.Domain.Entities
+  children:
+  - Uvendia.Domain.Entities.EventSearch.Addressee
+  - Uvendia.Domain.Entities.EventSearch.AddressLine
+  - Uvendia.Domain.Entities.EventSearch.City
+  - Uvendia.Domain.Entities.EventSearch.CountryCode
+  - Uvendia.Domain.Entities.EventSearch.EventNumber
+  - Uvendia.Domain.Entities.EventSearch.Housenumber
+  - Uvendia.Domain.Entities.EventSearch.HousenumberExtension
+  - Uvendia.Domain.Entities.EventSearch.IsValid
+  - Uvendia.Domain.Entities.EventSearch.Name
+  - Uvendia.Domain.Entities.EventSearch.Zipcode
+  langs:
+  - csharp
+  - vb
+  name: EventSearch
+  nameWithType: EventSearch
+  fullName: Uvendia.Domain.Entities.EventSearch
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: EventSearch
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public class EventSearch
+    content.vb: Public Class EventSearch
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.EventSearch.Name
+  commentId: P:Uvendia.Domain.Entities.EventSearch.Name
+  id: Name
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EventSearch.Name
+  fullName: Uvendia.Domain.Entities.EventSearch.Name
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Name
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Uvendia.Domain.Entities.EventSearch.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.EventNumber
+  commentId: P:Uvendia.Domain.Entities.EventSearch.EventNumber
+  id: EventNumber
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: EventNumber
+  nameWithType: EventSearch.EventNumber
+  fullName: Uvendia.Domain.Entities.EventSearch.EventNumber
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: EventNumber
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string EventNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EventNumber As String
+  overload: Uvendia.Domain.Entities.EventSearch.EventNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.Addressee
+  commentId: P:Uvendia.Domain.Entities.EventSearch.Addressee
+  id: Addressee
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: Addressee
+  nameWithType: EventSearch.Addressee
+  fullName: Uvendia.Domain.Entities.EventSearch.Addressee
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Addressee
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Addressee { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Addressee As String
+  overload: Uvendia.Domain.Entities.EventSearch.Addressee*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.AddressLine
+  commentId: P:Uvendia.Domain.Entities.EventSearch.AddressLine
+  id: AddressLine
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: AddressLine
+  nameWithType: EventSearch.AddressLine
+  fullName: Uvendia.Domain.Entities.EventSearch.AddressLine
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddressLine
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string AddressLine { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AddressLine As String
+  overload: Uvendia.Domain.Entities.EventSearch.AddressLine*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.Housenumber
+  commentId: P:Uvendia.Domain.Entities.EventSearch.Housenumber
+  id: Housenumber
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: Housenumber
+  nameWithType: EventSearch.Housenumber
+  fullName: Uvendia.Domain.Entities.EventSearch.Housenumber
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Housenumber
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public int? Housenumber { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Housenumber As Integer?
+  overload: Uvendia.Domain.Entities.EventSearch.Housenumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.HousenumberExtension
+  commentId: P:Uvendia.Domain.Entities.EventSearch.HousenumberExtension
+  id: HousenumberExtension
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: HousenumberExtension
+  nameWithType: EventSearch.HousenumberExtension
+  fullName: Uvendia.Domain.Entities.EventSearch.HousenumberExtension
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: HousenumberExtension
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string HousenumberExtension { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HousenumberExtension As String
+  overload: Uvendia.Domain.Entities.EventSearch.HousenumberExtension*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.Zipcode
+  commentId: P:Uvendia.Domain.Entities.EventSearch.Zipcode
+  id: Zipcode
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: Zipcode
+  nameWithType: EventSearch.Zipcode
+  fullName: Uvendia.Domain.Entities.EventSearch.Zipcode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Zipcode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Zipcode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Zipcode As String
+  overload: Uvendia.Domain.Entities.EventSearch.Zipcode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.City
+  commentId: P:Uvendia.Domain.Entities.EventSearch.City
+  id: City
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: EventSearch.City
+  fullName: Uvendia.Domain.Entities.EventSearch.City
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: City
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property City As String
+  overload: Uvendia.Domain.Entities.EventSearch.City*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.CountryCode
+  commentId: P:Uvendia.Domain.Entities.EventSearch.CountryCode
+  id: CountryCode
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: CountryCode
+  nameWithType: EventSearch.CountryCode
+  fullName: Uvendia.Domain.Entities.EventSearch.CountryCode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CountryCode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string CountryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CountryCode As String
+  overload: Uvendia.Domain.Entities.EventSearch.CountryCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.EventSearch.IsValid
+  commentId: M:Uvendia.Domain.Entities.EventSearch.IsValid
+  id: IsValid
+  parent: Uvendia.Domain.Entities.EventSearch
+  langs:
+  - csharp
+  - vb
+  name: IsValid()
+  nameWithType: EventSearch.IsValid()
+  fullName: Uvendia.Domain.Entities.EventSearch.IsValid()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/EventSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsValid
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/EventSearch.cs
+    startLine: 28
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public bool IsValid()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsValid As Boolean
+  overload: Uvendia.Domain.Entities.EventSearch.IsValid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.EventSearch.Name*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.Name
+  name: Name
+  nameWithType: EventSearch.Name
+  fullName: Uvendia.Domain.Entities.EventSearch.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Entities.EventSearch.EventNumber*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.EventNumber
+  name: EventNumber
+  nameWithType: EventSearch.EventNumber
+  fullName: Uvendia.Domain.Entities.EventSearch.EventNumber
+- uid: Uvendia.Domain.Entities.EventSearch.Addressee*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.Addressee
+  name: Addressee
+  nameWithType: EventSearch.Addressee
+  fullName: Uvendia.Domain.Entities.EventSearch.Addressee
+- uid: Uvendia.Domain.Entities.EventSearch.AddressLine*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.AddressLine
+  name: AddressLine
+  nameWithType: EventSearch.AddressLine
+  fullName: Uvendia.Domain.Entities.EventSearch.AddressLine
+- uid: Uvendia.Domain.Entities.EventSearch.Housenumber*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.Housenumber
+  name: Housenumber
+  nameWithType: EventSearch.Housenumber
+  fullName: Uvendia.Domain.Entities.EventSearch.Housenumber
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Entities.EventSearch.HousenumberExtension*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.HousenumberExtension
+  name: HousenumberExtension
+  nameWithType: EventSearch.HousenumberExtension
+  fullName: Uvendia.Domain.Entities.EventSearch.HousenumberExtension
+- uid: Uvendia.Domain.Entities.EventSearch.Zipcode*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.Zipcode
+  name: Zipcode
+  nameWithType: EventSearch.Zipcode
+  fullName: Uvendia.Domain.Entities.EventSearch.Zipcode
+- uid: Uvendia.Domain.Entities.EventSearch.City*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.City
+  name: City
+  nameWithType: EventSearch.City
+  fullName: Uvendia.Domain.Entities.EventSearch.City
+- uid: Uvendia.Domain.Entities.EventSearch.CountryCode*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.CountryCode
+  name: CountryCode
+  nameWithType: EventSearch.CountryCode
+  fullName: Uvendia.Domain.Entities.EventSearch.CountryCode
+- uid: Uvendia.Domain.Entities.EventSearch.IsValid*
+  commentId: Overload:Uvendia.Domain.Entities.EventSearch.IsValid
+  name: IsValid
+  nameWithType: EventSearch.IsValid
+  fullName: Uvendia.Domain.Entities.EventSearch.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

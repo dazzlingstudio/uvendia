@@ -1,0 +1,959 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  id: OrderDetailModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.detailId
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.id
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.imageUrl
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.name
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.priceId
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.quantity
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.retoured
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.ticketHasCancellationInsurance
+  - Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.type
+  langs:
+  - csharp
+  - vb
+  name: OrderDetailModel
+  nameWithType: OrderDetailModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderDetailModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 9
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataContract]
+
+      public class OrderDetailModel
+    content.vb: >-
+      <DataContract>
+
+      Public Class OrderDetailModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.detailId
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.detailId
+  id: detailId
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: detailId
+  nameWithType: OrderDetailModel.detailId
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.detailId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: detailId
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string detailId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Property detailId As String
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.detailId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.id
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.id
+  id: id
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: OrderDetailModel.id
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: id
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public long id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <DataMember>
+
+      Public Property id As Long
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.ticketHasCancellationInsurance
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.ticketHasCancellationInsurance
+  id: ticketHasCancellationInsurance
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: ticketHasCancellationInsurance
+  nameWithType: OrderDetailModel.ticketHasCancellationInsurance
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.ticketHasCancellationInsurance
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ticketHasCancellationInsurance
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public bool ticketHasCancellationInsurance { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Property ticketHasCancellationInsurance As Boolean
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.ticketHasCancellationInsurance*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.priceId
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.priceId
+  id: priceId
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: priceId
+  nameWithType: OrderDetailModel.priceId
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.priceId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: priceId
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public long? priceId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: >-
+      <DataMember>
+
+      Public Property priceId As Long?
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.priceId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.quantity
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.quantity
+  id: quantity
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: quantity
+  nameWithType: OrderDetailModel.quantity
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.quantity
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: quantity
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public int? quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <DataMember>
+
+      Public Property quantity As Integer?
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.quantity*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.name
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.name
+  id: name
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: OrderDetailModel.name
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.name
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: name
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 27
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Property name As String
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.type
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.type
+  id: type
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: OrderDetailModel.type
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.type
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: type
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 29
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Property type As String
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.type*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.imageUrl
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.imageUrl
+  id: imageUrl
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: imageUrl
+  nameWithType: OrderDetailModel.imageUrl
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.imageUrl
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: imageUrl
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string imageUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Property imageUrl As String
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.imageUrl*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.retoured
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.retoured
+  id: retoured
+  parent: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel
+  langs:
+  - csharp
+  - vb
+  name: retoured
+  nameWithType: OrderDetailModel.retoured
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.retoured
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: retoured
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/OrderDetailModel.cs
+    startLine: 33
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: >-
+      [DataMember]
+
+      public bool retoured { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Property retoured As Boolean
+  overload: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.retoured*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.detailId*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.detailId
+  name: detailId
+  nameWithType: OrderDetailModel.detailId
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.detailId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.id*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.id
+  name: id
+  nameWithType: OrderDetailModel.id
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.id
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.ticketHasCancellationInsurance*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.ticketHasCancellationInsurance
+  name: ticketHasCancellationInsurance
+  nameWithType: OrderDetailModel.ticketHasCancellationInsurance
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.ticketHasCancellationInsurance
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.priceId*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.priceId
+  name: priceId
+  nameWithType: OrderDetailModel.priceId
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.priceId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.quantity*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.quantity
+  name: quantity
+  nameWithType: OrderDetailModel.quantity
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.quantity
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.name*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.name
+  name: name
+  nameWithType: OrderDetailModel.name
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.name
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.type*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.type
+  name: type
+  nameWithType: OrderDetailModel.type
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.type
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.imageUrl*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.imageUrl
+  name: imageUrl
+  nameWithType: OrderDetailModel.imageUrl
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.imageUrl
+- uid: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.retoured*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.retoured
+  name: retoured
+  nameWithType: OrderDetailModel.retoured
+  fullName: Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.retoured

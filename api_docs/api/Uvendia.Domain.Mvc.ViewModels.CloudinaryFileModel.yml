@@ -1,0 +1,803 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  id: CloudinaryFileModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.AllCloudinaryFiles
+  - Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileAccepts
+  - Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileType
+  - Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.Folders
+  - Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageIndex
+  - Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageSize
+  - Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PropertyValueReference
+  - Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.TotalRows
+  langs:
+  - csharp
+  - vb
+  name: CloudinaryFileModel
+  nameWithType: CloudinaryFileModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CloudinaryFileModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class CloudinaryFileModel : BaseModel'
+    content.vb: >-
+      Public Class CloudinaryFileModel
+          Inherits BaseModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  inheritedMembers:
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.AllCloudinaryFiles
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.AllCloudinaryFiles
+  id: AllCloudinaryFiles
+  parent: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  langs:
+  - csharp
+  - vb
+  name: AllCloudinaryFiles
+  nameWithType: CloudinaryFileModel.AllCloudinaryFiles
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.AllCloudinaryFiles
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AllCloudinaryFiles
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public List<CloudinaryMediaObject> AllCloudinaryFiles { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.CloudinaryMediaObject}
+    content.vb: Public Property AllCloudinaryFiles As List(Of CloudinaryMediaObject)
+  overload: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.AllCloudinaryFiles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.Folders
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.Folders
+  id: Folders
+  parent: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  langs:
+  - csharp
+  - vb
+  name: Folders
+  nameWithType: CloudinaryFileModel.Folders
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.Folders
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Folders
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string Folders { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Folders As String
+  overload: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.Folders*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PropertyValueReference
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PropertyValueReference
+  id: PropertyValueReference
+  parent: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  langs:
+  - csharp
+  - vb
+  name: PropertyValueReference
+  nameWithType: CloudinaryFileModel.PropertyValueReference
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PropertyValueReference
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PropertyValueReference
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string PropertyValueReference { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PropertyValueReference As String
+  overload: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PropertyValueReference*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileType
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileType
+  id: FileType
+  parent: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  langs:
+  - csharp
+  - vb
+  name: FileType
+  nameWithType: CloudinaryFileModel.FileType
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileType
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: FileType
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public CloudinaryFileType FileType { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Enums.CloudinaryFileType
+    content.vb: Public Property FileType As CloudinaryFileType
+  overload: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileAccepts
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileAccepts
+  id: FileAccepts
+  parent: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  langs:
+  - csharp
+  - vb
+  name: FileAccepts
+  nameWithType: CloudinaryFileModel.FileAccepts
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileAccepts
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: FileAccepts
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string FileAccepts { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileAccepts As String
+  overload: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileAccepts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageIndex
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageIndex
+  id: PageIndex
+  parent: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  langs:
+  - csharp
+  - vb
+  name: PageIndex
+  nameWithType: CloudinaryFileModel.PageIndex
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageIndex
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PageIndex
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public int PageIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageIndex As Integer
+  overload: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageSize
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageSize
+  id: PageSize
+  parent: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: CloudinaryFileModel.PageSize
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageSize
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PageSize
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public int PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageSize As Integer
+  overload: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.TotalRows
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.TotalRows
+  id: TotalRows
+  parent: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel
+  langs:
+  - csharp
+  - vb
+  name: TotalRows
+  nameWithType: CloudinaryFileModel.TotalRows
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.TotalRows
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TotalRows
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/CloudinaryFileModel.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public int TotalRows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TotalRows As Integer
+  overload: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.TotalRows*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.AllCloudinaryFiles*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.AllCloudinaryFiles
+  name: AllCloudinaryFiles
+  nameWithType: CloudinaryFileModel.AllCloudinaryFiles
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.AllCloudinaryFiles
+- uid: System.Collections.Generic.List{Uvendia.Domain.CloudinaryMediaObject}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.CloudinaryMediaObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<CloudinaryMediaObject>
+  nameWithType: List<CloudinaryMediaObject>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.CloudinaryMediaObject>
+  nameWithType.vb: List(Of CloudinaryMediaObject)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.CloudinaryMediaObject)
+  name.vb: List(Of CloudinaryMediaObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.CloudinaryMediaObject
+    name: CloudinaryMediaObject
+    nameWithType: CloudinaryMediaObject
+    fullName: Uvendia.Domain.CloudinaryMediaObject
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.CloudinaryMediaObject
+    name: CloudinaryMediaObject
+    nameWithType: CloudinaryMediaObject
+    fullName: Uvendia.Domain.CloudinaryMediaObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.Folders*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.Folders
+  name: Folders
+  nameWithType: CloudinaryFileModel.Folders
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.Folders
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PropertyValueReference*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PropertyValueReference
+  name: PropertyValueReference
+  nameWithType: CloudinaryFileModel.PropertyValueReference
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PropertyValueReference
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileType*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileType
+  name: FileType
+  nameWithType: CloudinaryFileModel.FileType
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileType
+- uid: Uvendia.Domain.Enums.CloudinaryFileType
+  commentId: T:Uvendia.Domain.Enums.CloudinaryFileType
+  parent: Uvendia.Domain.Enums
+  name: CloudinaryFileType
+  nameWithType: CloudinaryFileType
+  fullName: Uvendia.Domain.Enums.CloudinaryFileType
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileAccepts*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileAccepts
+  name: FileAccepts
+  nameWithType: CloudinaryFileModel.FileAccepts
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.FileAccepts
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageIndex*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageIndex
+  name: PageIndex
+  nameWithType: CloudinaryFileModel.PageIndex
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageSize*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageSize
+  name: PageSize
+  nameWithType: CloudinaryFileModel.PageSize
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.PageSize
+- uid: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.TotalRows*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.TotalRows
+  name: TotalRows
+  nameWithType: CloudinaryFileModel.TotalRows
+  fullName: Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.TotalRows

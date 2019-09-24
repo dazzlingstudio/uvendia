@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  commentId: T:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  id: ProductStockIndicationDataTransferObject
+  parent: Uvendia.Domain.Entities
+  children:
+  - Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.HasStockIndication
+  - Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.IsOutOfStock
+  - Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ItemsLeft
+  - Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ProductId
+  - Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.Stock
+  - Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.TotalSold
+  langs:
+  - csharp
+  - vb
+  name: ProductStockIndicationDataTransferObject
+  nameWithType: ProductStockIndicationDataTransferObject
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductStockIndicationDataTransferObject
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nRepresent a DTO object of a product id and the totally sold quantity.\n"
+  example: []
+  syntax:
+    content: public class ProductStockIndicationDataTransferObject
+    content.vb: Public Class ProductStockIndicationDataTransferObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ProductId
+  commentId: P:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ProductId
+  id: ProductId
+  parent: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: ProductStockIndicationDataTransferObject.ProductId
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ProductId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductId
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public long ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProductId As Long
+  overload: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.TotalSold
+  commentId: P:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.TotalSold
+  id: TotalSold
+  parent: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: TotalSold
+  nameWithType: ProductStockIndicationDataTransferObject.TotalSold
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.TotalSold
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TotalSold
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public int TotalSold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TotalSold As Integer
+  overload: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.TotalSold*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.HasStockIndication
+  commentId: P:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.HasStockIndication
+  id: HasStockIndication
+  parent: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: HasStockIndication
+  nameWithType: ProductStockIndicationDataTransferObject.HasStockIndication
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.HasStockIndication
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: HasStockIndication
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public bool HasStockIndication { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasStockIndication As Boolean
+  overload: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.HasStockIndication*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.Stock
+  commentId: P:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.Stock
+  id: Stock
+  parent: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Stock
+  nameWithType: ProductStockIndicationDataTransferObject.Stock
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.Stock
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Stock
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public int Stock { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Stock As Integer
+  overload: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.Stock*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.IsOutOfStock
+  commentId: P:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.IsOutOfStock
+  id: IsOutOfStock
+  parent: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: IsOutOfStock
+  nameWithType: ProductStockIndicationDataTransferObject.IsOutOfStock
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.IsOutOfStock
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsOutOfStock
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nDetermines whether [is out of stock] [the specified sold items].\n"
+  example: []
+  syntax:
+    content: public bool IsOutOfStock { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsOutOfStock As Boolean
+  overload: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.IsOutOfStock*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ItemsLeft
+  commentId: P:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ItemsLeft
+  id: ItemsLeft
+  parent: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ItemsLeft
+  nameWithType: ProductStockIndicationDataTransferObject.ItemsLeft
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ItemsLeft
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ItemsLeft
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductStockIndicationDataTransferObject.cs
+    startLine: 39
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public int ItemsLeft { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ItemsLeft As Integer
+  overload: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ItemsLeft*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ProductId*
+  commentId: Overload:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ProductId
+  name: ProductId
+  nameWithType: ProductStockIndicationDataTransferObject.ProductId
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ProductId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.TotalSold*
+  commentId: Overload:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.TotalSold
+  name: TotalSold
+  nameWithType: ProductStockIndicationDataTransferObject.TotalSold
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.TotalSold
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.HasStockIndication*
+  commentId: Overload:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.HasStockIndication
+  name: HasStockIndication
+  nameWithType: ProductStockIndicationDataTransferObject.HasStockIndication
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.HasStockIndication
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.Stock*
+  commentId: Overload:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.Stock
+  name: Stock
+  nameWithType: ProductStockIndicationDataTransferObject.Stock
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.Stock
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.IsOutOfStock*
+  commentId: Overload:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.IsOutOfStock
+  name: IsOutOfStock
+  nameWithType: ProductStockIndicationDataTransferObject.IsOutOfStock
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.IsOutOfStock
+- uid: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ItemsLeft*
+  commentId: Overload:Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ItemsLeft
+  name: ItemsLeft
+  nameWithType: ProductStockIndicationDataTransferObject.ItemsLeft
+  fullName: Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.ItemsLeft

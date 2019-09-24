@@ -1,0 +1,639 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  id: DeleteModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.DeleteModel.#ctor
+  - Uvendia.Domain.Mvc.ViewModels.DeleteModel.Controller
+  - Uvendia.Domain.Mvc.ViewModels.DeleteModel.Id
+  - Uvendia.Domain.Mvc.ViewModels.DeleteModel.Index
+  - Uvendia.Domain.Mvc.ViewModels.DeleteModel.Method
+  - Uvendia.Domain.Mvc.ViewModels.DeleteModel.RowId
+  langs:
+  - csharp
+  - vb
+  name: DeleteModel
+  nameWithType: DeleteModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DeleteModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class DeleteModel : WebshopModel'
+    content.vb: >-
+      Public Class DeleteModel
+          Inherits WebshopModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  inheritedMembers:
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.#ctor
+  commentId: M:Uvendia.Domain.Mvc.ViewModels.DeleteModel.#ctor
+  id: '#ctor'
+  parent: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  langs:
+  - csharp
+  - vb
+  name: DeleteModel()
+  nameWithType: DeleteModel.DeleteModel()
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.DeleteModel()
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public DeleteModel()
+    content.vb: Public Sub New
+  overload: Uvendia.Domain.Mvc.ViewModels.DeleteModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Id
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DeleteModel.Id
+  id: Id
+  parent: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DeleteModel.Id
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Id
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Controller
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DeleteModel.Controller
+  id: Controller
+  parent: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: DeleteModel.Controller
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Controller
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Controller
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string Controller { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Controller As String
+  overload: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Controller*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Index
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DeleteModel.Index
+  id: Index
+  parent: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: DeleteModel.Index
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Index
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Index
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public int Index { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Index As Integer
+  overload: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Index*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Method
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DeleteModel.Method
+  id: Method
+  parent: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: DeleteModel.Method
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Method
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Method
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string Method { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Method As String
+  overload: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Method*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.RowId
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DeleteModel.RowId
+  id: RowId
+  parent: Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  langs:
+  - csharp
+  - vb
+  name: RowId
+  nameWithType: DeleteModel.RowId
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.RowId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: RowId
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DeleteModel.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string RowId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RowId As String
+  overload: Uvendia.Domain.Mvc.ViewModels.DeleteModel.RowId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  name: WebshopModel
+  nameWithType: WebshopModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreePath
+  nameWithType: WebshopModel.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreeSelectedNodePath
+  nameWithType: WebshopModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.#ctor*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DeleteModel.#ctor
+  name: DeleteModel
+  nameWithType: DeleteModel.DeleteModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.DeleteModel
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Id*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DeleteModel.Id
+  name: Id
+  nameWithType: DeleteModel.Id
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Controller*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DeleteModel.Controller
+  name: Controller
+  nameWithType: DeleteModel.Controller
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Controller
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Index*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DeleteModel.Index
+  name: Index
+  nameWithType: DeleteModel.Index
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Method*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DeleteModel.Method
+  name: Method
+  nameWithType: DeleteModel.Method
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.Method
+- uid: Uvendia.Domain.Mvc.ViewModels.DeleteModel.RowId*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DeleteModel.RowId
+  name: RowId
+  nameWithType: DeleteModel.RowId
+  fullName: Uvendia.Domain.Mvc.ViewModels.DeleteModel.RowId

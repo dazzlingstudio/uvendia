@@ -1,0 +1,3984 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  commentId: T:Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  id: CatalogApiController
+  parent: Uvendia.Domain.Mvc.Controllers
+  children:
+  - Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeStoreRootJson(System.String)
+  - Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeSubNodeJson(System.String,System.String)
+  - Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById(System.Int64[])
+  - Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsByQuery(System.String)
+  - Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetStores
+  - Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetSubCategories(System.Int64)
+  langs:
+  - csharp
+  - vb
+  name: CatalogApiController
+  nameWithType: CatalogApiController
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CatalogApiController
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: >-
+      [PluginController("uvendiaplugin")]
+
+      public class CatalogApiController : UmbracoAuthorizedJsonController, IHttpController, IDisposable, IDiscoverable
+    content.vb: >-
+      <PluginController("uvendiaplugin")>
+
+      Public Class CatalogApiController
+          Inherits UmbracoAuthorizedJsonController
+          Implements IHttpController, IDisposable, IDiscoverable
+  inheritance:
+  - System.Object
+  - System.Web.Http.ApiController
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase
+  - Umbraco.Web.WebApi.UmbracoApiController
+  - Umbraco.Web.WebApi.UmbracoAuthorizedApiController
+  - Umbraco.Web.Editors.UmbracoAuthorizedJsonController
+  implements:
+  - System.Web.Http.Controllers.IHttpController
+  - System.IDisposable
+  - Umbraco.Core.Composing.IDiscoverable
+  inheritedMembers:
+  - Umbraco.Web.WebApi.UmbracoAuthorizedApiController.UserManager
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.GlobalSettings
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContext
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContextAccessor
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.SqlContext
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.Services
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.AppCaches
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.Logger
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.ApplicationUrl
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.Members
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.Umbraco
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.Mapper
+  - Umbraco.Web.WebApi.UmbracoApiControllerBase.Security
+  - System.Web.Http.ApiController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)
+  - System.Web.Http.ApiController.Validate``1({TEntity})
+  - System.Web.Http.ApiController.Validate``1({TEntity},System.String)
+  - System.Web.Http.ApiController.BadRequest
+  - System.Web.Http.ApiController.BadRequest(System.String)
+  - System.Web.Http.ApiController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)
+  - System.Web.Http.ApiController.Conflict
+  - System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,{T})
+  - System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,{T},System.Net.Http.Formatting.MediaTypeFormatter)
+  - System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,{T},System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+  - System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,{T},System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+  - System.Web.Http.ApiController.Created``1(System.String,{T})
+  - System.Web.Http.ApiController.Created``1(System.Uri,{T})
+  - System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,{T})
+  - System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},{T})
+  - System.Web.Http.ApiController.InternalServerError
+  - System.Web.Http.ApiController.InternalServerError(System.Exception)
+  - System.Web.Http.ApiController.Json``1({T})
+  - System.Web.Http.ApiController.Json``1({T},Newtonsoft.Json.JsonSerializerSettings)
+  - System.Web.Http.ApiController.Json``1({T},Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+  - System.Web.Http.ApiController.NotFound
+  - System.Web.Http.ApiController.Ok
+  - System.Web.Http.ApiController.Ok``1({T})
+  - System.Web.Http.ApiController.Redirect(System.String)
+  - System.Web.Http.ApiController.Redirect(System.Uri)
+  - System.Web.Http.ApiController.RedirectToRoute(System.String,System.Object)
+  - System.Web.Http.ApiController.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})
+  - System.Web.Http.ApiController.ResponseMessage(System.Net.Http.HttpResponseMessage)
+  - System.Web.Http.ApiController.StatusCode(System.Net.HttpStatusCode)
+  - System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue[])
+  - System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})
+  - System.Web.Http.ApiController.Initialize(System.Web.Http.Controllers.HttpControllerContext)
+  - System.Web.Http.ApiController.Dispose
+  - System.Web.Http.ApiController.Dispose(System.Boolean)
+  - System.Web.Http.ApiController.Configuration
+  - System.Web.Http.ApiController.ControllerContext
+  - System.Web.Http.ApiController.ActionContext
+  - System.Web.Http.ApiController.ModelState
+  - System.Web.Http.ApiController.Request
+  - System.Web.Http.ApiController.RequestContext
+  - System.Web.Http.ApiController.Url
+  - System.Web.Http.ApiController.User
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: Umbraco.Web.Mvc.PluginControllerAttribute
+    ctor: Umbraco.Web.Mvc.PluginControllerAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: uvendiaplugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeStoreRootJson(System.String)
+  commentId: M:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeStoreRootJson(System.String)
+  id: GetJsTreeStoreRootJson(System.String)
+  parent: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  langs:
+  - csharp
+  - vb
+  name: GetJsTreeStoreRootJson(String)
+  nameWithType: CatalogApiController.GetJsTreeStoreRootJson(String)
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeStoreRootJson(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetJsTreeStoreRootJson
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: public JsonResult<List<ApiJsTreeNode>> GetJsTreeStoreRootJson(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Web.Http.Results.JsonResult{System.Collections.Generic.List{Uvendia.Domain.Entities.Api.ApiJsTreeNode}}
+    content.vb: Public Function GetJsTreeStoreRootJson(id As String) As JsonResult(Of List(Of ApiJsTreeNode))
+  overload: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeStoreRootJson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeSubNodeJson(System.String,System.String)
+  commentId: M:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeSubNodeJson(System.String,System.String)
+  id: GetJsTreeSubNodeJson(System.String,System.String)
+  parent: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  langs:
+  - csharp
+  - vb
+  name: GetJsTreeSubNodeJson(String, String)
+  nameWithType: CatalogApiController.GetJsTreeSubNodeJson(String, String)
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeSubNodeJson(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetJsTreeSubNodeJson
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+    startLine: 33
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: public JsonResult<List<ApiJsTreeNode>> GetJsTreeSubNodeJson(string id, string selected = null)
+    parameters:
+    - id: id
+      type: System.String
+    - id: selected
+      type: System.String
+    return:
+      type: System.Web.Http.Results.JsonResult{System.Collections.Generic.List{Uvendia.Domain.Entities.Api.ApiJsTreeNode}}
+    content.vb: Public Function GetJsTreeSubNodeJson(id As String, selected As String = Nothing) As JsonResult(Of List(Of ApiJsTreeNode))
+  overload: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeSubNodeJson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetStores
+  commentId: M:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetStores
+  id: GetStores
+  parent: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  langs:
+  - csharp
+  - vb
+  name: GetStores()
+  nameWithType: CatalogApiController.GetStores()
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetStores()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetStores
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+    startLine: 79
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: public IEnumerable<ApiStore> GetStores()
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiStore}
+    content.vb: Public Function GetStores As IEnumerable(Of ApiStore)
+  overload: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetStores*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetSubCategories(System.Int64)
+  commentId: M:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetSubCategories(System.Int64)
+  id: GetSubCategories(System.Int64)
+  parent: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  langs:
+  - csharp
+  - vb
+  name: GetSubCategories(Int64)
+  nameWithType: CatalogApiController.GetSubCategories(Int64)
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetSubCategories(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetSubCategories
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+    startLine: 98
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: public IEnumerable<ApiCategory> GetSubCategories(long catId)
+    parameters:
+    - id: catId
+      type: System.Int64
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiCategory}
+    content.vb: Public Function GetSubCategories(catId As Long) As IEnumerable(Of ApiCategory)
+  overload: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetSubCategories*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsByQuery(System.String)
+  commentId: M:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsByQuery(System.String)
+  id: GetProductsByQuery(System.String)
+  parent: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  langs:
+  - csharp
+  - vb
+  name: GetProductsByQuery(String)
+  nameWithType: CatalogApiController.GetProductsByQuery(String)
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsByQuery(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetProductsByQuery
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+    startLine: 106
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: public JsonResult<IEnumerable<ApiProduct>> GetProductsByQuery(string q)
+    parameters:
+    - id: q
+      type: System.String
+    return:
+      type: System.Web.Http.Results.JsonResult{System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiProduct}}
+    content.vb: Public Function GetProductsByQuery(q As String) As JsonResult(Of IEnumerable(Of ApiProduct))
+  overload: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsByQuery*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById(System.Int64[])
+  commentId: M:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById(System.Int64[])
+  id: GetProductsById(System.Int64[])
+  parent: Uvendia.Domain.Mvc.Controllers.CatalogApiController
+  langs:
+  - csharp
+  - vb
+  name: GetProductsById(Int64[])
+  nameWithType: CatalogApiController.GetProductsById(Int64[])
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById(System.Int64[])
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetProductsById
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/CatalogApiController.cs
+    startLine: 114
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: public JsonResult<IEnumerable<ApiProduct>> GetProductsById([FromUri] long[] id)
+    parameters:
+    - id: id
+      type: System.Int64[]
+      attributes:
+      - type: System.Web.Http.FromUriAttribute
+        ctor: System.Web.Http.FromUriAttribute.#ctor
+        arguments: []
+    return:
+      type: System.Web.Http.Results.JsonResult{System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiProduct}}
+    content.vb: Public Function GetProductsById(id As Long()) As JsonResult(Of IEnumerable(Of ApiProduct))
+  overload: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById*
+  nameWithType.vb: CatalogApiController.GetProductsById(Int64())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById(System.Int64())
+  name.vb: GetProductsById(Int64())
+references:
+- uid: Uvendia.Domain.Mvc.Controllers
+  commentId: N:Uvendia.Domain.Mvc.Controllers
+  name: Uvendia.Domain.Mvc.Controllers
+  nameWithType: Uvendia.Domain.Mvc.Controllers
+  fullName: Uvendia.Domain.Mvc.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.Http.ApiController
+  commentId: T:System.Web.Http.ApiController
+  parent: System.Web.Http
+  isExternal: true
+  name: ApiController
+  nameWithType: ApiController
+  fullName: System.Web.Http.ApiController
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  commentId: T:Umbraco.Web.WebApi.UmbracoApiControllerBase
+  parent: Umbraco.Web.WebApi
+  isExternal: true
+  name: UmbracoApiControllerBase
+  nameWithType: UmbracoApiControllerBase
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase
+- uid: Umbraco.Web.WebApi.UmbracoApiController
+  commentId: T:Umbraco.Web.WebApi.UmbracoApiController
+  parent: Umbraco.Web.WebApi
+  isExternal: true
+  name: UmbracoApiController
+  nameWithType: UmbracoApiController
+  fullName: Umbraco.Web.WebApi.UmbracoApiController
+- uid: Umbraco.Web.WebApi.UmbracoAuthorizedApiController
+  commentId: T:Umbraco.Web.WebApi.UmbracoAuthorizedApiController
+  parent: Umbraco.Web.WebApi
+  isExternal: true
+  name: UmbracoAuthorizedApiController
+  nameWithType: UmbracoAuthorizedApiController
+  fullName: Umbraco.Web.WebApi.UmbracoAuthorizedApiController
+- uid: Umbraco.Web.Editors.UmbracoAuthorizedJsonController
+  commentId: T:Umbraco.Web.Editors.UmbracoAuthorizedJsonController
+  parent: Umbraco.Web.Editors
+  isExternal: true
+  name: UmbracoAuthorizedJsonController
+  nameWithType: UmbracoAuthorizedJsonController
+  fullName: Umbraco.Web.Editors.UmbracoAuthorizedJsonController
+- uid: System.Web.Http.Controllers.IHttpController
+  commentId: T:System.Web.Http.Controllers.IHttpController
+  parent: System.Web.Http.Controllers
+  isExternal: true
+  name: IHttpController
+  nameWithType: IHttpController
+  fullName: System.Web.Http.Controllers.IHttpController
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Umbraco.Core.Composing.IDiscoverable
+  commentId: T:Umbraco.Core.Composing.IDiscoverable
+  parent: Umbraco.Core.Composing
+  isExternal: true
+  name: IDiscoverable
+  nameWithType: IDiscoverable
+  fullName: Umbraco.Core.Composing.IDiscoverable
+- uid: Umbraco.Web.WebApi.UmbracoAuthorizedApiController.UserManager
+  commentId: P:Umbraco.Web.WebApi.UmbracoAuthorizedApiController.UserManager
+  parent: Umbraco.Web.WebApi.UmbracoAuthorizedApiController
+  isExternal: true
+  name: UserManager
+  nameWithType: UmbracoAuthorizedApiController.UserManager
+  fullName: Umbraco.Web.WebApi.UmbracoAuthorizedApiController.UserManager
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext
+  commentId: M:Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: TryGetHttpContext()
+  nameWithType: UmbracoApiControllerBase.TryGetHttpContext()
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext()
+  spec.csharp:
+  - uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext
+    name: TryGetHttpContext
+    nameWithType: UmbracoApiControllerBase.TryGetHttpContext
+    fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext
+    name: TryGetHttpContext
+    nameWithType: UmbracoApiControllerBase.TryGetHttpContext
+    fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext
+  commentId: M:Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: TryGetOwinContext()
+  nameWithType: UmbracoApiControllerBase.TryGetOwinContext()
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext()
+  spec.csharp:
+  - uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext
+    name: TryGetOwinContext
+    nameWithType: UmbracoApiControllerBase.TryGetOwinContext
+    fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext
+    name: TryGetOwinContext
+    nameWithType: UmbracoApiControllerBase.TryGetOwinContext
+    fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.GlobalSettings
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.GlobalSettings
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: GlobalSettings
+  nameWithType: UmbracoApiControllerBase.GlobalSettings
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.GlobalSettings
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContext
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContext
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: UmbracoContext
+  nameWithType: UmbracoApiControllerBase.UmbracoContext
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContext
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContextAccessor
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContextAccessor
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: UmbracoContextAccessor
+  nameWithType: UmbracoApiControllerBase.UmbracoContextAccessor
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContextAccessor
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.SqlContext
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.SqlContext
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: SqlContext
+  nameWithType: UmbracoApiControllerBase.SqlContext
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.SqlContext
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.Services
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.Services
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: Services
+  nameWithType: UmbracoApiControllerBase.Services
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.Services
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.AppCaches
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.AppCaches
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: AppCaches
+  nameWithType: UmbracoApiControllerBase.AppCaches
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.AppCaches
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.Logger
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.Logger
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: Logger
+  nameWithType: UmbracoApiControllerBase.Logger
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.Logger
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.ApplicationUrl
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.ApplicationUrl
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: ApplicationUrl
+  nameWithType: UmbracoApiControllerBase.ApplicationUrl
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.ApplicationUrl
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.Members
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.Members
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: Members
+  nameWithType: UmbracoApiControllerBase.Members
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.Members
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.Umbraco
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.Umbraco
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: Umbraco
+  nameWithType: UmbracoApiControllerBase.Umbraco
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.Umbraco
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.Mapper
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.Mapper
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: Mapper
+  nameWithType: UmbracoApiControllerBase.Mapper
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.Mapper
+- uid: Umbraco.Web.WebApi.UmbracoApiControllerBase.Security
+  commentId: P:Umbraco.Web.WebApi.UmbracoApiControllerBase.Security
+  parent: Umbraco.Web.WebApi.UmbracoApiControllerBase
+  isExternal: true
+  name: Security
+  nameWithType: UmbracoApiControllerBase.Security
+  fullName: Umbraco.Web.WebApi.UmbracoApiControllerBase.Security
+- uid: System.Web.Http.ApiController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)
+  commentId: M:System.Web.Http.ApiController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: ExecuteAsync(HttpControllerContext, CancellationToken)
+  nameWithType: ApiController.ExecuteAsync(HttpControllerContext, CancellationToken)
+  fullName: System.Web.Http.ApiController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)
+    name: ExecuteAsync
+    nameWithType: ApiController.ExecuteAsync
+    fullName: System.Web.Http.ApiController.ExecuteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Http.Controllers.HttpControllerContext
+    name: HttpControllerContext
+    nameWithType: HttpControllerContext
+    fullName: System.Web.Http.Controllers.HttpControllerContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)
+    name: ExecuteAsync
+    nameWithType: ApiController.ExecuteAsync
+    fullName: System.Web.Http.ApiController.ExecuteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Http.Controllers.HttpControllerContext
+    name: HttpControllerContext
+    nameWithType: HttpControllerContext
+    fullName: System.Web.Http.Controllers.HttpControllerContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Validate``1({TEntity})
+  commentId: M:System.Web.Http.ApiController.Validate``1(``0)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Validate``1(``0)
+  name: Validate<TEntity>(TEntity)
+  nameWithType: ApiController.Validate<TEntity>(TEntity)
+  fullName: System.Web.Http.ApiController.Validate<TEntity>(TEntity)
+  nameWithType.vb: ApiController.Validate(Of TEntity)(TEntity)
+  fullName.vb: System.Web.Http.ApiController.Validate(Of TEntity)(TEntity)
+  name.vb: Validate(Of TEntity)(TEntity)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Validate``1(``0)
+    name: Validate<TEntity>
+    nameWithType: ApiController.Validate<TEntity>
+    fullName: System.Web.Http.ApiController.Validate<TEntity>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Validate``1(``0)
+    name: Validate(Of TEntity)
+    nameWithType: ApiController.Validate(Of TEntity)
+    fullName: System.Web.Http.ApiController.Validate(Of TEntity)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Validate``1({TEntity},System.String)
+  commentId: M:System.Web.Http.ApiController.Validate``1(``0,System.String)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Validate``1(``0,System.String)
+  name: Validate<TEntity>(TEntity, String)
+  nameWithType: ApiController.Validate<TEntity>(TEntity, String)
+  fullName: System.Web.Http.ApiController.Validate<TEntity>(TEntity, System.String)
+  nameWithType.vb: ApiController.Validate(Of TEntity)(TEntity, String)
+  fullName.vb: System.Web.Http.ApiController.Validate(Of TEntity)(TEntity, System.String)
+  name.vb: Validate(Of TEntity)(TEntity, String)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Validate``1(``0,System.String)
+    name: Validate<TEntity>
+    nameWithType: ApiController.Validate<TEntity>
+    fullName: System.Web.Http.ApiController.Validate<TEntity>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Validate``1(``0,System.String)
+    name: Validate(Of TEntity)
+    nameWithType: ApiController.Validate(Of TEntity)
+    fullName: System.Web.Http.ApiController.Validate(Of TEntity)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.BadRequest
+  commentId: M:System.Web.Http.ApiController.BadRequest
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: BadRequest()
+  nameWithType: ApiController.BadRequest()
+  fullName: System.Web.Http.ApiController.BadRequest()
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.BadRequest
+    name: BadRequest
+    nameWithType: ApiController.BadRequest
+    fullName: System.Web.Http.ApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.BadRequest
+    name: BadRequest
+    nameWithType: ApiController.BadRequest
+    fullName: System.Web.Http.ApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.BadRequest(System.String)
+  commentId: M:System.Web.Http.ApiController.BadRequest(System.String)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: BadRequest(String)
+  nameWithType: ApiController.BadRequest(String)
+  fullName: System.Web.Http.ApiController.BadRequest(System.String)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.BadRequest(System.String)
+    name: BadRequest
+    nameWithType: ApiController.BadRequest
+    fullName: System.Web.Http.ApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.BadRequest(System.String)
+    name: BadRequest
+    nameWithType: ApiController.BadRequest
+    fullName: System.Web.Http.ApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)
+  commentId: M:System.Web.Http.ApiController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: BadRequest(ModelStateDictionary)
+  nameWithType: ApiController.BadRequest(ModelStateDictionary)
+  fullName: System.Web.Http.ApiController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)
+    name: BadRequest
+    nameWithType: ApiController.BadRequest
+    fullName: System.Web.Http.ApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Http.ModelBinding.ModelStateDictionary
+    name: ModelStateDictionary
+    nameWithType: ModelStateDictionary
+    fullName: System.Web.Http.ModelBinding.ModelStateDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)
+    name: BadRequest
+    nameWithType: ApiController.BadRequest
+    fullName: System.Web.Http.ApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Http.ModelBinding.ModelStateDictionary
+    name: ModelStateDictionary
+    nameWithType: ModelStateDictionary
+    fullName: System.Web.Http.ModelBinding.ModelStateDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Conflict
+  commentId: M:System.Web.Http.ApiController.Conflict
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Conflict()
+  nameWithType: ApiController.Conflict()
+  fullName: System.Web.Http.ApiController.Conflict()
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Conflict
+    name: Conflict
+    nameWithType: ApiController.Conflict
+    fullName: System.Web.Http.ApiController.Conflict
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Conflict
+    name: Conflict
+    nameWithType: ApiController.Conflict
+    fullName: System.Web.Http.ApiController.Conflict
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,{T})
+  commentId: M:System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0)
+  name: Content<T>(HttpStatusCode, T)
+  nameWithType: ApiController.Content<T>(HttpStatusCode, T)
+  fullName: System.Web.Http.ApiController.Content<T>(System.Net.HttpStatusCode, T)
+  nameWithType.vb: ApiController.Content(Of T)(HttpStatusCode, T)
+  fullName.vb: System.Web.Http.ApiController.Content(Of T)(System.Net.HttpStatusCode, T)
+  name.vb: Content(Of T)(HttpStatusCode, T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0)
+    name: Content<T>
+    nameWithType: ApiController.Content<T>
+    fullName: System.Web.Http.ApiController.Content<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0)
+    name: Content(Of T)
+    nameWithType: ApiController.Content(Of T)
+    fullName: System.Web.Http.ApiController.Content(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,{T},System.Net.Http.Formatting.MediaTypeFormatter)
+  commentId: M:System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter)
+  name: Content<T>(HttpStatusCode, T, MediaTypeFormatter)
+  nameWithType: ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter)
+  fullName: System.Web.Http.ApiController.Content<T>(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter)
+  nameWithType.vb: ApiController.Content(Of T)(HttpStatusCode, T, MediaTypeFormatter)
+  fullName.vb: System.Web.Http.ApiController.Content(Of T)(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter)
+  name.vb: Content(Of T)(HttpStatusCode, T, MediaTypeFormatter)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter)
+    name: Content<T>
+    nameWithType: ApiController.Content<T>
+    fullName: System.Web.Http.ApiController.Content<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter)
+    name: Content(Of T)
+    nameWithType: ApiController.Content(Of T)
+    fullName: System.Web.Http.ApiController.Content(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,{T},System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+  commentId: M:System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+  name: Content<T>(HttpStatusCode, T, MediaTypeFormatter, String)
+  nameWithType: ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, String)
+  fullName: System.Web.Http.ApiController.Content<T>(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.String)
+  nameWithType.vb: ApiController.Content(Of T)(HttpStatusCode, T, MediaTypeFormatter, String)
+  fullName.vb: System.Web.Http.ApiController.Content(Of T)(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.String)
+  name.vb: Content(Of T)(HttpStatusCode, T, MediaTypeFormatter, String)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+    name: Content<T>
+    nameWithType: ApiController.Content<T>
+    fullName: System.Web.Http.ApiController.Content<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+    name: Content(Of T)
+    nameWithType: ApiController.Content(Of T)
+    fullName: System.Web.Http.ApiController.Content(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,{T},System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+  commentId: M:System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+  name: Content<T>(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue)
+  nameWithType: ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue)
+  fullName: System.Web.Http.ApiController.Content<T>(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.Net.Http.Headers.MediaTypeHeaderValue)
+  nameWithType.vb: ApiController.Content(Of T)(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue)
+  fullName.vb: System.Web.Http.ApiController.Content(Of T)(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.Net.Http.Headers.MediaTypeHeaderValue)
+  name.vb: Content(Of T)(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+    name: Content<T>
+    nameWithType: ApiController.Content<T>
+    fullName: System.Web.Http.ApiController.Content<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+    nameWithType: MediaTypeHeaderValue
+    fullName: System.Net.Http.Headers.MediaTypeHeaderValue
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+    name: Content(Of T)
+    nameWithType: ApiController.Content(Of T)
+    fullName: System.Web.Http.ApiController.Content(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+    nameWithType: MediaTypeHeaderValue
+    fullName: System.Net.Http.Headers.MediaTypeHeaderValue
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Created``1(System.String,{T})
+  commentId: M:System.Web.Http.ApiController.Created``1(System.String,``0)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Created``1(System.String,``0)
+  name: Created<T>(String, T)
+  nameWithType: ApiController.Created<T>(String, T)
+  fullName: System.Web.Http.ApiController.Created<T>(System.String, T)
+  nameWithType.vb: ApiController.Created(Of T)(String, T)
+  fullName.vb: System.Web.Http.ApiController.Created(Of T)(System.String, T)
+  name.vb: Created(Of T)(String, T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Created``1(System.String,``0)
+    name: Created<T>
+    nameWithType: ApiController.Created<T>
+    fullName: System.Web.Http.ApiController.Created<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Created``1(System.String,``0)
+    name: Created(Of T)
+    nameWithType: ApiController.Created(Of T)
+    fullName: System.Web.Http.ApiController.Created(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Created``1(System.Uri,{T})
+  commentId: M:System.Web.Http.ApiController.Created``1(System.Uri,``0)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Created``1(System.Uri,``0)
+  name: Created<T>(Uri, T)
+  nameWithType: ApiController.Created<T>(Uri, T)
+  fullName: System.Web.Http.ApiController.Created<T>(System.Uri, T)
+  nameWithType.vb: ApiController.Created(Of T)(Uri, T)
+  fullName.vb: System.Web.Http.ApiController.Created(Of T)(System.Uri, T)
+  name.vb: Created(Of T)(Uri, T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Created``1(System.Uri,``0)
+    name: Created<T>
+    nameWithType: ApiController.Created<T>
+    fullName: System.Web.Http.ApiController.Created<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Created``1(System.Uri,``0)
+    name: Created(Of T)
+    nameWithType: ApiController.Created(Of T)
+    fullName: System.Web.Http.ApiController.Created(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,{T})
+  commentId: M:System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,``0)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,``0)
+  name: CreatedAtRoute<T>(String, Object, T)
+  nameWithType: ApiController.CreatedAtRoute<T>(String, Object, T)
+  fullName: System.Web.Http.ApiController.CreatedAtRoute<T>(System.String, System.Object, T)
+  nameWithType.vb: ApiController.CreatedAtRoute(Of T)(String, Object, T)
+  fullName.vb: System.Web.Http.ApiController.CreatedAtRoute(Of T)(System.String, System.Object, T)
+  name.vb: CreatedAtRoute(Of T)(String, Object, T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,``0)
+    name: CreatedAtRoute<T>
+    nameWithType: ApiController.CreatedAtRoute<T>
+    fullName: System.Web.Http.ApiController.CreatedAtRoute<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,``0)
+    name: CreatedAtRoute(Of T)
+    nameWithType: ApiController.CreatedAtRoute(Of T)
+    fullName: System.Web.Http.ApiController.CreatedAtRoute(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},{T})
+  commentId: M:System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)
+  name: CreatedAtRoute<T>(String, IDictionary<String, Object>, T)
+  nameWithType: ApiController.CreatedAtRoute<T>(String, IDictionary<String, Object>, T)
+  fullName: System.Web.Http.ApiController.CreatedAtRoute<T>(System.String, System.Collections.Generic.IDictionary<System.String, System.Object>, T)
+  nameWithType.vb: ApiController.CreatedAtRoute(Of T)(String, IDictionary(Of String, Object), T)
+  fullName.vb: System.Web.Http.ApiController.CreatedAtRoute(Of T)(System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object), T)
+  name.vb: CreatedAtRoute(Of T)(String, IDictionary(Of String, Object), T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)
+    name: CreatedAtRoute<T>
+    nameWithType: ApiController.CreatedAtRoute<T>
+    fullName: System.Web.Http.ApiController.CreatedAtRoute<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)
+    name: CreatedAtRoute(Of T)
+    nameWithType: ApiController.CreatedAtRoute(Of T)
+    fullName: System.Web.Http.ApiController.CreatedAtRoute(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.InternalServerError
+  commentId: M:System.Web.Http.ApiController.InternalServerError
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: InternalServerError()
+  nameWithType: ApiController.InternalServerError()
+  fullName: System.Web.Http.ApiController.InternalServerError()
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.InternalServerError
+    name: InternalServerError
+    nameWithType: ApiController.InternalServerError
+    fullName: System.Web.Http.ApiController.InternalServerError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.InternalServerError
+    name: InternalServerError
+    nameWithType: ApiController.InternalServerError
+    fullName: System.Web.Http.ApiController.InternalServerError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.InternalServerError(System.Exception)
+  commentId: M:System.Web.Http.ApiController.InternalServerError(System.Exception)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: InternalServerError(Exception)
+  nameWithType: ApiController.InternalServerError(Exception)
+  fullName: System.Web.Http.ApiController.InternalServerError(System.Exception)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.InternalServerError(System.Exception)
+    name: InternalServerError
+    nameWithType: ApiController.InternalServerError
+    fullName: System.Web.Http.ApiController.InternalServerError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.InternalServerError(System.Exception)
+    name: InternalServerError
+    nameWithType: ApiController.InternalServerError
+    fullName: System.Web.Http.ApiController.InternalServerError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Json``1({T})
+  commentId: M:System.Web.Http.ApiController.Json``1(``0)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Json``1(``0)
+  name: Json<T>(T)
+  nameWithType: ApiController.Json<T>(T)
+  fullName: System.Web.Http.ApiController.Json<T>(T)
+  nameWithType.vb: ApiController.Json(Of T)(T)
+  fullName.vb: System.Web.Http.ApiController.Json(Of T)(T)
+  name.vb: Json(Of T)(T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Json``1(``0)
+    name: Json<T>
+    nameWithType: ApiController.Json<T>
+    fullName: System.Web.Http.ApiController.Json<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Json``1(``0)
+    name: Json(Of T)
+    nameWithType: ApiController.Json(Of T)
+    fullName: System.Web.Http.ApiController.Json(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Json``1({T},Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings)
+  name: Json<T>(T, JsonSerializerSettings)
+  nameWithType: ApiController.Json<T>(T, JsonSerializerSettings)
+  fullName: System.Web.Http.ApiController.Json<T>(T, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ApiController.Json(Of T)(T, JsonSerializerSettings)
+  fullName.vb: System.Web.Http.ApiController.Json(Of T)(T, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: Json(Of T)(T, JsonSerializerSettings)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings)
+    name: Json<T>
+    nameWithType: ApiController.Json<T>
+    fullName: System.Web.Http.ApiController.Json<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings)
+    name: Json(Of T)
+    nameWithType: ApiController.Json(Of T)
+    fullName: System.Web.Http.ApiController.Json(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Json``1({T},Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+  commentId: M:System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+  name: Json<T>(T, JsonSerializerSettings, Encoding)
+  nameWithType: ApiController.Json<T>(T, JsonSerializerSettings, Encoding)
+  fullName: System.Web.Http.ApiController.Json<T>(T, Newtonsoft.Json.JsonSerializerSettings, System.Text.Encoding)
+  nameWithType.vb: ApiController.Json(Of T)(T, JsonSerializerSettings, Encoding)
+  fullName.vb: System.Web.Http.ApiController.Json(Of T)(T, Newtonsoft.Json.JsonSerializerSettings, System.Text.Encoding)
+  name.vb: Json(Of T)(T, JsonSerializerSettings, Encoding)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+    name: Json<T>
+    nameWithType: ApiController.Json<T>
+    fullName: System.Web.Http.ApiController.Json<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+    name: Json(Of T)
+    nameWithType: ApiController.Json(Of T)
+    fullName: System.Web.Http.ApiController.Json(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.NotFound
+  commentId: M:System.Web.Http.ApiController.NotFound
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: NotFound()
+  nameWithType: ApiController.NotFound()
+  fullName: System.Web.Http.ApiController.NotFound()
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.NotFound
+    name: NotFound
+    nameWithType: ApiController.NotFound
+    fullName: System.Web.Http.ApiController.NotFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.NotFound
+    name: NotFound
+    nameWithType: ApiController.NotFound
+    fullName: System.Web.Http.ApiController.NotFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Ok
+  commentId: M:System.Web.Http.ApiController.Ok
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Ok()
+  nameWithType: ApiController.Ok()
+  fullName: System.Web.Http.ApiController.Ok()
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Ok
+    name: Ok
+    nameWithType: ApiController.Ok
+    fullName: System.Web.Http.ApiController.Ok
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Ok
+    name: Ok
+    nameWithType: ApiController.Ok
+    fullName: System.Web.Http.ApiController.Ok
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Ok``1({T})
+  commentId: M:System.Web.Http.ApiController.Ok``1(``0)
+  parent: System.Web.Http.ApiController
+  definition: System.Web.Http.ApiController.Ok``1(``0)
+  name: Ok<T>(T)
+  nameWithType: ApiController.Ok<T>(T)
+  fullName: System.Web.Http.ApiController.Ok<T>(T)
+  nameWithType.vb: ApiController.Ok(Of T)(T)
+  fullName.vb: System.Web.Http.ApiController.Ok(Of T)(T)
+  name.vb: Ok(Of T)(T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Ok``1(``0)
+    name: Ok<T>
+    nameWithType: ApiController.Ok<T>
+    fullName: System.Web.Http.ApiController.Ok<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Ok``1(``0)
+    name: Ok(Of T)
+    nameWithType: ApiController.Ok(Of T)
+    fullName: System.Web.Http.ApiController.Ok(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Redirect(System.String)
+  commentId: M:System.Web.Http.ApiController.Redirect(System.String)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Redirect(String)
+  nameWithType: ApiController.Redirect(String)
+  fullName: System.Web.Http.ApiController.Redirect(System.String)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Redirect(System.String)
+    name: Redirect
+    nameWithType: ApiController.Redirect
+    fullName: System.Web.Http.ApiController.Redirect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Redirect(System.String)
+    name: Redirect
+    nameWithType: ApiController.Redirect
+    fullName: System.Web.Http.ApiController.Redirect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Redirect(System.Uri)
+  commentId: M:System.Web.Http.ApiController.Redirect(System.Uri)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Redirect(Uri)
+  nameWithType: ApiController.Redirect(Uri)
+  fullName: System.Web.Http.ApiController.Redirect(System.Uri)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Redirect(System.Uri)
+    name: Redirect
+    nameWithType: ApiController.Redirect
+    fullName: System.Web.Http.ApiController.Redirect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Redirect(System.Uri)
+    name: Redirect
+    nameWithType: ApiController.Redirect
+    fullName: System.Web.Http.ApiController.Redirect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.RedirectToRoute(System.String,System.Object)
+  commentId: M:System.Web.Http.ApiController.RedirectToRoute(System.String,System.Object)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: RedirectToRoute(String, Object)
+  nameWithType: ApiController.RedirectToRoute(String, Object)
+  fullName: System.Web.Http.ApiController.RedirectToRoute(System.String, System.Object)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.RedirectToRoute(System.String,System.Object)
+    name: RedirectToRoute
+    nameWithType: ApiController.RedirectToRoute
+    fullName: System.Web.Http.ApiController.RedirectToRoute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.RedirectToRoute(System.String,System.Object)
+    name: RedirectToRoute
+    nameWithType: ApiController.RedirectToRoute
+    fullName: System.Web.Http.ApiController.RedirectToRoute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})
+  commentId: M:System.Web.Http.ApiController.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: RedirectToRoute(String, IDictionary<String, Object>)
+  nameWithType: ApiController.RedirectToRoute(String, IDictionary<String, Object>)
+  fullName: System.Web.Http.ApiController.RedirectToRoute(System.String, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  nameWithType.vb: ApiController.RedirectToRoute(String, IDictionary(Of String, Object))
+  fullName.vb: System.Web.Http.ApiController.RedirectToRoute(System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  name.vb: RedirectToRoute(String, IDictionary(Of String, Object))
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})
+    name: RedirectToRoute
+    nameWithType: ApiController.RedirectToRoute
+    fullName: System.Web.Http.ApiController.RedirectToRoute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})
+    name: RedirectToRoute
+    nameWithType: ApiController.RedirectToRoute
+    fullName: System.Web.Http.ApiController.RedirectToRoute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.ResponseMessage(System.Net.Http.HttpResponseMessage)
+  commentId: M:System.Web.Http.ApiController.ResponseMessage(System.Net.Http.HttpResponseMessage)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: ResponseMessage(HttpResponseMessage)
+  nameWithType: ApiController.ResponseMessage(HttpResponseMessage)
+  fullName: System.Web.Http.ApiController.ResponseMessage(System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.ResponseMessage(System.Net.Http.HttpResponseMessage)
+    name: ResponseMessage
+    nameWithType: ApiController.ResponseMessage
+    fullName: System.Web.Http.ApiController.ResponseMessage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.ResponseMessage(System.Net.Http.HttpResponseMessage)
+    name: ResponseMessage
+    nameWithType: ApiController.ResponseMessage
+    fullName: System.Web.Http.ApiController.ResponseMessage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.StatusCode(System.Net.HttpStatusCode)
+  commentId: M:System.Web.Http.ApiController.StatusCode(System.Net.HttpStatusCode)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: StatusCode(HttpStatusCode)
+  nameWithType: ApiController.StatusCode(HttpStatusCode)
+  fullName: System.Web.Http.ApiController.StatusCode(System.Net.HttpStatusCode)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.StatusCode(System.Net.HttpStatusCode)
+    name: StatusCode
+    nameWithType: ApiController.StatusCode
+    fullName: System.Web.Http.ApiController.StatusCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.StatusCode(System.Net.HttpStatusCode)
+    name: StatusCode
+    nameWithType: ApiController.StatusCode
+    fullName: System.Web.Http.ApiController.StatusCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue[])
+  commentId: M:System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue[])
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Unauthorized(AuthenticationHeaderValue[])
+  nameWithType: ApiController.Unauthorized(AuthenticationHeaderValue[])
+  fullName: System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue[])
+  nameWithType.vb: ApiController.Unauthorized(AuthenticationHeaderValue())
+  fullName.vb: System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue())
+  name.vb: Unauthorized(AuthenticationHeaderValue())
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue[])
+    name: Unauthorized
+    nameWithType: ApiController.Unauthorized
+    fullName: System.Web.Http.ApiController.Unauthorized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.Headers.AuthenticationHeaderValue
+    name: AuthenticationHeaderValue
+    nameWithType: AuthenticationHeaderValue
+    fullName: System.Net.Http.Headers.AuthenticationHeaderValue
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue[])
+    name: Unauthorized
+    nameWithType: ApiController.Unauthorized
+    fullName: System.Web.Http.ApiController.Unauthorized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.Headers.AuthenticationHeaderValue
+    name: AuthenticationHeaderValue
+    nameWithType: AuthenticationHeaderValue
+    fullName: System.Net.Http.Headers.AuthenticationHeaderValue
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})
+  commentId: M:System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Unauthorized(IEnumerable<AuthenticationHeaderValue>)
+  nameWithType: ApiController.Unauthorized(IEnumerable<AuthenticationHeaderValue>)
+  fullName: System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable<System.Net.Http.Headers.AuthenticationHeaderValue>)
+  nameWithType.vb: ApiController.Unauthorized(IEnumerable(Of AuthenticationHeaderValue))
+  fullName.vb: System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable(Of System.Net.Http.Headers.AuthenticationHeaderValue))
+  name.vb: Unauthorized(IEnumerable(Of AuthenticationHeaderValue))
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})
+    name: Unauthorized
+    nameWithType: ApiController.Unauthorized
+    fullName: System.Web.Http.ApiController.Unauthorized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Net.Http.Headers.AuthenticationHeaderValue
+    name: AuthenticationHeaderValue
+    nameWithType: AuthenticationHeaderValue
+    fullName: System.Net.Http.Headers.AuthenticationHeaderValue
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})
+    name: Unauthorized
+    nameWithType: ApiController.Unauthorized
+    fullName: System.Web.Http.ApiController.Unauthorized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Net.Http.Headers.AuthenticationHeaderValue
+    name: AuthenticationHeaderValue
+    nameWithType: AuthenticationHeaderValue
+    fullName: System.Net.Http.Headers.AuthenticationHeaderValue
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Initialize(System.Web.Http.Controllers.HttpControllerContext)
+  commentId: M:System.Web.Http.ApiController.Initialize(System.Web.Http.Controllers.HttpControllerContext)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Initialize(HttpControllerContext)
+  nameWithType: ApiController.Initialize(HttpControllerContext)
+  fullName: System.Web.Http.ApiController.Initialize(System.Web.Http.Controllers.HttpControllerContext)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Initialize(System.Web.Http.Controllers.HttpControllerContext)
+    name: Initialize
+    nameWithType: ApiController.Initialize
+    fullName: System.Web.Http.ApiController.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Http.Controllers.HttpControllerContext
+    name: HttpControllerContext
+    nameWithType: HttpControllerContext
+    fullName: System.Web.Http.Controllers.HttpControllerContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Initialize(System.Web.Http.Controllers.HttpControllerContext)
+    name: Initialize
+    nameWithType: ApiController.Initialize
+    fullName: System.Web.Http.ApiController.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Http.Controllers.HttpControllerContext
+    name: HttpControllerContext
+    nameWithType: HttpControllerContext
+    fullName: System.Web.Http.Controllers.HttpControllerContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Dispose
+  commentId: M:System.Web.Http.ApiController.Dispose
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Dispose()
+  nameWithType: ApiController.Dispose()
+  fullName: System.Web.Http.ApiController.Dispose()
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Dispose
+    name: Dispose
+    nameWithType: ApiController.Dispose
+    fullName: System.Web.Http.ApiController.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Dispose
+    name: Dispose
+    nameWithType: ApiController.Dispose
+    fullName: System.Web.Http.ApiController.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Dispose(System.Boolean)
+  commentId: M:System.Web.Http.ApiController.Dispose(System.Boolean)
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: ApiController.Dispose(Boolean)
+  fullName: System.Web.Http.ApiController.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ApiController.Dispose
+    fullName: System.Web.Http.ApiController.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ApiController.Dispose
+    fullName: System.Web.Http.ApiController.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Configuration
+  commentId: P:System.Web.Http.ApiController.Configuration
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Configuration
+  nameWithType: ApiController.Configuration
+  fullName: System.Web.Http.ApiController.Configuration
+- uid: System.Web.Http.ApiController.ControllerContext
+  commentId: P:System.Web.Http.ApiController.ControllerContext
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: ControllerContext
+  nameWithType: ApiController.ControllerContext
+  fullName: System.Web.Http.ApiController.ControllerContext
+- uid: System.Web.Http.ApiController.ActionContext
+  commentId: P:System.Web.Http.ApiController.ActionContext
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: ActionContext
+  nameWithType: ApiController.ActionContext
+  fullName: System.Web.Http.ApiController.ActionContext
+- uid: System.Web.Http.ApiController.ModelState
+  commentId: P:System.Web.Http.ApiController.ModelState
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: ModelState
+  nameWithType: ApiController.ModelState
+  fullName: System.Web.Http.ApiController.ModelState
+- uid: System.Web.Http.ApiController.Request
+  commentId: P:System.Web.Http.ApiController.Request
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Request
+  nameWithType: ApiController.Request
+  fullName: System.Web.Http.ApiController.Request
+- uid: System.Web.Http.ApiController.RequestContext
+  commentId: P:System.Web.Http.ApiController.RequestContext
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: RequestContext
+  nameWithType: ApiController.RequestContext
+  fullName: System.Web.Http.ApiController.RequestContext
+- uid: System.Web.Http.ApiController.Url
+  commentId: P:System.Web.Http.ApiController.Url
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: Url
+  nameWithType: ApiController.Url
+  fullName: System.Web.Http.ApiController.Url
+- uid: System.Web.Http.ApiController.User
+  commentId: P:System.Web.Http.ApiController.User
+  parent: System.Web.Http.ApiController
+  isExternal: true
+  name: User
+  nameWithType: ApiController.User
+  fullName: System.Web.Http.ApiController.User
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.Http
+  commentId: N:System.Web.Http
+  isExternal: true
+  name: System.Web.Http
+  nameWithType: System.Web.Http
+  fullName: System.Web.Http
+- uid: Umbraco.Web.WebApi
+  commentId: N:Umbraco.Web.WebApi
+  isExternal: true
+  name: Umbraco.Web.WebApi
+  nameWithType: Umbraco.Web.WebApi
+  fullName: Umbraco.Web.WebApi
+- uid: Umbraco.Web.Editors
+  commentId: N:Umbraco.Web.Editors
+  isExternal: true
+  name: Umbraco.Web.Editors
+  nameWithType: Umbraco.Web.Editors
+  fullName: Umbraco.Web.Editors
+- uid: System.Web.Http.Controllers
+  commentId: N:System.Web.Http.Controllers
+  isExternal: true
+  name: System.Web.Http.Controllers
+  nameWithType: System.Web.Http.Controllers
+  fullName: System.Web.Http.Controllers
+- uid: Umbraco.Core.Composing
+  commentId: N:Umbraco.Core.Composing
+  isExternal: true
+  name: Umbraco.Core.Composing
+  nameWithType: Umbraco.Core.Composing
+  fullName: Umbraco.Core.Composing
+- uid: System.Web.Http.ApiController.Validate``1(``0)
+  commentId: M:System.Web.Http.ApiController.Validate``1(``0)
+  isExternal: true
+  name: Validate<TEntity>(TEntity)
+  nameWithType: ApiController.Validate<TEntity>(TEntity)
+  fullName: System.Web.Http.ApiController.Validate<TEntity>(TEntity)
+  nameWithType.vb: ApiController.Validate(Of TEntity)(TEntity)
+  fullName.vb: System.Web.Http.ApiController.Validate(Of TEntity)(TEntity)
+  name.vb: Validate(Of TEntity)(TEntity)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Validate``1(``0)
+    name: Validate<TEntity>
+    nameWithType: ApiController.Validate<TEntity>
+    fullName: System.Web.Http.ApiController.Validate<TEntity>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Validate``1(``0)
+    name: Validate(Of TEntity)
+    nameWithType: ApiController.Validate(Of TEntity)
+    fullName: System.Web.Http.ApiController.Validate(Of TEntity)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Validate``1(``0,System.String)
+  commentId: M:System.Web.Http.ApiController.Validate``1(``0,System.String)
+  isExternal: true
+  name: Validate<TEntity>(TEntity, String)
+  nameWithType: ApiController.Validate<TEntity>(TEntity, String)
+  fullName: System.Web.Http.ApiController.Validate<TEntity>(TEntity, System.String)
+  nameWithType.vb: ApiController.Validate(Of TEntity)(TEntity, String)
+  fullName.vb: System.Web.Http.ApiController.Validate(Of TEntity)(TEntity, System.String)
+  name.vb: Validate(Of TEntity)(TEntity, String)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Validate``1(``0,System.String)
+    name: Validate<TEntity>
+    nameWithType: ApiController.Validate<TEntity>
+    fullName: System.Web.Http.ApiController.Validate<TEntity>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Validate``1(``0,System.String)
+    name: Validate(Of TEntity)
+    nameWithType: ApiController.Validate(Of TEntity)
+    fullName: System.Web.Http.ApiController.Validate(Of TEntity)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0)
+  commentId: M:System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0)
+  isExternal: true
+  name: Content<T>(HttpStatusCode, T)
+  nameWithType: ApiController.Content<T>(HttpStatusCode, T)
+  fullName: System.Web.Http.ApiController.Content<T>(System.Net.HttpStatusCode, T)
+  nameWithType.vb: ApiController.Content(Of T)(HttpStatusCode, T)
+  fullName.vb: System.Web.Http.ApiController.Content(Of T)(System.Net.HttpStatusCode, T)
+  name.vb: Content(Of T)(HttpStatusCode, T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0)
+    name: Content<T>
+    nameWithType: ApiController.Content<T>
+    fullName: System.Web.Http.ApiController.Content<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0)
+    name: Content(Of T)
+    nameWithType: ApiController.Content(Of T)
+    fullName: System.Web.Http.ApiController.Content(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter)
+  commentId: M:System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter)
+  isExternal: true
+  name: Content<T>(HttpStatusCode, T, MediaTypeFormatter)
+  nameWithType: ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter)
+  fullName: System.Web.Http.ApiController.Content<T>(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter)
+  nameWithType.vb: ApiController.Content(Of T)(HttpStatusCode, T, MediaTypeFormatter)
+  fullName.vb: System.Web.Http.ApiController.Content(Of T)(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter)
+  name.vb: Content(Of T)(HttpStatusCode, T, MediaTypeFormatter)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter)
+    name: Content<T>
+    nameWithType: ApiController.Content<T>
+    fullName: System.Web.Http.ApiController.Content<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter)
+    name: Content(Of T)
+    nameWithType: ApiController.Content(Of T)
+    fullName: System.Web.Http.ApiController.Content(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+  commentId: M:System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+  isExternal: true
+  name: Content<T>(HttpStatusCode, T, MediaTypeFormatter, String)
+  nameWithType: ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, String)
+  fullName: System.Web.Http.ApiController.Content<T>(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.String)
+  nameWithType.vb: ApiController.Content(Of T)(HttpStatusCode, T, MediaTypeFormatter, String)
+  fullName.vb: System.Web.Http.ApiController.Content(Of T)(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.String)
+  name.vb: Content(Of T)(HttpStatusCode, T, MediaTypeFormatter, String)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+    name: Content<T>
+    nameWithType: ApiController.Content<T>
+    fullName: System.Web.Http.ApiController.Content<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.String)
+    name: Content(Of T)
+    nameWithType: ApiController.Content(Of T)
+    fullName: System.Web.Http.ApiController.Content(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+  commentId: M:System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+  isExternal: true
+  name: Content<T>(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue)
+  nameWithType: ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue)
+  fullName: System.Web.Http.ApiController.Content<T>(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.Net.Http.Headers.MediaTypeHeaderValue)
+  nameWithType.vb: ApiController.Content(Of T)(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue)
+  fullName.vb: System.Web.Http.ApiController.Content(Of T)(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.Net.Http.Headers.MediaTypeHeaderValue)
+  name.vb: Content(Of T)(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+    name: Content<T>
+    nameWithType: ApiController.Content<T>
+    fullName: System.Web.Http.ApiController.Content<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+    nameWithType: MediaTypeHeaderValue
+    fullName: System.Net.Http.Headers.MediaTypeHeaderValue
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)
+    name: Content(Of T)
+    nameWithType: ApiController.Content(Of T)
+    fullName: System.Web.Http.ApiController.Content(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    nameWithType: HttpStatusCode
+    fullName: System.Net.HttpStatusCode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    nameWithType: MediaTypeFormatter
+    fullName: System.Net.Http.Formatting.MediaTypeFormatter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+    nameWithType: MediaTypeHeaderValue
+    fullName: System.Net.Http.Headers.MediaTypeHeaderValue
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Created``1(System.String,``0)
+  commentId: M:System.Web.Http.ApiController.Created``1(System.String,``0)
+  isExternal: true
+  name: Created<T>(String, T)
+  nameWithType: ApiController.Created<T>(String, T)
+  fullName: System.Web.Http.ApiController.Created<T>(System.String, T)
+  nameWithType.vb: ApiController.Created(Of T)(String, T)
+  fullName.vb: System.Web.Http.ApiController.Created(Of T)(System.String, T)
+  name.vb: Created(Of T)(String, T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Created``1(System.String,``0)
+    name: Created<T>
+    nameWithType: ApiController.Created<T>
+    fullName: System.Web.Http.ApiController.Created<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Created``1(System.String,``0)
+    name: Created(Of T)
+    nameWithType: ApiController.Created(Of T)
+    fullName: System.Web.Http.ApiController.Created(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Created``1(System.Uri,``0)
+  commentId: M:System.Web.Http.ApiController.Created``1(System.Uri,``0)
+  isExternal: true
+  name: Created<T>(Uri, T)
+  nameWithType: ApiController.Created<T>(Uri, T)
+  fullName: System.Web.Http.ApiController.Created<T>(System.Uri, T)
+  nameWithType.vb: ApiController.Created(Of T)(Uri, T)
+  fullName.vb: System.Web.Http.ApiController.Created(Of T)(System.Uri, T)
+  name.vb: Created(Of T)(Uri, T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Created``1(System.Uri,``0)
+    name: Created<T>
+    nameWithType: ApiController.Created<T>
+    fullName: System.Web.Http.ApiController.Created<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Created``1(System.Uri,``0)
+    name: Created(Of T)
+    nameWithType: ApiController.Created(Of T)
+    fullName: System.Web.Http.ApiController.Created(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,``0)
+  commentId: M:System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,``0)
+  isExternal: true
+  name: CreatedAtRoute<T>(String, Object, T)
+  nameWithType: ApiController.CreatedAtRoute<T>(String, Object, T)
+  fullName: System.Web.Http.ApiController.CreatedAtRoute<T>(System.String, System.Object, T)
+  nameWithType.vb: ApiController.CreatedAtRoute(Of T)(String, Object, T)
+  fullName.vb: System.Web.Http.ApiController.CreatedAtRoute(Of T)(System.String, System.Object, T)
+  name.vb: CreatedAtRoute(Of T)(String, Object, T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,``0)
+    name: CreatedAtRoute<T>
+    nameWithType: ApiController.CreatedAtRoute<T>
+    fullName: System.Web.Http.ApiController.CreatedAtRoute<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Object,``0)
+    name: CreatedAtRoute(Of T)
+    nameWithType: ApiController.CreatedAtRoute(Of T)
+    fullName: System.Web.Http.ApiController.CreatedAtRoute(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)
+  commentId: M:System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)
+  isExternal: true
+  name: CreatedAtRoute<T>(String, IDictionary<String, Object>, T)
+  nameWithType: ApiController.CreatedAtRoute<T>(String, IDictionary<String, Object>, T)
+  fullName: System.Web.Http.ApiController.CreatedAtRoute<T>(System.String, System.Collections.Generic.IDictionary<System.String, System.Object>, T)
+  nameWithType.vb: ApiController.CreatedAtRoute(Of T)(String, IDictionary(Of String, Object), T)
+  fullName.vb: System.Web.Http.ApiController.CreatedAtRoute(Of T)(System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object), T)
+  name.vb: CreatedAtRoute(Of T)(String, IDictionary(Of String, Object), T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)
+    name: CreatedAtRoute<T>
+    nameWithType: ApiController.CreatedAtRoute<T>
+    fullName: System.Web.Http.ApiController.CreatedAtRoute<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)
+    name: CreatedAtRoute(Of T)
+    nameWithType: ApiController.CreatedAtRoute(Of T)
+    fullName: System.Web.Http.ApiController.CreatedAtRoute(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Json``1(``0)
+  commentId: M:System.Web.Http.ApiController.Json``1(``0)
+  isExternal: true
+  name: Json<T>(T)
+  nameWithType: ApiController.Json<T>(T)
+  fullName: System.Web.Http.ApiController.Json<T>(T)
+  nameWithType.vb: ApiController.Json(Of T)(T)
+  fullName.vb: System.Web.Http.ApiController.Json(Of T)(T)
+  name.vb: Json(Of T)(T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Json``1(``0)
+    name: Json<T>
+    nameWithType: ApiController.Json<T>
+    fullName: System.Web.Http.ApiController.Json<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Json``1(``0)
+    name: Json(Of T)
+    nameWithType: ApiController.Json(Of T)
+    fullName: System.Web.Http.ApiController.Json(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: Json<T>(T, JsonSerializerSettings)
+  nameWithType: ApiController.Json<T>(T, JsonSerializerSettings)
+  fullName: System.Web.Http.ApiController.Json<T>(T, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ApiController.Json(Of T)(T, JsonSerializerSettings)
+  fullName.vb: System.Web.Http.ApiController.Json(Of T)(T, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: Json(Of T)(T, JsonSerializerSettings)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings)
+    name: Json<T>
+    nameWithType: ApiController.Json<T>
+    fullName: System.Web.Http.ApiController.Json<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings)
+    name: Json(Of T)
+    nameWithType: ApiController.Json(Of T)
+    fullName: System.Web.Http.ApiController.Json(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+  commentId: M:System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+  isExternal: true
+  name: Json<T>(T, JsonSerializerSettings, Encoding)
+  nameWithType: ApiController.Json<T>(T, JsonSerializerSettings, Encoding)
+  fullName: System.Web.Http.ApiController.Json<T>(T, Newtonsoft.Json.JsonSerializerSettings, System.Text.Encoding)
+  nameWithType.vb: ApiController.Json(Of T)(T, JsonSerializerSettings, Encoding)
+  fullName.vb: System.Web.Http.ApiController.Json(Of T)(T, Newtonsoft.Json.JsonSerializerSettings, System.Text.Encoding)
+  name.vb: Json(Of T)(T, JsonSerializerSettings, Encoding)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+    name: Json<T>
+    nameWithType: ApiController.Json<T>
+    fullName: System.Web.Http.ApiController.Json<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)
+    name: Json(Of T)
+    nameWithType: ApiController.Json(Of T)
+    fullName: System.Web.Http.ApiController.Json(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.ApiController.Ok``1(``0)
+  commentId: M:System.Web.Http.ApiController.Ok``1(``0)
+  isExternal: true
+  name: Ok<T>(T)
+  nameWithType: ApiController.Ok<T>(T)
+  fullName: System.Web.Http.ApiController.Ok<T>(T)
+  nameWithType.vb: ApiController.Ok(Of T)(T)
+  fullName.vb: System.Web.Http.ApiController.Ok(Of T)(T)
+  name.vb: Ok(Of T)(T)
+  spec.csharp:
+  - uid: System.Web.Http.ApiController.Ok``1(``0)
+    name: Ok<T>
+    nameWithType: ApiController.Ok<T>
+    fullName: System.Web.Http.ApiController.Ok<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Http.ApiController.Ok``1(``0)
+    name: Ok(Of T)
+    nameWithType: ApiController.Ok(Of T)
+    fullName: System.Web.Http.ApiController.Ok(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeStoreRootJson*
+  commentId: Overload:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeStoreRootJson
+  name: GetJsTreeStoreRootJson
+  nameWithType: CatalogApiController.GetJsTreeStoreRootJson
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeStoreRootJson
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Web.Http.Results.JsonResult{System.Collections.Generic.List{Uvendia.Domain.Entities.Api.ApiJsTreeNode}}
+  commentId: T:System.Web.Http.Results.JsonResult{System.Collections.Generic.List{Uvendia.Domain.Entities.Api.ApiJsTreeNode}}
+  parent: System.Web.Http.Results
+  definition: System.Web.Http.Results.JsonResult`1
+  name: JsonResult<List<ApiJsTreeNode>>
+  nameWithType: JsonResult<List<ApiJsTreeNode>>
+  fullName: System.Web.Http.Results.JsonResult<System.Collections.Generic.List<Uvendia.Domain.Entities.Api.ApiJsTreeNode>>
+  nameWithType.vb: JsonResult(Of List(Of ApiJsTreeNode))
+  fullName.vb: System.Web.Http.Results.JsonResult(Of System.Collections.Generic.List(Of Uvendia.Domain.Entities.Api.ApiJsTreeNode))
+  name.vb: JsonResult(Of List(Of ApiJsTreeNode))
+  spec.csharp:
+  - uid: System.Web.Http.Results.JsonResult`1
+    name: JsonResult
+    nameWithType: JsonResult
+    fullName: System.Web.Http.Results.JsonResult
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+    name: ApiJsTreeNode
+    nameWithType: ApiJsTreeNode
+    fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Web.Http.Results.JsonResult`1
+    name: JsonResult
+    nameWithType: JsonResult
+    fullName: System.Web.Http.Results.JsonResult
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+    name: ApiJsTreeNode
+    nameWithType: ApiJsTreeNode
+    fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.Results.JsonResult`1
+  commentId: T:System.Web.Http.Results.JsonResult`1
+  isExternal: true
+  name: JsonResult<T>
+  nameWithType: JsonResult<T>
+  fullName: System.Web.Http.Results.JsonResult<T>
+  nameWithType.vb: JsonResult(Of T)
+  fullName.vb: System.Web.Http.Results.JsonResult(Of T)
+  name.vb: JsonResult(Of T)
+  spec.csharp:
+  - uid: System.Web.Http.Results.JsonResult`1
+    name: JsonResult
+    nameWithType: JsonResult
+    fullName: System.Web.Http.Results.JsonResult
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Web.Http.Results.JsonResult`1
+    name: JsonResult
+    nameWithType: JsonResult
+    fullName: System.Web.Http.Results.JsonResult
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Http.Results
+  commentId: N:System.Web.Http.Results
+  isExternal: true
+  name: System.Web.Http.Results
+  nameWithType: System.Web.Http.Results
+  fullName: System.Web.Http.Results
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeSubNodeJson*
+  commentId: Overload:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeSubNodeJson
+  name: GetJsTreeSubNodeJson
+  nameWithType: CatalogApiController.GetJsTreeSubNodeJson
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetJsTreeSubNodeJson
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetStores*
+  commentId: Overload:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetStores
+  name: GetStores
+  nameWithType: CatalogApiController.GetStores
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetStores
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiStore}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiStore}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ApiStore>
+  nameWithType: IEnumerable<ApiStore>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Entities.Api.ApiStore>
+  nameWithType.vb: IEnumerable(Of ApiStore)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Entities.Api.ApiStore)
+  name.vb: IEnumerable(Of ApiStore)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.Api.ApiStore
+    name: ApiStore
+    nameWithType: ApiStore
+    fullName: Uvendia.Domain.Entities.Api.ApiStore
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.Api.ApiStore
+    name: ApiStore
+    nameWithType: ApiStore
+    fullName: Uvendia.Domain.Entities.Api.ApiStore
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetSubCategories*
+  commentId: Overload:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetSubCategories
+  name: GetSubCategories
+  nameWithType: CatalogApiController.GetSubCategories
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetSubCategories
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiCategory}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiCategory}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ApiCategory>
+  nameWithType: IEnumerable<ApiCategory>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Entities.Api.ApiCategory>
+  nameWithType.vb: IEnumerable(Of ApiCategory)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Entities.Api.ApiCategory)
+  name.vb: IEnumerable(Of ApiCategory)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.Api.ApiCategory
+    name: ApiCategory
+    nameWithType: ApiCategory
+    fullName: Uvendia.Domain.Entities.Api.ApiCategory
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.Api.ApiCategory
+    name: ApiCategory
+    nameWithType: ApiCategory
+    fullName: Uvendia.Domain.Entities.Api.ApiCategory
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsByQuery*
+  commentId: Overload:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsByQuery
+  name: GetProductsByQuery
+  nameWithType: CatalogApiController.GetProductsByQuery
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsByQuery
+- uid: System.Web.Http.Results.JsonResult{System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiProduct}}
+  commentId: T:System.Web.Http.Results.JsonResult{System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Api.ApiProduct}}
+  parent: System.Web.Http.Results
+  definition: System.Web.Http.Results.JsonResult`1
+  name: JsonResult<IEnumerable<ApiProduct>>
+  nameWithType: JsonResult<IEnumerable<ApiProduct>>
+  fullName: System.Web.Http.Results.JsonResult<System.Collections.Generic.IEnumerable<Uvendia.Domain.Entities.Api.ApiProduct>>
+  nameWithType.vb: JsonResult(Of IEnumerable(Of ApiProduct))
+  fullName.vb: System.Web.Http.Results.JsonResult(Of System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Entities.Api.ApiProduct))
+  name.vb: JsonResult(Of IEnumerable(Of ApiProduct))
+  spec.csharp:
+  - uid: System.Web.Http.Results.JsonResult`1
+    name: JsonResult
+    nameWithType: JsonResult
+    fullName: System.Web.Http.Results.JsonResult
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.Api.ApiProduct
+    name: ApiProduct
+    nameWithType: ApiProduct
+    fullName: Uvendia.Domain.Entities.Api.ApiProduct
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Web.Http.Results.JsonResult`1
+    name: JsonResult
+    nameWithType: JsonResult
+    fullName: System.Web.Http.Results.JsonResult
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.Api.ApiProduct
+    name: ApiProduct
+    nameWithType: ApiProduct
+    fullName: Uvendia.Domain.Entities.Api.ApiProduct
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById*
+  commentId: Overload:Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById
+  name: GetProductsById
+  nameWithType: CatalogApiController.GetProductsById
+  fullName: Uvendia.Domain.Mvc.Controllers.CatalogApiController.GetProductsById
+- uid: System.Int64[]
+  isExternal: true
+  name: Int64[]
+  nameWithType: Int64[]
+  fullName: System.Int64[]
+  nameWithType.vb: Int64()
+  fullName.vb: System.Int64()
+  name.vb: Int64()
+  spec.csharp:
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

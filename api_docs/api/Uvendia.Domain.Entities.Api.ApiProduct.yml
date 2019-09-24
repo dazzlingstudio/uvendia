@@ -1,0 +1,621 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.Api.ApiProduct
+  commentId: T:Uvendia.Domain.Entities.Api.ApiProduct
+  id: ApiProduct
+  parent: Uvendia.Domain.Entities.Api
+  children:
+  - Uvendia.Domain.Entities.Api.ApiProduct.Id
+  - Uvendia.Domain.Entities.Api.ApiProduct.Name
+  - Uvendia.Domain.Entities.Api.ApiProduct.Sku
+  - Uvendia.Domain.Entities.Api.ApiProduct.ThumbnailUrl
+  - Uvendia.Domain.Entities.Api.ApiProduct.VariantSku
+  langs:
+  - csharp
+  - vb
+  name: ApiProduct
+  nameWithType: ApiProduct
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiProduct.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ApiProduct
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiProduct.cs
+    startLine: 9
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: public class ApiProduct
+    content.vb: Public Class ApiProduct
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.Id
+  commentId: P:Uvendia.Domain.Entities.Api.ApiProduct.Id
+  id: Id
+  parent: Uvendia.Domain.Entities.Api.ApiProduct
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ApiProduct.Id
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.Id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiProduct.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Id
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiProduct.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: >-
+      [JsonProperty("id")]
+
+      public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <JsonProperty("id")>
+
+      Public Property Id As Long
+  overload: Uvendia.Domain.Entities.Api.ApiProduct.Id*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.Name
+  commentId: P:Uvendia.Domain.Entities.Api.ApiProduct.Name
+  id: Name
+  parent: Uvendia.Domain.Entities.Api.ApiProduct
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ApiProduct.Name
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.Name
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiProduct.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Name
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiProduct.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: >-
+      [JsonProperty("name")]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("name")>
+
+      Public Property Name As String
+  overload: Uvendia.Domain.Entities.Api.ApiProduct.Name*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.Sku
+  commentId: P:Uvendia.Domain.Entities.Api.ApiProduct.Sku
+  id: Sku
+  parent: Uvendia.Domain.Entities.Api.ApiProduct
+  langs:
+  - csharp
+  - vb
+  name: Sku
+  nameWithType: ApiProduct.Sku
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.Sku
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiProduct.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Sku
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiProduct.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: >-
+      [JsonProperty("sku")]
+
+      public string Sku { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("sku")>
+
+      Public Property Sku As String
+  overload: Uvendia.Domain.Entities.Api.ApiProduct.Sku*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sku
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.VariantSku
+  commentId: P:Uvendia.Domain.Entities.Api.ApiProduct.VariantSku
+  id: VariantSku
+  parent: Uvendia.Domain.Entities.Api.ApiProduct
+  langs:
+  - csharp
+  - vb
+  name: VariantSku
+  nameWithType: ApiProduct.VariantSku
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.VariantSku
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiProduct.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: VariantSku
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiProduct.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: >-
+      [JsonProperty("variantSku")]
+
+      public string VariantSku { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("variantSku")>
+
+      Public Property VariantSku As String
+  overload: Uvendia.Domain.Entities.Api.ApiProduct.VariantSku*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: variantSku
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.ThumbnailUrl
+  commentId: P:Uvendia.Domain.Entities.Api.ApiProduct.ThumbnailUrl
+  id: ThumbnailUrl
+  parent: Uvendia.Domain.Entities.Api.ApiProduct
+  langs:
+  - csharp
+  - vb
+  name: ThumbnailUrl
+  nameWithType: ApiProduct.ThumbnailUrl
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.ThumbnailUrl
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/Api/ApiProduct.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ThumbnailUrl
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/Api/ApiProduct.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities.Api
+  syntax:
+    content: >-
+      [JsonProperty("thumbnailUrl")]
+
+      public string ThumbnailUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("thumbnailUrl")>
+
+      Public Property ThumbnailUrl As String
+  overload: Uvendia.Domain.Entities.Api.ApiProduct.ThumbnailUrl*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: thumbnailUrl
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Entities.Api
+  commentId: N:Uvendia.Domain.Entities.Api
+  name: Uvendia.Domain.Entities.Api
+  nameWithType: Uvendia.Domain.Entities.Api
+  fullName: Uvendia.Domain.Entities.Api
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.Id*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiProduct.Id
+  name: Id
+  nameWithType: ApiProduct.Id
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.Id
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.Name*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiProduct.Name
+  name: Name
+  nameWithType: ApiProduct.Name
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.Sku*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiProduct.Sku
+  name: Sku
+  nameWithType: ApiProduct.Sku
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.Sku
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.VariantSku*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiProduct.VariantSku
+  name: VariantSku
+  nameWithType: ApiProduct.VariantSku
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.VariantSku
+- uid: Uvendia.Domain.Entities.Api.ApiProduct.ThumbnailUrl*
+  commentId: Overload:Uvendia.Domain.Entities.Api.ApiProduct.ThumbnailUrl
+  name: ThumbnailUrl
+  nameWithType: ApiProduct.ThumbnailUrl
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct.ThumbnailUrl

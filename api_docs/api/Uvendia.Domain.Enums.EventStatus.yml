@@ -1,0 +1,961 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Enums.EventStatus
+  commentId: T:Uvendia.Domain.Enums.EventStatus
+  id: EventStatus
+  parent: Uvendia.Domain.Enums
+  children:
+  - Uvendia.Domain.Enums.EventStatus.Active
+  - Uvendia.Domain.Enums.EventStatus.Cancelled
+  - Uvendia.Domain.Enums.EventStatus.Description
+  - Uvendia.Domain.Enums.EventStatus.Enabled
+  - Uvendia.Domain.Enums.EventStatus.GetAllEventStatus(System.Nullable{System.Boolean})
+  - Uvendia.Domain.Enums.EventStatus.GetEventStatusByID(System.Int16)
+  - Uvendia.Domain.Enums.EventStatus.Id
+  - Uvendia.Domain.Enums.EventStatus.None
+  - Uvendia.Domain.Enums.EventStatus.Passed
+  - Uvendia.Domain.Enums.EventStatus.Paused
+  - Uvendia.Domain.Enums.EventStatus.ToString
+  langs:
+  - csharp
+  - vb
+  name: EventStatus
+  nameWithType: EventStatus
+  fullName: Uvendia.Domain.Enums.EventStatus
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: EventStatus
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public class EventStatus
+    content.vb: Public Class EventStatus
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Enums.EventStatus.Description
+  commentId: P:Uvendia.Domain.Enums.EventStatus.Description
+  id: Description
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EventStatus.Description
+  fullName: Uvendia.Domain.Enums.EventStatus.Description
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Description
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Description As String
+  overload: Uvendia.Domain.Enums.EventStatus.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.EventStatus.Id
+  commentId: P:Uvendia.Domain.Enums.EventStatus.Id
+  id: Id
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: EventStatus.Id
+  fullName: Uvendia.Domain.Enums.EventStatus.Id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Id
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public short Id { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Id As Short
+  overload: Uvendia.Domain.Enums.EventStatus.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.EventStatus.Enabled
+  commentId: P:Uvendia.Domain.Enums.EventStatus.Enabled
+  id: Enabled
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: EventStatus.Enabled
+  fullName: Uvendia.Domain.Enums.EventStatus.Enabled
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Enabled
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 36
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public bool Enabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Enabled As Boolean
+  overload: Uvendia.Domain.Enums.EventStatus.Enabled*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.EventStatus.GetEventStatusByID(System.Int16)
+  commentId: M:Uvendia.Domain.Enums.EventStatus.GetEventStatusByID(System.Int16)
+  id: GetEventStatusByID(System.Int16)
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: GetEventStatusByID(Int16)
+  nameWithType: EventStatus.GetEventStatusByID(Int16)
+  fullName: Uvendia.Domain.Enums.EventStatus.GetEventStatusByID(System.Int16)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetEventStatusByID
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 38
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static EventStatus GetEventStatusByID(short id)
+    parameters:
+    - id: id
+      type: System.Int16
+    return:
+      type: Uvendia.Domain.Enums.EventStatus
+    content.vb: Public Shared Function GetEventStatusByID(id As Short) As EventStatus
+  overload: Uvendia.Domain.Enums.EventStatus.GetEventStatusByID*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.EventStatus.GetAllEventStatus(System.Nullable{System.Boolean})
+  commentId: M:Uvendia.Domain.Enums.EventStatus.GetAllEventStatus(System.Nullable{System.Boolean})
+  id: GetAllEventStatus(System.Nullable{System.Boolean})
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: GetAllEventStatus(Nullable<Boolean>)
+  nameWithType: EventStatus.GetAllEventStatus(Nullable<Boolean>)
+  fullName: Uvendia.Domain.Enums.EventStatus.GetAllEventStatus(System.Nullable<System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetAllEventStatus
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 44
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static List<EventStatus> GetAllEventStatus(bool? enabled)
+    parameters:
+    - id: enabled
+      type: System.Nullable{System.Boolean}
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Enums.EventStatus}
+    content.vb: Public Shared Function GetAllEventStatus(enabled As Boolean?) As List(Of EventStatus)
+  overload: Uvendia.Domain.Enums.EventStatus.GetAllEventStatus*
+  nameWithType.vb: EventStatus.GetAllEventStatus(Nullable(Of Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.Enums.EventStatus.GetAllEventStatus(System.Nullable(Of System.Boolean))
+  name.vb: GetAllEventStatus(Nullable(Of Boolean))
+- uid: Uvendia.Domain.Enums.EventStatus.None
+  commentId: F:Uvendia.Domain.Enums.EventStatus.None
+  id: None
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: EventStatus.None
+  fullName: Uvendia.Domain.Enums.EventStatus.None
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: None
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 49
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static EventStatus None
+    return:
+      type: Uvendia.Domain.Enums.EventStatus
+    content.vb: Public Shared None As EventStatus
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.EventStatus.Active
+  commentId: F:Uvendia.Domain.Enums.EventStatus.Active
+  id: Active
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: EventStatus.Active
+  fullName: Uvendia.Domain.Enums.EventStatus.Active
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Active
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 50
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static EventStatus Active
+    return:
+      type: Uvendia.Domain.Enums.EventStatus
+    content.vb: Public Shared Active As EventStatus
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.EventStatus.Paused
+  commentId: F:Uvendia.Domain.Enums.EventStatus.Paused
+  id: Paused
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: Paused
+  nameWithType: EventStatus.Paused
+  fullName: Uvendia.Domain.Enums.EventStatus.Paused
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Paused
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 51
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static EventStatus Paused
+    return:
+      type: Uvendia.Domain.Enums.EventStatus
+    content.vb: Public Shared Paused As EventStatus
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.EventStatus.Cancelled
+  commentId: F:Uvendia.Domain.Enums.EventStatus.Cancelled
+  id: Cancelled
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: EventStatus.Cancelled
+  fullName: Uvendia.Domain.Enums.EventStatus.Cancelled
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Cancelled
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 52
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static EventStatus Cancelled
+    return:
+      type: Uvendia.Domain.Enums.EventStatus
+    content.vb: Public Shared Cancelled As EventStatus
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.EventStatus.Passed
+  commentId: F:Uvendia.Domain.Enums.EventStatus.Passed
+  id: Passed
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: Passed
+  nameWithType: EventStatus.Passed
+  fullName: Uvendia.Domain.Enums.EventStatus.Passed
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Passed
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 53
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static EventStatus Passed
+    return:
+      type: Uvendia.Domain.Enums.EventStatus
+    content.vb: Public Shared Passed As EventStatus
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.EventStatus.ToString
+  commentId: M:Uvendia.Domain.Enums.EventStatus.ToString
+  id: ToString
+  parent: Uvendia.Domain.Enums.EventStatus
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EventStatus.ToString()
+  fullName: Uvendia.Domain.Enums.EventStatus.ToString()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/EventStatus.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ToString
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/EventStatus.cs
+    startLine: 55
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Uvendia.Domain.Enums.EventStatus.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Enums.EventStatus.Description*
+  commentId: Overload:Uvendia.Domain.Enums.EventStatus.Description
+  name: Description
+  nameWithType: EventStatus.Description
+  fullName: Uvendia.Domain.Enums.EventStatus.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Enums.EventStatus.Id*
+  commentId: Overload:Uvendia.Domain.Enums.EventStatus.Id
+  name: Id
+  nameWithType: EventStatus.Id
+  fullName: Uvendia.Domain.Enums.EventStatus.Id
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Uvendia.Domain.Enums.EventStatus.Enabled*
+  commentId: Overload:Uvendia.Domain.Enums.EventStatus.Enabled
+  name: Enabled
+  nameWithType: EventStatus.Enabled
+  fullName: Uvendia.Domain.Enums.EventStatus.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Enums.EventStatus.GetEventStatusByID*
+  commentId: Overload:Uvendia.Domain.Enums.EventStatus.GetEventStatusByID
+  name: GetEventStatusByID
+  nameWithType: EventStatus.GetEventStatusByID
+  fullName: Uvendia.Domain.Enums.EventStatus.GetEventStatusByID
+- uid: Uvendia.Domain.Enums.EventStatus
+  commentId: T:Uvendia.Domain.Enums.EventStatus
+  parent: Uvendia.Domain.Enums
+  name: EventStatus
+  nameWithType: EventStatus
+  fullName: Uvendia.Domain.Enums.EventStatus
+- uid: Uvendia.Domain.Enums.EventStatus.GetAllEventStatus*
+  commentId: Overload:Uvendia.Domain.Enums.EventStatus.GetAllEventStatus
+  name: GetAllEventStatus
+  nameWithType: EventStatus.GetAllEventStatus
+  fullName: Uvendia.Domain.Enums.EventStatus.GetAllEventStatus
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Uvendia.Domain.Enums.EventStatus}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Enums.EventStatus}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<EventStatus>
+  nameWithType: List<EventStatus>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Enums.EventStatus>
+  nameWithType.vb: List(Of EventStatus)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Enums.EventStatus)
+  name.vb: List(Of EventStatus)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Enums.EventStatus
+    name: EventStatus
+    nameWithType: EventStatus
+    fullName: Uvendia.Domain.Enums.EventStatus
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Enums.EventStatus
+    name: EventStatus
+    nameWithType: EventStatus
+    fullName: Uvendia.Domain.Enums.EventStatus
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Enums.EventStatus.ToString*
+  commentId: Overload:Uvendia.Domain.Enums.EventStatus.ToString
+  name: ToString
+  nameWithType: EventStatus.ToString
+  fullName: Uvendia.Domain.Enums.EventStatus.ToString

@@ -1,0 +1,459 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mail.TestCustomOrderEmailTranser
+  commentId: T:Uvendia.Domain.Mail.TestCustomOrderEmailTranser
+  id: TestCustomOrderEmailTranser
+  parent: Uvendia.Domain.Mail
+  children:
+  - Uvendia.Domain.Mail.TestCustomOrderEmailTranser.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  langs:
+  - csharp
+  - vb
+  name: TestCustomOrderEmailTranser
+  nameWithType: TestCustomOrderEmailTranser
+  fullName: Uvendia.Domain.Mail.TestCustomOrderEmailTranser
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/TestCustomOrderEmailTranser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TestCustomOrderEmailTranser
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/TestCustomOrderEmailTranser.cs
+    startLine: 9
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mail
+  syntax:
+    content: 'public class TestCustomOrderEmailTranser : ICustomOrderEmailTransfer'
+    content.vb: >-
+      Public Class TestCustomOrderEmailTranser
+          Implements ICustomOrderEmailTransfer
+  inheritance:
+  - System.Object
+  implements:
+  - Uvendia.Domain.ICustomOrderEmailTransfer
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mail.TestCustomOrderEmailTranser.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  commentId: M:Uvendia.Domain.Mail.TestCustomOrderEmailTranser.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  id: SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  parent: Uvendia.Domain.Mail.TestCustomOrderEmailTranser
+  langs:
+  - csharp
+  - vb
+  name: SendEmail(CustomOrderEmailArgs)
+  nameWithType: TestCustomOrderEmailTranser.SendEmail(CustomOrderEmailArgs)
+  fullName: Uvendia.Domain.Mail.TestCustomOrderEmailTranser.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/TestCustomOrderEmailTranser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: SendEmail
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/TestCustomOrderEmailTranser.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mail
+  summary: "\nTest custom order emails\n"
+  example: []
+  syntax:
+    content: public Task SendEmail(CustomOrderEmailArgs arguments)
+    parameters:
+    - id: arguments
+      type: Uvendia.Domain.CustomOrderEmailArgs
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SendEmail(arguments As CustomOrderEmailArgs) As Task
+  overload: Uvendia.Domain.Mail.TestCustomOrderEmailTranser.SendEmail*
+  implements:
+  - Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mail
+  commentId: N:Uvendia.Domain.Mail
+  name: Uvendia.Domain.Mail
+  nameWithType: Uvendia.Domain.Mail
+  fullName: Uvendia.Domain.Mail
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Uvendia.Domain.ICustomOrderEmailTransfer
+  commentId: T:Uvendia.Domain.ICustomOrderEmailTransfer
+  parent: Uvendia.Domain
+  name: ICustomOrderEmailTransfer
+  nameWithType: ICustomOrderEmailTransfer
+  fullName: Uvendia.Domain.ICustomOrderEmailTransfer
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Mail.TestCustomOrderEmailTranser.SendEmail*
+  commentId: Overload:Uvendia.Domain.Mail.TestCustomOrderEmailTranser.SendEmail
+  name: SendEmail
+  nameWithType: TestCustomOrderEmailTranser.SendEmail
+  fullName: Uvendia.Domain.Mail.TestCustomOrderEmailTranser.SendEmail
+- uid: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  commentId: M:Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  parent: Uvendia.Domain.ICustomOrderEmailTransfer
+  name: SendEmail(CustomOrderEmailArgs)
+  nameWithType: ICustomOrderEmailTransfer.SendEmail(CustomOrderEmailArgs)
+  fullName: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  spec.csharp:
+  - uid: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+    name: SendEmail
+    nameWithType: ICustomOrderEmailTransfer.SendEmail
+    fullName: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.CustomOrderEmailArgs
+    name: CustomOrderEmailArgs
+    nameWithType: CustomOrderEmailArgs
+    fullName: Uvendia.Domain.CustomOrderEmailArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+    name: SendEmail
+    nameWithType: ICustomOrderEmailTransfer.SendEmail
+    fullName: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.CustomOrderEmailArgs
+    name: CustomOrderEmailArgs
+    nameWithType: CustomOrderEmailArgs
+    fullName: Uvendia.Domain.CustomOrderEmailArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.CustomOrderEmailArgs
+  commentId: T:Uvendia.Domain.CustomOrderEmailArgs
+  parent: Uvendia.Domain
+  name: CustomOrderEmailArgs
+  nameWithType: CustomOrderEmailArgs
+  fullName: Uvendia.Domain.CustomOrderEmailArgs
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,709 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.ProductSearch
+  commentId: T:Uvendia.Domain.Entities.ProductSearch
+  id: ProductSearch
+  parent: Uvendia.Domain.Entities
+  children:
+  - Uvendia.Domain.Entities.ProductSearch.IsValid
+  - Uvendia.Domain.Entities.ProductSearch.Keyword
+  - Uvendia.Domain.Entities.ProductSearch.ProductId
+  - Uvendia.Domain.Entities.ProductSearch.ProductName
+  - Uvendia.Domain.Entities.ProductSearch.ProductSku
+  - Uvendia.Domain.Entities.ProductSearch.StoreId
+  langs:
+  - csharp
+  - vb
+  name: ProductSearch
+  nameWithType: ProductSearch
+  fullName: Uvendia.Domain.Entities.ProductSearch
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductSearch
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductSearch.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nProvides the criteria to search for products\n"
+  example: []
+  syntax:
+    content: public class ProductSearch
+    content.vb: Public Class ProductSearch
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.ProductSearch.ProductId
+  commentId: P:Uvendia.Domain.Entities.ProductSearch.ProductId
+  id: ProductId
+  parent: Uvendia.Domain.Entities.ProductSearch
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: ProductSearch.ProductId
+  fullName: Uvendia.Domain.Entities.ProductSearch.ProductId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductId
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductSearch.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nGets or sets the product identifier.\n"
+  example: []
+  syntax:
+    content: public long? ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+      description: "\nThe product identifier.\n"
+    content.vb: Public Property ProductId As Long?
+  overload: Uvendia.Domain.Entities.ProductSearch.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductSearch.ProductSku
+  commentId: P:Uvendia.Domain.Entities.ProductSearch.ProductSku
+  id: ProductSku
+  parent: Uvendia.Domain.Entities.ProductSearch
+  langs:
+  - csharp
+  - vb
+  name: ProductSku
+  nameWithType: ProductSearch.ProductSku
+  fullName: Uvendia.Domain.Entities.ProductSearch.ProductSku
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductSku
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductSearch.cs
+    startLine: 27
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nGets or sets the product sku.\n"
+  example: []
+  syntax:
+    content: public string ProductSku { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe product sku.\n"
+    content.vb: Public Property ProductSku As String
+  overload: Uvendia.Domain.Entities.ProductSearch.ProductSku*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductSearch.ProductName
+  commentId: P:Uvendia.Domain.Entities.ProductSearch.ProductName
+  id: ProductName
+  parent: Uvendia.Domain.Entities.ProductSearch
+  langs:
+  - csharp
+  - vb
+  name: ProductName
+  nameWithType: ProductSearch.ProductName
+  fullName: Uvendia.Domain.Entities.ProductSearch.ProductName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductName
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductSearch.cs
+    startLine: 35
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nGets or sets the name of the product.\n"
+  example: []
+  syntax:
+    content: public string ProductName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe name of the product.\n"
+    content.vb: Public Property ProductName As String
+  overload: Uvendia.Domain.Entities.ProductSearch.ProductName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductSearch.Keyword
+  commentId: P:Uvendia.Domain.Entities.ProductSearch.Keyword
+  id: Keyword
+  parent: Uvendia.Domain.Entities.ProductSearch
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: ProductSearch.Keyword
+  fullName: Uvendia.Domain.Entities.ProductSearch.Keyword
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Keyword
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductSearch.cs
+    startLine: 43
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nGets or sets the keyword.\n"
+  example: []
+  syntax:
+    content: public string Keyword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe keyword.\n"
+    content.vb: Public Property Keyword As String
+  overload: Uvendia.Domain.Entities.ProductSearch.Keyword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductSearch.StoreId
+  commentId: P:Uvendia.Domain.Entities.ProductSearch.StoreId
+  id: StoreId
+  parent: Uvendia.Domain.Entities.ProductSearch
+  langs:
+  - csharp
+  - vb
+  name: StoreId
+  nameWithType: ProductSearch.StoreId
+  fullName: Uvendia.Domain.Entities.ProductSearch.StoreId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: StoreId
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductSearch.cs
+    startLine: 51
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nGets or sets the store identifier.\n"
+  example: []
+  syntax:
+    content: public long StoreId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: "\nThe store identifier.\n"
+    content.vb: Public Property StoreId As Long
+  overload: Uvendia.Domain.Entities.ProductSearch.StoreId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.ProductSearch.IsValid
+  commentId: M:Uvendia.Domain.Entities.ProductSearch.IsValid
+  id: IsValid
+  parent: Uvendia.Domain.Entities.ProductSearch
+  langs:
+  - csharp
+  - vb
+  name: IsValid()
+  nameWithType: ProductSearch.IsValid()
+  fullName: Uvendia.Domain.Entities.ProductSearch.IsValid()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/ProductSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsValid
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/ProductSearch.cs
+    startLine: 59
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  summary: "\nReturns true if search criteria is valid.\n"
+  example: []
+  syntax:
+    content: public bool IsValid()
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if this instance is valid; otherwise, <code>false</code>.\n"
+    content.vb: Public Function IsValid As Boolean
+  overload: Uvendia.Domain.Entities.ProductSearch.IsValid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.ProductSearch.ProductId*
+  commentId: Overload:Uvendia.Domain.Entities.ProductSearch.ProductId
+  name: ProductId
+  nameWithType: ProductSearch.ProductId
+  fullName: Uvendia.Domain.Entities.ProductSearch.ProductId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Entities.ProductSearch.ProductSku*
+  commentId: Overload:Uvendia.Domain.Entities.ProductSearch.ProductSku
+  name: ProductSku
+  nameWithType: ProductSearch.ProductSku
+  fullName: Uvendia.Domain.Entities.ProductSearch.ProductSku
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Entities.ProductSearch.ProductName*
+  commentId: Overload:Uvendia.Domain.Entities.ProductSearch.ProductName
+  name: ProductName
+  nameWithType: ProductSearch.ProductName
+  fullName: Uvendia.Domain.Entities.ProductSearch.ProductName
+- uid: Uvendia.Domain.Entities.ProductSearch.Keyword*
+  commentId: Overload:Uvendia.Domain.Entities.ProductSearch.Keyword
+  name: Keyword
+  nameWithType: ProductSearch.Keyword
+  fullName: Uvendia.Domain.Entities.ProductSearch.Keyword
+- uid: Uvendia.Domain.Entities.ProductSearch.StoreId*
+  commentId: Overload:Uvendia.Domain.Entities.ProductSearch.StoreId
+  name: StoreId
+  nameWithType: ProductSearch.StoreId
+  fullName: Uvendia.Domain.Entities.ProductSearch.StoreId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Entities.ProductSearch.IsValid*
+  commentId: Overload:Uvendia.Domain.Entities.ProductSearch.IsValid
+  name: IsValid
+  nameWithType: ProductSearch.IsValid
+  fullName: Uvendia.Domain.Entities.ProductSearch.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

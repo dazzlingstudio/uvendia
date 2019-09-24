@@ -1,0 +1,634 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel
+  id: AvailableInCountryModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AllCountries
+  - Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AvailableInCountry
+  - Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.IsSelected(System.String)
+  - Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.TreeSelectedNodePath
+  langs:
+  - csharp
+  - vb
+  name: AvailableInCountryModel
+  nameWithType: AvailableInCountryModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AvailableInCountryModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class AvailableInCountryModel : BaseModel'
+    content.vb: >-
+      Public Class AvailableInCountryModel
+          Inherits BaseModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  inheritedMembers:
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AvailableInCountry
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AvailableInCountry
+  id: AvailableInCountry
+  parent: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel
+  langs:
+  - csharp
+  - vb
+  name: AvailableInCountry
+  nameWithType: AvailableInCountryModel.AvailableInCountry
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AvailableInCountry
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AvailableInCountry
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public AvailableInCountry AvailableInCountry { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Settings.AvailableInCountry
+    content.vb: Public Property AvailableInCountry As AvailableInCountry
+  overload: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AvailableInCountry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AllCountries
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AllCountries
+  id: AllCountries
+  parent: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel
+  langs:
+  - csharp
+  - vb
+  name: AllCountries
+  nameWithType: AvailableInCountryModel.AllCountries
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AllCountries
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AllCountries
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IEnumerable<Country> AllCountries { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{ISO3166.Country}
+    content.vb: Public Property AllCountries As IEnumerable(Of Country)
+  overload: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AllCountries*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.TreeSelectedNodePath
+  id: TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel
+  langs:
+  - csharp
+  - vb
+  name: TreeSelectedNodePath
+  nameWithType: AvailableInCountryModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.TreeSelectedNodePath
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TreeSelectedNodePath
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string TreeSelectedNodePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TreeSelectedNodePath As String
+  overload: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.TreeSelectedNodePath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.IsSelected(System.String)
+  commentId: M:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.IsSelected(System.String)
+  id: IsSelected(System.String)
+  parent: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel
+  langs:
+  - csharp
+  - vb
+  name: IsSelected(String)
+  nameWithType: AvailableInCountryModel.IsSelected(String)
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.IsSelected(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsSelected
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/AvailableInCountryModel.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string IsSelected(string code)
+    parameters:
+    - id: code
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function IsSelected(code As String) As String
+  overload: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.IsSelected*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AvailableInCountry*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AvailableInCountry
+  name: AvailableInCountry
+  nameWithType: AvailableInCountryModel.AvailableInCountry
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AvailableInCountry
+- uid: Uvendia.Domain.Settings.AvailableInCountry
+  commentId: T:Uvendia.Domain.Settings.AvailableInCountry
+  parent: Uvendia.Domain.Settings
+  name: AvailableInCountry
+  nameWithType: AvailableInCountry
+  fullName: Uvendia.Domain.Settings.AvailableInCountry
+- uid: Uvendia.Domain.Settings
+  commentId: N:Uvendia.Domain.Settings
+  name: Uvendia.Domain.Settings
+  nameWithType: Uvendia.Domain.Settings
+  fullName: Uvendia.Domain.Settings
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AllCountries*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AllCountries
+  name: AllCountries
+  nameWithType: AvailableInCountryModel.AllCountries
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.AllCountries
+- uid: System.Collections.Generic.IEnumerable{ISO3166.Country}
+  commentId: T:System.Collections.Generic.IEnumerable{ISO3166.Country}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Country>
+  nameWithType: IEnumerable<Country>
+  fullName: System.Collections.Generic.IEnumerable<ISO3166.Country>
+  nameWithType.vb: IEnumerable(Of Country)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of ISO3166.Country)
+  name.vb: IEnumerable(Of Country)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ISO3166.Country
+    name: Country
+    nameWithType: Country
+    fullName: ISO3166.Country
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ISO3166.Country
+    name: Country
+    nameWithType: Country
+    fullName: ISO3166.Country
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.TreeSelectedNodePath*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.TreeSelectedNodePath
+  name: TreeSelectedNodePath
+  nameWithType: AvailableInCountryModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.TreeSelectedNodePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.IsSelected*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.IsSelected
+  name: IsSelected
+  nameWithType: AvailableInCountryModel.IsSelected
+  fullName: Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.IsSelected

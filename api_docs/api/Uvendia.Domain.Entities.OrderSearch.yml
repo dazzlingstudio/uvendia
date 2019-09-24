@@ -1,0 +1,764 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.OrderSearch
+  commentId: T:Uvendia.Domain.Entities.OrderSearch
+  id: OrderSearch
+  parent: Uvendia.Domain.Entities
+  children:
+  - Uvendia.Domain.Entities.OrderSearch.AddressLine
+  - Uvendia.Domain.Entities.OrderSearch.City
+  - Uvendia.Domain.Entities.OrderSearch.CountryCode
+  - Uvendia.Domain.Entities.OrderSearch.Housenumber
+  - Uvendia.Domain.Entities.OrderSearch.HousenumberExtension
+  - Uvendia.Domain.Entities.OrderSearch.IsValid
+  - Uvendia.Domain.Entities.OrderSearch.OrderNumber
+  - Uvendia.Domain.Entities.OrderSearch.Zipcode
+  langs:
+  - csharp
+  - vb
+  name: OrderSearch
+  nameWithType: OrderSearch
+  fullName: Uvendia.Domain.Entities.OrderSearch
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderSearch
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public class OrderSearch
+    content.vb: Public Class OrderSearch
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.OrderSearch.OrderNumber
+  commentId: P:Uvendia.Domain.Entities.OrderSearch.OrderNumber
+  id: OrderNumber
+  parent: Uvendia.Domain.Entities.OrderSearch
+  langs:
+  - csharp
+  - vb
+  name: OrderNumber
+  nameWithType: OrderSearch.OrderNumber
+  fullName: Uvendia.Domain.Entities.OrderSearch.OrderNumber
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderNumber
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string OrderNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderNumber As String
+  overload: Uvendia.Domain.Entities.OrderSearch.OrderNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.OrderSearch.AddressLine
+  commentId: P:Uvendia.Domain.Entities.OrderSearch.AddressLine
+  id: AddressLine
+  parent: Uvendia.Domain.Entities.OrderSearch
+  langs:
+  - csharp
+  - vb
+  name: AddressLine
+  nameWithType: OrderSearch.AddressLine
+  fullName: Uvendia.Domain.Entities.OrderSearch.AddressLine
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddressLine
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string AddressLine { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AddressLine As String
+  overload: Uvendia.Domain.Entities.OrderSearch.AddressLine*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.OrderSearch.Housenumber
+  commentId: P:Uvendia.Domain.Entities.OrderSearch.Housenumber
+  id: Housenumber
+  parent: Uvendia.Domain.Entities.OrderSearch
+  langs:
+  - csharp
+  - vb
+  name: Housenumber
+  nameWithType: OrderSearch.Housenumber
+  fullName: Uvendia.Domain.Entities.OrderSearch.Housenumber
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Housenumber
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public int? Housenumber { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Housenumber As Integer?
+  overload: Uvendia.Domain.Entities.OrderSearch.Housenumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.OrderSearch.HousenumberExtension
+  commentId: P:Uvendia.Domain.Entities.OrderSearch.HousenumberExtension
+  id: HousenumberExtension
+  parent: Uvendia.Domain.Entities.OrderSearch
+  langs:
+  - csharp
+  - vb
+  name: HousenumberExtension
+  nameWithType: OrderSearch.HousenumberExtension
+  fullName: Uvendia.Domain.Entities.OrderSearch.HousenumberExtension
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: HousenumberExtension
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string HousenumberExtension { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HousenumberExtension As String
+  overload: Uvendia.Domain.Entities.OrderSearch.HousenumberExtension*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.OrderSearch.Zipcode
+  commentId: P:Uvendia.Domain.Entities.OrderSearch.Zipcode
+  id: Zipcode
+  parent: Uvendia.Domain.Entities.OrderSearch
+  langs:
+  - csharp
+  - vb
+  name: Zipcode
+  nameWithType: OrderSearch.Zipcode
+  fullName: Uvendia.Domain.Entities.OrderSearch.Zipcode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Zipcode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Zipcode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Zipcode As String
+  overload: Uvendia.Domain.Entities.OrderSearch.Zipcode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.OrderSearch.City
+  commentId: P:Uvendia.Domain.Entities.OrderSearch.City
+  id: City
+  parent: Uvendia.Domain.Entities.OrderSearch
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: OrderSearch.City
+  fullName: Uvendia.Domain.Entities.OrderSearch.City
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: City
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property City As String
+  overload: Uvendia.Domain.Entities.OrderSearch.City*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.OrderSearch.CountryCode
+  commentId: P:Uvendia.Domain.Entities.OrderSearch.CountryCode
+  id: CountryCode
+  parent: Uvendia.Domain.Entities.OrderSearch
+  langs:
+  - csharp
+  - vb
+  name: CountryCode
+  nameWithType: OrderSearch.CountryCode
+  fullName: Uvendia.Domain.Entities.OrderSearch.CountryCode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CountryCode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string CountryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CountryCode As String
+  overload: Uvendia.Domain.Entities.OrderSearch.CountryCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.OrderSearch.IsValid
+  commentId: M:Uvendia.Domain.Entities.OrderSearch.IsValid
+  id: IsValid
+  parent: Uvendia.Domain.Entities.OrderSearch
+  langs:
+  - csharp
+  - vb
+  name: IsValid()
+  nameWithType: OrderSearch.IsValid()
+  fullName: Uvendia.Domain.Entities.OrderSearch.IsValid()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/OrderSearch.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsValid
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/OrderSearch.cs
+    startLine: 25
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public bool IsValid()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsValid As Boolean
+  overload: Uvendia.Domain.Entities.OrderSearch.IsValid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.OrderSearch.OrderNumber*
+  commentId: Overload:Uvendia.Domain.Entities.OrderSearch.OrderNumber
+  name: OrderNumber
+  nameWithType: OrderSearch.OrderNumber
+  fullName: Uvendia.Domain.Entities.OrderSearch.OrderNumber
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Entities.OrderSearch.AddressLine*
+  commentId: Overload:Uvendia.Domain.Entities.OrderSearch.AddressLine
+  name: AddressLine
+  nameWithType: OrderSearch.AddressLine
+  fullName: Uvendia.Domain.Entities.OrderSearch.AddressLine
+- uid: Uvendia.Domain.Entities.OrderSearch.Housenumber*
+  commentId: Overload:Uvendia.Domain.Entities.OrderSearch.Housenumber
+  name: Housenumber
+  nameWithType: OrderSearch.Housenumber
+  fullName: Uvendia.Domain.Entities.OrderSearch.Housenumber
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Entities.OrderSearch.HousenumberExtension*
+  commentId: Overload:Uvendia.Domain.Entities.OrderSearch.HousenumberExtension
+  name: HousenumberExtension
+  nameWithType: OrderSearch.HousenumberExtension
+  fullName: Uvendia.Domain.Entities.OrderSearch.HousenumberExtension
+- uid: Uvendia.Domain.Entities.OrderSearch.Zipcode*
+  commentId: Overload:Uvendia.Domain.Entities.OrderSearch.Zipcode
+  name: Zipcode
+  nameWithType: OrderSearch.Zipcode
+  fullName: Uvendia.Domain.Entities.OrderSearch.Zipcode
+- uid: Uvendia.Domain.Entities.OrderSearch.City*
+  commentId: Overload:Uvendia.Domain.Entities.OrderSearch.City
+  name: City
+  nameWithType: OrderSearch.City
+  fullName: Uvendia.Domain.Entities.OrderSearch.City
+- uid: Uvendia.Domain.Entities.OrderSearch.CountryCode*
+  commentId: Overload:Uvendia.Domain.Entities.OrderSearch.CountryCode
+  name: CountryCode
+  nameWithType: OrderSearch.CountryCode
+  fullName: Uvendia.Domain.Entities.OrderSearch.CountryCode
+- uid: Uvendia.Domain.Entities.OrderSearch.IsValid*
+  commentId: Overload:Uvendia.Domain.Entities.OrderSearch.IsValid
+  name: IsValid
+  nameWithType: OrderSearch.IsValid
+  fullName: Uvendia.Domain.Entities.OrderSearch.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

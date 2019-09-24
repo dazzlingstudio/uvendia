@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc
+  commentId: N:Uvendia.Domain.Mvc
+  id: Uvendia.Domain.Mvc
+  children:
+  - Uvendia.Domain.Mvc.BundleConfig
+  - Uvendia.Domain.Mvc.RouteConfig
+  - Uvendia.Domain.Mvc.UmbracoStartUpHandlers
+  - Uvendia.Domain.Mvc.UvendiaSection
+  - Uvendia.Domain.Mvc.UvendiaTreeController
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Mvc
+  nameWithType: Uvendia.Domain.Mvc
+  fullName: Uvendia.Domain.Mvc
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Mvc.BundleConfig
+  commentId: T:Uvendia.Domain.Mvc.BundleConfig
+  name: BundleConfig
+  nameWithType: BundleConfig
+  fullName: Uvendia.Domain.Mvc.BundleConfig
+- uid: Uvendia.Domain.Mvc.UvendiaTreeController
+  commentId: T:Uvendia.Domain.Mvc.UvendiaTreeController
+  name: UvendiaTreeController
+  nameWithType: UvendiaTreeController
+  fullName: Uvendia.Domain.Mvc.UvendiaTreeController
+- uid: Uvendia.Domain.Mvc.RouteConfig
+  commentId: T:Uvendia.Domain.Mvc.RouteConfig
+  name: RouteConfig
+  nameWithType: RouteConfig
+  fullName: Uvendia.Domain.Mvc.RouteConfig
+- uid: Uvendia.Domain.Mvc.UmbracoStartUpHandlers
+  commentId: T:Uvendia.Domain.Mvc.UmbracoStartUpHandlers
+  name: UmbracoStartUpHandlers
+  nameWithType: UmbracoStartUpHandlers
+  fullName: Uvendia.Domain.Mvc.UmbracoStartUpHandlers
+- uid: Uvendia.Domain.Mvc.UvendiaSection
+  commentId: T:Uvendia.Domain.Mvc.UvendiaSection
+  name: UvendiaSection
+  nameWithType: UvendiaSection
+  fullName: Uvendia.Domain.Mvc.UvendiaSection

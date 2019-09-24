@@ -1,0 +1,691 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  id: DefinitionModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.DefinitionModel.#ctor
+  - Uvendia.Domain.Mvc.ViewModels.DefinitionModel.Definition
+  - Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionType
+  - Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionTypes
+  - Uvendia.Domain.Mvc.ViewModels.DefinitionModel.OtherDefinitions
+  langs:
+  - csharp
+  - vb
+  name: DefinitionModel
+  nameWithType: DefinitionModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DefinitionModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class DefinitionModel : WebshopModel'
+    content.vb: >-
+      Public Class DefinitionModel
+          Inherits WebshopModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  inheritedMembers:
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.Definition
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.Definition
+  id: Definition
+  parent: Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: DefinitionModel.Definition
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.Definition
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Definition
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public Definition Definition { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Definition
+    content.vb: Public Property Definition As Definition
+  overload: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.Definition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.#ctor
+  commentId: M:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.#ctor
+  id: '#ctor'
+  parent: Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  langs:
+  - csharp
+  - vb
+  name: DefinitionModel()
+  nameWithType: DefinitionModel.DefinitionModel()
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionModel()
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public DefinitionModel()
+    content.vb: Public Sub New
+  overload: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionTypes
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionTypes
+  id: DefinitionTypes
+  parent: Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  langs:
+  - csharp
+  - vb
+  name: DefinitionTypes
+  nameWithType: DefinitionModel.DefinitionTypes
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionTypes
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DefinitionTypes
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IList<SelectListItem> DefinitionTypes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+    content.vb: Public ReadOnly Property DefinitionTypes As IList(Of SelectListItem)
+  overload: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionTypes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionType
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionType
+  id: DefinitionType
+  parent: Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  langs:
+  - csharp
+  - vb
+  name: DefinitionType
+  nameWithType: DefinitionModel.DefinitionType
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionType
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DefinitionType
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+    startLine: 35
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string DefinitionType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefinitionType As String
+  overload: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.OtherDefinitions
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.OtherDefinitions
+  id: OtherDefinitions
+  parent: Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  langs:
+  - csharp
+  - vb
+  name: OtherDefinitions
+  nameWithType: DefinitionModel.OtherDefinitions
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.OtherDefinitions
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OtherDefinitions
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/DefinitionModel.cs
+    startLine: 47
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IList<SelectListItem> OtherDefinitions { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+    content.vb: Public Property OtherDefinitions As IList(Of SelectListItem)
+  overload: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.OtherDefinitions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  name: WebshopModel
+  nameWithType: WebshopModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreePath
+  nameWithType: WebshopModel.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreeSelectedNodePath
+  nameWithType: WebshopModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.Definition*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.Definition
+  name: Definition
+  nameWithType: DefinitionModel.Definition
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.Definition
+- uid: Uvendia.Domain.Definition
+  commentId: T:Uvendia.Domain.Definition
+  parent: Uvendia.Domain
+  name: Definition
+  nameWithType: Definition
+  fullName: Uvendia.Domain.Definition
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.#ctor*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.#ctor
+  name: DefinitionModel
+  nameWithType: DefinitionModel.DefinitionModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionModel
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionTypes*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionTypes
+  name: DefinitionTypes
+  nameWithType: DefinitionModel.DefinitionTypes
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionTypes
+- uid: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+  commentId: T:System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SelectListItem>
+  nameWithType: IList<SelectListItem>
+  fullName: System.Collections.Generic.IList<System.Web.Mvc.SelectListItem>
+  nameWithType.vb: IList(Of SelectListItem)
+  fullName.vb: System.Collections.Generic.IList(Of System.Web.Mvc.SelectListItem)
+  name.vb: IList(Of SelectListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Web.Mvc.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: System.Web.Mvc.SelectListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Web.Mvc.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: System.Web.Mvc.SelectListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionType*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionType
+  name: DefinitionType
+  nameWithType: DefinitionModel.DefinitionType
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.DefinitionType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.OtherDefinitions*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.DefinitionModel.OtherDefinitions
+  name: OtherDefinitions
+  nameWithType: DefinitionModel.OtherDefinitions
+  fullName: Uvendia.Domain.Mvc.ViewModels.DefinitionModel.OtherDefinitions

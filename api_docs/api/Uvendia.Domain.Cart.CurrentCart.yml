@@ -1,0 +1,2079 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Cart.CurrentCart
+  commentId: T:Uvendia.Domain.Cart.CurrentCart
+  id: CurrentCart
+  parent: Uvendia.Domain.Cart
+  children:
+  - Uvendia.Domain.Cart.CurrentCart.#ctor(System.Int64)
+  - Uvendia.Domain.Cart.CurrentCart.#ctor(System.String)
+  - Uvendia.Domain.Cart.CurrentCart.AddProduct(System.Int64,System.Int32,System.String,System.Decimal,System.String)
+  - Uvendia.Domain.Cart.CurrentCart.AddProduct(Uvendia.Domain.Product,System.Int32,System.String,System.Decimal,System.String)
+  - Uvendia.Domain.Cart.CurrentCart.AddTicket(System.Int64,System.String,System.Int32,System.Boolean,System.Decimal,System.String)
+  - Uvendia.Domain.Cart.CurrentCart.AddTicket(Uvendia.Domain.TicketSale,System.Int32,System.Boolean,System.Decimal,System.String)
+  - Uvendia.Domain.Cart.CurrentCart.AddValueToCartCookie(System.String,System.String)
+  - Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal(System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem})
+  - Uvendia.Domain.Cart.CurrentCart.CartCookieId
+  - Uvendia.Domain.Cart.CurrentCart.CartCookieName
+  - Uvendia.Domain.Cart.CurrentCart.CartCountCookieName
+  - Uvendia.Domain.Cart.CurrentCart.ClearCart
+  - Uvendia.Domain.Cart.CurrentCart.ClearItemsCount
+  - Uvendia.Domain.Cart.CurrentCart.ClearOrderAddresses
+  - Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order)
+  - Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order,System.Boolean,System.Collections.Generic.List{System.String}@)
+  - Uvendia.Domain.Cart.CurrentCart.Create(System.Int32)
+  - Uvendia.Domain.Cart.CurrentCart.Create(System.String)
+  - Uvendia.Domain.Cart.CurrentCart.CreateOrder(System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem},System.Boolean)
+  - Uvendia.Domain.Cart.CurrentCart.DeleteCartItem(System.Guid)
+  - Uvendia.Domain.Cart.CurrentCart.DeleteCartItemsByCookieId
+  - Uvendia.Domain.Cart.CurrentCart.GetCartItem(System.Guid)
+  - Uvendia.Domain.Cart.CurrentCart.GetCartItemsByCookieId
+  - Uvendia.Domain.Cart.CurrentCart.GetOrder(System.Boolean)
+  - Uvendia.Domain.Cart.CurrentCart.HasCartItems
+  - Uvendia.Domain.Cart.CurrentCart.Item(System.String)
+  - Uvendia.Domain.Cart.CurrentCart.ItemsCount
+  - Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order)
+  - Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order,System.Boolean,System.Collections.Generic.List{System.String}@)
+  - Uvendia.Domain.Cart.CurrentCart.UpdateCartQuantityCount
+  - Uvendia.Domain.Cart.CurrentCart.UpdateQuantity(System.Guid,System.Int32)
+  - Uvendia.Domain.Cart.CurrentCart.VALID_TOTAL_DAYS
+  - Uvendia.Domain.Cart.CurrentCart.ValidateOrder(Uvendia.Domain.Order)
+  langs:
+  - csharp
+  - vb
+  name: CurrentCart
+  nameWithType: CurrentCart
+  fullName: Uvendia.Domain.Cart.CurrentCart
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CurrentCart
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public class CurrentCart
+    content.vb: Public Class CurrentCart
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Cart.CurrentCart.VALID_TOTAL_DAYS
+  commentId: F:Uvendia.Domain.Cart.CurrentCart.VALID_TOTAL_DAYS
+  id: VALID_TOTAL_DAYS
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: VALID_TOTAL_DAYS
+  nameWithType: CurrentCart.VALID_TOTAL_DAYS
+  fullName: Uvendia.Domain.Cart.CurrentCart.VALID_TOTAL_DAYS
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: VALID_TOTAL_DAYS
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nThe total days that the shopping cart will be available.\n"
+  example: []
+  syntax:
+    content: public const int VALID_TOTAL_DAYS = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const VALID_TOTAL_DAYS As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Cart.CurrentCart.#ctor(System.String)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CurrentCart(String)
+  nameWithType: CurrentCart.CurrentCart(String)
+  fullName: Uvendia.Domain.Cart.CurrentCart.CurrentCart(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public CurrentCart(string storeName)
+    parameters:
+    - id: storeName
+      type: System.String
+    content.vb: Public Sub New(storeName As String)
+  overload: Uvendia.Domain.Cart.CurrentCart.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.#ctor(System.Int64)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.#ctor(System.Int64)
+  id: '#ctor(System.Int64)'
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CurrentCart(Int64)
+  nameWithType: CurrentCart.CurrentCart(Int64)
+  fullName: Uvendia.Domain.Cart.CurrentCart.CurrentCart(System.Int64)
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public CurrentCart(long storeId)
+    parameters:
+    - id: storeId
+      type: System.Int64
+    content.vb: Public Sub New(storeId As Long)
+  overload: Uvendia.Domain.Cart.CurrentCart.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.Create(System.String)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.Create(System.String)
+  id: Create(System.String)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: Create(String)
+  nameWithType: CurrentCart.Create(String)
+  fullName: Uvendia.Domain.Cart.CurrentCart.Create(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Create
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 42
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nCreates the current cart object.\n"
+  example: []
+  syntax:
+    content: public static CurrentCart Create(string storeName)
+    parameters:
+    - id: storeName
+      type: System.String
+      description: Name of the store.
+    return:
+      type: Uvendia.Domain.Cart.CurrentCart
+      description: ''
+    content.vb: Public Shared Function Create(storeName As String) As CurrentCart
+  overload: Uvendia.Domain.Cart.CurrentCart.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Cart.CurrentCart.CartCountCookieName
+  commentId: P:Uvendia.Domain.Cart.CurrentCart.CartCountCookieName
+  id: CartCountCookieName
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CartCountCookieName
+  nameWithType: CurrentCart.CartCountCookieName
+  fullName: Uvendia.Domain.Cart.CurrentCart.CartCountCookieName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CartCountCookieName
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 53
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nGets the name of the cart count cookie.\n"
+  example: []
+  syntax:
+    content: public string CartCountCookieName { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe name of the cart count cookie.\n"
+    content.vb: Public ReadOnly Property CartCountCookieName As String
+  overload: Uvendia.Domain.Cart.CurrentCart.CartCountCookieName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Cart.CurrentCart.CartCookieName
+  commentId: P:Uvendia.Domain.Cart.CurrentCart.CartCookieName
+  id: CartCookieName
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CartCookieName
+  nameWithType: CurrentCart.CartCookieName
+  fullName: Uvendia.Domain.Cart.CurrentCart.CartCookieName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CartCookieName
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 60
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nGets the name of the cart cookie.\n"
+  example: []
+  syntax:
+    content: public string CartCookieName { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe name of the cart cookie.\n"
+    content.vb: Public ReadOnly Property CartCookieName As String
+  overload: Uvendia.Domain.Cart.CurrentCart.CartCookieName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Cart.CurrentCart.Create(System.Int32)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.Create(System.Int32)
+  id: Create(System.Int32)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: Create(Int32)
+  nameWithType: CurrentCart.Create(Int32)
+  fullName: Uvendia.Domain.Cart.CurrentCart.Create(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Create
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 67
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nCreates the current cart object.\n"
+  example: []
+  syntax:
+    content: public static CurrentCart Create(int storeId)
+    parameters:
+    - id: storeId
+      type: System.Int32
+      description: Id of the store.
+    return:
+      type: Uvendia.Domain.Cart.CurrentCart
+      description: ''
+    content.vb: Public Shared Function Create(storeId As Integer) As CurrentCart
+  overload: Uvendia.Domain.Cart.CurrentCart.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Cart.CurrentCart.ItemsCount
+  commentId: P:Uvendia.Domain.Cart.CurrentCart.ItemsCount
+  id: ItemsCount
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: ItemsCount
+  nameWithType: CurrentCart.ItemsCount
+  fullName: Uvendia.Domain.Cart.CurrentCart.ItemsCount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ItemsCount
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 78
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nGets the cart items count.\n"
+  example: []
+  syntax:
+    content: public int ItemsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nThe item count.\n"
+    content.vb: Public ReadOnly Property ItemsCount As Integer
+  overload: Uvendia.Domain.Cart.CurrentCart.ItemsCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Cart.CurrentCart.CartCookieId
+  commentId: P:Uvendia.Domain.Cart.CurrentCart.CartCookieId
+  id: CartCookieId
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CartCookieId
+  nameWithType: CurrentCart.CartCookieId
+  fullName: Uvendia.Domain.Cart.CurrentCart.CartCookieId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CartCookieId
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 110
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nGets the cart cookie identifier.\n"
+  example: []
+  syntax:
+    content: public Guid CartCookieId { get; }
+    parameters: []
+    return:
+      type: System.Guid
+      description: "\nThe cart cookie identifier.\n"
+    content.vb: Public ReadOnly Property CartCookieId As Guid
+  overload: Uvendia.Domain.Cart.CurrentCart.CartCookieId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Cart.CurrentCart.AddValueToCartCookie(System.String,System.String)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.AddValueToCartCookie(System.String,System.String)
+  id: AddValueToCartCookie(System.String,System.String)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: AddValueToCartCookie(String, String)
+  nameWithType: CurrentCart.AddValueToCartCookie(String, String)
+  fullName: Uvendia.Domain.Cart.CurrentCart.AddValueToCartCookie(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddValueToCartCookie
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 127
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nAdds the value to cart cookie.\n"
+  example: []
+  syntax:
+    content: public void AddValueToCartCookie(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name.
+    - id: value
+      type: System.String
+      description: The value.
+    content.vb: Public Sub AddValueToCartCookie(name As String, value As String)
+  overload: Uvendia.Domain.Cart.CurrentCart.AddValueToCartCookie*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.Item(System.String)
+  commentId: P:Uvendia.Domain.Cart.CurrentCart.Item(System.String)
+  id: Item(System.String)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: CurrentCart.Item[String]
+  fullName: Uvendia.Domain.Cart.CurrentCart.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: this[]
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 142
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nGets the value from a cookie with the specified name.\n"
+  example: []
+  syntax:
+    content: public string this[string name] { get; }
+    parameters:
+    - id: name
+      type: System.String
+      description: The name.
+    return:
+      type: System.String
+      description: "\nThe <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+    content.vb: Public ReadOnly Property Item(name As String) As String
+  overload: Uvendia.Domain.Cart.CurrentCart.Item*
+  nameWithType.vb: CurrentCart.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Uvendia.Domain.Cart.CurrentCart.Item(System.String)
+  name.vb: Item(String)
+- uid: Uvendia.Domain.Cart.CurrentCart.HasCartItems
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.HasCartItems
+  id: HasCartItems
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: HasCartItems()
+  nameWithType: CurrentCart.HasCartItems()
+  fullName: Uvendia.Domain.Cart.CurrentCart.HasCartItems()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: HasCartItems
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 157
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nDetermines whether [has cart items].\n"
+  example: []
+  syntax:
+    content: public bool HasCartItems()
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if [has cart items]; otherwise, <code>false</code>.\n"
+    content.vb: Public Function HasCartItems As Boolean
+  overload: Uvendia.Domain.Cart.CurrentCart.HasCartItems*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.ClearItemsCount
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.ClearItemsCount
+  id: ClearItemsCount
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: ClearItemsCount()
+  nameWithType: CurrentCart.ClearItemsCount()
+  fullName: Uvendia.Domain.Cart.CurrentCart.ClearItemsCount()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ClearItemsCount
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 165
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nClears the items count.\n"
+  example: []
+  syntax:
+    content: public void ClearItemsCount()
+    content.vb: Public Sub ClearItemsCount
+  overload: Uvendia.Domain.Cart.CurrentCart.ClearItemsCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.ClearCart
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.ClearCart
+  id: ClearCart
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: ClearCart()
+  nameWithType: CurrentCart.ClearCart()
+  fullName: Uvendia.Domain.Cart.CurrentCart.ClearCart()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ClearCart
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 187
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nClears the cart.\n"
+  example: []
+  syntax:
+    content: public void ClearCart()
+    content.vb: Public Sub ClearCart
+  overload: Uvendia.Domain.Cart.CurrentCart.ClearCart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.AddProduct(System.Int64,System.Int32,System.String,System.Decimal,System.String)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.AddProduct(System.Int64,System.Int32,System.String,System.Decimal,System.String)
+  id: AddProduct(System.Int64,System.Int32,System.String,System.Decimal,System.String)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: AddProduct(Int64, Int32, String, Decimal, String)
+  nameWithType: CurrentCart.AddProduct(Int64, Int32, String, Decimal, String)
+  fullName: Uvendia.Domain.Cart.CurrentCart.AddProduct(System.Int64, System.Int32, System.String, System.Decimal, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddProduct
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 218
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nAdds the product to basket.\n"
+  example: []
+  syntax:
+    content: public CartAction AddProduct(long prodId, int quantity, string priceDefinitionName, decimal specialItemDiscount = 0M, string metaData = null)
+    parameters:
+    - id: prodId
+      type: System.Int64
+      description: The product identifier.
+    - id: quantity
+      type: System.Int32
+      description: The quantity.
+    - id: priceDefinitionName
+      type: System.String
+      description: Name of the price definition.
+    - id: specialItemDiscount
+      type: System.Decimal
+      description: The special item discount. E.g. advertising campaigns.
+    - id: metaData
+      type: System.String
+      description: The meta data.
+    return:
+      type: Uvendia.Domain.Cart.CartAction
+      description: ''
+    content.vb: Public Function AddProduct(prodId As Long, quantity As Integer, priceDefinitionName As String, specialItemDiscount As Decimal = 0D, metaData As String = Nothing) As CartAction
+  overload: Uvendia.Domain.Cart.CurrentCart.AddProduct*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Product ({prodId}) has variants. Please add a variant instead.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.AddProduct(Uvendia.Domain.Product,System.Int32,System.String,System.Decimal,System.String)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.AddProduct(Uvendia.Domain.Product,System.Int32,System.String,System.Decimal,System.String)
+  id: AddProduct(Uvendia.Domain.Product,System.Int32,System.String,System.Decimal,System.String)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: AddProduct(Product, Int32, String, Decimal, String)
+  nameWithType: CurrentCart.AddProduct(Product, Int32, String, Decimal, String)
+  fullName: Uvendia.Domain.Cart.CurrentCart.AddProduct(Uvendia.Domain.Product, System.Int32, System.String, System.Decimal, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddProduct
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 239
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nAdds the product to basket.\n"
+  example: []
+  syntax:
+    content: public CartAction AddProduct(Product product, int quantity, string priceDefinitionName, decimal specialItemDiscount = 0M, string metaData = null)
+    parameters:
+    - id: product
+      type: Uvendia.Domain.Product
+      description: The product.
+    - id: quantity
+      type: System.Int32
+      description: The quantity.
+    - id: priceDefinitionName
+      type: System.String
+      description: Name of the price definition.
+    - id: specialItemDiscount
+      type: System.Decimal
+      description: The special item discount. E.g. advertising campaigns.
+    - id: metaData
+      type: System.String
+      description: The meta data.
+    return:
+      type: Uvendia.Domain.Cart.CartAction
+      description: ''
+    content.vb: Public Function AddProduct(product As Product, quantity As Integer, priceDefinitionName As String, specialItemDiscount As Decimal = 0D, metaData As String = Nothing) As CartAction
+  overload: Uvendia.Domain.Cart.CurrentCart.AddProduct*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: "\nProduct ({product.Id}) has variants. Please add a variant instead.\nor\nPrice definition name doesn&apos;t exists\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.AddTicket(System.Int64,System.String,System.Int32,System.Boolean,System.Decimal,System.String)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.AddTicket(System.Int64,System.String,System.Int32,System.Boolean,System.Decimal,System.String)
+  id: AddTicket(System.Int64,System.String,System.Int32,System.Boolean,System.Decimal,System.String)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: AddTicket(Int64, String, Int32, Boolean, Decimal, String)
+  nameWithType: CurrentCart.AddTicket(Int64, String, Int32, Boolean, Decimal, String)
+  fullName: Uvendia.Domain.Cart.CurrentCart.AddTicket(System.Int64, System.String, System.Int32, System.Boolean, System.Decimal, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddTicket
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 280
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nAdds the ticket to basket.\n"
+  example: []
+  syntax:
+    content: public CartAction AddTicket(long ticketSaleId, string name, int quantity, bool ticketCancellationInsured = false, decimal specialItemDiscount = 0M, string metaData = null)
+    parameters:
+    - id: ticketSaleId
+      type: System.Int64
+      description: The ticket sale identifier.
+    - id: name
+      type: System.String
+      description: The name.
+    - id: quantity
+      type: System.Int32
+      description: The quantity.
+    - id: ticketCancellationInsured
+      type: System.Boolean
+      description: Ticket is cancellation insured.
+    - id: specialItemDiscount
+      type: System.Decimal
+      description: The special item discount. E.g. advertising campaigns.
+    - id: metaData
+      type: System.String
+      description: The meta data.
+    return:
+      type: Uvendia.Domain.Cart.CartAction
+      description: ''
+    content.vb: Public Function AddTicket(ticketSaleId As Long, name As String, quantity As Integer, ticketCancellationInsured As Boolean = False, specialItemDiscount As Decimal = 0D, metaData As String = Nothing) As CartAction
+  overload: Uvendia.Domain.Cart.CurrentCart.AddTicket*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.AddTicket(Uvendia.Domain.TicketSale,System.Int32,System.Boolean,System.Decimal,System.String)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.AddTicket(Uvendia.Domain.TicketSale,System.Int32,System.Boolean,System.Decimal,System.String)
+  id: AddTicket(Uvendia.Domain.TicketSale,System.Int32,System.Boolean,System.Decimal,System.String)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: AddTicket(TicketSale, Int32, Boolean, Decimal, String)
+  nameWithType: CurrentCart.AddTicket(TicketSale, Int32, Boolean, Decimal, String)
+  fullName: Uvendia.Domain.Cart.CurrentCart.AddTicket(Uvendia.Domain.TicketSale, System.Int32, System.Boolean, System.Decimal, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddTicket
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 296
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nAdds the ticket.\n"
+  example: []
+  syntax:
+    content: public CartAction AddTicket(TicketSale ticketSale, int quantity, bool ticketCancellationInsured = false, decimal specialItemDiscount = 0M, string metaData = null)
+    parameters:
+    - id: ticketSale
+      type: Uvendia.Domain.TicketSale
+      description: The ticket sale.
+    - id: quantity
+      type: System.Int32
+      description: The quantity.
+    - id: ticketCancellationInsured
+      type: System.Boolean
+      description: Ticket is cancellation insured.
+    - id: specialItemDiscount
+      type: System.Decimal
+      description: The special item discount. E.g. advertising campaigns.
+    - id: metaData
+      type: System.String
+      description: The meta data.
+    return:
+      type: Uvendia.Domain.Cart.CartAction
+      description: ''
+    content.vb: Public Function AddTicket(ticketSale As TicketSale, quantity As Integer, ticketCancellationInsured As Boolean = False, specialItemDiscount As Decimal = 0D, metaData As String = Nothing) As CartAction
+  overload: Uvendia.Domain.Cart.CurrentCart.AddTicket*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.UpdateCartQuantityCount
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.UpdateCartQuantityCount
+  id: UpdateCartQuantityCount
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: UpdateCartQuantityCount()
+  nameWithType: CurrentCart.UpdateCartQuantityCount()
+  fullName: Uvendia.Domain.Cart.CurrentCart.UpdateCartQuantityCount()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UpdateCartQuantityCount
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 329
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nUpdates the cart quantity count.\n"
+  example: []
+  syntax:
+    content: public void UpdateCartQuantityCount()
+    content.vb: Public Sub UpdateCartQuantityCount
+  overload: Uvendia.Domain.Cart.CurrentCart.UpdateCartQuantityCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.UpdateQuantity(System.Guid,System.Int32)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.UpdateQuantity(System.Guid,System.Int32)
+  id: UpdateQuantity(System.Guid,System.Int32)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: UpdateQuantity(Guid, Int32)
+  nameWithType: CurrentCart.UpdateQuantity(Guid, Int32)
+  fullName: Uvendia.Domain.Cart.CurrentCart.UpdateQuantity(System.Guid, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UpdateQuantity
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 339
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nUpdates the cart&apos;s item quantity.\n"
+  example: []
+  syntax:
+    content: public void UpdateQuantity(Guid itemId, int quantity)
+    parameters:
+    - id: itemId
+      type: System.Guid
+      description: The item identifier.
+    - id: quantity
+      type: System.Int32
+      description: The quantity.
+    content.vb: Public Sub UpdateQuantity(itemId As Guid, quantity As Integer)
+  overload: Uvendia.Domain.Cart.CurrentCart.UpdateQuantity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.DeleteCartItem(System.Guid)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.DeleteCartItem(System.Guid)
+  id: DeleteCartItem(System.Guid)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: DeleteCartItem(Guid)
+  nameWithType: CurrentCart.DeleteCartItem(Guid)
+  fullName: Uvendia.Domain.Cart.CurrentCart.DeleteCartItem(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DeleteCartItem
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 351
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nDeletes the cart item.\n"
+  example: []
+  syntax:
+    content: public void DeleteCartItem(Guid itemId)
+    parameters:
+    - id: itemId
+      type: System.Guid
+      description: The item identifier.
+    content.vb: Public Sub DeleteCartItem(itemId As Guid)
+  overload: Uvendia.Domain.Cart.CurrentCart.DeleteCartItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.GetCartItemsByCookieId
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.GetCartItemsByCookieId
+  id: GetCartItemsByCookieId
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: GetCartItemsByCookieId()
+  nameWithType: CurrentCart.GetCartItemsByCookieId()
+  fullName: Uvendia.Domain.Cart.CurrentCart.GetCartItemsByCookieId()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetCartItemsByCookieId
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 360
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nGets the shopping cart items by cookie identifier.\n"
+  example: []
+  syntax:
+    content: public IEnumerable<CartItem> GetCartItemsByCookieId()
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem}
+      description: ''
+    content.vb: Public Function GetCartItemsByCookieId As IEnumerable(Of CartItem)
+  overload: Uvendia.Domain.Cart.CurrentCart.GetCartItemsByCookieId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.GetCartItem(System.Guid)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.GetCartItem(System.Guid)
+  id: GetCartItem(System.Guid)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: GetCartItem(Guid)
+  nameWithType: CurrentCart.GetCartItem(Guid)
+  fullName: Uvendia.Domain.Cart.CurrentCart.GetCartItem(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetCartItem
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 370
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nGets the cart item.\n"
+  example: []
+  syntax:
+    content: public CartItem GetCartItem(Guid itemId)
+    parameters:
+    - id: itemId
+      type: System.Guid
+      description: The item identifier.
+    return:
+      type: Uvendia.Domain.Cart.CartItem
+      description: ''
+    content.vb: Public Function GetCartItem(itemId As Guid) As CartItem
+  overload: Uvendia.Domain.Cart.CurrentCart.GetCartItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.GetOrder(System.Boolean)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.GetOrder(System.Boolean)
+  id: GetOrder(System.Boolean)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: GetOrder(Boolean)
+  nameWithType: CurrentCart.GetOrder(Boolean)
+  fullName: Uvendia.Domain.Cart.CurrentCart.GetOrder(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetOrder
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 380
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nGets the order.\n"
+  example: []
+  syntax:
+    content: public Order GetOrder(bool checkStatus = true)
+    parameters:
+    - id: checkStatus
+      type: System.Boolean
+      description: if set to <code>true</code> [check status] to determine whether the order has already been processed.
+    return:
+      type: Uvendia.Domain.Order
+      description: ''
+    content.vb: Public Function GetOrder(checkStatus As Boolean = True) As Order
+  overload: Uvendia.Domain.Cart.CurrentCart.GetOrder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.CreateOrder(System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem},System.Boolean)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.CreateOrder(System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem},System.Boolean)
+  id: CreateOrder(System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem},System.Boolean)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CreateOrder(IEnumerable<CartItem>, Boolean)
+  nameWithType: CurrentCart.CreateOrder(IEnumerable<CartItem>, Boolean)
+  fullName: Uvendia.Domain.Cart.CurrentCart.CreateOrder(System.Collections.Generic.IEnumerable<Uvendia.Domain.Cart.CartItem>, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CreateOrder
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 392
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nCreates the order.\n"
+  example: []
+  syntax:
+    content: public Order CreateOrder(IEnumerable<CartItem> cartItems = null, bool checkStatus = true)
+    parameters:
+    - id: cartItems
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem}
+      description: The cart items.
+    - id: checkStatus
+      type: System.Boolean
+      description: if set to <code>true</code> [check status] to determine whether the order has already been processed.
+    return:
+      type: Uvendia.Domain.Order
+      description: ''
+    content.vb: Public Function CreateOrder(cartItems As IEnumerable(Of CartItem) = Nothing, checkStatus As Boolean = True) As Order
+  overload: Uvendia.Domain.Cart.CurrentCart.CreateOrder*
+  exceptions:
+  - type: Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+    commentId: T:Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+  nameWithType.vb: CurrentCart.CreateOrder(IEnumerable(Of CartItem), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Uvendia.Domain.Cart.CurrentCart.CreateOrder(System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Cart.CartItem), System.Boolean)
+  name.vb: CreateOrder(IEnumerable(Of CartItem), Boolean)
+- uid: Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order)
+  id: SaveOrder(Uvendia.Domain.Order)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: SaveOrder(Order)
+  nameWithType: CurrentCart.SaveOrder(Order)
+  fullName: Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: SaveOrder
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 469
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nSaves the order.\n"
+  example: []
+  syntax:
+    content: public void SaveOrder(Order order)
+    parameters:
+    - id: order
+      type: Uvendia.Domain.Order
+      description: The order.
+    content.vb: Public Sub SaveOrder(order As Order)
+  overload: Uvendia.Domain.Cart.CurrentCart.SaveOrder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order,System.Boolean,System.Collections.Generic.List{System.String}@)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order,System.Boolean,System.Collections.Generic.List{System.String}@)
+  id: SaveOrder(Uvendia.Domain.Order,System.Boolean,System.Collections.Generic.List{System.String}@)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: SaveOrder(Order, Boolean, out List<String>)
+  nameWithType: CurrentCart.SaveOrder(Order, Boolean, out List<String>)
+  fullName: Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order, System.Boolean, out System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: SaveOrder
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 481
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nSaves the order.\n"
+  example: []
+  syntax:
+    content: public bool SaveOrder(Order order, bool validateOrder, out List<string> errors)
+    parameters:
+    - id: order
+      type: Uvendia.Domain.Order
+      description: The order.
+    - id: validateOrder
+      type: System.Boolean
+      description: if set to <code>true</code> [validate order].
+    - id: errors
+      type: System.Collections.Generic.List{System.String}
+      description: The errors.
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function SaveOrder(order As Order, validateOrder As Boolean, ByRef errors As List(Of String)) As Boolean
+  overload: Uvendia.Domain.Cart.CurrentCart.SaveOrder*
+  nameWithType.vb: CurrentCart.SaveOrder(Order, Boolean, ByRef List(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Uvendia.Domain.Cart.CurrentCart.SaveOrder(Uvendia.Domain.Order, System.Boolean, ByRef System.Collections.Generic.List(Of System.String))
+  name.vb: SaveOrder(Order, Boolean, ByRef List(Of String))
+- uid: Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order)
+  id: CompleteOrder(Uvendia.Domain.Order)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CompleteOrder(Order)
+  nameWithType: CurrentCart.CompleteOrder(Order)
+  fullName: Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CompleteOrder
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 503
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nCompletes the order and clears cart items.\n"
+  example: []
+  syntax:
+    content: public void CompleteOrder(Order order)
+    parameters:
+    - id: order
+      type: Uvendia.Domain.Order
+      description: The order.
+    content.vb: Public Sub CompleteOrder(order As Order)
+  overload: Uvendia.Domain.Cart.CurrentCart.CompleteOrder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order,System.Boolean,System.Collections.Generic.List{System.String}@)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order,System.Boolean,System.Collections.Generic.List{System.String}@)
+  id: CompleteOrder(Uvendia.Domain.Order,System.Boolean,System.Collections.Generic.List{System.String}@)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CompleteOrder(Order, Boolean, out List<String>)
+  nameWithType: CurrentCart.CompleteOrder(Order, Boolean, out List<String>)
+  fullName: Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order, System.Boolean, out System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CompleteOrder
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 515
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nCompletes the order and clears cart items.\n"
+  example: []
+  syntax:
+    content: public bool CompleteOrder(Order order, bool validateOrder, out List<string> errors)
+    parameters:
+    - id: order
+      type: Uvendia.Domain.Order
+      description: The order.
+    - id: validateOrder
+      type: System.Boolean
+      description: if set to <code>true</code> [validate order].
+    - id: errors
+      type: System.Collections.Generic.List{System.String}
+      description: The errors.
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function CompleteOrder(order As Order, validateOrder As Boolean, ByRef errors As List(Of String)) As Boolean
+  overload: Uvendia.Domain.Cart.CurrentCart.CompleteOrder*
+  nameWithType.vb: CurrentCart.CompleteOrder(Order, Boolean, ByRef List(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Uvendia.Domain.Cart.CurrentCart.CompleteOrder(Uvendia.Domain.Order, System.Boolean, ByRef System.Collections.Generic.List(Of System.String))
+  name.vb: CompleteOrder(Order, Boolean, ByRef List(Of String))
+- uid: Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal(System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem})
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal(System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem})
+  id: CalculateSubtotal(System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem})
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: CalculateSubtotal(IEnumerable<CartItem>)
+  nameWithType: CurrentCart.CalculateSubtotal(IEnumerable<CartItem>)
+  fullName: Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal(System.Collections.Generic.IEnumerable<Uvendia.Domain.Cart.CartItem>)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CalculateSubtotal
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 538
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nCalculates the subtotal.\n"
+  example: []
+  syntax:
+    content: public decimal CalculateSubtotal(IEnumerable<CartItem> cartItems = null)
+    parameters:
+    - id: cartItems
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem}
+      description: The cart items.
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Function CalculateSubtotal(cartItems As IEnumerable(Of CartItem) = Nothing) As Decimal
+  overload: Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal*
+  nameWithType.vb: CurrentCart.CalculateSubtotal(IEnumerable(Of CartItem))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal(System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Cart.CartItem))
+  name.vb: CalculateSubtotal(IEnumerable(Of CartItem))
+- uid: Uvendia.Domain.Cart.CurrentCart.ClearOrderAddresses
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.ClearOrderAddresses
+  id: ClearOrderAddresses
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: ClearOrderAddresses()
+  nameWithType: CurrentCart.ClearOrderAddresses()
+  fullName: Uvendia.Domain.Cart.CurrentCart.ClearOrderAddresses()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ClearOrderAddresses
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 551
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nClears the order addresses.\n"
+  example: []
+  syntax:
+    content: public void ClearOrderAddresses()
+    content.vb: Public Sub ClearOrderAddresses
+  overload: Uvendia.Domain.Cart.CurrentCart.ClearOrderAddresses*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.DeleteCartItemsByCookieId
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.DeleteCartItemsByCookieId
+  id: DeleteCartItemsByCookieId
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: DeleteCartItemsByCookieId()
+  nameWithType: CurrentCart.DeleteCartItemsByCookieId()
+  fullName: Uvendia.Domain.Cart.CurrentCart.DeleteCartItemsByCookieId()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DeleteCartItemsByCookieId
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 559
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nDeletes the cart items by cookie identifier.\n"
+  example: []
+  syntax:
+    content: public void DeleteCartItemsByCookieId()
+    content.vb: Public Sub DeleteCartItemsByCookieId
+  overload: Uvendia.Domain.Cart.CurrentCart.DeleteCartItemsByCookieId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CurrentCart.ValidateOrder(Uvendia.Domain.Order)
+  commentId: M:Uvendia.Domain.Cart.CurrentCart.ValidateOrder(Uvendia.Domain.Order)
+  id: ValidateOrder(Uvendia.Domain.Order)
+  parent: Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: ValidateOrder(Order)
+  nameWithType: CurrentCart.ValidateOrder(Order)
+  fullName: Uvendia.Domain.Cart.CurrentCart.ValidateOrder(Uvendia.Domain.Order)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CurrentCart.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ValidateOrder
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CurrentCart.cs
+    startLine: 569
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nValidates the order.\n"
+  example: []
+  syntax:
+    content: public List<string> ValidateOrder(Order order)
+    parameters:
+    - id: order
+      type: Uvendia.Domain.Order
+      description: The order.
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: The errors
+    content.vb: Public Function ValidateOrder(order As Order) As List(Of String)
+  overload: Uvendia.Domain.Cart.CurrentCart.ValidateOrder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Cart
+  commentId: N:Uvendia.Domain.Cart
+  name: Uvendia.Domain.Cart
+  nameWithType: Uvendia.Domain.Cart
+  fullName: Uvendia.Domain.Cart
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Cart.CurrentCart.#ctor*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.#ctor
+  name: CurrentCart
+  nameWithType: CurrentCart.CurrentCart
+  fullName: Uvendia.Domain.Cart.CurrentCart.CurrentCart
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Cart.CurrentCart.Create*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.Create
+  name: Create
+  nameWithType: CurrentCart.Create
+  fullName: Uvendia.Domain.Cart.CurrentCart.Create
+- uid: Uvendia.Domain.Cart.CurrentCart
+  commentId: T:Uvendia.Domain.Cart.CurrentCart
+  parent: Uvendia.Domain.Cart
+  name: CurrentCart
+  nameWithType: CurrentCart
+  fullName: Uvendia.Domain.Cart.CurrentCart
+- uid: Uvendia.Domain.Cart.CurrentCart.CartCountCookieName*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.CartCountCookieName
+  name: CartCountCookieName
+  nameWithType: CurrentCart.CartCountCookieName
+  fullName: Uvendia.Domain.Cart.CurrentCart.CartCountCookieName
+- uid: Uvendia.Domain.Cart.CurrentCart.CartCookieName*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.CartCookieName
+  name: CartCookieName
+  nameWithType: CurrentCart.CartCookieName
+  fullName: Uvendia.Domain.Cart.CurrentCart.CartCookieName
+- uid: Uvendia.Domain.Cart.CurrentCart.ItemsCount*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.ItemsCount
+  name: ItemsCount
+  nameWithType: CurrentCart.ItemsCount
+  fullName: Uvendia.Domain.Cart.CurrentCart.ItemsCount
+- uid: Uvendia.Domain.Cart.CurrentCart.CartCookieId*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.CartCookieId
+  name: CartCookieId
+  nameWithType: CurrentCart.CartCookieId
+  fullName: Uvendia.Domain.Cart.CurrentCart.CartCookieId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Uvendia.Domain.Cart.CurrentCart.AddValueToCartCookie*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.AddValueToCartCookie
+  name: AddValueToCartCookie
+  nameWithType: CurrentCart.AddValueToCartCookie
+  fullName: Uvendia.Domain.Cart.CurrentCart.AddValueToCartCookie
+- uid: Uvendia.Domain.Cart.CurrentCart.Item*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.Item
+  name: Item
+  nameWithType: CurrentCart.Item
+  fullName: Uvendia.Domain.Cart.CurrentCart.Item
+- uid: Uvendia.Domain.Cart.CurrentCart.HasCartItems*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.HasCartItems
+  name: HasCartItems
+  nameWithType: CurrentCart.HasCartItems
+  fullName: Uvendia.Domain.Cart.CurrentCart.HasCartItems
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Cart.CurrentCart.ClearItemsCount*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.ClearItemsCount
+  name: ClearItemsCount
+  nameWithType: CurrentCart.ClearItemsCount
+  fullName: Uvendia.Domain.Cart.CurrentCart.ClearItemsCount
+- uid: Uvendia.Domain.Cart.CurrentCart.ClearCart*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.ClearCart
+  name: ClearCart
+  nameWithType: CurrentCart.ClearCart
+  fullName: Uvendia.Domain.Cart.CurrentCart.ClearCart
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+- uid: Uvendia.Domain.Cart.CurrentCart.AddProduct*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.AddProduct
+  name: AddProduct
+  nameWithType: CurrentCart.AddProduct
+  fullName: Uvendia.Domain.Cart.CurrentCart.AddProduct
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: Uvendia.Domain.Cart.CartAction
+  commentId: T:Uvendia.Domain.Cart.CartAction
+  parent: Uvendia.Domain.Cart
+  name: CartAction
+  nameWithType: CartAction
+  fullName: Uvendia.Domain.Cart.CartAction
+- uid: Uvendia.Domain.Product
+  commentId: T:Uvendia.Domain.Product
+  parent: Uvendia.Domain
+  name: Product
+  nameWithType: Product
+  fullName: Uvendia.Domain.Product
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Cart.CurrentCart.AddTicket*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.AddTicket
+  name: AddTicket
+  nameWithType: CurrentCart.AddTicket
+  fullName: Uvendia.Domain.Cart.CurrentCart.AddTicket
+- uid: Uvendia.Domain.TicketSale
+  commentId: T:Uvendia.Domain.TicketSale
+  parent: Uvendia.Domain
+  name: TicketSale
+  nameWithType: TicketSale
+  fullName: Uvendia.Domain.TicketSale
+- uid: Uvendia.Domain.Cart.CurrentCart.UpdateCartQuantityCount*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.UpdateCartQuantityCount
+  name: UpdateCartQuantityCount
+  nameWithType: CurrentCart.UpdateCartQuantityCount
+  fullName: Uvendia.Domain.Cart.CurrentCart.UpdateCartQuantityCount
+- uid: Uvendia.Domain.Cart.CurrentCart.UpdateQuantity*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.UpdateQuantity
+  name: UpdateQuantity
+  nameWithType: CurrentCart.UpdateQuantity
+  fullName: Uvendia.Domain.Cart.CurrentCart.UpdateQuantity
+- uid: Uvendia.Domain.Cart.CurrentCart.DeleteCartItem*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.DeleteCartItem
+  name: DeleteCartItem
+  nameWithType: CurrentCart.DeleteCartItem
+  fullName: Uvendia.Domain.Cart.CurrentCart.DeleteCartItem
+- uid: Uvendia.Domain.Cart.CurrentCart.GetCartItemsByCookieId*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.GetCartItemsByCookieId
+  name: GetCartItemsByCookieId
+  nameWithType: CurrentCart.GetCartItemsByCookieId
+  fullName: Uvendia.Domain.Cart.CurrentCart.GetCartItemsByCookieId
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Cart.CartItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<CartItem>
+  nameWithType: IEnumerable<CartItem>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Cart.CartItem>
+  nameWithType.vb: IEnumerable(Of CartItem)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Cart.CartItem)
+  name.vb: IEnumerable(Of CartItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Cart.CartItem
+    name: CartItem
+    nameWithType: CartItem
+    fullName: Uvendia.Domain.Cart.CartItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Cart.CartItem
+    name: CartItem
+    nameWithType: CartItem
+    fullName: Uvendia.Domain.Cart.CartItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Cart.CurrentCart.GetCartItem*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.GetCartItem
+  name: GetCartItem
+  nameWithType: CurrentCart.GetCartItem
+  fullName: Uvendia.Domain.Cart.CurrentCart.GetCartItem
+- uid: Uvendia.Domain.Cart.CartItem
+  commentId: T:Uvendia.Domain.Cart.CartItem
+  parent: Uvendia.Domain.Cart
+  name: CartItem
+  nameWithType: CartItem
+  fullName: Uvendia.Domain.Cart.CartItem
+- uid: Uvendia.Domain.Cart.CurrentCart.GetOrder*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.GetOrder
+  name: GetOrder
+  nameWithType: CurrentCart.GetOrder
+  fullName: Uvendia.Domain.Cart.CurrentCart.GetOrder
+- uid: Uvendia.Domain.Order
+  commentId: T:Uvendia.Domain.Order
+  parent: Uvendia.Domain
+  name: Order
+  nameWithType: Order
+  fullName: Uvendia.Domain.Order
+- uid: Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+  commentId: T:Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+  name: OrderAlreadyProcessedException
+  nameWithType: OrderAlreadyProcessedException
+  fullName: Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+- uid: Uvendia.Domain.Cart.CurrentCart.CreateOrder*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.CreateOrder
+  name: CreateOrder
+  nameWithType: CurrentCart.CreateOrder
+  fullName: Uvendia.Domain.Cart.CurrentCart.CreateOrder
+- uid: Uvendia.Domain.Cart.CurrentCart.SaveOrder*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.SaveOrder
+  name: SaveOrder
+  nameWithType: CurrentCart.SaveOrder
+  fullName: Uvendia.Domain.Cart.CurrentCart.SaveOrder
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Cart.CurrentCart.CompleteOrder*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.CompleteOrder
+  name: CompleteOrder
+  nameWithType: CurrentCart.CompleteOrder
+  fullName: Uvendia.Domain.Cart.CurrentCart.CompleteOrder
+- uid: Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal
+  name: CalculateSubtotal
+  nameWithType: CurrentCart.CalculateSubtotal
+  fullName: Uvendia.Domain.Cart.CurrentCart.CalculateSubtotal
+- uid: Uvendia.Domain.Cart.CurrentCart.ClearOrderAddresses*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.ClearOrderAddresses
+  name: ClearOrderAddresses
+  nameWithType: CurrentCart.ClearOrderAddresses
+  fullName: Uvendia.Domain.Cart.CurrentCart.ClearOrderAddresses
+- uid: Uvendia.Domain.Cart.CurrentCart.DeleteCartItemsByCookieId*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.DeleteCartItemsByCookieId
+  name: DeleteCartItemsByCookieId
+  nameWithType: CurrentCart.DeleteCartItemsByCookieId
+  fullName: Uvendia.Domain.Cart.CurrentCart.DeleteCartItemsByCookieId
+- uid: Uvendia.Domain.Cart.CurrentCart.ValidateOrder*
+  commentId: Overload:Uvendia.Domain.Cart.CurrentCart.ValidateOrder
+  name: ValidateOrder
+  nameWithType: CurrentCart.ValidateOrder
+  fullName: Uvendia.Domain.Cart.CurrentCart.ValidateOrder

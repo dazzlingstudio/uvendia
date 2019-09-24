@@ -1,0 +1,2056 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.Controllers.MailController
+  commentId: T:Uvendia.Domain.Mvc.Controllers.MailController
+  id: MailController
+  parent: Uvendia.Domain.Mvc.Controllers
+  children:
+  - Uvendia.Domain.Mvc.Controllers.MailController.Instance(System.Web.HttpRequestBase)
+  - Uvendia.Domain.Mvc.Controllers.MailController.SendOrderMail(Uvendia.Domain.CustomOrderEmailArgs)
+  langs:
+  - csharp
+  - vb
+  name: MailController
+  nameWithType: MailController
+  fullName: Uvendia.Domain.Mvc.Controllers.MailController
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/MailController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MailController
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/MailController.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: 'public class MailController : MailerBase, IController'
+    content.vb: >-
+      Public Class MailController
+          Inherits MailerBase
+          Implements IController
+  inheritance:
+  - System.Object
+  - System.Web.Mvc.ControllerBase
+  - Mvc.Mailer.MailerBase
+  implements:
+  - System.Web.Mvc.IController
+  inheritedMembers:
+  - Mvc.Mailer.MailerBase.ExecuteCore
+  - Mvc.Mailer.MailerBase.EmailBody(System.String,System.String)
+  - Mvc.Mailer.MailerBase.Populate(System.Action{Mvc.Mailer.MvcMailMessage})
+  - Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - Mvc.Mailer.MailerBase.PopulateTextPart(System.Net.Mail.MailMessage,System.String,System.String)
+  - Mvc.Mailer.MailerBase.PopulateTextBody(System.Net.Mail.MailMessage,System.String,System.String)
+  - Mvc.Mailer.MailerBase.PopulateHtmlBody(System.Net.Mail.MailMessage,System.String,System.String)
+  - Mvc.Mailer.MailerBase.TextViewExists(System.String,System.String)
+  - Mvc.Mailer.MailerBase.HtmlViewExists(System.String,System.String)
+  - Mvc.Mailer.MailerBase.IsMultiPart(System.String,System.String)
+  - Mvc.Mailer.MailerBase.TextViewName(System.String)
+  - Mvc.Mailer.MailerBase.TextMasterName(System.String)
+  - Mvc.Mailer.MailerBase.PopulateHtmlPart(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - Mvc.Mailer.MailerBase.PopulatePart(System.Net.Mail.MailMessage,System.String,System.String,System.String)
+  - Mvc.Mailer.MailerBase.PopulateLinkedResources(System.Net.Mail.AlternateView,System.Collections.Generic.Dictionary{System.String,System.String})
+  - Mvc.Mailer.MailerBase.PopulateLinkedResource(System.Net.Mail.AlternateView,System.String,System.String)
+  - Mvc.Mailer.MailerBase.ViewExists(System.String,System.String)
+  - Mvc.Mailer.MailerBase.LinkedResourceProvider
+  - Mvc.Mailer.MailerBase.MasterName
+  - Mvc.Mailer.MailerBase.MailerName
+  - Mvc.Mailer.MailerBase.CurrentHttpContext
+  - Mvc.Mailer.MailerBase.IsTestModeEnabled
+  - System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)
+  - System.Web.Mvc.ControllerBase.Initialize(System.Web.Routing.RequestContext)
+  - System.Web.Mvc.ControllerBase.System#Web#Mvc#IController#Execute(System.Web.Routing.RequestContext)
+  - System.Web.Mvc.ControllerBase.ControllerContext
+  - System.Web.Mvc.ControllerBase.TempData
+  - System.Web.Mvc.ControllerBase.ValidateRequest
+  - System.Web.Mvc.ControllerBase.ValueProvider
+  - System.Web.Mvc.ControllerBase.ViewBag
+  - System.Web.Mvc.ControllerBase.ViewData
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.Controllers.MailController.Instance(System.Web.HttpRequestBase)
+  commentId: M:Uvendia.Domain.Mvc.Controllers.MailController.Instance(System.Web.HttpRequestBase)
+  id: Instance(System.Web.HttpRequestBase)
+  parent: Uvendia.Domain.Mvc.Controllers.MailController
+  langs:
+  - csharp
+  - vb
+  name: Instance(HttpRequestBase)
+  nameWithType: MailController.Instance(HttpRequestBase)
+  fullName: Uvendia.Domain.Mvc.Controllers.MailController.Instance(System.Web.HttpRequestBase)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/MailController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Instance
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/MailController.cs
+    startLine: 34
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: public static MailController Instance(HttpRequestBase request)
+    parameters:
+    - id: request
+      type: System.Web.HttpRequestBase
+    return:
+      type: Uvendia.Domain.Mvc.Controllers.MailController
+    content.vb: Public Shared Function Instance(request As HttpRequestBase) As MailController
+  overload: Uvendia.Domain.Mvc.Controllers.MailController.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Mvc.Controllers.MailController.SendOrderMail(Uvendia.Domain.CustomOrderEmailArgs)
+  commentId: M:Uvendia.Domain.Mvc.Controllers.MailController.SendOrderMail(Uvendia.Domain.CustomOrderEmailArgs)
+  id: SendOrderMail(Uvendia.Domain.CustomOrderEmailArgs)
+  parent: Uvendia.Domain.Mvc.Controllers.MailController
+  langs:
+  - csharp
+  - vb
+  name: SendOrderMail(CustomOrderEmailArgs)
+  nameWithType: MailController.SendOrderMail(CustomOrderEmailArgs)
+  fullName: Uvendia.Domain.Mvc.Controllers.MailController.SendOrderMail(Uvendia.Domain.CustomOrderEmailArgs)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/Controllers/MailController.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: SendOrderMail
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/Controllers/MailController.cs
+    startLine: 39
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.Controllers
+  syntax:
+    content: public virtual MvcMailMessage SendOrderMail(CustomOrderEmailArgs args)
+    parameters:
+    - id: args
+      type: Uvendia.Domain.CustomOrderEmailArgs
+    return:
+      type: Mvc.Mailer.MvcMailMessage
+    content.vb: Public Overridable Function SendOrderMail(args As CustomOrderEmailArgs) As MvcMailMessage
+  overload: Uvendia.Domain.Mvc.Controllers.MailController.SendOrderMail*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Uvendia.Domain.Mvc.Controllers
+  commentId: N:Uvendia.Domain.Mvc.Controllers
+  name: Uvendia.Domain.Mvc.Controllers
+  nameWithType: Uvendia.Domain.Mvc.Controllers
+  fullName: Uvendia.Domain.Mvc.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.Mvc.ControllerBase
+  commentId: T:System.Web.Mvc.ControllerBase
+  parent: System.Web.Mvc
+  isExternal: true
+  name: ControllerBase
+  nameWithType: ControllerBase
+  fullName: System.Web.Mvc.ControllerBase
+- uid: Mvc.Mailer.MailerBase
+  commentId: T:Mvc.Mailer.MailerBase
+  parent: Mvc.Mailer
+  isExternal: true
+  name: MailerBase
+  nameWithType: MailerBase
+  fullName: Mvc.Mailer.MailerBase
+- uid: System.Web.Mvc.IController
+  commentId: T:System.Web.Mvc.IController
+  parent: System.Web.Mvc
+  isExternal: true
+  name: IController
+  nameWithType: IController
+  fullName: System.Web.Mvc.IController
+- uid: Mvc.Mailer.MailerBase.ExecuteCore
+  commentId: M:Mvc.Mailer.MailerBase.ExecuteCore
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: ExecuteCore()
+  nameWithType: MailerBase.ExecuteCore()
+  fullName: Mvc.Mailer.MailerBase.ExecuteCore()
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.ExecuteCore
+    name: ExecuteCore
+    nameWithType: MailerBase.ExecuteCore
+    fullName: Mvc.Mailer.MailerBase.ExecuteCore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.ExecuteCore
+    name: ExecuteCore
+    nameWithType: MailerBase.ExecuteCore
+    fullName: Mvc.Mailer.MailerBase.ExecuteCore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.EmailBody(System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.EmailBody(System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: EmailBody(String, String)
+  nameWithType: MailerBase.EmailBody(String, String)
+  fullName: Mvc.Mailer.MailerBase.EmailBody(System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.EmailBody(System.String,System.String)
+    name: EmailBody
+    nameWithType: MailerBase.EmailBody
+    fullName: Mvc.Mailer.MailerBase.EmailBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.EmailBody(System.String,System.String)
+    name: EmailBody
+    nameWithType: MailerBase.EmailBody
+    fullName: Mvc.Mailer.MailerBase.EmailBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.Populate(System.Action{Mvc.Mailer.MvcMailMessage})
+  commentId: M:Mvc.Mailer.MailerBase.Populate(System.Action{Mvc.Mailer.MvcMailMessage})
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: Populate(Action<MvcMailMessage>)
+  nameWithType: MailerBase.Populate(Action<MvcMailMessage>)
+  fullName: Mvc.Mailer.MailerBase.Populate(System.Action<Mvc.Mailer.MvcMailMessage>)
+  nameWithType.vb: MailerBase.Populate(Action(Of MvcMailMessage))
+  fullName.vb: Mvc.Mailer.MailerBase.Populate(System.Action(Of Mvc.Mailer.MvcMailMessage))
+  name.vb: Populate(Action(Of MvcMailMessage))
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.Populate(System.Action{Mvc.Mailer.MvcMailMessage})
+    name: Populate
+    nameWithType: MailerBase.Populate
+    fullName: Mvc.Mailer.MailerBase.Populate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mvc.Mailer.MvcMailMessage
+    name: MvcMailMessage
+    nameWithType: MvcMailMessage
+    fullName: Mvc.Mailer.MvcMailMessage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.Populate(System.Action{Mvc.Mailer.MvcMailMessage})
+    name: Populate
+    nameWithType: MailerBase.Populate
+    fullName: Mvc.Mailer.MailerBase.Populate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mvc.Mailer.MvcMailMessage
+    name: MvcMailMessage
+    nameWithType: MvcMailMessage
+    fullName: Mvc.Mailer.MvcMailMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulateBody(MailMessage, String, Dictionary<String, String>)
+  nameWithType: MailerBase.PopulateBody(MailMessage, String, Dictionary<String, String>)
+  fullName: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage, System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
+  nameWithType.vb: MailerBase.PopulateBody(MailMessage, String, Dictionary(Of String, String))
+  fullName.vb: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage, System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: PopulateBody(MailMessage, String, Dictionary(Of String, String))
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: PopulateBody
+    nameWithType: MailerBase.PopulateBody
+    fullName: Mvc.Mailer.MailerBase.PopulateBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: PopulateBody
+    nameWithType: MailerBase.PopulateBody
+    fullName: Mvc.Mailer.MailerBase.PopulateBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulateBody(MailMessage, String, String, Dictionary<String, String>)
+  nameWithType: MailerBase.PopulateBody(MailMessage, String, String, Dictionary<String, String>)
+  fullName: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage, System.String, System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
+  nameWithType.vb: MailerBase.PopulateBody(MailMessage, String, String, Dictionary(Of String, String))
+  fullName.vb: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage, System.String, System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: PopulateBody(MailMessage, String, String, Dictionary(Of String, String))
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: PopulateBody
+    nameWithType: MailerBase.PopulateBody
+    fullName: Mvc.Mailer.MailerBase.PopulateBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulateBody(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: PopulateBody
+    nameWithType: MailerBase.PopulateBody
+    fullName: Mvc.Mailer.MailerBase.PopulateBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulateTextPart(System.Net.Mail.MailMessage,System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.PopulateTextPart(System.Net.Mail.MailMessage,System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulateTextPart(MailMessage, String, String)
+  nameWithType: MailerBase.PopulateTextPart(MailMessage, String, String)
+  fullName: Mvc.Mailer.MailerBase.PopulateTextPart(System.Net.Mail.MailMessage, System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulateTextPart(System.Net.Mail.MailMessage,System.String,System.String)
+    name: PopulateTextPart
+    nameWithType: MailerBase.PopulateTextPart
+    fullName: Mvc.Mailer.MailerBase.PopulateTextPart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulateTextPart(System.Net.Mail.MailMessage,System.String,System.String)
+    name: PopulateTextPart
+    nameWithType: MailerBase.PopulateTextPart
+    fullName: Mvc.Mailer.MailerBase.PopulateTextPart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulateTextBody(System.Net.Mail.MailMessage,System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.PopulateTextBody(System.Net.Mail.MailMessage,System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulateTextBody(MailMessage, String, String)
+  nameWithType: MailerBase.PopulateTextBody(MailMessage, String, String)
+  fullName: Mvc.Mailer.MailerBase.PopulateTextBody(System.Net.Mail.MailMessage, System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulateTextBody(System.Net.Mail.MailMessage,System.String,System.String)
+    name: PopulateTextBody
+    nameWithType: MailerBase.PopulateTextBody
+    fullName: Mvc.Mailer.MailerBase.PopulateTextBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulateTextBody(System.Net.Mail.MailMessage,System.String,System.String)
+    name: PopulateTextBody
+    nameWithType: MailerBase.PopulateTextBody
+    fullName: Mvc.Mailer.MailerBase.PopulateTextBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulateHtmlBody(System.Net.Mail.MailMessage,System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.PopulateHtmlBody(System.Net.Mail.MailMessage,System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulateHtmlBody(MailMessage, String, String)
+  nameWithType: MailerBase.PopulateHtmlBody(MailMessage, String, String)
+  fullName: Mvc.Mailer.MailerBase.PopulateHtmlBody(System.Net.Mail.MailMessage, System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulateHtmlBody(System.Net.Mail.MailMessage,System.String,System.String)
+    name: PopulateHtmlBody
+    nameWithType: MailerBase.PopulateHtmlBody
+    fullName: Mvc.Mailer.MailerBase.PopulateHtmlBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulateHtmlBody(System.Net.Mail.MailMessage,System.String,System.String)
+    name: PopulateHtmlBody
+    nameWithType: MailerBase.PopulateHtmlBody
+    fullName: Mvc.Mailer.MailerBase.PopulateHtmlBody
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.TextViewExists(System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.TextViewExists(System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: TextViewExists(String, String)
+  nameWithType: MailerBase.TextViewExists(String, String)
+  fullName: Mvc.Mailer.MailerBase.TextViewExists(System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.TextViewExists(System.String,System.String)
+    name: TextViewExists
+    nameWithType: MailerBase.TextViewExists
+    fullName: Mvc.Mailer.MailerBase.TextViewExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.TextViewExists(System.String,System.String)
+    name: TextViewExists
+    nameWithType: MailerBase.TextViewExists
+    fullName: Mvc.Mailer.MailerBase.TextViewExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.HtmlViewExists(System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.HtmlViewExists(System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: HtmlViewExists(String, String)
+  nameWithType: MailerBase.HtmlViewExists(String, String)
+  fullName: Mvc.Mailer.MailerBase.HtmlViewExists(System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.HtmlViewExists(System.String,System.String)
+    name: HtmlViewExists
+    nameWithType: MailerBase.HtmlViewExists
+    fullName: Mvc.Mailer.MailerBase.HtmlViewExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.HtmlViewExists(System.String,System.String)
+    name: HtmlViewExists
+    nameWithType: MailerBase.HtmlViewExists
+    fullName: Mvc.Mailer.MailerBase.HtmlViewExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.IsMultiPart(System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.IsMultiPart(System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: IsMultiPart(String, String)
+  nameWithType: MailerBase.IsMultiPart(String, String)
+  fullName: Mvc.Mailer.MailerBase.IsMultiPart(System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.IsMultiPart(System.String,System.String)
+    name: IsMultiPart
+    nameWithType: MailerBase.IsMultiPart
+    fullName: Mvc.Mailer.MailerBase.IsMultiPart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.IsMultiPart(System.String,System.String)
+    name: IsMultiPart
+    nameWithType: MailerBase.IsMultiPart
+    fullName: Mvc.Mailer.MailerBase.IsMultiPart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.TextViewName(System.String)
+  commentId: M:Mvc.Mailer.MailerBase.TextViewName(System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: TextViewName(String)
+  nameWithType: MailerBase.TextViewName(String)
+  fullName: Mvc.Mailer.MailerBase.TextViewName(System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.TextViewName(System.String)
+    name: TextViewName
+    nameWithType: MailerBase.TextViewName
+    fullName: Mvc.Mailer.MailerBase.TextViewName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.TextViewName(System.String)
+    name: TextViewName
+    nameWithType: MailerBase.TextViewName
+    fullName: Mvc.Mailer.MailerBase.TextViewName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.TextMasterName(System.String)
+  commentId: M:Mvc.Mailer.MailerBase.TextMasterName(System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: TextMasterName(String)
+  nameWithType: MailerBase.TextMasterName(String)
+  fullName: Mvc.Mailer.MailerBase.TextMasterName(System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.TextMasterName(System.String)
+    name: TextMasterName
+    nameWithType: MailerBase.TextMasterName
+    fullName: Mvc.Mailer.MailerBase.TextMasterName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.TextMasterName(System.String)
+    name: TextMasterName
+    nameWithType: MailerBase.TextMasterName
+    fullName: Mvc.Mailer.MailerBase.TextMasterName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulateHtmlPart(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:Mvc.Mailer.MailerBase.PopulateHtmlPart(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulateHtmlPart(MailMessage, String, String, Dictionary<String, String>)
+  nameWithType: MailerBase.PopulateHtmlPart(MailMessage, String, String, Dictionary<String, String>)
+  fullName: Mvc.Mailer.MailerBase.PopulateHtmlPart(System.Net.Mail.MailMessage, System.String, System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
+  nameWithType.vb: MailerBase.PopulateHtmlPart(MailMessage, String, String, Dictionary(Of String, String))
+  fullName.vb: Mvc.Mailer.MailerBase.PopulateHtmlPart(System.Net.Mail.MailMessage, System.String, System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: PopulateHtmlPart(MailMessage, String, String, Dictionary(Of String, String))
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulateHtmlPart(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: PopulateHtmlPart
+    nameWithType: MailerBase.PopulateHtmlPart
+    fullName: Mvc.Mailer.MailerBase.PopulateHtmlPart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulateHtmlPart(System.Net.Mail.MailMessage,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: PopulateHtmlPart
+    nameWithType: MailerBase.PopulateHtmlPart
+    fullName: Mvc.Mailer.MailerBase.PopulateHtmlPart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulatePart(System.Net.Mail.MailMessage,System.String,System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.PopulatePart(System.Net.Mail.MailMessage,System.String,System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulatePart(MailMessage, String, String, String)
+  nameWithType: MailerBase.PopulatePart(MailMessage, String, String, String)
+  fullName: Mvc.Mailer.MailerBase.PopulatePart(System.Net.Mail.MailMessage, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulatePart(System.Net.Mail.MailMessage,System.String,System.String,System.String)
+    name: PopulatePart
+    nameWithType: MailerBase.PopulatePart
+    fullName: Mvc.Mailer.MailerBase.PopulatePart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulatePart(System.Net.Mail.MailMessage,System.String,System.String,System.String)
+    name: PopulatePart
+    nameWithType: MailerBase.PopulatePart
+    fullName: Mvc.Mailer.MailerBase.PopulatePart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.MailMessage
+    name: MailMessage
+    nameWithType: MailMessage
+    fullName: System.Net.Mail.MailMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulateLinkedResources(System.Net.Mail.AlternateView,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:Mvc.Mailer.MailerBase.PopulateLinkedResources(System.Net.Mail.AlternateView,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulateLinkedResources(AlternateView, Dictionary<String, String>)
+  nameWithType: MailerBase.PopulateLinkedResources(AlternateView, Dictionary<String, String>)
+  fullName: Mvc.Mailer.MailerBase.PopulateLinkedResources(System.Net.Mail.AlternateView, System.Collections.Generic.Dictionary<System.String, System.String>)
+  nameWithType.vb: MailerBase.PopulateLinkedResources(AlternateView, Dictionary(Of String, String))
+  fullName.vb: Mvc.Mailer.MailerBase.PopulateLinkedResources(System.Net.Mail.AlternateView, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: PopulateLinkedResources(AlternateView, Dictionary(Of String, String))
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulateLinkedResources(System.Net.Mail.AlternateView,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: PopulateLinkedResources
+    nameWithType: MailerBase.PopulateLinkedResources
+    fullName: Mvc.Mailer.MailerBase.PopulateLinkedResources
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.AlternateView
+    name: AlternateView
+    nameWithType: AlternateView
+    fullName: System.Net.Mail.AlternateView
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulateLinkedResources(System.Net.Mail.AlternateView,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: PopulateLinkedResources
+    nameWithType: MailerBase.PopulateLinkedResources
+    fullName: Mvc.Mailer.MailerBase.PopulateLinkedResources
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.AlternateView
+    name: AlternateView
+    nameWithType: AlternateView
+    fullName: System.Net.Mail.AlternateView
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.PopulateLinkedResource(System.Net.Mail.AlternateView,System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.PopulateLinkedResource(System.Net.Mail.AlternateView,System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: PopulateLinkedResource(AlternateView, String, String)
+  nameWithType: MailerBase.PopulateLinkedResource(AlternateView, String, String)
+  fullName: Mvc.Mailer.MailerBase.PopulateLinkedResource(System.Net.Mail.AlternateView, System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.PopulateLinkedResource(System.Net.Mail.AlternateView,System.String,System.String)
+    name: PopulateLinkedResource
+    nameWithType: MailerBase.PopulateLinkedResource
+    fullName: Mvc.Mailer.MailerBase.PopulateLinkedResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.AlternateView
+    name: AlternateView
+    nameWithType: AlternateView
+    fullName: System.Net.Mail.AlternateView
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.PopulateLinkedResource(System.Net.Mail.AlternateView,System.String,System.String)
+    name: PopulateLinkedResource
+    nameWithType: MailerBase.PopulateLinkedResource
+    fullName: Mvc.Mailer.MailerBase.PopulateLinkedResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Mail.AlternateView
+    name: AlternateView
+    nameWithType: AlternateView
+    fullName: System.Net.Mail.AlternateView
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.ViewExists(System.String,System.String)
+  commentId: M:Mvc.Mailer.MailerBase.ViewExists(System.String,System.String)
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: ViewExists(String, String)
+  nameWithType: MailerBase.ViewExists(String, String)
+  fullName: Mvc.Mailer.MailerBase.ViewExists(System.String, System.String)
+  spec.csharp:
+  - uid: Mvc.Mailer.MailerBase.ViewExists(System.String,System.String)
+    name: ViewExists
+    nameWithType: MailerBase.ViewExists
+    fullName: Mvc.Mailer.MailerBase.ViewExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mvc.Mailer.MailerBase.ViewExists(System.String,System.String)
+    name: ViewExists
+    nameWithType: MailerBase.ViewExists
+    fullName: Mvc.Mailer.MailerBase.ViewExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mvc.Mailer.MailerBase.LinkedResourceProvider
+  commentId: P:Mvc.Mailer.MailerBase.LinkedResourceProvider
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: LinkedResourceProvider
+  nameWithType: MailerBase.LinkedResourceProvider
+  fullName: Mvc.Mailer.MailerBase.LinkedResourceProvider
+- uid: Mvc.Mailer.MailerBase.MasterName
+  commentId: P:Mvc.Mailer.MailerBase.MasterName
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: MasterName
+  nameWithType: MailerBase.MasterName
+  fullName: Mvc.Mailer.MailerBase.MasterName
+- uid: Mvc.Mailer.MailerBase.MailerName
+  commentId: P:Mvc.Mailer.MailerBase.MailerName
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: MailerName
+  nameWithType: MailerBase.MailerName
+  fullName: Mvc.Mailer.MailerBase.MailerName
+- uid: Mvc.Mailer.MailerBase.CurrentHttpContext
+  commentId: P:Mvc.Mailer.MailerBase.CurrentHttpContext
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: CurrentHttpContext
+  nameWithType: MailerBase.CurrentHttpContext
+  fullName: Mvc.Mailer.MailerBase.CurrentHttpContext
+- uid: Mvc.Mailer.MailerBase.IsTestModeEnabled
+  commentId: P:Mvc.Mailer.MailerBase.IsTestModeEnabled
+  parent: Mvc.Mailer.MailerBase
+  isExternal: true
+  name: IsTestModeEnabled
+  nameWithType: MailerBase.IsTestModeEnabled
+  fullName: Mvc.Mailer.MailerBase.IsTestModeEnabled
+- uid: System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)
+  commentId: M:System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: Execute(RequestContext)
+  nameWithType: ControllerBase.Execute(RequestContext)
+  fullName: System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)
+  spec.csharp:
+  - uid: System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)
+    name: Execute
+    nameWithType: ControllerBase.Execute
+    fullName: System.Web.Mvc.ControllerBase.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Routing.RequestContext
+    name: RequestContext
+    nameWithType: RequestContext
+    fullName: System.Web.Routing.RequestContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)
+    name: Execute
+    nameWithType: ControllerBase.Execute
+    fullName: System.Web.Mvc.ControllerBase.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Routing.RequestContext
+    name: RequestContext
+    nameWithType: RequestContext
+    fullName: System.Web.Routing.RequestContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Mvc.ControllerBase.Initialize(System.Web.Routing.RequestContext)
+  commentId: M:System.Web.Mvc.ControllerBase.Initialize(System.Web.Routing.RequestContext)
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: Initialize(RequestContext)
+  nameWithType: ControllerBase.Initialize(RequestContext)
+  fullName: System.Web.Mvc.ControllerBase.Initialize(System.Web.Routing.RequestContext)
+  spec.csharp:
+  - uid: System.Web.Mvc.ControllerBase.Initialize(System.Web.Routing.RequestContext)
+    name: Initialize
+    nameWithType: ControllerBase.Initialize
+    fullName: System.Web.Mvc.ControllerBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Routing.RequestContext
+    name: RequestContext
+    nameWithType: RequestContext
+    fullName: System.Web.Routing.RequestContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Mvc.ControllerBase.Initialize(System.Web.Routing.RequestContext)
+    name: Initialize
+    nameWithType: ControllerBase.Initialize
+    fullName: System.Web.Mvc.ControllerBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Routing.RequestContext
+    name: RequestContext
+    nameWithType: RequestContext
+    fullName: System.Web.Routing.RequestContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Mvc.ControllerBase.System#Web#Mvc#IController#Execute(System.Web.Routing.RequestContext)
+  commentId: M:System.Web.Mvc.ControllerBase.System#Web#Mvc#IController#Execute(System.Web.Routing.RequestContext)
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: IController.Execute(RequestContext)
+  nameWithType: ControllerBase.IController.Execute(RequestContext)
+  fullName: System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(System.Web.Routing.RequestContext)
+  nameWithType.vb: ControllerBase.System.Web.Mvc.IController.Execute(RequestContext)
+  name.vb: System.Web.Mvc.IController.Execute(RequestContext)
+  spec.csharp:
+  - uid: System.Web.Mvc.ControllerBase.System#Web#Mvc#IController#Execute(System.Web.Routing.RequestContext)
+    name: IController.Execute
+    nameWithType: ControllerBase.IController.Execute
+    fullName: System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Routing.RequestContext
+    name: RequestContext
+    nameWithType: RequestContext
+    fullName: System.Web.Routing.RequestContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.Mvc.ControllerBase.System#Web#Mvc#IController#Execute(System.Web.Routing.RequestContext)
+    name: System.Web.Mvc.IController.Execute
+    nameWithType: ControllerBase.System.Web.Mvc.IController.Execute
+    fullName: System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.Routing.RequestContext
+    name: RequestContext
+    nameWithType: RequestContext
+    fullName: System.Web.Routing.RequestContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Mvc.ControllerBase.ControllerContext
+  commentId: P:System.Web.Mvc.ControllerBase.ControllerContext
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: ControllerContext
+  nameWithType: ControllerBase.ControllerContext
+  fullName: System.Web.Mvc.ControllerBase.ControllerContext
+- uid: System.Web.Mvc.ControllerBase.TempData
+  commentId: P:System.Web.Mvc.ControllerBase.TempData
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: TempData
+  nameWithType: ControllerBase.TempData
+  fullName: System.Web.Mvc.ControllerBase.TempData
+- uid: System.Web.Mvc.ControllerBase.ValidateRequest
+  commentId: P:System.Web.Mvc.ControllerBase.ValidateRequest
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: ValidateRequest
+  nameWithType: ControllerBase.ValidateRequest
+  fullName: System.Web.Mvc.ControllerBase.ValidateRequest
+- uid: System.Web.Mvc.ControllerBase.ValueProvider
+  commentId: P:System.Web.Mvc.ControllerBase.ValueProvider
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: ValueProvider
+  nameWithType: ControllerBase.ValueProvider
+  fullName: System.Web.Mvc.ControllerBase.ValueProvider
+- uid: System.Web.Mvc.ControllerBase.ViewBag
+  commentId: P:System.Web.Mvc.ControllerBase.ViewBag
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: ViewBag
+  nameWithType: ControllerBase.ViewBag
+  fullName: System.Web.Mvc.ControllerBase.ViewBag
+- uid: System.Web.Mvc.ControllerBase.ViewData
+  commentId: P:System.Web.Mvc.ControllerBase.ViewData
+  parent: System.Web.Mvc.ControllerBase
+  isExternal: true
+  name: ViewData
+  nameWithType: ControllerBase.ViewData
+  fullName: System.Web.Mvc.ControllerBase.ViewData
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.Mvc
+  commentId: N:System.Web.Mvc
+  isExternal: true
+  name: System.Web.Mvc
+  nameWithType: System.Web.Mvc
+  fullName: System.Web.Mvc
+- uid: Mvc.Mailer
+  commentId: N:Mvc.Mailer
+  isExternal: true
+  name: Mvc.Mailer
+  nameWithType: Mvc.Mailer
+  fullName: Mvc.Mailer
+- uid: Uvendia.Domain.Mvc.Controllers.MailController.Instance*
+  commentId: Overload:Uvendia.Domain.Mvc.Controllers.MailController.Instance
+  name: Instance
+  nameWithType: MailController.Instance
+  fullName: Uvendia.Domain.Mvc.Controllers.MailController.Instance
+- uid: System.Web.HttpRequestBase
+  commentId: T:System.Web.HttpRequestBase
+  parent: System.Web
+  isExternal: true
+  name: HttpRequestBase
+  nameWithType: HttpRequestBase
+  fullName: System.Web.HttpRequestBase
+- uid: Uvendia.Domain.Mvc.Controllers.MailController
+  commentId: T:Uvendia.Domain.Mvc.Controllers.MailController
+  parent: Uvendia.Domain.Mvc.Controllers
+  name: MailController
+  nameWithType: MailController
+  fullName: Uvendia.Domain.Mvc.Controllers.MailController
+- uid: System.Web
+  commentId: N:System.Web
+  isExternal: true
+  name: System.Web
+  nameWithType: System.Web
+  fullName: System.Web
+- uid: Uvendia.Domain.Mvc.Controllers.MailController.SendOrderMail*
+  commentId: Overload:Uvendia.Domain.Mvc.Controllers.MailController.SendOrderMail
+  name: SendOrderMail
+  nameWithType: MailController.SendOrderMail
+  fullName: Uvendia.Domain.Mvc.Controllers.MailController.SendOrderMail
+- uid: Uvendia.Domain.CustomOrderEmailArgs
+  commentId: T:Uvendia.Domain.CustomOrderEmailArgs
+  parent: Uvendia.Domain
+  name: CustomOrderEmailArgs
+  nameWithType: CustomOrderEmailArgs
+  fullName: Uvendia.Domain.CustomOrderEmailArgs
+- uid: Mvc.Mailer.MvcMailMessage
+  commentId: T:Mvc.Mailer.MvcMailMessage
+  parent: Mvc.Mailer
+  isExternal: true
+  name: MvcMailMessage
+  nameWithType: MvcMailMessage
+  fullName: Mvc.Mailer.MvcMailMessage
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain

@@ -1,0 +1,739 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  commentId: T:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  id: InvoiceDetailDataTransferObject
+  parent: Uvendia.Domain.Entities
+  children:
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Discount
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.MetaData
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductId
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductName
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductPrice
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductSku
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Quantity
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Retoured
+  - Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Total
+  langs:
+  - csharp
+  - vb
+  name: InvoiceDetailDataTransferObject
+  nameWithType: InvoiceDetailDataTransferObject
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceDetailDataTransferObject
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public class InvoiceDetailDataTransferObject
+    content.vb: Public Class InvoiceDetailDataTransferObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductId
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductId
+  id: ProductId
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: InvoiceDetailDataTransferObject.ProductId
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductId
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public long ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProductId As Long
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductSku
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductSku
+  id: ProductSku
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ProductSku
+  nameWithType: InvoiceDetailDataTransferObject.ProductSku
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductSku
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductSku
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ProductSku { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductSku As String
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductSku*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductName
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductName
+  id: ProductName
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ProductName
+  nameWithType: InvoiceDetailDataTransferObject.ProductName
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductName
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ProductName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductName As String
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductPrice
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductPrice
+  id: ProductPrice
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ProductPrice
+  nameWithType: InvoiceDetailDataTransferObject.ProductPrice
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductPrice
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductPrice
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ProductPrice { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductPrice As String
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductPrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Quantity
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Quantity
+  id: Quantity
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: InvoiceDetailDataTransferObject.Quantity
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Quantity
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Quantity
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public int Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Quantity As Integer
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Quantity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Discount
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Discount
+  id: Discount
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Discount
+  nameWithType: InvoiceDetailDataTransferObject.Discount
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Discount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Discount
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Discount { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Discount As String
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Discount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Retoured
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Retoured
+  id: Retoured
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Retoured
+  nameWithType: InvoiceDetailDataTransferObject.Retoured
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Retoured
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Retoured
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public bool Retoured { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Retoured As Boolean
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Retoured*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Total
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Total
+  id: Total
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: InvoiceDetailDataTransferObject.Total
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Total
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Total
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Total { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Total As String
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Total*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.MetaData
+  commentId: P:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.MetaData
+  id: MetaData
+  parent: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: MetaData
+  nameWithType: InvoiceDetailDataTransferObject.MetaData
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.MetaData
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MetaData
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDetailDataTransferObject.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string MetaData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MetaData As String
+  overload: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.MetaData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductId*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductId
+  name: ProductId
+  nameWithType: InvoiceDetailDataTransferObject.ProductId
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductSku*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductSku
+  name: ProductSku
+  nameWithType: InvoiceDetailDataTransferObject.ProductSku
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductSku
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductName*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductName
+  name: ProductName
+  nameWithType: InvoiceDetailDataTransferObject.ProductName
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductName
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductPrice*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductPrice
+  name: ProductPrice
+  nameWithType: InvoiceDetailDataTransferObject.ProductPrice
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.ProductPrice
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Quantity*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Quantity
+  name: Quantity
+  nameWithType: InvoiceDetailDataTransferObject.Quantity
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Quantity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Discount*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Discount
+  name: Discount
+  nameWithType: InvoiceDetailDataTransferObject.Discount
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Discount
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Retoured*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Retoured
+  name: Retoured
+  nameWithType: InvoiceDetailDataTransferObject.Retoured
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Retoured
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Total*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Total
+  name: Total
+  nameWithType: InvoiceDetailDataTransferObject.Total
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.Total
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.MetaData*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.MetaData
+  name: MetaData
+  nameWithType: InvoiceDetailDataTransferObject.MetaData
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.MetaData

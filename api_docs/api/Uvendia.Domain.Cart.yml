@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Cart
+  commentId: N:Uvendia.Domain.Cart
+  id: Uvendia.Domain.Cart
+  children:
+  - Uvendia.Domain.Cart.CartAction
+  - Uvendia.Domain.Cart.CartItem
+  - Uvendia.Domain.Cart.CurrentCart
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Cart
+  nameWithType: Uvendia.Domain.Cart
+  fullName: Uvendia.Domain.Cart
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Cart.CartAction
+  commentId: T:Uvendia.Domain.Cart.CartAction
+  parent: Uvendia.Domain.Cart
+  name: CartAction
+  nameWithType: CartAction
+  fullName: Uvendia.Domain.Cart.CartAction
+- uid: Uvendia.Domain.Cart.CartItem
+  commentId: T:Uvendia.Domain.Cart.CartItem
+  parent: Uvendia.Domain.Cart
+  name: CartItem
+  nameWithType: CartItem
+  fullName: Uvendia.Domain.Cart.CartItem
+- uid: Uvendia.Domain.Cart.CurrentCart
+  commentId: T:Uvendia.Domain.Cart.CurrentCart
+  parent: Uvendia.Domain.Cart
+  name: CurrentCart
+  nameWithType: CurrentCart
+  fullName: Uvendia.Domain.Cart.CurrentCart
+- uid: Uvendia.Domain.Cart
+  commentId: N:Uvendia.Domain.Cart
+  name: Uvendia.Domain.Cart
+  nameWithType: Uvendia.Domain.Cart
+  fullName: Uvendia.Domain.Cart

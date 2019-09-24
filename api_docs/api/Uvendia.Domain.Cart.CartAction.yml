@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Cart.CartAction
+  commentId: T:Uvendia.Domain.Cart.CartAction
+  id: CartAction
+  parent: Uvendia.Domain.Cart
+  children:
+  - Uvendia.Domain.Cart.CartAction.Changed
+  - Uvendia.Domain.Cart.CartAction.None
+  - Uvendia.Domain.Cart.CartAction.Saved
+  langs:
+  - csharp
+  - vb
+  name: CartAction
+  nameWithType: CartAction
+  fullName: Uvendia.Domain.Cart.CartAction
+  type: Enum
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartAction.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CartAction
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartAction.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public enum CartAction
+    content.vb: Public Enum CartAction
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Uvendia.Domain.Cart.CartAction.Saved
+  commentId: F:Uvendia.Domain.Cart.CartAction.Saved
+  id: Saved
+  parent: Uvendia.Domain.Cart.CartAction
+  langs:
+  - csharp
+  - vb
+  name: Saved
+  nameWithType: CartAction.Saved
+  fullName: Uvendia.Domain.Cart.CartAction.Saved
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartAction.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Saved
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartAction.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: Saved = 0
+    return:
+      type: Uvendia.Domain.Cart.CartAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Cart.CartAction.Changed
+  commentId: F:Uvendia.Domain.Cart.CartAction.Changed
+  id: Changed
+  parent: Uvendia.Domain.Cart.CartAction
+  langs:
+  - csharp
+  - vb
+  name: Changed
+  nameWithType: CartAction.Changed
+  fullName: Uvendia.Domain.Cart.CartAction.Changed
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartAction.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Changed
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartAction.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: Changed = 1
+    return:
+      type: Uvendia.Domain.Cart.CartAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Cart.CartAction.None
+  commentId: F:Uvendia.Domain.Cart.CartAction.None
+  id: None
+  parent: Uvendia.Domain.Cart.CartAction
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CartAction.None
+  fullName: Uvendia.Domain.Cart.CartAction.None
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartAction.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: None
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartAction.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: None = 2
+    return:
+      type: Uvendia.Domain.Cart.CartAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Uvendia.Domain.Cart
+  commentId: N:Uvendia.Domain.Cart
+  name: Uvendia.Domain.Cart
+  nameWithType: Uvendia.Domain.Cart
+  fullName: Uvendia.Domain.Cart
+- uid: Uvendia.Domain.Cart.CartAction
+  commentId: T:Uvendia.Domain.Cart.CartAction
+  parent: Uvendia.Domain.Cart
+  name: CartAction
+  nameWithType: CartAction
+  fullName: Uvendia.Domain.Cart.CartAction

@@ -1,0 +1,476 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  id: WebshopModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  langs:
+  - csharp
+  - vb
+  name: WebshopModel
+  nameWithType: WebshopModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/WebshopModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: WebshopModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/WebshopModel.cs
+    startLine: 9
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class WebshopModel : BaseModel'
+    content.vb: >-
+      Public Class WebshopModel
+          Inherits BaseModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  derivedClasses:
+  - Uvendia.Domain.Mvc.ViewModels.CategoriesModel
+  - Uvendia.Domain.Mvc.ViewModels.CategoryDeleteModel
+  - Uvendia.Domain.Mvc.ViewModels.DefinitionModel
+  - Uvendia.Domain.Mvc.ViewModels.DefinitionsModel
+  - Uvendia.Domain.Mvc.ViewModels.DeleteModel
+  - Uvendia.Domain.Mvc.ViewModels.eTicketSettingModel
+  - Uvendia.Domain.Mvc.ViewModels.EventModel
+  - Uvendia.Domain.Mvc.ViewModels.InvoiceSettingModel
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodsModel
+  - Uvendia.Domain.Mvc.ViewModels.PriceDefinitionsModel
+  - Uvendia.Domain.Mvc.ViewModels.PropertiesModel
+  - Uvendia.Domain.Mvc.ViewModels.ReportModel
+  - Uvendia.Domain.Mvc.ViewModels.SearchEventModel
+  - Uvendia.Domain.Mvc.ViewModels.SearchOrderModel
+  - Uvendia.Domain.Mvc.ViewModels.SearchProductModel
+  - Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  - Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingsModel
+  - Uvendia.Domain.Mvc.ViewModels.ShippingMethodModel
+  - Uvendia.Domain.Mvc.ViewModels.ShippingMethodsModel
+  - Uvendia.Domain.Mvc.ViewModels.StoreModel
+  - Uvendia.Domain.Mvc.ViewModels.TicketTypeModel
+  - Uvendia.Domain.Mvc.ViewModels.TicketTypesModel
+  inheritedMembers:
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  id: TreePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  langs:
+  - csharp
+  - vb
+  name: TreePath
+  nameWithType: WebshopModel.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/WebshopModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TreePath
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/WebshopModel.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string TreePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TreePath As String
+  overload: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  id: TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  langs:
+  - csharp
+  - vb
+  name: TreeSelectedNodePath
+  nameWithType: WebshopModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/WebshopModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TreeSelectedNodePath
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/WebshopModel.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string TreeSelectedNodePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TreeSelectedNodePath As String
+  overload: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  name: TreePath
+  nameWithType: WebshopModel.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  name: TreeSelectedNodePath
+  nameWithType: WebshopModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath

@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+  commentId: T:Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+  id: TicketTotalDecimalToStringResolver
+  parent: Uvendia.Domain.Mappings
+  children:
+  - Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.Resolve(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String,AutoMapper.ResolutionContext)
+  langs:
+  - csharp
+  - vb
+  name: TicketTotalDecimalToStringResolver
+  nameWithType: TicketTotalDecimalToStringResolver
+  fullName: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mappings/TicketDecimalResolver.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketTotalDecimalToStringResolver
+    path: ../../dazzling.studio/Uvendia.Domain/Mappings/TicketDecimalResolver.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mappings
+  syntax:
+    content: 'public class TicketTotalDecimalToStringResolver : IValueResolver<TicketOrderDetail, InvoiceDetailDataTransferObject, string>'
+    content.vb: >-
+      Public Class TicketTotalDecimalToStringResolver
+          Implements IValueResolver(Of TicketOrderDetail, InvoiceDetailDataTransferObject, String)
+  inheritance:
+  - System.Object
+  implements:
+  - AutoMapper.IValueResolver{Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String}
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.Resolve(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String,AutoMapper.ResolutionContext)
+  commentId: M:Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.Resolve(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String,AutoMapper.ResolutionContext)
+  id: Resolve(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String,AutoMapper.ResolutionContext)
+  parent: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+  langs:
+  - csharp
+  - vb
+  name: Resolve(TicketOrderDetail, InvoiceDetailDataTransferObject, String, ResolutionContext)
+  nameWithType: TicketTotalDecimalToStringResolver.Resolve(TicketOrderDetail, InvoiceDetailDataTransferObject, String, ResolutionContext)
+  fullName: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.Resolve(Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String, AutoMapper.ResolutionContext)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mappings/TicketDecimalResolver.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Resolve
+    path: ../../dazzling.studio/Uvendia.Domain/Mappings/TicketDecimalResolver.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mappings
+  syntax:
+    content: public string Resolve(TicketOrderDetail source, InvoiceDetailDataTransferObject destination, string destMember, ResolutionContext context)
+    parameters:
+    - id: source
+      type: Uvendia.Domain.TicketOrderDetail
+    - id: destination
+      type: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+    - id: destMember
+      type: System.String
+    - id: context
+      type: AutoMapper.ResolutionContext
+    return:
+      type: System.String
+    content.vb: Public Function Resolve(source As TicketOrderDetail, destination As InvoiceDetailDataTransferObject, destMember As String, context As ResolutionContext) As String
+  overload: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.Resolve*
+  implements:
+  - AutoMapper.IValueResolver{Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String}.Resolve(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String,AutoMapper.ResolutionContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mappings
+  commentId: N:Uvendia.Domain.Mappings
+  name: Uvendia.Domain.Mappings
+  nameWithType: Uvendia.Domain.Mappings
+  fullName: Uvendia.Domain.Mappings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: AutoMapper.IValueResolver{Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String}
+  commentId: T:AutoMapper.IValueResolver{Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String}
+  parent: AutoMapper
+  definition: AutoMapper.IValueResolver`3
+  name: IValueResolver<TicketOrderDetail, InvoiceDetailDataTransferObject, String>
+  nameWithType: IValueResolver<TicketOrderDetail, InvoiceDetailDataTransferObject, String>
+  fullName: AutoMapper.IValueResolver<Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String>
+  nameWithType.vb: IValueResolver(Of TicketOrderDetail, InvoiceDetailDataTransferObject, String)
+  fullName.vb: AutoMapper.IValueResolver(Of Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String)
+  name.vb: IValueResolver(Of TicketOrderDetail, InvoiceDetailDataTransferObject, String)
+  spec.csharp:
+  - uid: AutoMapper.IValueResolver`3
+    name: IValueResolver
+    nameWithType: IValueResolver
+    fullName: AutoMapper.IValueResolver
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.TicketOrderDetail
+    name: TicketOrderDetail
+    nameWithType: TicketOrderDetail
+    fullName: Uvendia.Domain.TicketOrderDetail
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+    name: InvoiceDetailDataTransferObject
+    nameWithType: InvoiceDetailDataTransferObject
+    fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AutoMapper.IValueResolver`3
+    name: IValueResolver
+    nameWithType: IValueResolver
+    fullName: AutoMapper.IValueResolver
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.TicketOrderDetail
+    name: TicketOrderDetail
+    nameWithType: TicketOrderDetail
+    fullName: Uvendia.Domain.TicketOrderDetail
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+    name: InvoiceDetailDataTransferObject
+    nameWithType: InvoiceDetailDataTransferObject
+    fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AutoMapper.IValueResolver`3
+  commentId: T:AutoMapper.IValueResolver`3
+  isExternal: true
+  name: IValueResolver<TSource, TDestination, TDestMember>
+  nameWithType: IValueResolver<TSource, TDestination, TDestMember>
+  fullName: AutoMapper.IValueResolver<TSource, TDestination, TDestMember>
+  nameWithType.vb: IValueResolver(Of TSource, TDestination, TDestMember)
+  fullName.vb: AutoMapper.IValueResolver(Of TSource, TDestination, TDestMember)
+  name.vb: IValueResolver(Of TSource, TDestination, TDestMember)
+  spec.csharp:
+  - uid: AutoMapper.IValueResolver`3
+    name: IValueResolver
+    nameWithType: IValueResolver
+    fullName: AutoMapper.IValueResolver
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDestination
+    nameWithType: TDestination
+    fullName: TDestination
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDestMember
+    nameWithType: TDestMember
+    fullName: TDestMember
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AutoMapper.IValueResolver`3
+    name: IValueResolver
+    nameWithType: IValueResolver
+    fullName: AutoMapper.IValueResolver
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDestination
+    nameWithType: TDestination
+    fullName: TDestination
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDestMember
+    nameWithType: TDestMember
+    fullName: TDestMember
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AutoMapper
+  commentId: N:AutoMapper
+  isExternal: true
+  name: AutoMapper
+  nameWithType: AutoMapper
+  fullName: AutoMapper
+- uid: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.Resolve*
+  commentId: Overload:Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.Resolve
+  name: Resolve
+  nameWithType: TicketTotalDecimalToStringResolver.Resolve
+  fullName: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.Resolve
+- uid: AutoMapper.IValueResolver{Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String}.Resolve(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String,AutoMapper.ResolutionContext)
+  commentId: M:AutoMapper.IValueResolver{Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String}.Resolve(Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String,AutoMapper.ResolutionContext)
+  parent: AutoMapper.IValueResolver{Uvendia.Domain.TicketOrderDetail,Uvendia.Domain.Entities.InvoiceDetailDataTransferObject,System.String}
+  definition: AutoMapper.IValueResolver`3.Resolve(`0,`1,`2,AutoMapper.ResolutionContext)
+  name: Resolve(TicketOrderDetail, InvoiceDetailDataTransferObject, String, ResolutionContext)
+  nameWithType: IValueResolver<TicketOrderDetail, InvoiceDetailDataTransferObject, String>.Resolve(TicketOrderDetail, InvoiceDetailDataTransferObject, String, ResolutionContext)
+  fullName: AutoMapper.IValueResolver<Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String>.Resolve(Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String, AutoMapper.ResolutionContext)
+  nameWithType.vb: IValueResolver(Of TicketOrderDetail, InvoiceDetailDataTransferObject, String).Resolve(TicketOrderDetail, InvoiceDetailDataTransferObject, String, ResolutionContext)
+  fullName.vb: AutoMapper.IValueResolver(Of Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String).Resolve(Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String, AutoMapper.ResolutionContext)
+  spec.csharp:
+  - uid: AutoMapper.IValueResolver`3.Resolve(`0,`1,`2,AutoMapper.ResolutionContext)
+    name: Resolve
+    nameWithType: IValueResolver<TicketOrderDetail, InvoiceDetailDataTransferObject, String>.Resolve
+    fullName: AutoMapper.IValueResolver<Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String>.Resolve
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.TicketOrderDetail
+    name: TicketOrderDetail
+    nameWithType: TicketOrderDetail
+    fullName: Uvendia.Domain.TicketOrderDetail
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+    name: InvoiceDetailDataTransferObject
+    nameWithType: InvoiceDetailDataTransferObject
+    fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AutoMapper.ResolutionContext
+    name: ResolutionContext
+    nameWithType: ResolutionContext
+    fullName: AutoMapper.ResolutionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AutoMapper.IValueResolver`3.Resolve(`0,`1,`2,AutoMapper.ResolutionContext)
+    name: Resolve
+    nameWithType: IValueResolver(Of TicketOrderDetail, InvoiceDetailDataTransferObject, String).Resolve
+    fullName: AutoMapper.IValueResolver(Of Uvendia.Domain.TicketOrderDetail, Uvendia.Domain.Entities.InvoiceDetailDataTransferObject, System.String).Resolve
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.TicketOrderDetail
+    name: TicketOrderDetail
+    nameWithType: TicketOrderDetail
+    fullName: Uvendia.Domain.TicketOrderDetail
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+    name: InvoiceDetailDataTransferObject
+    nameWithType: InvoiceDetailDataTransferObject
+    fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AutoMapper.ResolutionContext
+    name: ResolutionContext
+    nameWithType: ResolutionContext
+    fullName: AutoMapper.ResolutionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.TicketOrderDetail
+  commentId: T:Uvendia.Domain.TicketOrderDetail
+  parent: Uvendia.Domain
+  name: TicketOrderDetail
+  nameWithType: TicketOrderDetail
+  fullName: Uvendia.Domain.TicketOrderDetail
+- uid: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  commentId: T:Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+  parent: Uvendia.Domain.Entities
+  name: InvoiceDetailDataTransferObject
+  nameWithType: InvoiceDetailDataTransferObject
+  fullName: Uvendia.Domain.Entities.InvoiceDetailDataTransferObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AutoMapper.ResolutionContext
+  commentId: T:AutoMapper.ResolutionContext
+  parent: AutoMapper
+  isExternal: true
+  name: ResolutionContext
+  nameWithType: ResolutionContext
+  fullName: AutoMapper.ResolutionContext
+- uid: AutoMapper.IValueResolver`3.Resolve(`0,`1,`2,AutoMapper.ResolutionContext)
+  commentId: M:AutoMapper.IValueResolver`3.Resolve(`0,`1,`2,AutoMapper.ResolutionContext)
+  isExternal: true
+  name: Resolve(TSource, TDestination, TDestMember, ResolutionContext)
+  nameWithType: IValueResolver<TSource, TDestination, TDestMember>.Resolve(TSource, TDestination, TDestMember, ResolutionContext)
+  fullName: AutoMapper.IValueResolver<TSource, TDestination, TDestMember>.Resolve(TSource, TDestination, TDestMember, AutoMapper.ResolutionContext)
+  nameWithType.vb: IValueResolver(Of TSource, TDestination, TDestMember).Resolve(TSource, TDestination, TDestMember, ResolutionContext)
+  fullName.vb: AutoMapper.IValueResolver(Of TSource, TDestination, TDestMember).Resolve(TSource, TDestination, TDestMember, AutoMapper.ResolutionContext)
+  spec.csharp:
+  - uid: AutoMapper.IValueResolver`3.Resolve(`0,`1,`2,AutoMapper.ResolutionContext)
+    name: Resolve
+    nameWithType: IValueResolver<TSource, TDestination, TDestMember>.Resolve
+    fullName: AutoMapper.IValueResolver<TSource, TDestination, TDestMember>.Resolve
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDestination
+    nameWithType: TDestination
+    fullName: TDestination
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDestMember
+    nameWithType: TDestMember
+    fullName: TDestMember
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AutoMapper.ResolutionContext
+    name: ResolutionContext
+    nameWithType: ResolutionContext
+    fullName: AutoMapper.ResolutionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AutoMapper.IValueResolver`3.Resolve(`0,`1,`2,AutoMapper.ResolutionContext)
+    name: Resolve
+    nameWithType: IValueResolver(Of TSource, TDestination, TDestMember).Resolve
+    fullName: AutoMapper.IValueResolver(Of TSource, TDestination, TDestMember).Resolve
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDestination
+    nameWithType: TDestination
+    fullName: TDestination
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDestMember
+    nameWithType: TDestMember
+    fullName: TDestMember
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AutoMapper.ResolutionContext
+    name: ResolutionContext
+    nameWithType: ResolutionContext
+    fullName: AutoMapper.ResolutionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities

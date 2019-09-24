@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.Api
+  commentId: N:Uvendia.Domain.Entities.Api
+  id: Uvendia.Domain.Entities.Api
+  children:
+  - Uvendia.Domain.Entities.Api.ApiCategory
+  - Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  - Uvendia.Domain.Entities.Api.ApiProduct
+  - Uvendia.Domain.Entities.Api.ApiStore
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Entities.Api
+  nameWithType: Uvendia.Domain.Entities.Api
+  fullName: Uvendia.Domain.Entities.Api
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Entities.Api.ApiCategory
+  commentId: T:Uvendia.Domain.Entities.Api.ApiCategory
+  name: ApiCategory
+  nameWithType: ApiCategory
+  fullName: Uvendia.Domain.Entities.Api.ApiCategory
+- uid: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  commentId: T:Uvendia.Domain.Entities.Api.ApiJsTreeNode
+  name: ApiJsTreeNode
+  nameWithType: ApiJsTreeNode
+  fullName: Uvendia.Domain.Entities.Api.ApiJsTreeNode
+- uid: Uvendia.Domain.Entities.Api.ApiProduct
+  commentId: T:Uvendia.Domain.Entities.Api.ApiProduct
+  name: ApiProduct
+  nameWithType: ApiProduct
+  fullName: Uvendia.Domain.Entities.Api.ApiProduct
+- uid: Uvendia.Domain.Entities.Api.ApiStore
+  commentId: T:Uvendia.Domain.Entities.Api.ApiStore
+  name: ApiStore
+  nameWithType: ApiStore
+  fullName: Uvendia.Domain.Entities.Api.ApiStore

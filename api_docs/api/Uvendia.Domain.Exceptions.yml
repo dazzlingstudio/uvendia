@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Exceptions
+  commentId: N:Uvendia.Domain.Exceptions
+  id: Uvendia.Domain.Exceptions
+  children:
+  - Uvendia.Domain.Exceptions.ItemNotFoundException
+  - Uvendia.Domain.Exceptions.LicenseInvalidException
+  - Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+  - Uvendia.Domain.Exceptions.OrderInvalidException
+  - Uvendia.Domain.Exceptions.UvendiaException
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Exceptions
+  nameWithType: Uvendia.Domain.Exceptions
+  fullName: Uvendia.Domain.Exceptions
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Exceptions.LicenseInvalidException
+  commentId: T:Uvendia.Domain.Exceptions.LicenseInvalidException
+  name: LicenseInvalidException
+  nameWithType: LicenseInvalidException
+  fullName: Uvendia.Domain.Exceptions.LicenseInvalidException
+- uid: Uvendia.Domain.Exceptions.OrderInvalidException
+  commentId: T:Uvendia.Domain.Exceptions.OrderInvalidException
+  parent: Uvendia.Domain.Exceptions
+  name: OrderInvalidException
+  nameWithType: OrderInvalidException
+  fullName: Uvendia.Domain.Exceptions.OrderInvalidException
+- uid: Uvendia.Domain.Exceptions.UvendiaException
+  commentId: T:Uvendia.Domain.Exceptions.UvendiaException
+  parent: Uvendia.Domain.Exceptions
+  name: UvendiaException
+  nameWithType: UvendiaException
+  fullName: Uvendia.Domain.Exceptions.UvendiaException
+- uid: Uvendia.Domain.Exceptions.ItemNotFoundException
+  commentId: T:Uvendia.Domain.Exceptions.ItemNotFoundException
+  name: ItemNotFoundException
+  nameWithType: ItemNotFoundException
+  fullName: Uvendia.Domain.Exceptions.ItemNotFoundException
+- uid: Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+  commentId: T:Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+  name: OrderAlreadyProcessedException
+  nameWithType: OrderAlreadyProcessedException
+  fullName: Uvendia.Domain.Exceptions.OrderAlreadyProcessedException
+- uid: Uvendia.Domain.Exceptions
+  commentId: N:Uvendia.Domain.Exceptions
+  name: Uvendia.Domain.Exceptions
+  nameWithType: Uvendia.Domain.Exceptions
+  fullName: Uvendia.Domain.Exceptions

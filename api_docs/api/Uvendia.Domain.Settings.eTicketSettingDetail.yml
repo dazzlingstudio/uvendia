@@ -1,0 +1,1031 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail
+  commentId: T:Uvendia.Domain.Settings.eTicketSettingDetail
+  id: eTicketSettingDetail
+  parent: Uvendia.Domain.Settings
+  children:
+  - Uvendia.Domain.Settings.eTicketSettingDetail.AdditionalInformation
+  - Uvendia.Domain.Settings.eTicketSettingDetail.CancellationInsurance
+  - Uvendia.Domain.Settings.eTicketSettingDetail.Conditions
+  - Uvendia.Domain.Settings.eTicketSettingDetail.CustomerName
+  - Uvendia.Domain.Settings.eTicketSettingDetail.CustomerNr
+  - Uvendia.Domain.Settings.eTicketSettingDetail.DateTime
+  - Uvendia.Domain.Settings.eTicketSettingDetail.Footer
+  - Uvendia.Domain.Settings.eTicketSettingDetail.Intro
+  - Uvendia.Domain.Settings.eTicketSettingDetail.LanguageCultureName
+  - Uvendia.Domain.Settings.eTicketSettingDetail.Location
+  - Uvendia.Domain.Settings.eTicketSettingDetail.TicketPrice
+  - Uvendia.Domain.Settings.eTicketSettingDetail.Title
+  - Uvendia.Domain.Settings.eTicketSettingDetail.UniqueID
+  - Uvendia.Domain.Settings.eTicketSettingDetail.YourInformation
+  langs:
+  - csharp
+  - vb
+  name: eTicketSettingDetail
+  nameWithType: eTicketSettingDetail
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: eTicketSettingDetail
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 25
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public class eTicketSettingDetail
+    content.vb: Public Class eTicketSettingDetail
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.LanguageCultureName
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.LanguageCultureName
+  id: LanguageCultureName
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: LanguageCultureName
+  nameWithType: eTicketSettingDetail.LanguageCultureName
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.LanguageCultureName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: LanguageCultureName
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 27
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string LanguageCultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property LanguageCultureName As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.LanguageCultureName*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Title
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.Title
+  id: Title
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: eTicketSettingDetail.Title
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Title
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Title
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Title As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.Title*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Intro
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.Intro
+  id: Intro
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Intro
+  nameWithType: eTicketSettingDetail.Intro
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Intro
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Intro
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 34
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string Intro { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Intro As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.Intro*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.DateTime
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.DateTime
+  id: DateTime
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: eTicketSettingDetail.DateTime
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.DateTime
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DateTime
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 36
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string DateTime { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property DateTime As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.DateTime*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.UniqueID
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.UniqueID
+  id: UniqueID
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: UniqueID
+  nameWithType: eTicketSettingDetail.UniqueID
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.UniqueID
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UniqueID
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 40
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string UniqueID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property UniqueID As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.UniqueID*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.CancellationInsurance
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.CancellationInsurance
+  id: CancellationInsurance
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: CancellationInsurance
+  nameWithType: eTicketSettingDetail.CancellationInsurance
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.CancellationInsurance
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CancellationInsurance
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 44
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string CancellationInsurance { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property CancellationInsurance As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.CancellationInsurance*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Location
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.Location
+  id: Location
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: eTicketSettingDetail.Location
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Location
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Location
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 48
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Location As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.Location*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.YourInformation
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.YourInformation
+  id: YourInformation
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: YourInformation
+  nameWithType: eTicketSettingDetail.YourInformation
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.YourInformation
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: YourInformation
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 51
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string YourInformation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property YourInformation As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.YourInformation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerNr
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.CustomerNr
+  id: CustomerNr
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: CustomerNr
+  nameWithType: eTicketSettingDetail.CustomerNr
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerNr
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CustomerNr
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 54
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string CustomerNr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomerNr As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerNr*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerName
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.CustomerName
+  id: CustomerName
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: CustomerName
+  nameWithType: eTicketSettingDetail.CustomerName
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CustomerName
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 57
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: public string CustomerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomerName As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.TicketPrice
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.TicketPrice
+  id: TicketPrice
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: TicketPrice
+  nameWithType: eTicketSettingDetail.TicketPrice
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.TicketPrice
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketPrice
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 60
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [Required]
+
+      public string TicketPrice { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property TicketPrice As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.TicketPrice*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Conditions
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.Conditions
+  id: Conditions
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Conditions
+  nameWithType: eTicketSettingDetail.Conditions
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Conditions
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Conditions
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 64
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [StringLength(1850, ErrorMessage = "Condition is too large")]
+
+      public string Conditions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(1850, ErrorMessage:="Condition is too large")>
+
+      Public Property Conditions As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.Conditions*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 1850
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Condition is too large
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.AdditionalInformation
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.AdditionalInformation
+  id: AdditionalInformation
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInformation
+  nameWithType: eTicketSettingDetail.AdditionalInformation
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.AdditionalInformation
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AdditionalInformation
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 68
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [StringLength(330, ErrorMessage = "Additional information is too large")]
+
+      public string AdditionalInformation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(330, ErrorMessage:="Additional information is too large")>
+
+      Public Property AdditionalInformation As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.AdditionalInformation*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 330
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Additional information is too large
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Footer
+  commentId: P:Uvendia.Domain.Settings.eTicketSettingDetail.Footer
+  id: Footer
+  parent: Uvendia.Domain.Settings.eTicketSettingDetail
+  langs:
+  - csharp
+  - vb
+  name: Footer
+  nameWithType: eTicketSettingDetail.Footer
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Footer
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Settings/eTicketSetting.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Footer
+    path: ../../dazzling.studio/Uvendia.Domain/Settings/eTicketSetting.cs
+    startLine: 72
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Settings
+  syntax:
+    content: >-
+      [StringLength(330, ErrorMessage = "Footer is too large")]
+
+      public string Footer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(330, ErrorMessage:="Footer is too large")>
+
+      Public Property Footer As String
+  overload: Uvendia.Domain.Settings.eTicketSettingDetail.Footer*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 330
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Footer is too large
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Settings
+  commentId: N:Uvendia.Domain.Settings
+  name: Uvendia.Domain.Settings
+  nameWithType: Uvendia.Domain.Settings
+  fullName: Uvendia.Domain.Settings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.LanguageCultureName*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.LanguageCultureName
+  name: LanguageCultureName
+  nameWithType: eTicketSettingDetail.LanguageCultureName
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.LanguageCultureName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Title*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.Title
+  name: Title
+  nameWithType: eTicketSettingDetail.Title
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Title
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Intro*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.Intro
+  name: Intro
+  nameWithType: eTicketSettingDetail.Intro
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Intro
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.DateTime*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.DateTime
+  name: DateTime
+  nameWithType: eTicketSettingDetail.DateTime
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.DateTime
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.UniqueID*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.UniqueID
+  name: UniqueID
+  nameWithType: eTicketSettingDetail.UniqueID
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.UniqueID
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.CancellationInsurance*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.CancellationInsurance
+  name: CancellationInsurance
+  nameWithType: eTicketSettingDetail.CancellationInsurance
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.CancellationInsurance
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Location*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.Location
+  name: Location
+  nameWithType: eTicketSettingDetail.Location
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Location
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.YourInformation*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.YourInformation
+  name: YourInformation
+  nameWithType: eTicketSettingDetail.YourInformation
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.YourInformation
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerNr*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.CustomerNr
+  name: CustomerNr
+  nameWithType: eTicketSettingDetail.CustomerNr
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerNr
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerName*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.CustomerName
+  name: CustomerName
+  nameWithType: eTicketSettingDetail.CustomerName
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.CustomerName
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.TicketPrice*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.TicketPrice
+  name: TicketPrice
+  nameWithType: eTicketSettingDetail.TicketPrice
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.TicketPrice
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Conditions*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.Conditions
+  name: Conditions
+  nameWithType: eTicketSettingDetail.Conditions
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Conditions
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.AdditionalInformation*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.AdditionalInformation
+  name: AdditionalInformation
+  nameWithType: eTicketSettingDetail.AdditionalInformation
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.AdditionalInformation
+- uid: Uvendia.Domain.Settings.eTicketSettingDetail.Footer*
+  commentId: Overload:Uvendia.Domain.Settings.eTicketSettingDetail.Footer
+  name: Footer
+  nameWithType: eTicketSettingDetail.Footer
+  fullName: Uvendia.Domain.Settings.eTicketSettingDetail.Footer

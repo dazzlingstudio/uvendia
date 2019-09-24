@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Proxies
+  commentId: N:Uvendia.Domain.Proxies
+  id: Uvendia.Domain.Proxies
+  children:
+  - Uvendia.Domain.Proxies.Proxy`1
+  - Uvendia.Domain.Proxies.ProxyCategory
+  - Uvendia.Domain.Proxies.ProxyCategoryProducts
+  - Uvendia.Domain.Proxies.ProxyCategoryTranslations
+  - Uvendia.Domain.Proxies.ProxyDefinition
+  - Uvendia.Domain.Proxies.ProxyEvent
+  - Uvendia.Domain.Proxies.ProxyEventCancellationPriceCollection
+  - Uvendia.Domain.Proxies.ProxyEventTranslations
+  - Uvendia.Domain.Proxies.ProxyList`1
+  - Uvendia.Domain.Proxies.ProxyParentProduct
+  - Uvendia.Domain.Proxies.ProxyPaymentPriceCollection
+  - Uvendia.Domain.Proxies.ProxyProduct
+  - Uvendia.Domain.Proxies.ProxyProductCategories
+  - Uvendia.Domain.Proxies.ProxyProductInventory
+  - Uvendia.Domain.Proxies.ProxyProductPriceCollection
+  - Uvendia.Domain.Proxies.ProxyProductReviews
+  - Uvendia.Domain.Proxies.ProxyProductTranslations
+  - Uvendia.Domain.Proxies.ProxyProductVariants
+  - Uvendia.Domain.Proxies.ProxyPropertyValues
+  - Uvendia.Domain.Proxies.ProxyShippingPriceCollection
+  - Uvendia.Domain.Proxies.ProxyStoreCategories
+  - Uvendia.Domain.Proxies.ProxyStoreTranslations
+  - Uvendia.Domain.Proxies.ProxySubCategories
+  - Uvendia.Domain.Proxies.ProxyTicketSale
+  - Uvendia.Domain.Proxies.ProxyTicketType
+  - Uvendia.Domain.Proxies.ProxyTotalTicketAvailable
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Proxies
+  nameWithType: Uvendia.Domain.Proxies
+  fullName: Uvendia.Domain.Proxies
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Proxies.Proxy`1
+  commentId: T:Uvendia.Domain.Proxies.Proxy`1
+  name: Proxy<TEntity>
+  nameWithType: Proxy<TEntity>
+  fullName: Uvendia.Domain.Proxies.Proxy<TEntity>
+  nameWithType.vb: Proxy(Of TEntity)
+  fullName.vb: Uvendia.Domain.Proxies.Proxy(Of TEntity)
+  name.vb: Proxy(Of TEntity)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy
+    nameWithType: Proxy
+    fullName: Uvendia.Domain.Proxies.Proxy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy
+    nameWithType: Proxy
+    fullName: Uvendia.Domain.Proxies.Proxy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyCategoryProducts
+  commentId: T:Uvendia.Domain.Proxies.ProxyCategoryProducts
+  name: ProxyCategoryProducts
+  nameWithType: ProxyCategoryProducts
+  fullName: Uvendia.Domain.Proxies.ProxyCategoryProducts
+- uid: Uvendia.Domain.Proxies.ProxyEventCancellationPriceCollection
+  commentId: T:Uvendia.Domain.Proxies.ProxyEventCancellationPriceCollection
+  name: ProxyEventCancellationPriceCollection
+  nameWithType: ProxyEventCancellationPriceCollection
+  fullName: Uvendia.Domain.Proxies.ProxyEventCancellationPriceCollection
+- uid: Uvendia.Domain.Proxies.ProxyProductPriceCollection
+  commentId: T:Uvendia.Domain.Proxies.ProxyProductPriceCollection
+  name: ProxyProductPriceCollection
+  nameWithType: ProxyProductPriceCollection
+  fullName: Uvendia.Domain.Proxies.ProxyProductPriceCollection
+- uid: Uvendia.Domain.Proxies.ProxyTicketSale
+  commentId: T:Uvendia.Domain.Proxies.ProxyTicketSale
+  name: ProxyTicketSale
+  nameWithType: ProxyTicketSale
+  fullName: Uvendia.Domain.Proxies.ProxyTicketSale
+- uid: Uvendia.Domain.Proxies.ProxyProduct
+  commentId: T:Uvendia.Domain.Proxies.ProxyProduct
+  name: ProxyProduct
+  nameWithType: ProxyProduct
+  fullName: Uvendia.Domain.Proxies.ProxyProduct
+- uid: Uvendia.Domain.Proxies.ProxyProductReviews
+  commentId: T:Uvendia.Domain.Proxies.ProxyProductReviews
+  name: ProxyProductReviews
+  nameWithType: ProxyProductReviews
+  fullName: Uvendia.Domain.Proxies.ProxyProductReviews
+- uid: Uvendia.Domain.Proxies.ProxyProductInventory
+  commentId: T:Uvendia.Domain.Proxies.ProxyProductInventory
+  name: ProxyProductInventory
+  nameWithType: ProxyProductInventory
+  fullName: Uvendia.Domain.Proxies.ProxyProductInventory
+- uid: Uvendia.Domain.Proxies.ProxyPropertyValues
+  commentId: T:Uvendia.Domain.Proxies.ProxyPropertyValues
+  name: ProxyPropertyValues
+  nameWithType: ProxyPropertyValues
+  fullName: Uvendia.Domain.Proxies.ProxyPropertyValues
+- uid: Uvendia.Domain.Proxies.ProxyTicketType
+  commentId: T:Uvendia.Domain.Proxies.ProxyTicketType
+  name: ProxyTicketType
+  nameWithType: ProxyTicketType
+  fullName: Uvendia.Domain.Proxies.ProxyTicketType
+- uid: Uvendia.Domain.Proxies.ProxyEvent
+  commentId: T:Uvendia.Domain.Proxies.ProxyEvent
+  name: ProxyEvent
+  nameWithType: ProxyEvent
+  fullName: Uvendia.Domain.Proxies.ProxyEvent
+- uid: Uvendia.Domain.Proxies.ProxyParentProduct
+  commentId: T:Uvendia.Domain.Proxies.ProxyParentProduct
+  parent: Uvendia.Domain.Proxies
+  name: ProxyParentProduct
+  nameWithType: ProxyParentProduct
+  fullName: Uvendia.Domain.Proxies.ProxyParentProduct
+- uid: Uvendia.Domain.Proxies.ProxyDefinition
+  commentId: T:Uvendia.Domain.Proxies.ProxyDefinition
+  name: ProxyDefinition
+  nameWithType: ProxyDefinition
+  fullName: Uvendia.Domain.Proxies.ProxyDefinition
+- uid: Uvendia.Domain.Proxies.ProxyCategory
+  commentId: T:Uvendia.Domain.Proxies.ProxyCategory
+  name: ProxyCategory
+  nameWithType: ProxyCategory
+  fullName: Uvendia.Domain.Proxies.ProxyCategory
+- uid: Uvendia.Domain.Proxies.ProxyCategoryTranslations
+  commentId: T:Uvendia.Domain.Proxies.ProxyCategoryTranslations
+  name: ProxyCategoryTranslations
+  nameWithType: ProxyCategoryTranslations
+  fullName: Uvendia.Domain.Proxies.ProxyCategoryTranslations
+- uid: Uvendia.Domain.Proxies.ProxyProductTranslations
+  commentId: T:Uvendia.Domain.Proxies.ProxyProductTranslations
+  name: ProxyProductTranslations
+  nameWithType: ProxyProductTranslations
+  fullName: Uvendia.Domain.Proxies.ProxyProductTranslations
+- uid: Uvendia.Domain.Proxies.ProxyProductVariants
+  commentId: T:Uvendia.Domain.Proxies.ProxyProductVariants
+  name: ProxyProductVariants
+  nameWithType: ProxyProductVariants
+  fullName: Uvendia.Domain.Proxies.ProxyProductVariants
+- uid: Uvendia.Domain.Proxies.ProxyPaymentPriceCollection
+  commentId: T:Uvendia.Domain.Proxies.ProxyPaymentPriceCollection
+  name: ProxyPaymentPriceCollection
+  nameWithType: ProxyPaymentPriceCollection
+  fullName: Uvendia.Domain.Proxies.ProxyPaymentPriceCollection
+- uid: Uvendia.Domain.Proxies.ProxyShippingPriceCollection
+  commentId: T:Uvendia.Domain.Proxies.ProxyShippingPriceCollection
+  name: ProxyShippingPriceCollection
+  nameWithType: ProxyShippingPriceCollection
+  fullName: Uvendia.Domain.Proxies.ProxyShippingPriceCollection
+- uid: Uvendia.Domain.Proxies.ProxyEventTranslations
+  commentId: T:Uvendia.Domain.Proxies.ProxyEventTranslations
+  name: ProxyEventTranslations
+  nameWithType: ProxyEventTranslations
+  fullName: Uvendia.Domain.Proxies.ProxyEventTranslations
+- uid: Uvendia.Domain.Proxies.ProxyStoreTranslations
+  commentId: T:Uvendia.Domain.Proxies.ProxyStoreTranslations
+  name: ProxyStoreTranslations
+  nameWithType: ProxyStoreTranslations
+  fullName: Uvendia.Domain.Proxies.ProxyStoreTranslations
+- uid: Uvendia.Domain.Proxies.ProxyStoreCategories
+  commentId: T:Uvendia.Domain.Proxies.ProxyStoreCategories
+  name: ProxyStoreCategories
+  nameWithType: ProxyStoreCategories
+  fullName: Uvendia.Domain.Proxies.ProxyStoreCategories
+- uid: Uvendia.Domain.Proxies.ProxySubCategories
+  commentId: T:Uvendia.Domain.Proxies.ProxySubCategories
+  name: ProxySubCategories
+  nameWithType: ProxySubCategories
+  fullName: Uvendia.Domain.Proxies.ProxySubCategories
+- uid: Uvendia.Domain.Proxies.ProxyProductCategories
+  commentId: T:Uvendia.Domain.Proxies.ProxyProductCategories
+  name: ProxyProductCategories
+  nameWithType: ProxyProductCategories
+  fullName: Uvendia.Domain.Proxies.ProxyProductCategories
+- uid: Uvendia.Domain.Proxies.ProxyList`1
+  commentId: T:Uvendia.Domain.Proxies.ProxyList`1
+  name: ProxyList<T>
+  nameWithType: ProxyList<T>
+  fullName: Uvendia.Domain.Proxies.ProxyList<T>
+  nameWithType.vb: ProxyList(Of T)
+  fullName.vb: Uvendia.Domain.Proxies.ProxyList(Of T)
+  name.vb: ProxyList(Of T)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1
+    name: ProxyList
+    nameWithType: ProxyList
+    fullName: Uvendia.Domain.Proxies.ProxyList
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.ProxyList`1
+    name: ProxyList
+    nameWithType: ProxyList
+    fullName: Uvendia.Domain.Proxies.ProxyList
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.ProxyTotalTicketAvailable
+  commentId: T:Uvendia.Domain.Proxies.ProxyTotalTicketAvailable
+  parent: Uvendia.Domain.Proxies
+  name: ProxyTotalTicketAvailable
+  nameWithType: ProxyTotalTicketAvailable
+  fullName: Uvendia.Domain.Proxies.ProxyTotalTicketAvailable
+- uid: Uvendia.Domain.Proxies
+  commentId: N:Uvendia.Domain.Proxies
+  name: Uvendia.Domain.Proxies
+  nameWithType: Uvendia.Domain.Proxies
+  fullName: Uvendia.Domain.Proxies

@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Enums.ProductSortyBy
+  commentId: T:Uvendia.Domain.Enums.ProductSortyBy
+  id: ProductSortyBy
+  parent: Uvendia.Domain.Enums
+  children:
+  - Uvendia.Domain.Enums.ProductSortyBy.BestReviewed
+  - Uvendia.Domain.Enums.ProductSortyBy.Cheapest
+  - Uvendia.Domain.Enums.ProductSortyBy.MostExpensive
+  - Uvendia.Domain.Enums.ProductSortyBy.Newest
+  - Uvendia.Domain.Enums.ProductSortyBy.Oldest
+  - Uvendia.Domain.Enums.ProductSortyBy.Popularity
+  - Uvendia.Domain.Enums.ProductSortyBy.Title_AZ
+  - Uvendia.Domain.Enums.ProductSortyBy.Title_ZA
+  - Uvendia.Domain.Enums.ProductSortyBy.Updated
+  langs:
+  - csharp
+  - vb
+  name: ProductSortyBy
+  nameWithType: ProductSortyBy
+  fullName: Uvendia.Domain.Enums.ProductSortyBy
+  type: Enum
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductSortyBy
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public enum ProductSortyBy
+    content.vb: Public Enum ProductSortyBy
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Uvendia.Domain.Enums.ProductSortyBy.Popularity
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.Popularity
+  id: Popularity
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: Popularity
+  nameWithType: ProductSortyBy.Popularity
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.Popularity
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Popularity
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Popularity = 0
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.ProductSortyBy.Cheapest
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.Cheapest
+  id: Cheapest
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: Cheapest
+  nameWithType: ProductSortyBy.Cheapest
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.Cheapest
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Cheapest
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Cheapest = 1
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.ProductSortyBy.MostExpensive
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.MostExpensive
+  id: MostExpensive
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: MostExpensive
+  nameWithType: ProductSortyBy.MostExpensive
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.MostExpensive
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MostExpensive
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: MostExpensive = 2
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.ProductSortyBy.Updated
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.Updated
+  id: Updated
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ProductSortyBy.Updated
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.Updated
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Updated
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Updated = 3
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.ProductSortyBy.Newest
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.Newest
+  id: Newest
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: Newest
+  nameWithType: ProductSortyBy.Newest
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.Newest
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Newest
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Newest = 4
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.ProductSortyBy.Oldest
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.Oldest
+  id: Oldest
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: Oldest
+  nameWithType: ProductSortyBy.Oldest
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.Oldest
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Oldest
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Oldest = 5
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.ProductSortyBy.BestReviewed
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.BestReviewed
+  id: BestReviewed
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: BestReviewed
+  nameWithType: ProductSortyBy.BestReviewed
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.BestReviewed
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: BestReviewed
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: BestReviewed = 6
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.ProductSortyBy.Title_AZ
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.Title_AZ
+  id: Title_AZ
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: Title_AZ
+  nameWithType: ProductSortyBy.Title_AZ
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.Title_AZ
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Title_AZ
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  summary: "\nThe title A-Z (Ascending)\n"
+  example: []
+  syntax:
+    content: Title_AZ = 7
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.ProductSortyBy.Title_ZA
+  commentId: F:Uvendia.Domain.Enums.ProductSortyBy.Title_ZA
+  id: Title_ZA
+  parent: Uvendia.Domain.Enums.ProductSortyBy
+  langs:
+  - csharp
+  - vb
+  name: Title_ZA
+  nameWithType: ProductSortyBy.Title_ZA
+  fullName: Uvendia.Domain.Enums.ProductSortyBy.Title_ZA
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductSortyBy.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Title_ZA
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductSortyBy.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  summary: "\nThe title Z-A (Descending)\n"
+  example: []
+  syntax:
+    content: Title_ZA = 8
+    return:
+      type: Uvendia.Domain.Enums.ProductSortyBy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: Uvendia.Domain.Enums.ProductSortyBy
+  commentId: T:Uvendia.Domain.Enums.ProductSortyBy
+  parent: Uvendia.Domain.Enums
+  name: ProductSortyBy
+  nameWithType: ProductSortyBy
+  fullName: Uvendia.Domain.Enums.ProductSortyBy

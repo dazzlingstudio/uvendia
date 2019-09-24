@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.IPriceable
+  commentId: T:Uvendia.Domain.IPriceable
+  id: IPriceable
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.IPriceable.PriceCollection
+  langs:
+  - csharp
+  - vb
+  name: IPriceable
+  nameWithType: IPriceable
+  fullName: Uvendia.Domain.IPriceable
+  type: Interface
+  source:
+    remote:
+      path: Uvendia.Domain/IPriceable.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IPriceable
+    path: ../../dazzling.studio/Uvendia.Domain/IPriceable.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nIndicates that the inherited object is of the type pricable\n"
+  example: []
+  syntax:
+    content: public interface IPriceable
+    content.vb: Public Interface IPriceable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Uvendia.Domain.IPriceable.PriceCollection
+  commentId: P:Uvendia.Domain.IPriceable.PriceCollection
+  id: PriceCollection
+  parent: Uvendia.Domain.IPriceable
+  langs:
+  - csharp
+  - vb
+  name: PriceCollection
+  nameWithType: IPriceable.PriceCollection
+  fullName: Uvendia.Domain.IPriceable.PriceCollection
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/IPriceable.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PriceCollection
+    path: ../../dazzling.studio/Uvendia.Domain/IPriceable.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets or sets the price collection.\n"
+  example: []
+  syntax:
+    content: IList<Price> PriceCollection { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Uvendia.Domain.Price}
+      description: "\nThe price collection.\n"
+    content.vb: Property PriceCollection As IList(Of Price)
+  overload: Uvendia.Domain.IPriceable.PriceCollection*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.IPriceable.PriceCollection*
+  commentId: Overload:Uvendia.Domain.IPriceable.PriceCollection
+  name: PriceCollection
+  nameWithType: IPriceable.PriceCollection
+  fullName: Uvendia.Domain.IPriceable.PriceCollection
+- uid: System.Collections.Generic.IList{Uvendia.Domain.Price}
+  commentId: T:System.Collections.Generic.IList{Uvendia.Domain.Price}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Price>
+  nameWithType: IList<Price>
+  fullName: System.Collections.Generic.IList<Uvendia.Domain.Price>
+  nameWithType.vb: IList(Of Price)
+  fullName.vb: System.Collections.Generic.IList(Of Uvendia.Domain.Price)
+  name.vb: IList(Of Price)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Price
+    name: Price
+    nameWithType: Price
+    fullName: Uvendia.Domain.Price
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Price
+    name: Price
+    nameWithType: Price
+    fullName: Uvendia.Domain.Price
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

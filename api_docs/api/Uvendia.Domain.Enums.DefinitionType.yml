@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Enums.DefinitionType
+  commentId: T:Uvendia.Domain.Enums.DefinitionType
+  id: DefinitionType
+  parent: Uvendia.Domain.Enums
+  children:
+  - Uvendia.Domain.Enums.DefinitionType.Category
+  - Uvendia.Domain.Enums.DefinitionType.Event
+  - Uvendia.Domain.Enums.DefinitionType.Product
+  - Uvendia.Domain.Enums.DefinitionType.Store
+  langs:
+  - csharp
+  - vb
+  name: DefinitionType
+  nameWithType: DefinitionType
+  fullName: Uvendia.Domain.Enums.DefinitionType
+  type: Enum
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DefinitionType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DefinitionType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DefinitionType.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public enum DefinitionType
+    content.vb: Public Enum DefinitionType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Uvendia.Domain.Enums.DefinitionType.Product
+  commentId: F:Uvendia.Domain.Enums.DefinitionType.Product
+  id: Product
+  parent: Uvendia.Domain.Enums.DefinitionType
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: DefinitionType.Product
+  fullName: Uvendia.Domain.Enums.DefinitionType.Product
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DefinitionType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Product
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DefinitionType.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Product = 0
+    return:
+      type: Uvendia.Domain.Enums.DefinitionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.DefinitionType.Category
+  commentId: F:Uvendia.Domain.Enums.DefinitionType.Category
+  id: Category
+  parent: Uvendia.Domain.Enums.DefinitionType
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: DefinitionType.Category
+  fullName: Uvendia.Domain.Enums.DefinitionType.Category
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DefinitionType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Category
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DefinitionType.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Category = 1
+    return:
+      type: Uvendia.Domain.Enums.DefinitionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.DefinitionType.Store
+  commentId: F:Uvendia.Domain.Enums.DefinitionType.Store
+  id: Store
+  parent: Uvendia.Domain.Enums.DefinitionType
+  langs:
+  - csharp
+  - vb
+  name: Store
+  nameWithType: DefinitionType.Store
+  fullName: Uvendia.Domain.Enums.DefinitionType.Store
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DefinitionType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Store
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DefinitionType.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Store = 2
+    return:
+      type: Uvendia.Domain.Enums.DefinitionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Uvendia.Domain.Enums.DefinitionType.Event
+  commentId: F:Uvendia.Domain.Enums.DefinitionType.Event
+  id: Event
+  parent: Uvendia.Domain.Enums.DefinitionType
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: DefinitionType.Event
+  fullName: Uvendia.Domain.Enums.DefinitionType.Event
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DefinitionType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Event
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DefinitionType.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: Event = 3
+    return:
+      type: Uvendia.Domain.Enums.DefinitionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: Uvendia.Domain.Enums.DefinitionType
+  commentId: T:Uvendia.Domain.Enums.DefinitionType
+  parent: Uvendia.Domain.Enums
+  name: DefinitionType
+  nameWithType: DefinitionType
+  fullName: Uvendia.Domain.Enums.DefinitionType

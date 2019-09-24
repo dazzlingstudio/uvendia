@@ -1,0 +1,701 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.CustomOrderEmailArgs
+  commentId: T:Uvendia.Domain.CustomOrderEmailArgs
+  id: CustomOrderEmailArgs
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.CustomOrderEmailArgs.Attachments
+  - Uvendia.Domain.CustomOrderEmailArgs.InvoiceEmailAddress
+  - Uvendia.Domain.CustomOrderEmailArgs.Order
+  - Uvendia.Domain.CustomOrderEmailArgs.SelectedCultureName
+  - Uvendia.Domain.CustomOrderEmailArgs.Settings
+  - Uvendia.Domain.CustomOrderEmailArgs.ShippingEmailAddess
+  langs:
+  - csharp
+  - vb
+  name: CustomOrderEmailArgs
+  nameWithType: CustomOrderEmailArgs
+  fullName: Uvendia.Domain.CustomOrderEmailArgs
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CustomOrderEmailArgs
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public class CustomOrderEmailArgs
+    content.vb: Public Class CustomOrderEmailArgs
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.CustomOrderEmailArgs.Order
+  commentId: P:Uvendia.Domain.CustomOrderEmailArgs.Order
+  id: Order
+  parent: Uvendia.Domain.CustomOrderEmailArgs
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: CustomOrderEmailArgs.Order
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.Order
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Order
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public Order Order { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Order
+    content.vb: Public Property Order As Order
+  overload: Uvendia.Domain.CustomOrderEmailArgs.Order*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.CustomOrderEmailArgs.SelectedCultureName
+  commentId: P:Uvendia.Domain.CustomOrderEmailArgs.SelectedCultureName
+  id: SelectedCultureName
+  parent: Uvendia.Domain.CustomOrderEmailArgs
+  langs:
+  - csharp
+  - vb
+  name: SelectedCultureName
+  nameWithType: CustomOrderEmailArgs.SelectedCultureName
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.SelectedCultureName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: SelectedCultureName
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public string SelectedCultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedCultureName As String
+  overload: Uvendia.Domain.CustomOrderEmailArgs.SelectedCultureName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.CustomOrderEmailArgs.Settings
+  commentId: P:Uvendia.Domain.CustomOrderEmailArgs.Settings
+  id: Settings
+  parent: Uvendia.Domain.CustomOrderEmailArgs
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: CustomOrderEmailArgs.Settings
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.Settings
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Settings
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public OrderEmailTemplateSetting Settings { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+    content.vb: Public Property Settings As OrderEmailTemplateSetting
+  overload: Uvendia.Domain.CustomOrderEmailArgs.Settings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.CustomOrderEmailArgs.InvoiceEmailAddress
+  commentId: P:Uvendia.Domain.CustomOrderEmailArgs.InvoiceEmailAddress
+  id: InvoiceEmailAddress
+  parent: Uvendia.Domain.CustomOrderEmailArgs
+  langs:
+  - csharp
+  - vb
+  name: InvoiceEmailAddress
+  nameWithType: CustomOrderEmailArgs.InvoiceEmailAddress
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.InvoiceEmailAddress
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceEmailAddress
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public string InvoiceEmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvoiceEmailAddress As String
+  overload: Uvendia.Domain.CustomOrderEmailArgs.InvoiceEmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.CustomOrderEmailArgs.ShippingEmailAddess
+  commentId: P:Uvendia.Domain.CustomOrderEmailArgs.ShippingEmailAddess
+  id: ShippingEmailAddess
+  parent: Uvendia.Domain.CustomOrderEmailArgs
+  langs:
+  - csharp
+  - vb
+  name: ShippingEmailAddess
+  nameWithType: CustomOrderEmailArgs.ShippingEmailAddess
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.ShippingEmailAddess
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShippingEmailAddess
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public string ShippingEmailAddess { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShippingEmailAddess As String
+  overload: Uvendia.Domain.CustomOrderEmailArgs.ShippingEmailAddess*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.CustomOrderEmailArgs.Attachments
+  commentId: P:Uvendia.Domain.CustomOrderEmailArgs.Attachments
+  id: Attachments
+  parent: Uvendia.Domain.CustomOrderEmailArgs
+  langs:
+  - csharp
+  - vb
+  name: Attachments
+  nameWithType: CustomOrderEmailArgs.Attachments
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.Attachments
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Attachments
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/CustomOrderEmailArgs.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public List<Attachment> Attachments { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Net.Mail.Attachment}
+    content.vb: Public Property Attachments As List(Of Attachment)
+  overload: Uvendia.Domain.CustomOrderEmailArgs.Attachments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.CustomOrderEmailArgs.Order*
+  commentId: Overload:Uvendia.Domain.CustomOrderEmailArgs.Order
+  name: Order
+  nameWithType: CustomOrderEmailArgs.Order
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.Order
+- uid: Uvendia.Domain.Order
+  commentId: T:Uvendia.Domain.Order
+  parent: Uvendia.Domain
+  name: Order
+  nameWithType: Order
+  fullName: Uvendia.Domain.Order
+- uid: Uvendia.Domain.CustomOrderEmailArgs.SelectedCultureName*
+  commentId: Overload:Uvendia.Domain.CustomOrderEmailArgs.SelectedCultureName
+  name: SelectedCultureName
+  nameWithType: CustomOrderEmailArgs.SelectedCultureName
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.SelectedCultureName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.CustomOrderEmailArgs.Settings*
+  commentId: Overload:Uvendia.Domain.CustomOrderEmailArgs.Settings
+  name: Settings
+  nameWithType: CustomOrderEmailArgs.Settings
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.Settings
+- uid: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+  commentId: T:Uvendia.Domain.Settings.OrderEmailTemplateSetting
+  parent: Uvendia.Domain.Settings
+  name: OrderEmailTemplateSetting
+  nameWithType: OrderEmailTemplateSetting
+  fullName: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+- uid: Uvendia.Domain.Settings
+  commentId: N:Uvendia.Domain.Settings
+  name: Uvendia.Domain.Settings
+  nameWithType: Uvendia.Domain.Settings
+  fullName: Uvendia.Domain.Settings
+- uid: Uvendia.Domain.CustomOrderEmailArgs.InvoiceEmailAddress*
+  commentId: Overload:Uvendia.Domain.CustomOrderEmailArgs.InvoiceEmailAddress
+  name: InvoiceEmailAddress
+  nameWithType: CustomOrderEmailArgs.InvoiceEmailAddress
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.InvoiceEmailAddress
+- uid: Uvendia.Domain.CustomOrderEmailArgs.ShippingEmailAddess*
+  commentId: Overload:Uvendia.Domain.CustomOrderEmailArgs.ShippingEmailAddess
+  name: ShippingEmailAddess
+  nameWithType: CustomOrderEmailArgs.ShippingEmailAddess
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.ShippingEmailAddess
+- uid: Uvendia.Domain.CustomOrderEmailArgs.Attachments*
+  commentId: Overload:Uvendia.Domain.CustomOrderEmailArgs.Attachments
+  name: Attachments
+  nameWithType: CustomOrderEmailArgs.Attachments
+  fullName: Uvendia.Domain.CustomOrderEmailArgs.Attachments
+- uid: System.Collections.Generic.List{System.Net.Mail.Attachment}
+  commentId: T:System.Collections.Generic.List{System.Net.Mail.Attachment}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Attachment>
+  nameWithType: List<Attachment>
+  fullName: System.Collections.Generic.List<System.Net.Mail.Attachment>
+  nameWithType.vb: List(Of Attachment)
+  fullName.vb: System.Collections.Generic.List(Of System.Net.Mail.Attachment)
+  name.vb: List(Of Attachment)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Net.Mail.Attachment
+    name: Attachment
+    nameWithType: Attachment
+    fullName: System.Net.Mail.Attachment
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Net.Mail.Attachment
+    name: Attachment
+    nameWithType: Attachment
+    fullName: System.Net.Mail.Attachment
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

@@ -1,0 +1,1888 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Store
+  commentId: T:Uvendia.Domain.Store
+  id: Store
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.Store.#ctor
+  - Uvendia.Domain.Store.Categories
+  - Uvendia.Domain.Store.DisplayName(System.String)
+  - Uvendia.Domain.Store.ExternalId
+  - Uvendia.Domain.Store.GetLongDescription(System.String)
+  - Uvendia.Domain.Store.GetShortDescription(System.String)
+  - Uvendia.Domain.Store.HasTranslations
+  - Uvendia.Domain.Store.Name
+  - Uvendia.Domain.Store.OrderNr
+  - Uvendia.Domain.Store.Published
+  - Uvendia.Domain.Store.ToString
+  - Uvendia.Domain.Store.Translations
+  langs:
+  - csharp
+  - vb
+  name: Store
+  nameWithType: Store
+  fullName: Uvendia.Domain.Store
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Store
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nTranslation interface\n"
+  example: []
+  syntax:
+    content: 'public class Store : Extendable, IDazzlingEntity, ITranslation'
+    content.vb: >-
+      Public Class Store
+          Inherits Extendable
+          Implements IDazzlingEntity, ITranslation
+  inheritance:
+  - System.Object
+  - Uvendia.Domain.Webshop
+  - Uvendia.Domain.Extendable
+  implements:
+  - Dazzling.Studio.SqlRepository.IDazzlingEntity
+  - Uvendia.Domain.ITranslation
+  inheritedMembers:
+  - Uvendia.Domain.Extendable.DefinitionId
+  - Uvendia.Domain.Extendable.Definition
+  - Uvendia.Domain.Extendable.Item(System.String)
+  - Uvendia.Domain.Extendable.Properties
+  - Uvendia.Domain.Extendable.GetPropertiesAsString
+  - Uvendia.Domain.Extendable.CreateHtmlControlFactory(System.String,System.Boolean,System.String)
+  - Uvendia.Domain.Extendable.CheckPropertyRequired(System.Collections.Generic.List{Uvendia.Domain.PropertyValue})
+  - Uvendia.Domain.Extendable.LazyLoadProperties
+  - Uvendia.Domain.Extendable.HasVariantProperties
+  - Uvendia.Domain.Extendable.ContainsKey(System.String)
+  - Uvendia.Domain.Webshop.PropertyIdChanged
+  - Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  - Uvendia.Domain.Webshop.Id
+  - Uvendia.Domain.Webshop.CreatedOn
+  - Uvendia.Domain.Webshop.ModifiedOn
+  - Uvendia.Domain.Webshop.CreatedBy
+  - Uvendia.Domain.Webshop.ModifiedBy
+  - Uvendia.Domain.Webshop.PublicatedOn
+  - Uvendia.Domain.Webshop.Rowversion
+  - Uvendia.Domain.Webshop.IsValid
+  - Uvendia.Domain.Webshop.IsValid(System.String)
+  - Uvendia.Domain.Webshop.GetValidationErrors
+  - Uvendia.Domain.Webshop.GetCurrentCultureName
+  - Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Store.#ctor
+  commentId: M:Uvendia.Domain.Store.#ctor
+  id: '#ctor'
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: Store()
+  nameWithType: Store.Store()
+  fullName: Uvendia.Domain.Store.Store()
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public Store()
+    content.vb: Public Sub New
+  overload: Uvendia.Domain.Store.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.ExternalId
+  commentId: P:Uvendia.Domain.Store.ExternalId
+  id: ExternalId
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: ExternalId
+  nameWithType: Store.ExternalId
+  fullName: Uvendia.Domain.Store.ExternalId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ExternalId
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [StringLength(255)]
+
+      public string ExternalId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(255)>
+
+      Public Property ExternalId As String
+  overload: Uvendia.Domain.Store.ExternalId*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 255
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.Name
+  commentId: P:Uvendia.Domain.Store.Name
+  id: Name
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Store.Name
+  fullName: Uvendia.Domain.Store.Name
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Name
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: >-
+      [Required(ErrorMessage = "Name is required")]
+
+      [StringLength(255)]
+
+      [CheckAlreadyExists("Uvendia.Domain", "Uvendia.Domain.Repositories.Stores", "CheckStoreAlreadyExists", ErrorMessage = "Name already exists", OtherProperty = "Id")]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required(ErrorMessage:="Name is required")>
+
+      <StringLength(255)>
+
+      <CheckAlreadyExists("Uvendia.Domain", "Uvendia.Domain.Repositories.Stores", "CheckStoreAlreadyExists", ErrorMessage:="Name already exists", OtherProperty:="Id")>
+
+      Public Property Name As String
+  overload: Uvendia.Domain.Store.Name*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Name is required
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 255
+  - type: Dazzling.Studio.Utils.Attributes.Validations.CheckAlreadyExistsAttribute
+    ctor: Dazzling.Studio.Utils.Attributes.Validations.CheckAlreadyExistsAttribute.#ctor(System.String,System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Uvendia.Domain
+    - type: System.String
+      value: Uvendia.Domain.Repositories.Stores
+    - type: System.String
+      value: CheckStoreAlreadyExists
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Name already exists
+    - name: OtherProperty
+      type: System.String
+      value: Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.OrderNr
+  commentId: P:Uvendia.Domain.Store.OrderNr
+  id: OrderNr
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: OrderNr
+  nameWithType: Store.OrderNr
+  fullName: Uvendia.Domain.Store.OrderNr
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderNr
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public short OrderNr { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property OrderNr As Short
+  overload: Uvendia.Domain.Store.OrderNr*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.Published
+  commentId: P:Uvendia.Domain.Store.Published
+  id: Published
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: Store.Published
+  fullName: Uvendia.Domain.Store.Published
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Published
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 34
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public bool Published { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Published As Boolean
+  overload: Uvendia.Domain.Store.Published*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.Translations
+  commentId: P:Uvendia.Domain.Store.Translations
+  id: Translations
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: Translations
+  nameWithType: Store.Translations
+  fullName: Uvendia.Domain.Store.Translations
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Translations
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 45
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets (Lazy-load) or sets the translations.\n"
+  example: []
+  syntax:
+    content: public IList<Translation> Translations { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Uvendia.Domain.Translation}
+      description: "\nThe translations.\n"
+    content.vb: Public Property Translations As IList(Of Translation)
+  overload: Uvendia.Domain.Store.Translations*
+  implements:
+  - Uvendia.Domain.ITranslation.Translations
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.Categories
+  commentId: P:Uvendia.Domain.Store.Categories
+  id: Categories
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: Categories
+  nameWithType: Store.Categories
+  fullName: Uvendia.Domain.Store.Categories
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Categories
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 66
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets (Lazy-load) or sets the categories.\n"
+  example: []
+  syntax:
+    content: public IList<Category> Categories { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Uvendia.Domain.Category}
+      description: "\nThe categories.\n"
+    content.vb: Public Property Categories As IList(Of Category)
+  overload: Uvendia.Domain.Store.Categories*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.HasTranslations
+  commentId: M:Uvendia.Domain.Store.HasTranslations
+  id: HasTranslations
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: HasTranslations()
+  nameWithType: Store.HasTranslations()
+  fullName: Uvendia.Domain.Store.HasTranslations()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: HasTranslations
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 85
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nDetermines whether this instance has translations.\n"
+  example: []
+  syntax:
+    content: public bool HasTranslations()
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if this instance has translations; otherwise, <code>false</code>.\n"
+    content.vb: Public Function HasTranslations As Boolean
+  overload: Uvendia.Domain.Store.HasTranslations*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.DisplayName(System.String)
+  commentId: M:Uvendia.Domain.Store.DisplayName(System.String)
+  id: DisplayName(System.String)
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: DisplayName(String)
+  nameWithType: Store.DisplayName(String)
+  fullName: Uvendia.Domain.Store.DisplayName(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DisplayName
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 90
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public string DisplayName(string cultureName = null)
+    parameters:
+    - id: cultureName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function DisplayName(cultureName As String = Nothing) As String
+  overload: Uvendia.Domain.Store.DisplayName*
+  implements:
+  - Uvendia.Domain.ITranslation.DisplayName(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.GetShortDescription(System.String)
+  commentId: M:Uvendia.Domain.Store.GetShortDescription(System.String)
+  id: GetShortDescription(System.String)
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: GetShortDescription(String)
+  nameWithType: Store.GetShortDescription(String)
+  fullName: Uvendia.Domain.Store.GetShortDescription(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetShortDescription
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 104
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets the short description.\n"
+  example: []
+  syntax:
+    content: public string GetShortDescription(string cultureName = null)
+    parameters:
+    - id: cultureName
+      type: System.String
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function GetShortDescription(cultureName As String = Nothing) As String
+  overload: Uvendia.Domain.Store.GetShortDescription*
+  implements:
+  - Uvendia.Domain.ITranslation.GetShortDescription(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.GetLongDescription(System.String)
+  commentId: M:Uvendia.Domain.Store.GetLongDescription(System.String)
+  id: GetLongDescription(System.String)
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: GetLongDescription(String)
+  nameWithType: Store.GetLongDescription(String)
+  fullName: Uvendia.Domain.Store.GetLongDescription(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetLongDescription
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 118
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets the long description.\n"
+  example: []
+  syntax:
+    content: public string GetLongDescription(string cultureName = null)
+    parameters:
+    - id: cultureName
+      type: System.String
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function GetLongDescription(cultureName As String = Nothing) As String
+  overload: Uvendia.Domain.Store.GetLongDescription*
+  implements:
+  - Uvendia.Domain.ITranslation.GetLongDescription(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Store.ToString
+  commentId: M:Uvendia.Domain.Store.ToString
+  id: ToString
+  parent: Uvendia.Domain.Store
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Store.ToString()
+  fullName: Uvendia.Domain.Store.ToString()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Store.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ToString
+    path: ../../dazzling.studio/Uvendia.Domain/Store.cs
+    startLine: 139
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Uvendia.Domain.Store.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Uvendia.Domain.Webshop
+  commentId: T:Uvendia.Domain.Webshop
+  parent: Uvendia.Domain
+  name: Webshop
+  nameWithType: Webshop
+  fullName: Uvendia.Domain.Webshop
+- uid: Uvendia.Domain.Extendable
+  commentId: T:Uvendia.Domain.Extendable
+  parent: Uvendia.Domain
+  name: Extendable
+  nameWithType: Extendable
+  fullName: Uvendia.Domain.Extendable
+- uid: Dazzling.Studio.SqlRepository.IDazzlingEntity
+  commentId: T:Dazzling.Studio.SqlRepository.IDazzlingEntity
+  parent: Dazzling.Studio.SqlRepository
+  name: IDazzlingEntity
+  nameWithType: IDazzlingEntity
+  fullName: Dazzling.Studio.SqlRepository.IDazzlingEntity
+- uid: Uvendia.Domain.ITranslation
+  commentId: T:Uvendia.Domain.ITranslation
+  parent: Uvendia.Domain
+  name: ITranslation
+  nameWithType: ITranslation
+  fullName: Uvendia.Domain.ITranslation
+- uid: Uvendia.Domain.Extendable.DefinitionId
+  commentId: P:Uvendia.Domain.Extendable.DefinitionId
+  parent: Uvendia.Domain.Extendable
+  name: DefinitionId
+  nameWithType: Extendable.DefinitionId
+  fullName: Uvendia.Domain.Extendable.DefinitionId
+- uid: Uvendia.Domain.Extendable.Definition
+  commentId: P:Uvendia.Domain.Extendable.Definition
+  parent: Uvendia.Domain.Extendable
+  name: Definition
+  nameWithType: Extendable.Definition
+  fullName: Uvendia.Domain.Extendable.Definition
+- uid: Uvendia.Domain.Extendable.Item(System.String)
+  commentId: P:Uvendia.Domain.Extendable.Item(System.String)
+  parent: Uvendia.Domain.Extendable
+  isExternal: true
+  name: Item[String]
+  nameWithType: Extendable.Item[String]
+  fullName: Uvendia.Domain.Extendable.Item[System.String]
+  nameWithType.vb: Extendable.Item(String)
+  fullName.vb: Uvendia.Domain.Extendable.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Extendable.Item(System.String)
+    name: Item
+    nameWithType: Extendable.Item
+    fullName: Uvendia.Domain.Extendable.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Uvendia.Domain.Extendable.Item(System.String)
+    name: Item
+    nameWithType: Extendable.Item
+    fullName: Uvendia.Domain.Extendable.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Extendable.Properties
+  commentId: P:Uvendia.Domain.Extendable.Properties
+  parent: Uvendia.Domain.Extendable
+  name: Properties
+  nameWithType: Extendable.Properties
+  fullName: Uvendia.Domain.Extendable.Properties
+- uid: Uvendia.Domain.Extendable.GetPropertiesAsString
+  commentId: M:Uvendia.Domain.Extendable.GetPropertiesAsString
+  parent: Uvendia.Domain.Extendable
+  name: GetPropertiesAsString()
+  nameWithType: Extendable.GetPropertiesAsString()
+  fullName: Uvendia.Domain.Extendable.GetPropertiesAsString()
+  spec.csharp:
+  - uid: Uvendia.Domain.Extendable.GetPropertiesAsString
+    name: GetPropertiesAsString
+    nameWithType: Extendable.GetPropertiesAsString
+    fullName: Uvendia.Domain.Extendable.GetPropertiesAsString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Extendable.GetPropertiesAsString
+    name: GetPropertiesAsString
+    nameWithType: Extendable.GetPropertiesAsString
+    fullName: Uvendia.Domain.Extendable.GetPropertiesAsString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Extendable.CreateHtmlControlFactory(System.String,System.Boolean,System.String)
+  commentId: M:Uvendia.Domain.Extendable.CreateHtmlControlFactory(System.String,System.Boolean,System.String)
+  parent: Uvendia.Domain.Extendable
+  isExternal: true
+  name: CreateHtmlControlFactory(String, Boolean, String)
+  nameWithType: Extendable.CreateHtmlControlFactory(String, Boolean, String)
+  fullName: Uvendia.Domain.Extendable.CreateHtmlControlFactory(System.String, System.Boolean, System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Extendable.CreateHtmlControlFactory(System.String,System.Boolean,System.String)
+    name: CreateHtmlControlFactory
+    nameWithType: Extendable.CreateHtmlControlFactory
+    fullName: Uvendia.Domain.Extendable.CreateHtmlControlFactory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Extendable.CreateHtmlControlFactory(System.String,System.Boolean,System.String)
+    name: CreateHtmlControlFactory
+    nameWithType: Extendable.CreateHtmlControlFactory
+    fullName: Uvendia.Domain.Extendable.CreateHtmlControlFactory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Extendable.CheckPropertyRequired(System.Collections.Generic.List{Uvendia.Domain.PropertyValue})
+  commentId: M:Uvendia.Domain.Extendable.CheckPropertyRequired(System.Collections.Generic.List{Uvendia.Domain.PropertyValue})
+  parent: Uvendia.Domain.Extendable
+  isExternal: true
+  name: CheckPropertyRequired(List<PropertyValue>)
+  nameWithType: Extendable.CheckPropertyRequired(List<PropertyValue>)
+  fullName: Uvendia.Domain.Extendable.CheckPropertyRequired(System.Collections.Generic.List<Uvendia.Domain.PropertyValue>)
+  nameWithType.vb: Extendable.CheckPropertyRequired(List(Of PropertyValue))
+  fullName.vb: Uvendia.Domain.Extendable.CheckPropertyRequired(System.Collections.Generic.List(Of Uvendia.Domain.PropertyValue))
+  name.vb: CheckPropertyRequired(List(Of PropertyValue))
+  spec.csharp:
+  - uid: Uvendia.Domain.Extendable.CheckPropertyRequired(System.Collections.Generic.List{Uvendia.Domain.PropertyValue})
+    name: CheckPropertyRequired
+    nameWithType: Extendable.CheckPropertyRequired
+    fullName: Uvendia.Domain.Extendable.CheckPropertyRequired
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.PropertyValue
+    name: PropertyValue
+    nameWithType: PropertyValue
+    fullName: Uvendia.Domain.PropertyValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Extendable.CheckPropertyRequired(System.Collections.Generic.List{Uvendia.Domain.PropertyValue})
+    name: CheckPropertyRequired
+    nameWithType: Extendable.CheckPropertyRequired
+    fullName: Uvendia.Domain.Extendable.CheckPropertyRequired
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.PropertyValue
+    name: PropertyValue
+    nameWithType: PropertyValue
+    fullName: Uvendia.Domain.PropertyValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Extendable.LazyLoadProperties
+  commentId: M:Uvendia.Domain.Extendable.LazyLoadProperties
+  parent: Uvendia.Domain.Extendable
+  name: LazyLoadProperties()
+  nameWithType: Extendable.LazyLoadProperties()
+  fullName: Uvendia.Domain.Extendable.LazyLoadProperties()
+  spec.csharp:
+  - uid: Uvendia.Domain.Extendable.LazyLoadProperties
+    name: LazyLoadProperties
+    nameWithType: Extendable.LazyLoadProperties
+    fullName: Uvendia.Domain.Extendable.LazyLoadProperties
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Extendable.LazyLoadProperties
+    name: LazyLoadProperties
+    nameWithType: Extendable.LazyLoadProperties
+    fullName: Uvendia.Domain.Extendable.LazyLoadProperties
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Extendable.HasVariantProperties
+  commentId: M:Uvendia.Domain.Extendable.HasVariantProperties
+  parent: Uvendia.Domain.Extendable
+  name: HasVariantProperties()
+  nameWithType: Extendable.HasVariantProperties()
+  fullName: Uvendia.Domain.Extendable.HasVariantProperties()
+  spec.csharp:
+  - uid: Uvendia.Domain.Extendable.HasVariantProperties
+    name: HasVariantProperties
+    nameWithType: Extendable.HasVariantProperties
+    fullName: Uvendia.Domain.Extendable.HasVariantProperties
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Extendable.HasVariantProperties
+    name: HasVariantProperties
+    nameWithType: Extendable.HasVariantProperties
+    fullName: Uvendia.Domain.Extendable.HasVariantProperties
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Extendable.ContainsKey(System.String)
+  commentId: M:Uvendia.Domain.Extendable.ContainsKey(System.String)
+  parent: Uvendia.Domain.Extendable
+  isExternal: true
+  name: ContainsKey(String)
+  nameWithType: Extendable.ContainsKey(String)
+  fullName: Uvendia.Domain.Extendable.ContainsKey(System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Extendable.ContainsKey(System.String)
+    name: ContainsKey
+    nameWithType: Extendable.ContainsKey
+    fullName: Uvendia.Domain.Extendable.ContainsKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Extendable.ContainsKey(System.String)
+    name: ContainsKey
+    nameWithType: Extendable.ContainsKey
+    fullName: Uvendia.Domain.Extendable.ContainsKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.PropertyIdChanged
+  commentId: E:Uvendia.Domain.Webshop.PropertyIdChanged
+  parent: Uvendia.Domain.Webshop
+  name: PropertyIdChanged
+  nameWithType: Webshop.PropertyIdChanged
+  fullName: Uvendia.Domain.Webshop.PropertyIdChanged
+- uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  commentId: M:Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: OnPropertyIdChanged(Object, EventArgs)
+  nameWithType: Webshop.OnPropertyIdChanged(Object, EventArgs)
+  fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object, System.EventArgs)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+    name: OnPropertyIdChanged
+    nameWithType: Webshop.OnPropertyIdChanged
+    fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+    name: OnPropertyIdChanged
+    nameWithType: Webshop.OnPropertyIdChanged
+    fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.Id
+  commentId: P:Uvendia.Domain.Webshop.Id
+  parent: Uvendia.Domain.Webshop
+  name: Id
+  nameWithType: Webshop.Id
+  fullName: Uvendia.Domain.Webshop.Id
+- uid: Uvendia.Domain.Webshop.CreatedOn
+  commentId: P:Uvendia.Domain.Webshop.CreatedOn
+  parent: Uvendia.Domain.Webshop
+  name: CreatedOn
+  nameWithType: Webshop.CreatedOn
+  fullName: Uvendia.Domain.Webshop.CreatedOn
+- uid: Uvendia.Domain.Webshop.ModifiedOn
+  commentId: P:Uvendia.Domain.Webshop.ModifiedOn
+  parent: Uvendia.Domain.Webshop
+  name: ModifiedOn
+  nameWithType: Webshop.ModifiedOn
+  fullName: Uvendia.Domain.Webshop.ModifiedOn
+- uid: Uvendia.Domain.Webshop.CreatedBy
+  commentId: P:Uvendia.Domain.Webshop.CreatedBy
+  parent: Uvendia.Domain.Webshop
+  name: CreatedBy
+  nameWithType: Webshop.CreatedBy
+  fullName: Uvendia.Domain.Webshop.CreatedBy
+- uid: Uvendia.Domain.Webshop.ModifiedBy
+  commentId: P:Uvendia.Domain.Webshop.ModifiedBy
+  parent: Uvendia.Domain.Webshop
+  name: ModifiedBy
+  nameWithType: Webshop.ModifiedBy
+  fullName: Uvendia.Domain.Webshop.ModifiedBy
+- uid: Uvendia.Domain.Webshop.PublicatedOn
+  commentId: P:Uvendia.Domain.Webshop.PublicatedOn
+  parent: Uvendia.Domain.Webshop
+  name: PublicatedOn
+  nameWithType: Webshop.PublicatedOn
+  fullName: Uvendia.Domain.Webshop.PublicatedOn
+- uid: Uvendia.Domain.Webshop.Rowversion
+  commentId: P:Uvendia.Domain.Webshop.Rowversion
+  parent: Uvendia.Domain.Webshop
+  name: Rowversion
+  nameWithType: Webshop.Rowversion
+  fullName: Uvendia.Domain.Webshop.Rowversion
+- uid: Uvendia.Domain.Webshop.IsValid
+  commentId: M:Uvendia.Domain.Webshop.IsValid
+  parent: Uvendia.Domain.Webshop
+  name: IsValid()
+  nameWithType: Webshop.IsValid()
+  fullName: Uvendia.Domain.Webshop.IsValid()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.IsValid
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.IsValid
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.IsValid(System.String)
+  commentId: M:Uvendia.Domain.Webshop.IsValid(System.String)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: IsValid(String)
+  nameWithType: Webshop.IsValid(String)
+  fullName: Uvendia.Domain.Webshop.IsValid(System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.IsValid(System.String)
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.IsValid(System.String)
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetValidationErrors
+  commentId: M:Uvendia.Domain.Webshop.GetValidationErrors
+  parent: Uvendia.Domain.Webshop
+  name: GetValidationErrors()
+  nameWithType: Webshop.GetValidationErrors()
+  fullName: Uvendia.Domain.Webshop.GetValidationErrors()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: Webshop.GetValidationErrors
+    fullName: Uvendia.Domain.Webshop.GetValidationErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: Webshop.GetValidationErrors
+    fullName: Uvendia.Domain.Webshop.GetValidationErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+  commentId: M:Uvendia.Domain.Webshop.GetCurrentCultureName
+  parent: Uvendia.Domain.Webshop
+  name: GetCurrentCultureName()
+  nameWithType: Webshop.GetCurrentCultureName()
+  fullName: Uvendia.Domain.Webshop.GetCurrentCultureName()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+    name: GetCurrentCultureName
+    nameWithType: Webshop.GetCurrentCultureName
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+    name: GetCurrentCultureName
+    nameWithType: Webshop.GetCurrentCultureName
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  commentId: M:Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  parent: Uvendia.Domain.Webshop
+  name: GetCurrentCultureInfo()
+  nameWithType: Webshop.GetCurrentCultureInfo()
+  fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+    name: GetCurrentCultureInfo
+    nameWithType: Webshop.GetCurrentCultureInfo
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+    name: GetCurrentCultureInfo
+    nameWithType: Webshop.GetCurrentCultureInfo
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  commentId: M:Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: GetTranslation(IList<Translation>, String)
+  nameWithType: Webshop.GetTranslation(IList<Translation>, String)
+  fullName: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList<Uvendia.Domain.Translation>, System.String)
+  nameWithType.vb: Webshop.GetTranslation(IList(Of Translation), String)
+  fullName.vb: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList(Of Uvendia.Domain.Translation), System.String)
+  name.vb: GetTranslation(IList(Of Translation), String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+    name: GetTranslation
+    nameWithType: Webshop.GetTranslation
+    fullName: Uvendia.Domain.Webshop.GetTranslation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+    name: GetTranslation
+    nameWithType: Webshop.GetTranslation
+    fullName: Uvendia.Domain.Webshop.GetTranslation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.SqlRepository
+  commentId: N:Dazzling.Studio.SqlRepository
+  name: Dazzling.Studio.SqlRepository
+  nameWithType: Dazzling.Studio.SqlRepository
+  fullName: Dazzling.Studio.SqlRepository
+- uid: Uvendia.Domain.Store.#ctor*
+  commentId: Overload:Uvendia.Domain.Store.#ctor
+  name: Store
+  nameWithType: Store.Store
+  fullName: Uvendia.Domain.Store.Store
+- uid: Uvendia.Domain.Store.ExternalId*
+  commentId: Overload:Uvendia.Domain.Store.ExternalId
+  name: ExternalId
+  nameWithType: Store.ExternalId
+  fullName: Uvendia.Domain.Store.ExternalId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Store.Name*
+  commentId: Overload:Uvendia.Domain.Store.Name
+  name: Name
+  nameWithType: Store.Name
+  fullName: Uvendia.Domain.Store.Name
+- uid: Uvendia.Domain.Store.OrderNr*
+  commentId: Overload:Uvendia.Domain.Store.OrderNr
+  name: OrderNr
+  nameWithType: Store.OrderNr
+  fullName: Uvendia.Domain.Store.OrderNr
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Uvendia.Domain.Store.Published*
+  commentId: Overload:Uvendia.Domain.Store.Published
+  name: Published
+  nameWithType: Store.Published
+  fullName: Uvendia.Domain.Store.Published
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Store.Translations*
+  commentId: Overload:Uvendia.Domain.Store.Translations
+  name: Translations
+  nameWithType: Store.Translations
+  fullName: Uvendia.Domain.Store.Translations
+- uid: Uvendia.Domain.ITranslation.Translations
+  commentId: P:Uvendia.Domain.ITranslation.Translations
+  parent: Uvendia.Domain.ITranslation
+  name: Translations
+  nameWithType: ITranslation.Translations
+  fullName: Uvendia.Domain.ITranslation.Translations
+- uid: System.Collections.Generic.IList{Uvendia.Domain.Translation}
+  commentId: T:System.Collections.Generic.IList{Uvendia.Domain.Translation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Translation>
+  nameWithType: IList<Translation>
+  fullName: System.Collections.Generic.IList<Uvendia.Domain.Translation>
+  nameWithType.vb: IList(Of Translation)
+  fullName.vb: System.Collections.Generic.IList(Of Uvendia.Domain.Translation)
+  name.vb: IList(Of Translation)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Store.Categories*
+  commentId: Overload:Uvendia.Domain.Store.Categories
+  name: Categories
+  nameWithType: Store.Categories
+  fullName: Uvendia.Domain.Store.Categories
+- uid: System.Collections.Generic.IList{Uvendia.Domain.Category}
+  commentId: T:System.Collections.Generic.IList{Uvendia.Domain.Category}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Category>
+  nameWithType: IList<Category>
+  fullName: System.Collections.Generic.IList<Uvendia.Domain.Category>
+  nameWithType.vb: IList(Of Category)
+  fullName.vb: System.Collections.Generic.IList(Of Uvendia.Domain.Category)
+  name.vb: IList(Of Category)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Category
+    name: Category
+    nameWithType: Category
+    fullName: Uvendia.Domain.Category
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Category
+    name: Category
+    nameWithType: Category
+    fullName: Uvendia.Domain.Category
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Store.HasTranslations*
+  commentId: Overload:Uvendia.Domain.Store.HasTranslations
+  name: HasTranslations
+  nameWithType: Store.HasTranslations
+  fullName: Uvendia.Domain.Store.HasTranslations
+- uid: Uvendia.Domain.Store.DisplayName*
+  commentId: Overload:Uvendia.Domain.Store.DisplayName
+  name: DisplayName
+  nameWithType: Store.DisplayName
+  fullName: Uvendia.Domain.Store.DisplayName
+- uid: Uvendia.Domain.ITranslation.DisplayName(System.String)
+  commentId: M:Uvendia.Domain.ITranslation.DisplayName(System.String)
+  parent: Uvendia.Domain.ITranslation
+  isExternal: true
+  name: DisplayName(String)
+  nameWithType: ITranslation.DisplayName(String)
+  fullName: Uvendia.Domain.ITranslation.DisplayName(System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.ITranslation.DisplayName(System.String)
+    name: DisplayName
+    nameWithType: ITranslation.DisplayName
+    fullName: Uvendia.Domain.ITranslation.DisplayName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.ITranslation.DisplayName(System.String)
+    name: DisplayName
+    nameWithType: ITranslation.DisplayName
+    fullName: Uvendia.Domain.ITranslation.DisplayName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Store.GetShortDescription*
+  commentId: Overload:Uvendia.Domain.Store.GetShortDescription
+  name: GetShortDescription
+  nameWithType: Store.GetShortDescription
+  fullName: Uvendia.Domain.Store.GetShortDescription
+- uid: Uvendia.Domain.ITranslation.GetShortDescription(System.String)
+  commentId: M:Uvendia.Domain.ITranslation.GetShortDescription(System.String)
+  parent: Uvendia.Domain.ITranslation
+  isExternal: true
+  name: GetShortDescription(String)
+  nameWithType: ITranslation.GetShortDescription(String)
+  fullName: Uvendia.Domain.ITranslation.GetShortDescription(System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.ITranslation.GetShortDescription(System.String)
+    name: GetShortDescription
+    nameWithType: ITranslation.GetShortDescription
+    fullName: Uvendia.Domain.ITranslation.GetShortDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.ITranslation.GetShortDescription(System.String)
+    name: GetShortDescription
+    nameWithType: ITranslation.GetShortDescription
+    fullName: Uvendia.Domain.ITranslation.GetShortDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Store.GetLongDescription*
+  commentId: Overload:Uvendia.Domain.Store.GetLongDescription
+  name: GetLongDescription
+  nameWithType: Store.GetLongDescription
+  fullName: Uvendia.Domain.Store.GetLongDescription
+- uid: Uvendia.Domain.ITranslation.GetLongDescription(System.String)
+  commentId: M:Uvendia.Domain.ITranslation.GetLongDescription(System.String)
+  parent: Uvendia.Domain.ITranslation
+  isExternal: true
+  name: GetLongDescription(String)
+  nameWithType: ITranslation.GetLongDescription(String)
+  fullName: Uvendia.Domain.ITranslation.GetLongDescription(System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.ITranslation.GetLongDescription(System.String)
+    name: GetLongDescription
+    nameWithType: ITranslation.GetLongDescription
+    fullName: Uvendia.Domain.ITranslation.GetLongDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.ITranslation.GetLongDescription(System.String)
+    name: GetLongDescription
+    nameWithType: ITranslation.GetLongDescription
+    fullName: Uvendia.Domain.ITranslation.GetLongDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Store.ToString*
+  commentId: Overload:Uvendia.Domain.Store.ToString
+  name: ToString
+  nameWithType: Store.ToString
+  fullName: Uvendia.Domain.Store.ToString

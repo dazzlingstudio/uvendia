@@ -1,0 +1,977 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Enums.DataType
+  commentId: T:Uvendia.Domain.Enums.DataType
+  id: DataType
+  parent: Uvendia.Domain.Enums
+  children:
+  - Uvendia.Domain.Enums.DataType.Boolean
+  - Uvendia.Domain.Enums.DataType.CloudinaryFile
+  - Uvendia.Domain.Enums.DataType.CloudinaryImage
+  - Uvendia.Domain.Enums.DataType.CloudinaryVideo
+  - Uvendia.Domain.Enums.DataType.Date
+  - Uvendia.Domain.Enums.DataType.Editor
+  - Uvendia.Domain.Enums.DataType.GetDataType(System.Int32)
+  - Uvendia.Domain.Enums.DataType.GetDataTypes
+  - Uvendia.Domain.Enums.DataType.Id
+  - Uvendia.Domain.Enums.DataType.List
+  - Uvendia.Domain.Enums.DataType.Name
+  - Uvendia.Domain.Enums.DataType.Number
+  - Uvendia.Domain.Enums.DataType.Text
+  - Uvendia.Domain.Enums.DataType.Type
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: DataType
+  fullName: Uvendia.Domain.Enums.DataType
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DataType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  summary: "\nDatatype enum of types.\n\nDescriptor pattern.\n"
+  example: []
+  syntax:
+    content: public class DataType
+    content.vb: Public Class DataType
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Enums.DataType.Id
+  commentId: P:Uvendia.Domain.Enums.DataType.Id
+  id: Id
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DataType.Id
+  fullName: Uvendia.Domain.Enums.DataType.Id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Id
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 33
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public short Id { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Id As Short
+  overload: Uvendia.Domain.Enums.DataType.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.DataType.Name
+  commentId: P:Uvendia.Domain.Enums.DataType.Name
+  id: Name
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DataType.Name
+  fullName: Uvendia.Domain.Enums.DataType.Name
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Name
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 38
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Uvendia.Domain.Enums.DataType.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.DataType.Type
+  commentId: P:Uvendia.Domain.Enums.DataType.Type
+  id: Type
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DataType.Type
+  fullName: Uvendia.Domain.Enums.DataType.Type
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Type
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 43
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public TypeCode Type { get; }
+    parameters: []
+    return:
+      type: System.TypeCode
+    content.vb: Public ReadOnly Property Type As TypeCode
+  overload: Uvendia.Domain.Enums.DataType.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.DataType.GetDataType(System.Int32)
+  commentId: M:Uvendia.Domain.Enums.DataType.GetDataType(System.Int32)
+  id: GetDataType(System.Int32)
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: GetDataType(Int32)
+  nameWithType: DataType.GetDataType(Int32)
+  fullName: Uvendia.Domain.Enums.DataType.GetDataType(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetDataType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 49
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType GetDataType(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared Function GetDataType(id As Integer) As DataType
+  overload: Uvendia.Domain.Enums.DataType.GetDataType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.GetDataTypes
+  commentId: M:Uvendia.Domain.Enums.DataType.GetDataTypes
+  id: GetDataTypes
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: GetDataTypes()
+  nameWithType: DataType.GetDataTypes()
+  fullName: Uvendia.Domain.Enums.DataType.GetDataTypes()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetDataTypes
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 56
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static List<DataType> GetDataTypes()
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Enums.DataType}
+    content.vb: Public Shared Function GetDataTypes As List(Of DataType)
+  overload: Uvendia.Domain.Enums.DataType.GetDataTypes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.Text
+  commentId: F:Uvendia.Domain.Enums.DataType.Text
+  id: Text
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: DataType.Text
+  fullName: Uvendia.Domain.Enums.DataType.Text
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Text
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 61
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType Text
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared Text As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.Editor
+  commentId: F:Uvendia.Domain.Enums.DataType.Editor
+  id: Editor
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: Editor
+  nameWithType: DataType.Editor
+  fullName: Uvendia.Domain.Enums.DataType.Editor
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Editor
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 62
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType Editor
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared Editor As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.Number
+  commentId: F:Uvendia.Domain.Enums.DataType.Number
+  id: Number
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: DataType.Number
+  fullName: Uvendia.Domain.Enums.DataType.Number
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Number
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 63
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType Number
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared Number As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.Date
+  commentId: F:Uvendia.Domain.Enums.DataType.Date
+  id: Date
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: DataType.Date
+  fullName: Uvendia.Domain.Enums.DataType.Date
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Date
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 64
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType Date
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared Date As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.Boolean
+  commentId: F:Uvendia.Domain.Enums.DataType.Boolean
+  id: Boolean
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: DataType.Boolean
+  fullName: Uvendia.Domain.Enums.DataType.Boolean
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Boolean
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 65
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType Boolean
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared Boolean As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.List
+  commentId: F:Uvendia.Domain.Enums.DataType.List
+  id: List
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: DataType.List
+  fullName: Uvendia.Domain.Enums.DataType.List
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: List
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 66
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType List
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared List As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.CloudinaryImage
+  commentId: F:Uvendia.Domain.Enums.DataType.CloudinaryImage
+  id: CloudinaryImage
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: CloudinaryImage
+  nameWithType: DataType.CloudinaryImage
+  fullName: Uvendia.Domain.Enums.DataType.CloudinaryImage
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CloudinaryImage
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 67
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType CloudinaryImage
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared CloudinaryImage As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.CloudinaryVideo
+  commentId: F:Uvendia.Domain.Enums.DataType.CloudinaryVideo
+  id: CloudinaryVideo
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: CloudinaryVideo
+  nameWithType: DataType.CloudinaryVideo
+  fullName: Uvendia.Domain.Enums.DataType.CloudinaryVideo
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CloudinaryVideo
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 68
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType CloudinaryVideo
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared CloudinaryVideo As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.DataType.CloudinaryFile
+  commentId: F:Uvendia.Domain.Enums.DataType.CloudinaryFile
+  id: CloudinaryFile
+  parent: Uvendia.Domain.Enums.DataType
+  langs:
+  - csharp
+  - vb
+  name: CloudinaryFile
+  nameWithType: DataType.CloudinaryFile
+  fullName: Uvendia.Domain.Enums.DataType.CloudinaryFile
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/DataType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CloudinaryFile
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/DataType.cs
+    startLine: 69
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static DataType CloudinaryFile
+    return:
+      type: Uvendia.Domain.Enums.DataType
+    content.vb: Public Shared CloudinaryFile As DataType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Enums.DataType.Id*
+  commentId: Overload:Uvendia.Domain.Enums.DataType.Id
+  name: Id
+  nameWithType: DataType.Id
+  fullName: Uvendia.Domain.Enums.DataType.Id
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Uvendia.Domain.Enums.DataType.Name*
+  commentId: Overload:Uvendia.Domain.Enums.DataType.Name
+  name: Name
+  nameWithType: DataType.Name
+  fullName: Uvendia.Domain.Enums.DataType.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Enums.DataType.Type*
+  commentId: Overload:Uvendia.Domain.Enums.DataType.Type
+  name: Type
+  nameWithType: DataType.Type
+  fullName: Uvendia.Domain.Enums.DataType.Type
+- uid: System.TypeCode
+  commentId: T:System.TypeCode
+  parent: System
+  isExternal: true
+  name: TypeCode
+  nameWithType: TypeCode
+  fullName: System.TypeCode
+- uid: Uvendia.Domain.Enums.DataType.GetDataType*
+  commentId: Overload:Uvendia.Domain.Enums.DataType.GetDataType
+  name: GetDataType
+  nameWithType: DataType.GetDataType
+  fullName: Uvendia.Domain.Enums.DataType.GetDataType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Enums.DataType
+  commentId: T:Uvendia.Domain.Enums.DataType
+  parent: Uvendia.Domain.Enums
+  name: DataType
+  nameWithType: DataType
+  fullName: Uvendia.Domain.Enums.DataType
+- uid: Uvendia.Domain.Enums.DataType.GetDataTypes*
+  commentId: Overload:Uvendia.Domain.Enums.DataType.GetDataTypes
+  name: GetDataTypes
+  nameWithType: DataType.GetDataTypes
+  fullName: Uvendia.Domain.Enums.DataType.GetDataTypes
+- uid: System.Collections.Generic.List{Uvendia.Domain.Enums.DataType}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Enums.DataType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DataType>
+  nameWithType: List<DataType>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Enums.DataType>
+  nameWithType.vb: List(Of DataType)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Enums.DataType)
+  name.vb: List(Of DataType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Enums.DataType
+    name: DataType
+    nameWithType: DataType
+    fullName: Uvendia.Domain.Enums.DataType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Enums.DataType
+    name: DataType
+    nameWithType: DataType
+    fullName: Uvendia.Domain.Enums.DataType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

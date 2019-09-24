@@ -1,0 +1,905 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  id: PaymentMethodModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.#ctor
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.AllAvailableInCountries
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.IsSelected(System.String)
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.Logo
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethod
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceCollection
+  - Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceDefinitions
+  langs:
+  - csharp
+  - vb
+  name: PaymentMethodModel
+  nameWithType: PaymentMethodModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PaymentMethodModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class PaymentMethodModel : WebshopModel'
+    content.vb: >-
+      Public Class PaymentMethodModel
+          Inherits WebshopModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  inheritedMembers:
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.#ctor
+  commentId: M:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.#ctor
+  id: '#ctor'
+  parent: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  langs:
+  - csharp
+  - vb
+  name: PaymentMethodModel()
+  nameWithType: PaymentMethodModel.PaymentMethodModel()
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethodModel()
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public PaymentMethodModel()
+    content.vb: Public Sub New
+  overload: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethod
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethod
+  id: PaymentMethod
+  parent: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  langs:
+  - csharp
+  - vb
+  name: PaymentMethod
+  nameWithType: PaymentMethodModel.PaymentMethod
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethod
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PaymentMethod
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public PaymentMethod PaymentMethod { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.PaymentMethod
+    content.vb: Public Property PaymentMethod As PaymentMethod
+  overload: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.AllAvailableInCountries
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.AllAvailableInCountries
+  id: AllAvailableInCountries
+  parent: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  langs:
+  - csharp
+  - vb
+  name: AllAvailableInCountries
+  nameWithType: PaymentMethodModel.AllAvailableInCountries
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.AllAvailableInCountries
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AllAvailableInCountries
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+    startLine: 36
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IEnumerable<Country> AllAvailableInCountries { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Country}
+    content.vb: Public Property AllAvailableInCountries As IEnumerable(Of Country)
+  overload: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.AllAvailableInCountries*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceDefinitions
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceDefinitions
+  id: PriceDefinitions
+  parent: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  langs:
+  - csharp
+  - vb
+  name: PriceDefinitions
+  nameWithType: PaymentMethodModel.PriceDefinitions
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceDefinitions
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PriceDefinitions
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+    startLine: 37
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IEnumerable<PriceDefinition> PriceDefinitions { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.PriceDefinition}
+    content.vb: Public ReadOnly Property PriceDefinitions As IEnumerable(Of PriceDefinition)
+  overload: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceDefinitions*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceCollection
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceCollection
+  id: PriceCollection
+  parent: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  langs:
+  - csharp
+  - vb
+  name: PriceCollection
+  nameWithType: PaymentMethodModel.PriceCollection
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceCollection
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PriceCollection
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+    startLine: 38
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IList<Price> PriceCollection { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Uvendia.Domain.Price}
+    content.vb: Public Property PriceCollection As IList(Of Price)
+  overload: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceCollection*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.Logo
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.Logo
+  id: Logo
+  parent: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  langs:
+  - csharp
+  - vb
+  name: Logo
+  nameWithType: PaymentMethodModel.Logo
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.Logo
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Logo
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+    startLine: 39
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public CloudinaryImageControl Logo { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+    content.vb: Public Property Logo As CloudinaryImageControl
+  overload: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.Logo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.IsSelected(System.String)
+  commentId: M:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.IsSelected(System.String)
+  id: IsSelected(System.String)
+  parent: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel
+  langs:
+  - csharp
+  - vb
+  name: IsSelected(String)
+  nameWithType: PaymentMethodModel.IsSelected(String)
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.IsSelected(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsSelected
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PaymentMethodModel.cs
+    startLine: 40
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string IsSelected(string code)
+    parameters:
+    - id: code
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function IsSelected(code As String) As String
+  overload: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.IsSelected*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  name: WebshopModel
+  nameWithType: WebshopModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreePath
+  nameWithType: WebshopModel.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreeSelectedNodePath
+  nameWithType: WebshopModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.#ctor*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.#ctor
+  name: PaymentMethodModel
+  nameWithType: PaymentMethodModel.PaymentMethodModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethodModel
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethod*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethod
+  name: PaymentMethod
+  nameWithType: PaymentMethodModel.PaymentMethod
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PaymentMethod
+- uid: Uvendia.Domain.PaymentMethod
+  commentId: T:Uvendia.Domain.PaymentMethod
+  parent: Uvendia.Domain
+  name: PaymentMethod
+  nameWithType: PaymentMethod
+  fullName: Uvendia.Domain.PaymentMethod
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.AllAvailableInCountries*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.AllAvailableInCountries
+  name: AllAvailableInCountries
+  nameWithType: PaymentMethodModel.AllAvailableInCountries
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.AllAvailableInCountries
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Country}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Country}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Country>
+  nameWithType: IEnumerable<Country>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Entities.Country>
+  nameWithType.vb: IEnumerable(Of Country)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Entities.Country)
+  name.vb: IEnumerable(Of Country)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.Country
+    name: Country
+    nameWithType: Country
+    fullName: Uvendia.Domain.Entities.Country
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.Country
+    name: Country
+    nameWithType: Country
+    fullName: Uvendia.Domain.Entities.Country
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceDefinitions*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceDefinitions
+  name: PriceDefinitions
+  nameWithType: PaymentMethodModel.PriceDefinitions
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceDefinitions
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.PriceDefinition}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.PriceDefinition}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PriceDefinition>
+  nameWithType: IEnumerable<PriceDefinition>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.PriceDefinition>
+  nameWithType.vb: IEnumerable(Of PriceDefinition)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.PriceDefinition)
+  name.vb: IEnumerable(Of PriceDefinition)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.PriceDefinition
+    name: PriceDefinition
+    nameWithType: PriceDefinition
+    fullName: Uvendia.Domain.PriceDefinition
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.PriceDefinition
+    name: PriceDefinition
+    nameWithType: PriceDefinition
+    fullName: Uvendia.Domain.PriceDefinition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceCollection*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceCollection
+  name: PriceCollection
+  nameWithType: PaymentMethodModel.PriceCollection
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.PriceCollection
+- uid: System.Collections.Generic.IList{Uvendia.Domain.Price}
+  commentId: T:System.Collections.Generic.IList{Uvendia.Domain.Price}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Price>
+  nameWithType: IList<Price>
+  fullName: System.Collections.Generic.IList<Uvendia.Domain.Price>
+  nameWithType.vb: IList(Of Price)
+  fullName.vb: System.Collections.Generic.IList(Of Uvendia.Domain.Price)
+  name.vb: IList(Of Price)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Price
+    name: Price
+    nameWithType: Price
+    fullName: Uvendia.Domain.Price
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Price
+    name: Price
+    nameWithType: Price
+    fullName: Uvendia.Domain.Price
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.Logo*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.Logo
+  name: Logo
+  nameWithType: PaymentMethodModel.Logo
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.Logo
+- uid: Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+  commentId: T:Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+  parent: Uvendia.Domain.Mvc.HtmlControls
+  name: CloudinaryImageControl
+  nameWithType: CloudinaryImageControl
+  fullName: Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+- uid: Uvendia.Domain.Mvc.HtmlControls
+  commentId: N:Uvendia.Domain.Mvc.HtmlControls
+  name: Uvendia.Domain.Mvc.HtmlControls
+  nameWithType: Uvendia.Domain.Mvc.HtmlControls
+  fullName: Uvendia.Domain.Mvc.HtmlControls
+- uid: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.IsSelected*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.IsSelected
+  name: IsSelected
+  nameWithType: PaymentMethodModel.IsSelected
+  fullName: Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.IsSelected
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

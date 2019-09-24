@@ -1,0 +1,1210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  commentId: T:Uvendia.Domain.Entities.InvoiceDataTransferObject
+  id: InvoiceDataTransferObject
+  parent: Uvendia.Domain.Entities
+  children:
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.Amount
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerName
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerNr
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCity
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCountry
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceHousenr
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoicePostcode
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceStreet
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderDate
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderNr
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.ServiceCost
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCity
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCountry
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipHousenr
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.ShippingCost
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipPostcode
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipStreet
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.TaxAmount
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.Today
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalAmount
+  - Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalDiscount
+  langs:
+  - csharp
+  - vb
+  name: InvoiceDataTransferObject
+  nameWithType: InvoiceDataTransferObject
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceDataTransferObject
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public class InvoiceDataTransferObject
+    content.vb: Public Class InvoiceDataTransferObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerName
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerName
+  id: CustomerName
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: CustomerName
+  nameWithType: InvoiceDataTransferObject.CustomerName
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CustomerName
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string CustomerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomerName As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerNr
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerNr
+  id: CustomerNr
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: CustomerNr
+  nameWithType: InvoiceDataTransferObject.CustomerNr
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerNr
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CustomerNr
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string CustomerNr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomerNr As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerNr*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceStreet
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceStreet
+  id: InvoiceStreet
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: InvoiceStreet
+  nameWithType: InvoiceDataTransferObject.InvoiceStreet
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceStreet
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceStreet
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string InvoiceStreet { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvoiceStreet As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceStreet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceHousenr
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceHousenr
+  id: InvoiceHousenr
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: InvoiceHousenr
+  nameWithType: InvoiceDataTransferObject.InvoiceHousenr
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceHousenr
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceHousenr
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string InvoiceHousenr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvoiceHousenr As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceHousenr*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoicePostcode
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoicePostcode
+  id: InvoicePostcode
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: InvoicePostcode
+  nameWithType: InvoiceDataTransferObject.InvoicePostcode
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoicePostcode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoicePostcode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string InvoicePostcode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvoicePostcode As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoicePostcode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCity
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCity
+  id: InvoiceCity
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: InvoiceCity
+  nameWithType: InvoiceDataTransferObject.InvoiceCity
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCity
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceCity
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string InvoiceCity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvoiceCity As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCountry
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCountry
+  id: InvoiceCountry
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: InvoiceCountry
+  nameWithType: InvoiceDataTransferObject.InvoiceCountry
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCountry
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: InvoiceCountry
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string InvoiceCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvoiceCountry As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCountry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipStreet
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipStreet
+  id: ShipStreet
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ShipStreet
+  nameWithType: InvoiceDataTransferObject.ShipStreet
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipStreet
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShipStreet
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ShipStreet { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShipStreet As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipStreet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipHousenr
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipHousenr
+  id: ShipHousenr
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ShipHousenr
+  nameWithType: InvoiceDataTransferObject.ShipHousenr
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipHousenr
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShipHousenr
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ShipHousenr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShipHousenr As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipHousenr*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipPostcode
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipPostcode
+  id: ShipPostcode
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ShipPostcode
+  nameWithType: InvoiceDataTransferObject.ShipPostcode
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipPostcode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShipPostcode
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ShipPostcode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShipPostcode As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipPostcode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCity
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCity
+  id: ShipCity
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ShipCity
+  nameWithType: InvoiceDataTransferObject.ShipCity
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCity
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShipCity
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ShipCity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShipCity As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCountry
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCountry
+  id: ShipCountry
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ShipCountry
+  nameWithType: InvoiceDataTransferObject.ShipCountry
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCountry
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShipCountry
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ShipCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShipCountry As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCountry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderNr
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderNr
+  id: OrderNr
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: OrderNr
+  nameWithType: InvoiceDataTransferObject.OrderNr
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderNr
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderNr
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 25
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string OrderNr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderNr As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderNr*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderDate
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderDate
+  id: OrderDate
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: OrderDate
+  nameWithType: InvoiceDataTransferObject.OrderDate
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderDate
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderDate
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string OrderDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderDate As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.Today
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.Today
+  id: Today
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Today
+  nameWithType: InvoiceDataTransferObject.Today
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.Today
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Today
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 27
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Today { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Today As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.Today*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalDiscount
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalDiscount
+  id: TotalDiscount
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: TotalDiscount
+  nameWithType: InvoiceDataTransferObject.TotalDiscount
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalDiscount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TotalDiscount
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 29
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string TotalDiscount { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TotalDiscount As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalDiscount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.Amount
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.Amount
+  id: Amount
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: InvoiceDataTransferObject.Amount
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.Amount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Amount
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 30
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string Amount { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Amount As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.Amount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.TaxAmount
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.TaxAmount
+  id: TaxAmount
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: TaxAmount
+  nameWithType: InvoiceDataTransferObject.TaxAmount
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.TaxAmount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TaxAmount
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string TaxAmount { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TaxAmount As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.TaxAmount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalAmount
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalAmount
+  id: TotalAmount
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: TotalAmount
+  nameWithType: InvoiceDataTransferObject.TotalAmount
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalAmount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TotalAmount
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 32
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string TotalAmount { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TotalAmount As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalAmount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShippingCost
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShippingCost
+  id: ShippingCost
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ShippingCost
+  nameWithType: InvoiceDataTransferObject.ShippingCost
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShippingCost
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShippingCost
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 33
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ShippingCost { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShippingCost As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShippingCost*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ServiceCost
+  commentId: P:Uvendia.Domain.Entities.InvoiceDataTransferObject.ServiceCost
+  id: ServiceCost
+  parent: Uvendia.Domain.Entities.InvoiceDataTransferObject
+  langs:
+  - csharp
+  - vb
+  name: ServiceCost
+  nameWithType: InvoiceDataTransferObject.ServiceCost
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ServiceCost
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ServiceCost
+    path: ../../dazzling.studio/Uvendia.Domain/Entities/InvoiceDataTransferObject.cs
+    startLine: 34
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Entities
+  syntax:
+    content: public string ServiceCost { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceCost As String
+  overload: Uvendia.Domain.Entities.InvoiceDataTransferObject.ServiceCost*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerName*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerName
+  name: CustomerName
+  nameWithType: InvoiceDataTransferObject.CustomerName
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerNr*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerNr
+  name: CustomerNr
+  nameWithType: InvoiceDataTransferObject.CustomerNr
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.CustomerNr
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceStreet*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceStreet
+  name: InvoiceStreet
+  nameWithType: InvoiceDataTransferObject.InvoiceStreet
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceStreet
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceHousenr*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceHousenr
+  name: InvoiceHousenr
+  nameWithType: InvoiceDataTransferObject.InvoiceHousenr
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceHousenr
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoicePostcode*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoicePostcode
+  name: InvoicePostcode
+  nameWithType: InvoiceDataTransferObject.InvoicePostcode
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoicePostcode
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCity*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCity
+  name: InvoiceCity
+  nameWithType: InvoiceDataTransferObject.InvoiceCity
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCity
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCountry*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCountry
+  name: InvoiceCountry
+  nameWithType: InvoiceDataTransferObject.InvoiceCountry
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.InvoiceCountry
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipStreet*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipStreet
+  name: ShipStreet
+  nameWithType: InvoiceDataTransferObject.ShipStreet
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipStreet
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipHousenr*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipHousenr
+  name: ShipHousenr
+  nameWithType: InvoiceDataTransferObject.ShipHousenr
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipHousenr
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipPostcode*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipPostcode
+  name: ShipPostcode
+  nameWithType: InvoiceDataTransferObject.ShipPostcode
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipPostcode
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCity*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCity
+  name: ShipCity
+  nameWithType: InvoiceDataTransferObject.ShipCity
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCity
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCountry*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCountry
+  name: ShipCountry
+  nameWithType: InvoiceDataTransferObject.ShipCountry
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShipCountry
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderNr*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderNr
+  name: OrderNr
+  nameWithType: InvoiceDataTransferObject.OrderNr
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderNr
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderDate*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderDate
+  name: OrderDate
+  nameWithType: InvoiceDataTransferObject.OrderDate
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.OrderDate
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.Today*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.Today
+  name: Today
+  nameWithType: InvoiceDataTransferObject.Today
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.Today
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalDiscount*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalDiscount
+  name: TotalDiscount
+  nameWithType: InvoiceDataTransferObject.TotalDiscount
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalDiscount
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.Amount*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.Amount
+  name: Amount
+  nameWithType: InvoiceDataTransferObject.Amount
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.Amount
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.TaxAmount*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.TaxAmount
+  name: TaxAmount
+  nameWithType: InvoiceDataTransferObject.TaxAmount
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.TaxAmount
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalAmount*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalAmount
+  name: TotalAmount
+  nameWithType: InvoiceDataTransferObject.TotalAmount
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.TotalAmount
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShippingCost*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.ShippingCost
+  name: ShippingCost
+  nameWithType: InvoiceDataTransferObject.ShippingCost
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ShippingCost
+- uid: Uvendia.Domain.Entities.InvoiceDataTransferObject.ServiceCost*
+  commentId: Overload:Uvendia.Domain.Entities.InvoiceDataTransferObject.ServiceCost
+  name: ServiceCost
+  nameWithType: InvoiceDataTransferObject.ServiceCost
+  fullName: Uvendia.Domain.Entities.InvoiceDataTransferObject.ServiceCost

@@ -1,0 +1,801 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Enums.RoleType
+  commentId: T:Uvendia.Domain.Enums.RoleType
+  id: RoleType
+  parent: Uvendia.Domain.Enums
+  children:
+  - Uvendia.Domain.Enums.RoleType.Administrator
+  - Uvendia.Domain.Enums.RoleType.GetRoleByNames(System.String[])
+  - Uvendia.Domain.Enums.RoleType.GetRoleName(System.Int32)
+  - Uvendia.Domain.Enums.RoleType.GetRoleTypes
+  - Uvendia.Domain.Enums.RoleType.ID
+  - Uvendia.Domain.Enums.RoleType.RoleName
+  - Uvendia.Domain.Enums.RoleType.ToString
+  - Uvendia.Domain.Enums.RoleType.Visitor
+  langs:
+  - csharp
+  - vb
+  name: RoleType
+  nameWithType: RoleType
+  fullName: Uvendia.Domain.Enums.RoleType
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: RoleType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public class RoleType
+    content.vb: Public Class RoleType
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Enums.RoleType.RoleName
+  commentId: P:Uvendia.Domain.Enums.RoleType.RoleName
+  id: RoleName
+  parent: Uvendia.Domain.Enums.RoleType
+  langs:
+  - csharp
+  - vb
+  name: RoleName
+  nameWithType: RoleType.RoleName
+  fullName: Uvendia.Domain.Enums.RoleType.RoleName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: RoleName
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public string RoleName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RoleName As String
+  overload: Uvendia.Domain.Enums.RoleType.RoleName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.RoleType.ID
+  commentId: P:Uvendia.Domain.Enums.RoleType.ID
+  id: ID
+  parent: Uvendia.Domain.Enums.RoleType
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: RoleType.ID
+  fullName: Uvendia.Domain.Enums.RoleType.ID
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ID
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 29
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public short ID { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property ID As Short
+  overload: Uvendia.Domain.Enums.RoleType.ID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.RoleType.GetRoleName(System.Int32)
+  commentId: M:Uvendia.Domain.Enums.RoleType.GetRoleName(System.Int32)
+  id: GetRoleName(System.Int32)
+  parent: Uvendia.Domain.Enums.RoleType
+  langs:
+  - csharp
+  - vb
+  name: GetRoleName(Int32)
+  nameWithType: RoleType.GetRoleName(Int32)
+  fullName: Uvendia.Domain.Enums.RoleType.GetRoleName(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetRoleName
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 34
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static RoleType GetRoleName(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Uvendia.Domain.Enums.RoleType
+    content.vb: Public Shared Function GetRoleName(id As Integer) As RoleType
+  overload: Uvendia.Domain.Enums.RoleType.GetRoleName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.RoleType.GetRoleByNames(System.String[])
+  commentId: M:Uvendia.Domain.Enums.RoleType.GetRoleByNames(System.String[])
+  id: GetRoleByNames(System.String[])
+  parent: Uvendia.Domain.Enums.RoleType
+  langs:
+  - csharp
+  - vb
+  name: GetRoleByNames(String[])
+  nameWithType: RoleType.GetRoleByNames(String[])
+  fullName: Uvendia.Domain.Enums.RoleType.GetRoleByNames(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetRoleByNames
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 40
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static List<RoleType> GetRoleByNames(params string[] names)
+    parameters:
+    - id: names
+      type: System.String[]
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Enums.RoleType}
+    content.vb: Public Shared Function GetRoleByNames(ParamArray names As String()) As List(Of RoleType)
+  overload: Uvendia.Domain.Enums.RoleType.GetRoleByNames*
+  nameWithType.vb: RoleType.GetRoleByNames(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.Enums.RoleType.GetRoleByNames(System.String())
+  name.vb: GetRoleByNames(String())
+- uid: Uvendia.Domain.Enums.RoleType.GetRoleTypes
+  commentId: M:Uvendia.Domain.Enums.RoleType.GetRoleTypes
+  id: GetRoleTypes
+  parent: Uvendia.Domain.Enums.RoleType
+  langs:
+  - csharp
+  - vb
+  name: GetRoleTypes()
+  nameWithType: RoleType.GetRoleTypes()
+  fullName: Uvendia.Domain.Enums.RoleType.GetRoleTypes()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetRoleTypes
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 46
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static List<RoleType> GetRoleTypes()
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Enums.RoleType}
+    content.vb: Public Shared Function GetRoleTypes As List(Of RoleType)
+  overload: Uvendia.Domain.Enums.RoleType.GetRoleTypes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.RoleType.Administrator
+  commentId: F:Uvendia.Domain.Enums.RoleType.Administrator
+  id: Administrator
+  parent: Uvendia.Domain.Enums.RoleType
+  langs:
+  - csharp
+  - vb
+  name: Administrator
+  nameWithType: RoleType.Administrator
+  fullName: Uvendia.Domain.Enums.RoleType.Administrator
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Administrator
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 51
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static RoleType Administrator
+    return:
+      type: Uvendia.Domain.Enums.RoleType
+    content.vb: Public Shared Administrator As RoleType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.RoleType.Visitor
+  commentId: F:Uvendia.Domain.Enums.RoleType.Visitor
+  id: Visitor
+  parent: Uvendia.Domain.Enums.RoleType
+  langs:
+  - csharp
+  - vb
+  name: Visitor
+  nameWithType: RoleType.Visitor
+  fullName: Uvendia.Domain.Enums.RoleType.Visitor
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Visitor
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 52
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static RoleType Visitor
+    return:
+      type: Uvendia.Domain.Enums.RoleType
+    content.vb: Public Shared Visitor As RoleType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.RoleType.ToString
+  commentId: M:Uvendia.Domain.Enums.RoleType.ToString
+  id: ToString
+  parent: Uvendia.Domain.Enums.RoleType
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RoleType.ToString()
+  fullName: Uvendia.Domain.Enums.RoleType.ToString()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/RoleType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ToString
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/RoleType.cs
+    startLine: 55
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Uvendia.Domain.Enums.RoleType.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Enums.RoleType.RoleName*
+  commentId: Overload:Uvendia.Domain.Enums.RoleType.RoleName
+  name: RoleName
+  nameWithType: RoleType.RoleName
+  fullName: Uvendia.Domain.Enums.RoleType.RoleName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Enums.RoleType.ID*
+  commentId: Overload:Uvendia.Domain.Enums.RoleType.ID
+  name: ID
+  nameWithType: RoleType.ID
+  fullName: Uvendia.Domain.Enums.RoleType.ID
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Uvendia.Domain.Enums.RoleType.GetRoleName*
+  commentId: Overload:Uvendia.Domain.Enums.RoleType.GetRoleName
+  name: GetRoleName
+  nameWithType: RoleType.GetRoleName
+  fullName: Uvendia.Domain.Enums.RoleType.GetRoleName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Enums.RoleType
+  commentId: T:Uvendia.Domain.Enums.RoleType
+  parent: Uvendia.Domain.Enums
+  name: RoleType
+  nameWithType: RoleType
+  fullName: Uvendia.Domain.Enums.RoleType
+- uid: Uvendia.Domain.Enums.RoleType.GetRoleByNames*
+  commentId: Overload:Uvendia.Domain.Enums.RoleType.GetRoleByNames
+  name: GetRoleByNames
+  nameWithType: RoleType.GetRoleByNames
+  fullName: Uvendia.Domain.Enums.RoleType.GetRoleByNames
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List{Uvendia.Domain.Enums.RoleType}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Enums.RoleType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<RoleType>
+  nameWithType: List<RoleType>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Enums.RoleType>
+  nameWithType.vb: List(Of RoleType)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Enums.RoleType)
+  name.vb: List(Of RoleType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Enums.RoleType
+    name: RoleType
+    nameWithType: RoleType
+    fullName: Uvendia.Domain.Enums.RoleType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Enums.RoleType
+    name: RoleType
+    nameWithType: RoleType
+    fullName: Uvendia.Domain.Enums.RoleType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.Enums.RoleType.GetRoleTypes*
+  commentId: Overload:Uvendia.Domain.Enums.RoleType.GetRoleTypes
+  name: GetRoleTypes
+  nameWithType: RoleType.GetRoleTypes
+  fullName: Uvendia.Domain.Enums.RoleType.GetRoleTypes
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Enums.RoleType.ToString*
+  commentId: Overload:Uvendia.Domain.Enums.RoleType.ToString
+  name: ToString
+  nameWithType: RoleType.ToString
+  fullName: Uvendia.Domain.Enums.RoleType.ToString

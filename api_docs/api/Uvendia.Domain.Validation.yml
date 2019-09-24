@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Validation
+  commentId: N:Uvendia.Domain.Validation
+  id: Uvendia.Domain.Validation
+  children:
+  - Uvendia.Domain.Validation.ExtendedPropertyValidateAttribute
+  - Uvendia.Domain.Validation.IPropertyValidation
+  - Uvendia.Domain.Validation.TestValidation
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Validation
+  nameWithType: Uvendia.Domain.Validation
+  fullName: Uvendia.Domain.Validation
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Validation.ExtendedPropertyValidateAttribute
+  commentId: T:Uvendia.Domain.Validation.ExtendedPropertyValidateAttribute
+  parent: Uvendia.Domain.Validation
+  name: ExtendedPropertyValidateAttribute
+  nameWithType: ExtendedPropertyValidateAttribute
+  fullName: Uvendia.Domain.Validation.ExtendedPropertyValidateAttribute
+- uid: Uvendia.Domain.Validation.IPropertyValidation
+  commentId: T:Uvendia.Domain.Validation.IPropertyValidation
+  parent: Uvendia.Domain.Validation
+  name: IPropertyValidation
+  nameWithType: IPropertyValidation
+  fullName: Uvendia.Domain.Validation.IPropertyValidation
+- uid: Uvendia.Domain.Validation.TestValidation
+  commentId: T:Uvendia.Domain.Validation.TestValidation
+  name: TestValidation
+  nameWithType: TestValidation
+  fullName: Uvendia.Domain.Validation.TestValidation
+- uid: Uvendia.Domain.Validation
+  commentId: N:Uvendia.Domain.Validation
+  name: Uvendia.Domain.Validation
+  nameWithType: Uvendia.Domain.Validation
+  fullName: Uvendia.Domain.Validation

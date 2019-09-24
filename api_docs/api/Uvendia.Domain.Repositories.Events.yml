@@ -1,0 +1,3080 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Repositories.Events
+  commentId: T:Uvendia.Domain.Repositories.Events
+  id: Events
+  parent: Uvendia.Domain.Repositories
+  children:
+  - Uvendia.Domain.Repositories.Events.All(System.Int16)
+  - Uvendia.Domain.Repositories.Events.All(System.String,System.String,System.Int32,System.Object)
+  - Uvendia.Domain.Repositories.Events.All``1(``0[])
+  - Uvendia.Domain.Repositories.Events.DeleteById``1(``0)
+  - Uvendia.Domain.Repositories.Events.GetSoldTickets(System.Int64,Uvendia.Domain.Enums.OrderStatus[])
+  - Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable(System.Int64,System.Int64,System.Nullable{System.Int32})
+  - Uvendia.Domain.Repositories.Events.Save(Uvendia.Domain.Event)
+  - Uvendia.Domain.Repositories.Events.Search(Uvendia.Domain.Entities.EventSearch)
+  - Uvendia.Domain.Repositories.Events.Single(System.String,System.Object)
+  - Uvendia.Domain.Repositories.Events.Single``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: Events
+  nameWithType: Events
+  fullName: Uvendia.Domain.Repositories.Events
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Events
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  example: []
+  syntax:
+    content: 'public class Events : UvendiaRepository<Event>, IBaseRepository<Event>'
+    content.vb: >-
+      Public Class Events
+          Inherits UvendiaRepository(Of  Event)
+          Implements IBaseRepository(Of  Event)
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  - Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}
+  implements:
+  - Dazzling.Studio.SqlRepository.IBaseRepository{Uvendia.Domain.Event}
+  inheritedMembers:
+  - Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.CreateUnitOfWork
+  - Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._syncLock
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._connectionStringName
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._tableSchema
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._tableName
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Instance``1
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.TableSchema
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.TableName
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.CreateConnection
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.SetConnection(System.Data.SqlClient.SqlConnection)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single``1({IID})
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Insert``1(Uvendia.Domain.Event)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Update(Uvendia.Domain.Event)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Delete(Uvendia.Domain.Event)
+  - Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Count(System.String,System.Object)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Repositories.Events.Single``1(``0)
+  commentId: M:Uvendia.Domain.Repositories.Events.Single``1(``0)
+  id: Single``1(``0)
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: Single<I>(I)
+  nameWithType: Events.Single<I>(I)
+  fullName: Uvendia.Domain.Repositories.Events.Single<I>(I)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Single
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  example: []
+  syntax:
+    content: public override Event Single<I>(I id)
+    parameters:
+    - id: id
+      type: '{I}'
+    typeParameters:
+    - id: I
+    return:
+      type: Uvendia.Domain.Event
+    content.vb: 'Public Overrides Function Single(Of I)(id As I) As '
+  overridden: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single``1({I})
+  overload: Uvendia.Domain.Repositories.Events.Single*
+  nameWithType.vb: Events.Single(Of I)(I)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Uvendia.Domain.Repositories.Events.Single(Of I)(I)
+  name.vb: Single(Of I)(I)
+- uid: Uvendia.Domain.Repositories.Events.Single(System.String,System.Object)
+  commentId: M:Uvendia.Domain.Repositories.Events.Single(System.String,System.Object)
+  id: Single(System.String,System.Object)
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: Single(String, Object)
+  nameWithType: Events.Single(String, Object)
+  fullName: Uvendia.Domain.Repositories.Events.Single(System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Single
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 52
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  summary: "\nReturns single event filtered by a SQL where clause.\nThese query aliases you can use in your &apos;where&apos; clause:\n[Event] e      \n[TicketSale] ts\n[Price] tsPrice (ticket sale price)\n[PriceDefinition] tsPriceDef (ticket sale price definition)\n[Price] cPrice (cancellation price)\n[PriceDefinition] cPriceDef (cancellation price definition)\n[Address] a\n[Definition] d\n[Property] prop\n[PropertyValue] pv      \n[EventToTranslation] ett\n[Translation] t\n\neq. where e.Published = 1\n"
+  remarks: "\n"
+  example: []
+  syntax:
+    content: public override Event Single(string where = null, object parms = null)
+    parameters:
+    - id: where
+      type: System.String
+      description: The where.
+    - id: parms
+      type: System.Object
+      description: The parms.
+    return:
+      type: Uvendia.Domain.Event
+      description: ''
+    content.vb: 'Public Overrides Function Single(where As String = Nothing, parms As Object = Nothing) As '
+  overridden: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single(System.String,System.Object)
+  overload: Uvendia.Domain.Repositories.Events.Single*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Uvendia.Domain.Repositories.Events.All(System.String,System.String,System.Int32,System.Object)
+  commentId: M:Uvendia.Domain.Repositories.Events.All(System.String,System.String,System.Int32,System.Object)
+  id: All(System.String,System.String,System.Int32,System.Object)
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: All(String, String, Int32, Object)
+  nameWithType: Events.All(String, String, Int32, Object)
+  fullName: Uvendia.Domain.Repositories.Events.All(System.String, System.String, System.Int32, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: All
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 89
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  summary: "\nReturns all the events filtered by a SQL where clause.\nThese query aliases you can use in your &apos;where&apos; clause:\n[Event] e      \n[TicketSale] ts\n[Price] tsPrice (ticket sale price)\n[PriceDefinition] tsPriceDef (ticket sale price definition)\n[Price] cPrice (cancellation price)\n[PriceDefinition] cPriceDef (cancellation price definition)\n[Address] a\n[Definition] d\n[Property] prop\n[PropertyValue] pv       \n[EventToTranslation] ett\n[Translation] t\n\neq. where e.Published = 1\n"
+  remarks: "\n"
+  example: []
+  syntax:
+    content: public override IEnumerable<Event> All(string where = null, string orderBy = null, int top = 0, object parms = null)
+    parameters:
+    - id: where
+      type: System.String
+      description: The where.
+    - id: orderBy
+      type: System.String
+      description: The order by.
+    - id: top
+      type: System.Int32
+      description: The top.
+    - id: parms
+      type: System.Object
+      description: The parms.
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Event}
+      description: ''
+    content.vb: Public Overrides Function All(where As String = Nothing, orderBy As String = Nothing, top As Integer = 0, parms As Object = Nothing) As IEnumerable(Of  Event)
+  overridden: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.All(System.String,System.String,System.Int32,System.Object)
+  overload: Uvendia.Domain.Repositories.Events.All*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Uvendia.Domain.Repositories.Events.All``1(``0[])
+  commentId: M:Uvendia.Domain.Repositories.Events.All``1(``0[])
+  id: All``1(``0[])
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: All<TType>(TType[])
+  nameWithType: Events.All<TType>(TType[])
+  fullName: Uvendia.Domain.Repositories.Events.All<TType>(TType[])
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: All
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 109
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  summary: "\nReturns all the entities specified by the given identifiers\n"
+  example: []
+  syntax:
+    content: public override IEnumerable<Event> All<TType>(params TType[] ids)
+    parameters:
+    - id: ids
+      type: '{TType}[]'
+      description: The ids.
+    typeParameters:
+    - id: TType
+      description: The type of the type.
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Event}
+      description: ''
+    content.vb: Public Overrides Function All(Of TType)(ParamArray ids As TType()) As IEnumerable(Of  Event)
+  overridden: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.All``1({TType}[])
+  overload: Uvendia.Domain.Repositories.Events.All*
+  nameWithType.vb: Events.All(Of TType)(TType())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Uvendia.Domain.Repositories.Events.All(Of TType)(TType())
+  name.vb: All(Of TType)(TType())
+- uid: Uvendia.Domain.Repositories.Events.All(System.Int16)
+  commentId: M:Uvendia.Domain.Repositories.Events.All(System.Int16)
+  id: All(System.Int16)
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: All(Int16)
+  nameWithType: Events.All(Int16)
+  fullName: Uvendia.Domain.Repositories.Events.All(System.Int16)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: All
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 142
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public IEnumerable<Event> All(short statusId)
+    parameters:
+    - id: statusId
+      type: System.Int16
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Event}
+    content.vb: Public Function All(statusId As Short) As IEnumerable(Of  Event)
+  overload: Uvendia.Domain.Repositories.Events.All*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Repositories.Events.Save(Uvendia.Domain.Event)
+  commentId: M:Uvendia.Domain.Repositories.Events.Save(Uvendia.Domain.Event)
+  id: Save(Uvendia.Domain.Event)
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: Save(Event)
+  nameWithType: Events.Save(Event)
+  fullName: Uvendia.Domain.Repositories.Events.Save(Uvendia.Domain.Event)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Save
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 162
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public override void Save(Event entity)
+    parameters:
+    - id: entity
+      type: Uvendia.Domain.Event
+    content.vb: Public Overrides Sub Save(entity As  Event)
+  overridden: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.Save(Uvendia.Domain.Event)
+  overload: Uvendia.Domain.Repositories.Events.Save*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Uvendia.Domain.Repositories.Events.DeleteById``1(``0)
+  commentId: M:Uvendia.Domain.Repositories.Events.DeleteById``1(``0)
+  id: DeleteById``1(``0)
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: DeleteById<Y>(Y)
+  nameWithType: Events.DeleteById<Y>(Y)
+  fullName: Uvendia.Domain.Repositories.Events.DeleteById<Y>(Y)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: DeleteById
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 278
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public override void DeleteById<Y>(Y id)
+    parameters:
+    - id: id
+      type: '{Y}'
+    typeParameters:
+    - id: Y
+    content.vb: Public Overrides Sub DeleteById(Of Y)(id As Y)
+  overridden: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.DeleteById``1({Y})
+  overload: Uvendia.Domain.Repositories.Events.DeleteById*
+  nameWithType.vb: Events.DeleteById(Of Y)(Y)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Uvendia.Domain.Repositories.Events.DeleteById(Of Y)(Y)
+  name.vb: DeleteById(Of Y)(Y)
+- uid: Uvendia.Domain.Repositories.Events.GetSoldTickets(System.Int64,Uvendia.Domain.Enums.OrderStatus[])
+  commentId: M:Uvendia.Domain.Repositories.Events.GetSoldTickets(System.Int64,Uvendia.Domain.Enums.OrderStatus[])
+  id: GetSoldTickets(System.Int64,Uvendia.Domain.Enums.OrderStatus[])
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: GetSoldTickets(Int64, OrderStatus[])
+  nameWithType: Events.GetSoldTickets(Int64, OrderStatus[])
+  fullName: Uvendia.Domain.Repositories.Events.GetSoldTickets(System.Int64, Uvendia.Domain.Enums.OrderStatus[])
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetSoldTickets
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 308
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  summary: "\nGets the sold tickets.\n"
+  example: []
+  syntax:
+    content: public IEnumerable<SoldTicketDataTransferObject> GetSoldTickets(long id, params OrderStatus[] orderStatus)
+    parameters:
+    - id: id
+      type: System.Int64
+      description: The event identifier.
+    - id: orderStatus
+      type: Uvendia.Domain.Enums.OrderStatus[]
+      description: The order status.
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.SoldTicketDataTransferObject}
+      description: ''
+    content.vb: Public Function GetSoldTickets(id As Long, ParamArray orderStatus As OrderStatus()) As IEnumerable(Of SoldTicketDataTransferObject)
+  overload: Uvendia.Domain.Repositories.Events.GetSoldTickets*
+  nameWithType.vb: Events.GetSoldTickets(Int64, OrderStatus())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Uvendia.Domain.Repositories.Events.GetSoldTickets(System.Int64, Uvendia.Domain.Enums.OrderStatus())
+  name.vb: GetSoldTickets(Int64, OrderStatus())
+- uid: Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable(System.Int64,System.Int64,System.Nullable{System.Int32})
+  commentId: M:Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable(System.Int64,System.Int64,System.Nullable{System.Int32})
+  id: GetTotalTicketTypeQuanityAvailable(System.Int64,System.Int64,System.Nullable{System.Int32})
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: GetTotalTicketTypeQuanityAvailable(Int64, Int64, Nullable<Int32>)
+  nameWithType: Events.GetTotalTicketTypeQuanityAvailable(Int64, Int64, Nullable<Int32>)
+  fullName: Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable(System.Int64, System.Int64, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetTotalTicketTypeQuanityAvailable
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 334
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  summary: "\nGets the total quantity tickets available for a given ticket type.\n"
+  example: []
+  syntax:
+    content: public int GetTotalTicketTypeQuanityAvailable(long eventId, long ticketSaleId, int? minutesOld)
+    parameters:
+    - id: eventId
+      type: System.Int64
+      description: The event identifier.
+    - id: ticketSaleId
+      type: System.Int64
+      description: The ticket sale identifier.
+    - id: minutesOld
+      type: System.Nullable{System.Int32}
+      description: By setting this value, tickets added to cart older than the given minutes will be ignored and deleted from the cart. Default is set on 30 minutes
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function GetTotalTicketTypeQuanityAvailable(eventId As Long, ticketSaleId As Long, minutesOld As Integer?) As Integer
+  overload: Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable*
+  nameWithType.vb: Events.GetTotalTicketTypeQuanityAvailable(Int64, Int64, Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable(System.Int64, System.Int64, System.Nullable(Of System.Int32))
+  name.vb: GetTotalTicketTypeQuanityAvailable(Int64, Int64, Nullable(Of Int32))
+- uid: Uvendia.Domain.Repositories.Events.Search(Uvendia.Domain.Entities.EventSearch)
+  commentId: M:Uvendia.Domain.Repositories.Events.Search(Uvendia.Domain.Entities.EventSearch)
+  id: Search(Uvendia.Domain.Entities.EventSearch)
+  parent: Uvendia.Domain.Repositories.Events
+  langs:
+  - csharp
+  - vb
+  name: Search(EventSearch)
+  nameWithType: Events.Search(EventSearch)
+  fullName: Uvendia.Domain.Repositories.Events.Search(Uvendia.Domain.Entities.EventSearch)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Repositories/Events.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Search
+    path: ../../dazzling.studio/Uvendia.Domain/Repositories/Events.cs
+    startLine: 383
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Repositories
+  syntax:
+    content: public IEnumerable<Event> Search(EventSearch criteria)
+    parameters:
+    - id: criteria
+      type: Uvendia.Domain.Entities.EventSearch
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Event}
+    content.vb: Public Function Search(criteria As EventSearch) As IEnumerable(Of  Event)
+  overload: Uvendia.Domain.Repositories.Events.Search*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Repositories
+  commentId: N:Uvendia.Domain.Repositories
+  name: Uvendia.Domain.Repositories
+  nameWithType: Uvendia.Domain.Repositories
+  fullName: Uvendia.Domain.Repositories
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  commentId: T:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  parent: Dazzling.Studio.SqlRepository
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1
+  name: BaseRepository<Event>
+  nameWithType: BaseRepository<Event>
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>
+  nameWithType.vb: BaseRepository(Of Event)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event)
+  name.vb: BaseRepository(Of Event)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+    name: BaseRepository
+    nameWithType: BaseRepository
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+    name: BaseRepository
+    nameWithType: BaseRepository
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}
+  commentId: T:Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}
+  parent: Uvendia.Domain.Repositories
+  definition: Uvendia.Domain.Repositories.UvendiaRepository`1
+  name: UvendiaRepository<Event>
+  nameWithType: UvendiaRepository<Event>
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Event>
+  nameWithType.vb: UvendiaRepository(Of Event)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Event)
+  name.vb: UvendiaRepository(Of Event)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository
+    nameWithType: UvendiaRepository
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository
+    nameWithType: UvendiaRepository
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.IBaseRepository{Uvendia.Domain.Event}
+  commentId: T:Dazzling.Studio.SqlRepository.IBaseRepository{Uvendia.Domain.Event}
+  parent: Dazzling.Studio.SqlRepository
+  definition: Dazzling.Studio.SqlRepository.IBaseRepository`1
+  name: IBaseRepository<Event>
+  nameWithType: IBaseRepository<Event>
+  fullName: Dazzling.Studio.SqlRepository.IBaseRepository<Uvendia.Domain.Event>
+  nameWithType.vb: IBaseRepository(Of Event)
+  fullName.vb: Dazzling.Studio.SqlRepository.IBaseRepository(Of Uvendia.Domain.Event)
+  name.vb: IBaseRepository(Of Event)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+    name: IBaseRepository
+    nameWithType: IBaseRepository
+    fullName: Dazzling.Studio.SqlRepository.IBaseRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+    name: IBaseRepository
+    nameWithType: IBaseRepository
+    fullName: Dazzling.Studio.SqlRepository.IBaseRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.CreateUnitOfWork
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.CreateUnitOfWork
+  parent: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}
+  definition: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+  name: CreateUnitOfWork()
+  nameWithType: UvendiaRepository<Event>.CreateUnitOfWork()
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Event>.CreateUnitOfWork()
+  nameWithType.vb: UvendiaRepository(Of Event).CreateUnitOfWork()
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Event).CreateUnitOfWork()
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+    name: CreateUnitOfWork
+    nameWithType: UvendiaRepository<Event>.CreateUnitOfWork
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Event>.CreateUnitOfWork
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+    name: CreateUnitOfWork
+    nameWithType: UvendiaRepository(Of Event).CreateUnitOfWork
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Event).CreateUnitOfWork
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  parent: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}
+  definition: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  name: SetAuditInfo(Webshop, Webshop)
+  nameWithType: UvendiaRepository<Event>.SetAuditInfo(Webshop, Webshop)
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Event>.SetAuditInfo(Uvendia.Domain.Webshop, Uvendia.Domain.Webshop)
+  nameWithType.vb: UvendiaRepository(Of Event).SetAuditInfo(Webshop, Webshop)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Event).SetAuditInfo(Uvendia.Domain.Webshop, Uvendia.Domain.Webshop)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+    name: SetAuditInfo
+    nameWithType: UvendiaRepository<Event>.SetAuditInfo
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Event>.SetAuditInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+    name: SetAuditInfo
+    nameWithType: UvendiaRepository(Of Event).SetAuditInfo
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Event).SetAuditInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._syncLock
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._syncLock
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1._syncLock
+  name: _syncLock
+  nameWithType: BaseRepository<Event>._syncLock
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>._syncLock
+  nameWithType.vb: BaseRepository(Of Event)._syncLock
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event)._syncLock
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._connectionStringName
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._connectionStringName
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1._connectionStringName
+  name: _connectionStringName
+  nameWithType: BaseRepository<Event>._connectionStringName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>._connectionStringName
+  nameWithType.vb: BaseRepository(Of Event)._connectionStringName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event)._connectionStringName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._tableSchema
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._tableSchema
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1._tableSchema
+  name: _tableSchema
+  nameWithType: BaseRepository<Event>._tableSchema
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>._tableSchema
+  nameWithType.vb: BaseRepository(Of Event)._tableSchema
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event)._tableSchema
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._tableName
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}._tableName
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1._tableName
+  name: _tableName
+  nameWithType: BaseRepository<Event>._tableName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>._tableName
+  nameWithType.vb: BaseRepository(Of Event)._tableName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event)._tableName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Instance``1
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Instance``1
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+  name: Instance<R>()
+  nameWithType: BaseRepository<Event>.Instance<R>()
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Instance<R>()
+  nameWithType.vb: BaseRepository(Of Event).Instance(Of R)()
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Instance(Of R)()
+  name.vb: Instance(Of R)()
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+    name: Instance<R>
+    nameWithType: BaseRepository<Event>.Instance<R>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Instance<R>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+    name: Instance(Of R)
+    nameWithType: BaseRepository(Of Event).Instance(Of R)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Instance(Of R)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.TableSchema
+  commentId: P:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.TableSchema
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.TableSchema
+  name: TableSchema
+  nameWithType: BaseRepository<Event>.TableSchema
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.TableSchema
+  nameWithType.vb: BaseRepository(Of Event).TableSchema
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).TableSchema
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.TableName
+  commentId: P:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.TableName
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.TableName
+  name: TableName
+  nameWithType: BaseRepository<Event>.TableName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.TableName
+  nameWithType.vb: BaseRepository(Of Event).TableName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).TableName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.CreateConnection
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.CreateConnection
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+  name: CreateConnection()
+  nameWithType: BaseRepository<Event>.CreateConnection()
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.CreateConnection()
+  nameWithType.vb: BaseRepository(Of Event).CreateConnection()
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).CreateConnection()
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+    name: CreateConnection
+    nameWithType: BaseRepository<Event>.CreateConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.CreateConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+    name: CreateConnection
+    nameWithType: BaseRepository(Of Event).CreateConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).CreateConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.SetConnection(System.Data.SqlClient.SqlConnection)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.SetConnection(System.Data.SqlClient.SqlConnection)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+  name: SetConnection(SqlConnection)
+  nameWithType: BaseRepository<Event>.SetConnection(SqlConnection)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.SetConnection(System.Data.SqlClient.SqlConnection)
+  nameWithType.vb: BaseRepository(Of Event).SetConnection(SqlConnection)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).SetConnection(System.Data.SqlClient.SqlConnection)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+    name: SetConnection
+    nameWithType: BaseRepository<Event>.SetConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.SetConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.SqlClient.SqlConnection
+    name: SqlConnection
+    nameWithType: SqlConnection
+    fullName: System.Data.SqlClient.SqlConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+    name: SetConnection
+    nameWithType: BaseRepository(Of Event).SetConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).SetConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.SqlClient.SqlConnection
+    name: SqlConnection
+    nameWithType: SqlConnection
+    fullName: System.Data.SqlClient.SqlConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single``1({IID})
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single``1(``0)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+  name: Single<IID>(IID)
+  nameWithType: BaseRepository<Event>.Single<IID>(IID)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Single<IID>(IID)
+  nameWithType.vb: BaseRepository(Of Event).Single(Of IID)(IID)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Single(Of IID)(IID)
+  name.vb: Single(Of IID)(IID)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single<IID>
+    nameWithType: BaseRepository<Event>.Single<IID>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Single<IID>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single(Of IID)
+    nameWithType: BaseRepository(Of Event).Single(Of IID)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Single(Of IID)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  name: Paged(Int32, String, String, Int32, Int32, Object)
+  nameWithType: BaseRepository<Event>.Paged(Int32, String, String, Int32, Int32, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Paged(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Object)
+  nameWithType.vb: BaseRepository(Of Event).Paged(Int32, String, String, Int32, Int32, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Paged(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+    name: Paged
+    nameWithType: BaseRepository<Event>.Paged
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Paged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+    name: Paged
+    nameWithType: BaseRepository(Of Event).Paged
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Paged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Insert``1(Uvendia.Domain.Event)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Insert``1(Uvendia.Domain.Event)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+  name: Insert<Y>(Event)
+  nameWithType: BaseRepository<Event>.Insert<Y>(Event)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Insert<Y>(Uvendia.Domain.Event)
+  nameWithType.vb: BaseRepository(Of Event).Insert(Of Y)(Event)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Insert(Of Y)(Uvendia.Domain.Event)
+  name.vb: Insert(Of Y)(Event)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+    name: Insert<Y>
+    nameWithType: BaseRepository<Event>.Insert<Y>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Insert<Y>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+    name: Insert(Of Y)
+    nameWithType: BaseRepository(Of Event).Insert(Of Y)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Insert(Of Y)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Update(Uvendia.Domain.Event)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Update(Uvendia.Domain.Event)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+  name: Update(Event)
+  nameWithType: BaseRepository<Event>.Update(Event)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Update(Uvendia.Domain.Event)
+  nameWithType.vb: BaseRepository(Of Event).Update(Event)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Update(Uvendia.Domain.Event)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+    name: Update
+    nameWithType: BaseRepository<Event>.Update
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+    name: Update
+    nameWithType: BaseRepository(Of Event).Update
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Delete(Uvendia.Domain.Event)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Delete(Uvendia.Domain.Event)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+  name: Delete(Event)
+  nameWithType: BaseRepository<Event>.Delete(Event)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Delete(Uvendia.Domain.Event)
+  nameWithType.vb: BaseRepository(Of Event).Delete(Event)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Delete(Uvendia.Domain.Event)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+    name: Delete
+    nameWithType: BaseRepository<Event>.Delete
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Delete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+    name: Delete
+    nameWithType: BaseRepository(Of Event).Delete
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Delete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Count(System.String,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Count(System.String,System.Object)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+  name: Count(String, Object)
+  nameWithType: BaseRepository<Event>.Count(String, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Count(System.String, System.Object)
+  nameWithType.vb: BaseRepository(Of Event).Count(String, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Count(System.String, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+    name: Count
+    nameWithType: BaseRepository<Event>.Count
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+    name: Count
+    nameWithType: BaseRepository(Of Event).Count
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+  commentId: T:Dazzling.Studio.SqlRepository.BaseRepository`1
+  name: BaseRepository<TEntity>
+  nameWithType: BaseRepository<TEntity>
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>
+  nameWithType.vb: BaseRepository(Of TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)
+  name.vb: BaseRepository(Of TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+    name: BaseRepository
+    nameWithType: BaseRepository
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1
+    name: BaseRepository
+    nameWithType: BaseRepository
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository
+  commentId: N:Dazzling.Studio.SqlRepository
+  name: Dazzling.Studio.SqlRepository
+  nameWithType: Dazzling.Studio.SqlRepository
+  fullName: Dazzling.Studio.SqlRepository
+- uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+  commentId: T:Uvendia.Domain.Repositories.UvendiaRepository`1
+  name: UvendiaRepository<TEntity>
+  nameWithType: UvendiaRepository<TEntity>
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>
+  nameWithType.vb: UvendiaRepository(Of TEntity)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity)
+  name.vb: UvendiaRepository(Of TEntity)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository
+    nameWithType: UvendiaRepository
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1
+    name: UvendiaRepository
+    nameWithType: UvendiaRepository
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+  commentId: T:Dazzling.Studio.SqlRepository.IBaseRepository`1
+  name: IBaseRepository<TEntity>
+  nameWithType: IBaseRepository<TEntity>
+  fullName: Dazzling.Studio.SqlRepository.IBaseRepository<TEntity>
+  nameWithType.vb: IBaseRepository(Of TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.IBaseRepository(Of TEntity)
+  name.vb: IBaseRepository(Of TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+    name: IBaseRepository
+    nameWithType: IBaseRepository
+    fullName: Dazzling.Studio.SqlRepository.IBaseRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.IBaseRepository`1
+    name: IBaseRepository
+    nameWithType: IBaseRepository
+    fullName: Dazzling.Studio.SqlRepository.IBaseRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+  name: CreateUnitOfWork()
+  nameWithType: UvendiaRepository<TEntity>.CreateUnitOfWork()
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.CreateUnitOfWork()
+  nameWithType.vb: UvendiaRepository(Of TEntity).CreateUnitOfWork()
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).CreateUnitOfWork()
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+    name: CreateUnitOfWork
+    nameWithType: UvendiaRepository<TEntity>.CreateUnitOfWork
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.CreateUnitOfWork
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.CreateUnitOfWork
+    name: CreateUnitOfWork
+    nameWithType: UvendiaRepository(Of TEntity).CreateUnitOfWork
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).CreateUnitOfWork
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+  name: SetAuditInfo(Webshop, Webshop)
+  nameWithType: UvendiaRepository<TEntity>.SetAuditInfo(Webshop, Webshop)
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.SetAuditInfo(Uvendia.Domain.Webshop, Uvendia.Domain.Webshop)
+  nameWithType.vb: UvendiaRepository(Of TEntity).SetAuditInfo(Webshop, Webshop)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).SetAuditInfo(Uvendia.Domain.Webshop, Uvendia.Domain.Webshop)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+    name: SetAuditInfo
+    nameWithType: UvendiaRepository<TEntity>.SetAuditInfo
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.SetAuditInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.SetAuditInfo(Uvendia.Domain.Webshop,Uvendia.Domain.Webshop)
+    name: SetAuditInfo
+    nameWithType: UvendiaRepository(Of TEntity).SetAuditInfo
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).SetAuditInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Webshop
+    name: Webshop
+    nameWithType: Webshop
+    fullName: Uvendia.Domain.Webshop
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1._syncLock
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository`1._syncLock
+  name: _syncLock
+  nameWithType: BaseRepository<TEntity>._syncLock
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>._syncLock
+  nameWithType.vb: BaseRepository(Of TEntity)._syncLock
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)._syncLock
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1._connectionStringName
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository`1._connectionStringName
+  name: _connectionStringName
+  nameWithType: BaseRepository<TEntity>._connectionStringName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>._connectionStringName
+  nameWithType.vb: BaseRepository(Of TEntity)._connectionStringName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)._connectionStringName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1._tableSchema
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository`1._tableSchema
+  name: _tableSchema
+  nameWithType: BaseRepository<TEntity>._tableSchema
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>._tableSchema
+  nameWithType.vb: BaseRepository(Of TEntity)._tableSchema
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)._tableSchema
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1._tableName
+  commentId: F:Dazzling.Studio.SqlRepository.BaseRepository`1._tableName
+  name: _tableName
+  nameWithType: BaseRepository<TEntity>._tableName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>._tableName
+  nameWithType.vb: BaseRepository(Of TEntity)._tableName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity)._tableName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+  name: Instance<R>()
+  nameWithType: BaseRepository<TEntity>.Instance<R>()
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Instance<R>()
+  nameWithType.vb: BaseRepository(Of TEntity).Instance(Of R)()
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Instance(Of R)()
+  name.vb: Instance(Of R)()
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+    name: Instance<R>
+    nameWithType: BaseRepository<TEntity>.Instance<R>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Instance<R>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Instance``1
+    name: Instance(Of R)
+    nameWithType: BaseRepository(Of TEntity).Instance(Of R)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Instance(Of R)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.TableSchema
+  commentId: P:Dazzling.Studio.SqlRepository.BaseRepository`1.TableSchema
+  name: TableSchema
+  nameWithType: BaseRepository<TEntity>.TableSchema
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.TableSchema
+  nameWithType.vb: BaseRepository(Of TEntity).TableSchema
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).TableSchema
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.TableName
+  commentId: P:Dazzling.Studio.SqlRepository.BaseRepository`1.TableName
+  name: TableName
+  nameWithType: BaseRepository<TEntity>.TableName
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.TableName
+  nameWithType.vb: BaseRepository(Of TEntity).TableName
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).TableName
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+  name: CreateConnection()
+  nameWithType: BaseRepository<TEntity>.CreateConnection()
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.CreateConnection()
+  nameWithType.vb: BaseRepository(Of TEntity).CreateConnection()
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).CreateConnection()
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+    name: CreateConnection
+    nameWithType: BaseRepository<TEntity>.CreateConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.CreateConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.CreateConnection
+    name: CreateConnection
+    nameWithType: BaseRepository(Of TEntity).CreateConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).CreateConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+  isExternal: true
+  name: SetConnection(SqlConnection)
+  nameWithType: BaseRepository<TEntity>.SetConnection(SqlConnection)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.SetConnection(System.Data.SqlClient.SqlConnection)
+  nameWithType.vb: BaseRepository(Of TEntity).SetConnection(SqlConnection)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).SetConnection(System.Data.SqlClient.SqlConnection)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+    name: SetConnection
+    nameWithType: BaseRepository<TEntity>.SetConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.SetConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.SqlClient.SqlConnection
+    name: SqlConnection
+    nameWithType: SqlConnection
+    fullName: System.Data.SqlClient.SqlConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.SetConnection(System.Data.SqlClient.SqlConnection)
+    name: SetConnection
+    nameWithType: BaseRepository(Of TEntity).SetConnection
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).SetConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.SqlClient.SqlConnection
+    name: SqlConnection
+    nameWithType: SqlConnection
+    fullName: System.Data.SqlClient.SqlConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+  name: Single<IID>(IID)
+  nameWithType: BaseRepository<TEntity>.Single<IID>(IID)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Single<IID>(IID)
+  nameWithType.vb: BaseRepository(Of TEntity).Single(Of IID)(IID)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Single(Of IID)(IID)
+  name.vb: Single(Of IID)(IID)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single<IID>
+    nameWithType: BaseRepository<TEntity>.Single<IID>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Single<IID>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single(Of IID)
+    nameWithType: BaseRepository(Of TEntity).Single(Of IID)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Single(Of IID)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+  isExternal: true
+  name: Paged(Int32, String, String, Int32, Int32, Object)
+  nameWithType: BaseRepository<TEntity>.Paged(Int32, String, String, Int32, Int32, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Paged(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Object)
+  nameWithType.vb: BaseRepository(Of TEntity).Paged(Int32, String, String, Int32, Int32, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Paged(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+    name: Paged
+    nameWithType: BaseRepository<TEntity>.Paged
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Paged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Paged(System.Int32@,System.String,System.String,System.Int32,System.Int32,System.Object)
+    name: Paged
+    nameWithType: BaseRepository(Of TEntity).Paged
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Paged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+  name: Insert<Y>(TEntity)
+  nameWithType: BaseRepository<TEntity>.Insert<Y>(TEntity)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Insert<Y>(TEntity)
+  nameWithType.vb: BaseRepository(Of TEntity).Insert(Of Y)(TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Insert(Of Y)(TEntity)
+  name.vb: Insert(Of Y)(TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+    name: Insert<Y>
+    nameWithType: BaseRepository<TEntity>.Insert<Y>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Insert<Y>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Insert``1(`0)
+    name: Insert(Of Y)
+    nameWithType: BaseRepository(Of TEntity).Insert(Of Y)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Insert(Of Y)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+  name: Update(TEntity)
+  nameWithType: BaseRepository<TEntity>.Update(TEntity)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Update(TEntity)
+  nameWithType.vb: BaseRepository(Of TEntity).Update(TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Update(TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+    name: Update
+    nameWithType: BaseRepository<TEntity>.Update
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Update(`0)
+    name: Update
+    nameWithType: BaseRepository(Of TEntity).Update
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+  name: Delete(TEntity)
+  nameWithType: BaseRepository<TEntity>.Delete(TEntity)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Delete(TEntity)
+  nameWithType.vb: BaseRepository(Of TEntity).Delete(TEntity)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Delete(TEntity)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+    name: Delete
+    nameWithType: BaseRepository<TEntity>.Delete
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Delete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Delete(`0)
+    name: Delete
+    nameWithType: BaseRepository(Of TEntity).Delete
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Delete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+  isExternal: true
+  name: Count(String, Object)
+  nameWithType: BaseRepository<TEntity>.Count(String, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Count(System.String, System.Object)
+  nameWithType.vb: BaseRepository(Of TEntity).Count(String, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Count(System.String, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+    name: Count
+    nameWithType: BaseRepository<TEntity>.Count
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Count(System.String,System.Object)
+    name: Count
+    nameWithType: BaseRepository(Of TEntity).Count
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single``1({I})
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single``1(``0)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+  name: Single<IID>(IID)
+  nameWithType: BaseRepository<Event>.Single<IID>(IID)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Single<IID>(IID)
+  nameWithType.vb: BaseRepository(Of Event).Single(Of IID)(IID)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Single(Of IID)(IID)
+  name.vb: Single(Of IID)(IID)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single<IID>
+    nameWithType: BaseRepository<Event>.Single<IID>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Single<IID>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single``1(``0)
+    name: Single(Of IID)
+    nameWithType: BaseRepository(Of Event).Single(Of IID)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Single(Of IID)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: IID
+    nameWithType: IID
+    fullName: IID
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.Events.Single*
+  commentId: Overload:Uvendia.Domain.Repositories.Events.Single
+  name: Single
+  nameWithType: Events.Single
+  fullName: Uvendia.Domain.Repositories.Events.Single
+- uid: '{I}'
+  commentId: '!:I'
+  definition: I
+  name: I
+  nameWithType: I
+  fullName: I
+- uid: Uvendia.Domain.Event
+  commentId: T:Uvendia.Domain.Event
+  parent: Uvendia.Domain
+  name: Event
+  nameWithType: Event
+  fullName: Uvendia.Domain.Event
+- uid: I
+  name: I
+  nameWithType: I
+  fullName: I
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single(System.String,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.Single(System.String,System.Object)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+  name: Single(String, Object)
+  nameWithType: BaseRepository<Event>.Single(String, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Single(System.String, System.Object)
+  nameWithType.vb: BaseRepository(Of Event).Single(String, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Single(System.String, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+    name: Single
+    nameWithType: BaseRepository<Event>.Single
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.Single
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+    name: Single
+    nameWithType: BaseRepository(Of Event).Single
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).Single
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+  isExternal: true
+  name: Single(String, Object)
+  nameWithType: BaseRepository<TEntity>.Single(String, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Single(System.String, System.Object)
+  nameWithType.vb: BaseRepository(Of TEntity).Single(String, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Single(System.String, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+    name: Single
+    nameWithType: BaseRepository<TEntity>.Single
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.Single
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.Single(System.String,System.Object)
+    name: Single
+    nameWithType: BaseRepository(Of TEntity).Single
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).Single
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.All(System.String,System.String,System.Int32,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.All(System.String,System.String,System.Int32,System.Object)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+  name: All(String, String, Int32, Object)
+  nameWithType: BaseRepository<Event>.All(String, String, Int32, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.All(System.String, System.String, System.Int32, System.Object)
+  nameWithType.vb: BaseRepository(Of Event).All(String, String, Int32, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).All(System.String, System.String, System.Int32, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+    name: All
+    nameWithType: BaseRepository<Event>.All
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.All
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+    name: All
+    nameWithType: BaseRepository(Of Event).All
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).All
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.Events.All*
+  commentId: Overload:Uvendia.Domain.Repositories.Events.All
+  name: All
+  nameWithType: Events.All
+  fullName: Uvendia.Domain.Repositories.Events.All
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Event}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Event}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Event>
+  nameWithType: IEnumerable<Event>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Event>
+  nameWithType.vb: IEnumerable(Of Event)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Event)
+  name.vb: IEnumerable(Of Event)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+  isExternal: true
+  name: All(String, String, Int32, Object)
+  nameWithType: BaseRepository<TEntity>.All(String, String, Int32, Object)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.All(System.String, System.String, System.Int32, System.Object)
+  nameWithType.vb: BaseRepository(Of TEntity).All(String, String, Int32, Object)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).All(System.String, System.String, System.Int32, System.Object)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+    name: All
+    nameWithType: BaseRepository<TEntity>.All
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.All
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All(System.String,System.String,System.Int32,System.Object)
+    name: All
+    nameWithType: BaseRepository(Of TEntity).All
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).All
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.All``1({TType}[])
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.All``1(``0[])
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+  name: All<TType>(TType[])
+  nameWithType: BaseRepository<Event>.All<TType>(TType[])
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.All<TType>(TType[])
+  nameWithType.vb: BaseRepository(Of Event).All(Of TType)(TType())
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).All(Of TType)(TType())
+  name.vb: All(Of TType)(TType())
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+    name: All<TType>
+    nameWithType: BaseRepository<Event>.All<TType>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.All<TType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+    name: All(Of TType)
+    nameWithType: BaseRepository(Of Event).All(Of TType)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).All(Of TType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{TType}[]'
+  isExternal: true
+  name: TType[]
+  nameWithType: TType[]
+  fullName: TType[]
+  nameWithType.vb: TType()
+  fullName.vb: TType()
+  name.vb: TType()
+  spec.csharp:
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+  name: All<TType>(TType[])
+  nameWithType: BaseRepository<TEntity>.All<TType>(TType[])
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.All<TType>(TType[])
+  nameWithType.vb: BaseRepository(Of TEntity).All(Of TType)(TType())
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).All(Of TType)(TType())
+  name.vb: All(Of TType)(TType())
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+    name: All<TType>
+    nameWithType: BaseRepository<TEntity>.All<TType>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.All<TType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.All``1(``0[])
+    name: All(Of TType)
+    nameWithType: BaseRepository(Of TEntity).All(Of TType)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).All(Of TType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TType
+    nameWithType: TType
+    fullName: TType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.Save(Uvendia.Domain.Event)
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}.Save(Uvendia.Domain.Event)
+  parent: Uvendia.Domain.Repositories.UvendiaRepository{Uvendia.Domain.Event}
+  definition: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+  name: Save(Event)
+  nameWithType: UvendiaRepository<Event>.Save(Event)
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Event>.Save(Uvendia.Domain.Event)
+  nameWithType.vb: UvendiaRepository(Of Event).Save(Event)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Event).Save(Uvendia.Domain.Event)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+    name: Save
+    nameWithType: UvendiaRepository<Event>.Save
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<Uvendia.Domain.Event>.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+    name: Save
+    nameWithType: UvendiaRepository(Of Event).Save
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of Uvendia.Domain.Event).Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Event
+    name: Event
+    nameWithType: Event
+    fullName: Uvendia.Domain.Event
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.Events.Save*
+  commentId: Overload:Uvendia.Domain.Repositories.Events.Save
+  name: Save
+  nameWithType: Events.Save
+  fullName: Uvendia.Domain.Repositories.Events.Save
+- uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+  commentId: M:Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+  name: Save(TEntity)
+  nameWithType: UvendiaRepository<TEntity>.Save(TEntity)
+  fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.Save(TEntity)
+  nameWithType.vb: UvendiaRepository(Of TEntity).Save(TEntity)
+  fullName.vb: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).Save(TEntity)
+  spec.csharp:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+    name: Save
+    nameWithType: UvendiaRepository<TEntity>.Save
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository<TEntity>.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Repositories.UvendiaRepository`1.Save(`0)
+    name: Save
+    nameWithType: UvendiaRepository(Of TEntity).Save
+    fullName: Uvendia.Domain.Repositories.UvendiaRepository(Of TEntity).Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.DeleteById``1({Y})
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}.DeleteById``1(``0)
+  parent: Dazzling.Studio.SqlRepository.BaseRepository{Uvendia.Domain.Event}
+  definition: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+  name: DeleteById<Y>(Y)
+  nameWithType: BaseRepository<Event>.DeleteById<Y>(Y)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.DeleteById<Y>(Y)
+  nameWithType.vb: BaseRepository(Of Event).DeleteById(Of Y)(Y)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).DeleteById(Of Y)(Y)
+  name.vb: DeleteById(Of Y)(Y)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+    name: DeleteById<Y>
+    nameWithType: BaseRepository<Event>.DeleteById<Y>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<Uvendia.Domain.Event>.DeleteById<Y>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: Y
+    nameWithType: Y
+    fullName: Y
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+    name: DeleteById(Of Y)
+    nameWithType: BaseRepository(Of Event).DeleteById(Of Y)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of Uvendia.Domain.Event).DeleteById(Of Y)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: Y
+    nameWithType: Y
+    fullName: Y
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.Events.DeleteById*
+  commentId: Overload:Uvendia.Domain.Repositories.Events.DeleteById
+  name: DeleteById
+  nameWithType: Events.DeleteById
+  fullName: Uvendia.Domain.Repositories.Events.DeleteById
+- uid: '{Y}'
+  commentId: '!:Y'
+  definition: Y
+  name: Y
+  nameWithType: Y
+  fullName: Y
+- uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+  commentId: M:Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+  name: DeleteById<Y>(Y)
+  nameWithType: BaseRepository<TEntity>.DeleteById<Y>(Y)
+  fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.DeleteById<Y>(Y)
+  nameWithType.vb: BaseRepository(Of TEntity).DeleteById(Of Y)(Y)
+  fullName.vb: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).DeleteById(Of Y)(Y)
+  name.vb: DeleteById(Of Y)(Y)
+  spec.csharp:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+    name: DeleteById<Y>
+    nameWithType: BaseRepository<TEntity>.DeleteById<Y>
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository<TEntity>.DeleteById<Y>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: Y
+    nameWithType: Y
+    fullName: Y
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Dazzling.Studio.SqlRepository.BaseRepository`1.DeleteById``1(``0)
+    name: DeleteById(Of Y)
+    nameWithType: BaseRepository(Of TEntity).DeleteById(Of Y)
+    fullName: Dazzling.Studio.SqlRepository.BaseRepository(Of TEntity).DeleteById(Of Y)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: Y
+    nameWithType: Y
+    fullName: Y
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Y
+  name: Y
+  nameWithType: Y
+  fullName: Y
+- uid: Uvendia.Domain.Repositories.Events.GetSoldTickets*
+  commentId: Overload:Uvendia.Domain.Repositories.Events.GetSoldTickets
+  name: GetSoldTickets
+  nameWithType: Events.GetSoldTickets
+  fullName: Uvendia.Domain.Repositories.Events.GetSoldTickets
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Enums.OrderStatus[]
+  isExternal: true
+  name: OrderStatus[]
+  nameWithType: OrderStatus[]
+  fullName: Uvendia.Domain.Enums.OrderStatus[]
+  nameWithType.vb: OrderStatus()
+  fullName.vb: Uvendia.Domain.Enums.OrderStatus()
+  name.vb: OrderStatus()
+  spec.csharp:
+  - uid: Uvendia.Domain.Enums.OrderStatus
+    name: OrderStatus
+    nameWithType: OrderStatus
+    fullName: Uvendia.Domain.Enums.OrderStatus
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Uvendia.Domain.Enums.OrderStatus
+    name: OrderStatus
+    nameWithType: OrderStatus
+    fullName: Uvendia.Domain.Enums.OrderStatus
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.SoldTicketDataTransferObject}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.SoldTicketDataTransferObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SoldTicketDataTransferObject>
+  nameWithType: IEnumerable<SoldTicketDataTransferObject>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Entities.SoldTicketDataTransferObject>
+  nameWithType.vb: IEnumerable(Of SoldTicketDataTransferObject)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Entities.SoldTicketDataTransferObject)
+  name.vb: IEnumerable(Of SoldTicketDataTransferObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.SoldTicketDataTransferObject
+    name: SoldTicketDataTransferObject
+    nameWithType: SoldTicketDataTransferObject
+    fullName: Uvendia.Domain.Entities.SoldTicketDataTransferObject
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.SoldTicketDataTransferObject
+    name: SoldTicketDataTransferObject
+    nameWithType: SoldTicketDataTransferObject
+    fullName: Uvendia.Domain.Entities.SoldTicketDataTransferObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable*
+  commentId: Overload:Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable
+  name: GetTotalTicketTypeQuanityAvailable
+  nameWithType: Events.GetTotalTicketTypeQuanityAvailable
+  fullName: Uvendia.Domain.Repositories.Events.GetTotalTicketTypeQuanityAvailable
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Repositories.Events.Search*
+  commentId: Overload:Uvendia.Domain.Repositories.Events.Search
+  name: Search
+  nameWithType: Events.Search
+  fullName: Uvendia.Domain.Repositories.Events.Search
+- uid: Uvendia.Domain.Entities.EventSearch
+  commentId: T:Uvendia.Domain.Entities.EventSearch
+  parent: Uvendia.Domain.Entities
+  name: EventSearch
+  nameWithType: EventSearch
+  fullName: Uvendia.Domain.Entities.EventSearch
+- uid: Uvendia.Domain.Entities
+  commentId: N:Uvendia.Domain.Entities
+  name: Uvendia.Domain.Entities
+  nameWithType: Uvendia.Domain.Entities
+  fullName: Uvendia.Domain.Entities

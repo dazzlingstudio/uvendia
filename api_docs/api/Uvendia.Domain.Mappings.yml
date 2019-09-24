@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mappings
+  commentId: N:Uvendia.Domain.Mappings
+  id: Uvendia.Domain.Mappings
+  children:
+  - Uvendia.Domain.Mappings.EventDisplayNameResolver
+  - Uvendia.Domain.Mappings.ProductDiscountDecimalToStringResolver
+  - Uvendia.Domain.Mappings.ProductDisplayNameResolver
+  - Uvendia.Domain.Mappings.ProductPriceDecimalToStringResolver
+  - Uvendia.Domain.Mappings.ProductTotalDecimalToStringResolver
+  - Uvendia.Domain.Mappings.TicketDiscountDecimalToStringResolver
+  - Uvendia.Domain.Mappings.TicketPriceDecimalToStringResolver
+  - Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Mappings
+  nameWithType: Uvendia.Domain.Mappings
+  fullName: Uvendia.Domain.Mappings
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Mappings.EventDisplayNameResolver
+  commentId: T:Uvendia.Domain.Mappings.EventDisplayNameResolver
+  name: EventDisplayNameResolver
+  nameWithType: EventDisplayNameResolver
+  fullName: Uvendia.Domain.Mappings.EventDisplayNameResolver
+- uid: Uvendia.Domain.Mappings.ProductDisplayNameResolver
+  commentId: T:Uvendia.Domain.Mappings.ProductDisplayNameResolver
+  name: ProductDisplayNameResolver
+  nameWithType: ProductDisplayNameResolver
+  fullName: Uvendia.Domain.Mappings.ProductDisplayNameResolver
+- uid: Uvendia.Domain.Mappings.TicketPriceDecimalToStringResolver
+  commentId: T:Uvendia.Domain.Mappings.TicketPriceDecimalToStringResolver
+  name: TicketPriceDecimalToStringResolver
+  nameWithType: TicketPriceDecimalToStringResolver
+  fullName: Uvendia.Domain.Mappings.TicketPriceDecimalToStringResolver
+- uid: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+  commentId: T:Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+  name: TicketTotalDecimalToStringResolver
+  nameWithType: TicketTotalDecimalToStringResolver
+  fullName: Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver
+- uid: Uvendia.Domain.Mappings.TicketDiscountDecimalToStringResolver
+  commentId: T:Uvendia.Domain.Mappings.TicketDiscountDecimalToStringResolver
+  name: TicketDiscountDecimalToStringResolver
+  nameWithType: TicketDiscountDecimalToStringResolver
+  fullName: Uvendia.Domain.Mappings.TicketDiscountDecimalToStringResolver
+- uid: Uvendia.Domain.Mappings.ProductPriceDecimalToStringResolver
+  commentId: T:Uvendia.Domain.Mappings.ProductPriceDecimalToStringResolver
+  name: ProductPriceDecimalToStringResolver
+  nameWithType: ProductPriceDecimalToStringResolver
+  fullName: Uvendia.Domain.Mappings.ProductPriceDecimalToStringResolver
+- uid: Uvendia.Domain.Mappings.ProductTotalDecimalToStringResolver
+  commentId: T:Uvendia.Domain.Mappings.ProductTotalDecimalToStringResolver
+  name: ProductTotalDecimalToStringResolver
+  nameWithType: ProductTotalDecimalToStringResolver
+  fullName: Uvendia.Domain.Mappings.ProductTotalDecimalToStringResolver
+- uid: Uvendia.Domain.Mappings.ProductDiscountDecimalToStringResolver
+  commentId: T:Uvendia.Domain.Mappings.ProductDiscountDecimalToStringResolver
+  name: ProductDiscountDecimalToStringResolver
+  nameWithType: ProductDiscountDecimalToStringResolver
+  fullName: Uvendia.Domain.Mappings.ProductDiscountDecimalToStringResolver

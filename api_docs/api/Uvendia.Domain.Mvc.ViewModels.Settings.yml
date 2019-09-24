@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings
+  commentId: N:Uvendia.Domain.Mvc.ViewModels.Settings
+  id: Uvendia.Domain.Mvc.ViewModels.Settings
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  - Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingsModel
+  langs:
+  - csharp
+  - vb
+  name: Uvendia.Domain.Mvc.ViewModels.Settings
+  nameWithType: Uvendia.Domain.Mvc.ViewModels.Settings
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings
+  type: Namespace
+  assemblies:
+  - Uvendia.Domain
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  parent: Uvendia.Domain.Mvc.ViewModels.Settings
+  name: OrderEmailTemplateSettingModel
+  nameWithType: OrderEmailTemplateSettingModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingsModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingsModel
+  name: OrderEmailTemplateSettingsModel
+  nameWithType: OrderEmailTemplateSettingsModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingsModel
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings
+  commentId: N:Uvendia.Domain.Mvc.ViewModels.Settings
+  name: Uvendia.Domain.Mvc.ViewModels.Settings
+  nameWithType: Uvendia.Domain.Mvc.ViewModels.Settings
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings

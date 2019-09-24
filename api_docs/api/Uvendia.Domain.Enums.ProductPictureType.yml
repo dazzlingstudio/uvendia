@@ -1,0 +1,968 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Enums.ProductPictureType
+  commentId: T:Uvendia.Domain.Enums.ProductPictureType
+  id: ProductPictureType
+  parent: Uvendia.Domain.Enums
+  children:
+  - Uvendia.Domain.Enums.ProductPictureType.ColorIsRelevant
+  - Uvendia.Domain.Enums.ProductPictureType.Detail
+  - Uvendia.Domain.Enums.ProductPictureType.Gallery
+  - Uvendia.Domain.Enums.ProductPictureType.GetPictureType(System.Int16)
+  - Uvendia.Domain.Enums.ProductPictureType.GetProductPictureTypes
+  - Uvendia.Domain.Enums.ProductPictureType.Height
+  - Uvendia.Domain.Enums.ProductPictureType.Hover
+  - Uvendia.Domain.Enums.ProductPictureType.ID
+  - Uvendia.Domain.Enums.ProductPictureType.Name
+  - Uvendia.Domain.Enums.ProductPictureType.ParentPictureType
+  - Uvendia.Domain.Enums.ProductPictureType.RegexPattern
+  - Uvendia.Domain.Enums.ProductPictureType.ToString
+  - Uvendia.Domain.Enums.ProductPictureType.Width
+  langs:
+  - csharp
+  - vb
+  name: ProductPictureType
+  nameWithType: ProductPictureType
+  fullName: Uvendia.Domain.Enums.ProductPictureType
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductPictureType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 9
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public class ProductPictureType
+    content.vb: Public Class ProductPictureType
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Enums.ProductPictureType.Name
+  commentId: P:Uvendia.Domain.Enums.ProductPictureType.Name
+  id: Name
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProductPictureType.Name
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Name
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Name
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 43
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Uvendia.Domain.Enums.ProductPictureType.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.ProductPictureType.RegexPattern
+  commentId: P:Uvendia.Domain.Enums.ProductPictureType.RegexPattern
+  id: RegexPattern
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: RegexPattern
+  nameWithType: ProductPictureType.RegexPattern
+  fullName: Uvendia.Domain.Enums.ProductPictureType.RegexPattern
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: RegexPattern
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 48
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public string RegexPattern { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RegexPattern As String
+  overload: Uvendia.Domain.Enums.ProductPictureType.RegexPattern*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.ProductPictureType.ID
+  commentId: P:Uvendia.Domain.Enums.ProductPictureType.ID
+  id: ID
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: ProductPictureType.ID
+  fullName: Uvendia.Domain.Enums.ProductPictureType.ID
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ID
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 53
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public short ID { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property ID As Short
+  overload: Uvendia.Domain.Enums.ProductPictureType.ID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.ProductPictureType.Width
+  commentId: P:Uvendia.Domain.Enums.ProductPictureType.Width
+  id: Width
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: ProductPictureType.Width
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Width
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Width
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 58
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public short Width { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Width As Short
+  overload: Uvendia.Domain.Enums.ProductPictureType.Width*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.ProductPictureType.Height
+  commentId: P:Uvendia.Domain.Enums.ProductPictureType.Height
+  id: Height
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: ProductPictureType.Height
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Height
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Height
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 63
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public short Height { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Height As Short
+  overload: Uvendia.Domain.Enums.ProductPictureType.Height*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.ProductPictureType.ColorIsRelevant
+  commentId: P:Uvendia.Domain.Enums.ProductPictureType.ColorIsRelevant
+  id: ColorIsRelevant
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: ColorIsRelevant
+  nameWithType: ProductPictureType.ColorIsRelevant
+  fullName: Uvendia.Domain.Enums.ProductPictureType.ColorIsRelevant
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ColorIsRelevant
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 68
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public bool ColorIsRelevant { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ColorIsRelevant As Boolean
+  overload: Uvendia.Domain.Enums.ProductPictureType.ColorIsRelevant*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.ProductPictureType.ParentPictureType
+  commentId: P:Uvendia.Domain.Enums.ProductPictureType.ParentPictureType
+  id: ParentPictureType
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: ParentPictureType
+  nameWithType: ProductPictureType.ParentPictureType
+  fullName: Uvendia.Domain.Enums.ProductPictureType.ParentPictureType
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ParentPictureType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 73
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public ProductPictureType ParentPictureType { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Enums.ProductPictureType
+    content.vb: Public ReadOnly Property ParentPictureType As ProductPictureType
+  overload: Uvendia.Domain.Enums.ProductPictureType.ParentPictureType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.ProductPictureType.GetPictureType(System.Int16)
+  commentId: M:Uvendia.Domain.Enums.ProductPictureType.GetPictureType(System.Int16)
+  id: GetPictureType(System.Int16)
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: GetPictureType(Int16)
+  nameWithType: ProductPictureType.GetPictureType(Int16)
+  fullName: Uvendia.Domain.Enums.ProductPictureType.GetPictureType(System.Int16)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetPictureType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 78
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static ProductPictureType GetPictureType(short id)
+    parameters:
+    - id: id
+      type: System.Int16
+    return:
+      type: Uvendia.Domain.Enums.ProductPictureType
+    content.vb: Public Shared Function GetPictureType(id As Short) As ProductPictureType
+  overload: Uvendia.Domain.Enums.ProductPictureType.GetPictureType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.ProductPictureType.GetProductPictureTypes
+  commentId: M:Uvendia.Domain.Enums.ProductPictureType.GetProductPictureTypes
+  id: GetProductPictureTypes
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: GetProductPictureTypes()
+  nameWithType: ProductPictureType.GetProductPictureTypes()
+  fullName: Uvendia.Domain.Enums.ProductPictureType.GetProductPictureTypes()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetProductPictureTypes
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 84
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static List<ProductPictureType> GetProductPictureTypes()
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Enums.ProductPictureType}
+    content.vb: Public Shared Function GetProductPictureTypes As List(Of ProductPictureType)
+  overload: Uvendia.Domain.Enums.ProductPictureType.GetProductPictureTypes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.ProductPictureType.Gallery
+  commentId: F:Uvendia.Domain.Enums.ProductPictureType.Gallery
+  id: Gallery
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: Gallery
+  nameWithType: ProductPictureType.Gallery
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Gallery
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Gallery
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 89
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static ProductPictureType Gallery
+    return:
+      type: Uvendia.Domain.Enums.ProductPictureType
+    content.vb: Public Shared Gallery As ProductPictureType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.ProductPictureType.Hover
+  commentId: F:Uvendia.Domain.Enums.ProductPictureType.Hover
+  id: Hover
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: Hover
+  nameWithType: ProductPictureType.Hover
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Hover
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Hover
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 90
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static ProductPictureType Hover
+    return:
+      type: Uvendia.Domain.Enums.ProductPictureType
+    content.vb: Public Shared Hover As ProductPictureType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.ProductPictureType.Detail
+  commentId: F:Uvendia.Domain.Enums.ProductPictureType.Detail
+  id: Detail
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: Detail
+  nameWithType: ProductPictureType.Detail
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Detail
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Detail
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 91
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static ProductPictureType Detail
+    return:
+      type: Uvendia.Domain.Enums.ProductPictureType
+    content.vb: Public Shared Detail As ProductPictureType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.ProductPictureType.ToString
+  commentId: M:Uvendia.Domain.Enums.ProductPictureType.ToString
+  id: ToString
+  parent: Uvendia.Domain.Enums.ProductPictureType
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ProductPictureType.ToString()
+  fullName: Uvendia.Domain.Enums.ProductPictureType.ToString()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/ProductPictureType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ToString
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/ProductPictureType.cs
+    startLine: 93
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Uvendia.Domain.Enums.ProductPictureType.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Enums.ProductPictureType.Name*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.Name
+  name: Name
+  nameWithType: ProductPictureType.Name
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Enums.ProductPictureType.RegexPattern*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.RegexPattern
+  name: RegexPattern
+  nameWithType: ProductPictureType.RegexPattern
+  fullName: Uvendia.Domain.Enums.ProductPictureType.RegexPattern
+- uid: Uvendia.Domain.Enums.ProductPictureType.ID*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.ID
+  name: ID
+  nameWithType: ProductPictureType.ID
+  fullName: Uvendia.Domain.Enums.ProductPictureType.ID
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Uvendia.Domain.Enums.ProductPictureType.Width*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.Width
+  name: Width
+  nameWithType: ProductPictureType.Width
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Width
+- uid: Uvendia.Domain.Enums.ProductPictureType.Height*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.Height
+  name: Height
+  nameWithType: ProductPictureType.Height
+  fullName: Uvendia.Domain.Enums.ProductPictureType.Height
+- uid: Uvendia.Domain.Enums.ProductPictureType.ColorIsRelevant*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.ColorIsRelevant
+  name: ColorIsRelevant
+  nameWithType: ProductPictureType.ColorIsRelevant
+  fullName: Uvendia.Domain.Enums.ProductPictureType.ColorIsRelevant
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Enums.ProductPictureType.ParentPictureType*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.ParentPictureType
+  name: ParentPictureType
+  nameWithType: ProductPictureType.ParentPictureType
+  fullName: Uvendia.Domain.Enums.ProductPictureType.ParentPictureType
+- uid: Uvendia.Domain.Enums.ProductPictureType
+  commentId: T:Uvendia.Domain.Enums.ProductPictureType
+  parent: Uvendia.Domain.Enums
+  name: ProductPictureType
+  nameWithType: ProductPictureType
+  fullName: Uvendia.Domain.Enums.ProductPictureType
+- uid: Uvendia.Domain.Enums.ProductPictureType.GetPictureType*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.GetPictureType
+  name: GetPictureType
+  nameWithType: ProductPictureType.GetPictureType
+  fullName: Uvendia.Domain.Enums.ProductPictureType.GetPictureType
+- uid: Uvendia.Domain.Enums.ProductPictureType.GetProductPictureTypes*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.GetProductPictureTypes
+  name: GetProductPictureTypes
+  nameWithType: ProductPictureType.GetProductPictureTypes
+  fullName: Uvendia.Domain.Enums.ProductPictureType.GetProductPictureTypes
+- uid: System.Collections.Generic.List{Uvendia.Domain.Enums.ProductPictureType}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Enums.ProductPictureType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ProductPictureType>
+  nameWithType: List<ProductPictureType>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Enums.ProductPictureType>
+  nameWithType.vb: List(Of ProductPictureType)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Enums.ProductPictureType)
+  name.vb: List(Of ProductPictureType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Enums.ProductPictureType
+    name: ProductPictureType
+    nameWithType: ProductPictureType
+    fullName: Uvendia.Domain.Enums.ProductPictureType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Enums.ProductPictureType
+    name: ProductPictureType
+    nameWithType: ProductPictureType
+    fullName: Uvendia.Domain.Enums.ProductPictureType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Enums.ProductPictureType.ToString*
+  commentId: Overload:Uvendia.Domain.Enums.ProductPictureType.ToString
+  name: ToString
+  nameWithType: ProductPictureType.ToString
+  fullName: Uvendia.Domain.Enums.ProductPictureType.ToString

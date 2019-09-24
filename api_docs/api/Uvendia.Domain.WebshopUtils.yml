@@ -1,0 +1,945 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.WebshopUtils
+  commentId: T:Uvendia.Domain.WebshopUtils
+  id: WebshopUtils
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.WebshopUtils.ActionDisabled
+  - Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton(System.Web.Mvc.HtmlHelper,System.String,Uvendia.Domain.ActionType,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Boolean})
+  - Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml(System.Web.Mvc.HtmlHelper,System.String,Uvendia.Domain.ActionType,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Boolean},System.String)
+  - Uvendia.Domain.WebshopUtils.GetCountriesByCodes(System.String[])
+  - Uvendia.Domain.WebshopUtils.IsValidLicense(System.String@,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: WebshopUtils
+  nameWithType: WebshopUtils
+  fullName: Uvendia.Domain.WebshopUtils
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: WebshopUtils
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static class WebshopUtils
+    content.vb: Public Module WebshopUtils
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Uvendia.Domain.WebshopUtils.GetCountriesByCodes(System.String[])
+  commentId: M:Uvendia.Domain.WebshopUtils.GetCountriesByCodes(System.String[])
+  id: GetCountriesByCodes(System.String[])
+  parent: Uvendia.Domain.WebshopUtils
+  langs:
+  - csharp
+  - vb
+  name: GetCountriesByCodes(String[])
+  nameWithType: WebshopUtils.GetCountriesByCodes(String[])
+  fullName: Uvendia.Domain.WebshopUtils.GetCountriesByCodes(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetCountriesByCodes
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static IEnumerable<Country> GetCountriesByCodes(params string[] codes)
+    parameters:
+    - id: codes
+      type: System.String[]
+    return:
+      type: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Country}
+    content.vb: Public Shared Function GetCountriesByCodes(ParamArray codes As String()) As IEnumerable(Of Country)
+  overload: Uvendia.Domain.WebshopUtils.GetCountriesByCodes*
+  nameWithType.vb: WebshopUtils.GetCountriesByCodes(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.WebshopUtils.GetCountriesByCodes(System.String())
+  name.vb: GetCountriesByCodes(String())
+- uid: Uvendia.Domain.WebshopUtils.ActionDisabled
+  commentId: M:Uvendia.Domain.WebshopUtils.ActionDisabled
+  id: ActionDisabled
+  parent: Uvendia.Domain.WebshopUtils
+  langs:
+  - csharp
+  - vb
+  name: ActionDisabled()
+  nameWithType: WebshopUtils.ActionDisabled()
+  fullName: Uvendia.Domain.WebshopUtils.ActionDisabled()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ActionDisabled
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 28
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static string ActionDisabled()
+    return:
+      type: System.String
+    content.vb: Public Shared Function ActionDisabled As String
+  overload: Uvendia.Domain.WebshopUtils.ActionDisabled*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton(System.Web.Mvc.HtmlHelper,System.String,Uvendia.Domain.ActionType,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Boolean})
+  commentId: M:Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton(System.Web.Mvc.HtmlHelper,System.String,Uvendia.Domain.ActionType,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Boolean})
+  id: CreateAuthorizedActionButton(System.Web.Mvc.HtmlHelper,System.String,Uvendia.Domain.ActionType,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Boolean})
+  isExtensionMethod: true
+  parent: Uvendia.Domain.WebshopUtils
+  langs:
+  - csharp
+  - vb
+  name: CreateAuthorizedActionButton(HtmlHelper, String, ActionType, IDictionary<String, String>, Nullable<Boolean>)
+  nameWithType: WebshopUtils.CreateAuthorizedActionButton(HtmlHelper, String, ActionType, IDictionary<String, String>, Nullable<Boolean>)
+  fullName: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton(System.Web.Mvc.HtmlHelper, System.String, Uvendia.Domain.ActionType, System.Collections.Generic.IDictionary<System.String, System.String>, System.Nullable<System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CreateAuthorizedActionButton
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 36
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static MvcHtmlString CreateAuthorizedActionButton(this HtmlHelper html, string name, ActionType actionType, IDictionary<string, string> htmlAttributes, bool? authorized = default(bool? ))
+    parameters:
+    - id: html
+      type: System.Web.Mvc.HtmlHelper
+    - id: name
+      type: System.String
+    - id: actionType
+      type: Uvendia.Domain.ActionType
+    - id: htmlAttributes
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    - id: authorized
+      type: System.Nullable{System.Boolean}
+    return:
+      type: System.Web.Mvc.MvcHtmlString
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateAuthorizedActionButton(html As HtmlHelper, name As String, actionType As ActionType, htmlAttributes As IDictionary(Of String, String), authorized As Boolean? = Nothing) As MvcHtmlString
+  overload: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton*
+  nameWithType.vb: WebshopUtils.CreateAuthorizedActionButton(HtmlHelper, String, ActionType, IDictionary(Of String, String), Nullable(Of Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton(System.Web.Mvc.HtmlHelper, System.String, Uvendia.Domain.ActionType, System.Collections.Generic.IDictionary(Of System.String, System.String), System.Nullable(Of System.Boolean))
+  name.vb: CreateAuthorizedActionButton(HtmlHelper, String, ActionType, IDictionary(Of String, String), Nullable(Of Boolean))
+- uid: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml(System.Web.Mvc.HtmlHelper,System.String,Uvendia.Domain.ActionType,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Boolean},System.String)
+  commentId: M:Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml(System.Web.Mvc.HtmlHelper,System.String,Uvendia.Domain.ActionType,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Boolean},System.String)
+  id: CreateAuthorizedActionHtml(System.Web.Mvc.HtmlHelper,System.String,Uvendia.Domain.ActionType,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Boolean},System.String)
+  isExtensionMethod: true
+  parent: Uvendia.Domain.WebshopUtils
+  langs:
+  - csharp
+  - vb
+  name: CreateAuthorizedActionHtml(HtmlHelper, String, ActionType, IDictionary<String, String>, Nullable<Boolean>, String)
+  nameWithType: WebshopUtils.CreateAuthorizedActionHtml(HtmlHelper, String, ActionType, IDictionary<String, String>, Nullable<Boolean>, String)
+  fullName: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml(System.Web.Mvc.HtmlHelper, System.String, Uvendia.Domain.ActionType, System.Collections.Generic.IDictionary<System.String, System.String>, System.Nullable<System.Boolean>, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CreateAuthorizedActionHtml
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 41
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static MvcHtmlString CreateAuthorizedActionHtml(this HtmlHelper html, string name, ActionType actionType, IDictionary<string, string> htmlAttributes, bool? authorized = default(bool? ), string element = "a")
+    parameters:
+    - id: html
+      type: System.Web.Mvc.HtmlHelper
+    - id: name
+      type: System.String
+    - id: actionType
+      type: Uvendia.Domain.ActionType
+    - id: htmlAttributes
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    - id: authorized
+      type: System.Nullable{System.Boolean}
+    - id: element
+      type: System.String
+    return:
+      type: System.Web.Mvc.MvcHtmlString
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateAuthorizedActionHtml(html As HtmlHelper, name As String, actionType As ActionType, htmlAttributes As IDictionary(Of String, String), authorized As Boolean? = Nothing, element As String = "a") As MvcHtmlString
+  overload: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml*
+  nameWithType.vb: WebshopUtils.CreateAuthorizedActionHtml(HtmlHelper, String, ActionType, IDictionary(Of String, String), Nullable(Of Boolean), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml(System.Web.Mvc.HtmlHelper, System.String, Uvendia.Domain.ActionType, System.Collections.Generic.IDictionary(Of System.String, System.String), System.Nullable(Of System.Boolean), System.String)
+  name.vb: CreateAuthorizedActionHtml(HtmlHelper, String, ActionType, IDictionary(Of String, String), Nullable(Of Boolean), String)
+- uid: Uvendia.Domain.WebshopUtils.IsValidLicense(System.String@,System.Boolean)
+  commentId: M:Uvendia.Domain.WebshopUtils.IsValidLicense(System.String@,System.Boolean)
+  id: IsValidLicense(System.String@,System.Boolean)
+  parent: Uvendia.Domain.WebshopUtils
+  langs:
+  - csharp
+  - vb
+  name: IsValidLicense(out String, Boolean)
+  nameWithType: WebshopUtils.IsValidLicense(out String, Boolean)
+  fullName: Uvendia.Domain.WebshopUtils.IsValidLicense(out System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Utils/WebshopUtils.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsValidLicense
+    path: ../../dazzling.studio/Uvendia.Domain/Utils/WebshopUtils.cs
+    startLine: 88
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nValidates the Uvendia license.\n"
+  example: []
+  syntax:
+    content: public static bool IsValidLicense(out string message, bool isRunningLocally = false)
+    parameters:
+    - id: message
+      type: System.String
+    - id: isRunningLocally
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsValidLicense(ByRef message As String, isRunningLocally As Boolean = False) As Boolean
+  overload: Uvendia.Domain.WebshopUtils.IsValidLicense*
+  nameWithType.vb: WebshopUtils.IsValidLicense(ByRef String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Uvendia.Domain.WebshopUtils.IsValidLicense(ByRef System.String, System.Boolean)
+  name.vb: IsValidLicense(ByRef String, Boolean)
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.WebshopUtils.GetCountriesByCodes*
+  commentId: Overload:Uvendia.Domain.WebshopUtils.GetCountriesByCodes
+  name: GetCountriesByCodes
+  nameWithType: WebshopUtils.GetCountriesByCodes
+  fullName: Uvendia.Domain.WebshopUtils.GetCountriesByCodes
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Country}
+  commentId: T:System.Collections.Generic.IEnumerable{Uvendia.Domain.Entities.Country}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Country>
+  nameWithType: IEnumerable<Country>
+  fullName: System.Collections.Generic.IEnumerable<Uvendia.Domain.Entities.Country>
+  nameWithType.vb: IEnumerable(Of Country)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Uvendia.Domain.Entities.Country)
+  name.vb: IEnumerable(Of Country)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.Country
+    name: Country
+    nameWithType: Country
+    fullName: Uvendia.Domain.Entities.Country
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.Country
+    name: Country
+    nameWithType: Country
+    fullName: Uvendia.Domain.Entities.Country
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Uvendia.Domain.WebshopUtils.ActionDisabled*
+  commentId: Overload:Uvendia.Domain.WebshopUtils.ActionDisabled
+  name: ActionDisabled
+  nameWithType: WebshopUtils.ActionDisabled
+  fullName: Uvendia.Domain.WebshopUtils.ActionDisabled
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton*
+  commentId: Overload:Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton
+  name: CreateAuthorizedActionButton
+  nameWithType: WebshopUtils.CreateAuthorizedActionButton
+  fullName: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionButton
+- uid: System.Web.Mvc.HtmlHelper
+  commentId: T:System.Web.Mvc.HtmlHelper
+  parent: System.Web.Mvc
+  isExternal: true
+  name: HtmlHelper
+  nameWithType: HtmlHelper
+  fullName: System.Web.Mvc.HtmlHelper
+- uid: Uvendia.Domain.ActionType
+  commentId: T:Uvendia.Domain.ActionType
+  parent: Uvendia.Domain
+  name: ActionType
+  nameWithType: ActionType
+  fullName: Uvendia.Domain.ActionType
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.Mvc.MvcHtmlString
+  commentId: T:System.Web.Mvc.MvcHtmlString
+  parent: System.Web.Mvc
+  isExternal: true
+  name: MvcHtmlString
+  nameWithType: MvcHtmlString
+  fullName: System.Web.Mvc.MvcHtmlString
+- uid: System.Web.Mvc
+  commentId: N:System.Web.Mvc
+  isExternal: true
+  name: System.Web.Mvc
+  nameWithType: System.Web.Mvc
+  fullName: System.Web.Mvc
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml*
+  commentId: Overload:Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml
+  name: CreateAuthorizedActionHtml
+  nameWithType: WebshopUtils.CreateAuthorizedActionHtml
+  fullName: Uvendia.Domain.WebshopUtils.CreateAuthorizedActionHtml
+- uid: Uvendia.Domain.WebshopUtils.IsValidLicense*
+  commentId: Overload:Uvendia.Domain.WebshopUtils.IsValidLicense
+  name: IsValidLicense
+  nameWithType: WebshopUtils.IsValidLicense
+  fullName: Uvendia.Domain.WebshopUtils.IsValidLicense
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

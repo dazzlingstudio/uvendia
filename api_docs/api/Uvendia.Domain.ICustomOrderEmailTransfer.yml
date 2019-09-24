@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.ICustomOrderEmailTransfer
+  commentId: T:Uvendia.Domain.ICustomOrderEmailTransfer
+  id: ICustomOrderEmailTransfer
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  langs:
+  - csharp
+  - vb
+  name: ICustomOrderEmailTransfer
+  nameWithType: ICustomOrderEmailTransfer
+  fullName: Uvendia.Domain.ICustomOrderEmailTransfer
+  type: Interface
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/ICustomOrderEmailTransfer.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ICustomOrderEmailTransfer
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/ICustomOrderEmailTransfer.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nInterface for implementing a custom e-mail library for sending mails.\n"
+  example: []
+  syntax:
+    content: public interface ICustomOrderEmailTransfer
+    content.vb: Public Interface ICustomOrderEmailTransfer
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  commentId: M:Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  id: SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  parent: Uvendia.Domain.ICustomOrderEmailTransfer
+  langs:
+  - csharp
+  - vb
+  name: SendEmail(CustomOrderEmailArgs)
+  nameWithType: ICustomOrderEmailTransfer.SendEmail(CustomOrderEmailArgs)
+  fullName: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail(Uvendia.Domain.CustomOrderEmailArgs)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mail/ICustomOrderEmailTransfer.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: SendEmail
+    path: ../../dazzling.studio/Uvendia.Domain/Mail/ICustomOrderEmailTransfer.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nSends the email.\n"
+  example: []
+  syntax:
+    content: Task SendEmail(CustomOrderEmailArgs arguments)
+    parameters:
+    - id: arguments
+      type: Uvendia.Domain.CustomOrderEmailArgs
+      description: The arguments.
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SendEmail(arguments As CustomOrderEmailArgs) As Task
+  overload: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail*
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail*
+  commentId: Overload:Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail
+  name: SendEmail
+  nameWithType: ICustomOrderEmailTransfer.SendEmail
+  fullName: Uvendia.Domain.ICustomOrderEmailTransfer.SendEmail
+- uid: Uvendia.Domain.CustomOrderEmailArgs
+  commentId: T:Uvendia.Domain.CustomOrderEmailArgs
+  parent: Uvendia.Domain
+  name: CustomOrderEmailArgs
+  nameWithType: CustomOrderEmailArgs
+  fullName: Uvendia.Domain.CustomOrderEmailArgs
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

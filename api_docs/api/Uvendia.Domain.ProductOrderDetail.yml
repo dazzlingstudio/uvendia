@@ -1,0 +1,1656 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.ProductOrderDetail
+  commentId: T:Uvendia.Domain.ProductOrderDetail
+  id: ProductOrderDetail
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.ProductOrderDetail.#ctor
+  - Uvendia.Domain.ProductOrderDetail.CalculatePriceWithDiscount
+  - Uvendia.Domain.ProductOrderDetail.CalculateTotal
+  - Uvendia.Domain.ProductOrderDetail.CalculateTotalWithoutVAT
+  - Uvendia.Domain.ProductOrderDetail.CalculateVAT
+  - Uvendia.Domain.ProductOrderDetail.Create(System.Guid,Uvendia.Domain.Product,Uvendia.Domain.Price,System.Int32,System.Boolean,System.Decimal,System.String)
+  - Uvendia.Domain.ProductOrderDetail.Create(System.Guid,Uvendia.Domain.Product,Uvendia.Domain.Price,Uvendia.Domain.Order,System.Int32,System.Boolean,System.Decimal,System.String)
+  - Uvendia.Domain.ProductOrderDetail.Discount
+  - Uvendia.Domain.ProductOrderDetail.Id
+  - Uvendia.Domain.ProductOrderDetail.MetaData
+  - Uvendia.Domain.ProductOrderDetail.Order
+  - Uvendia.Domain.ProductOrderDetail.OrderId
+  - Uvendia.Domain.ProductOrderDetail.Product
+  - Uvendia.Domain.ProductOrderDetail.ProductId
+  - Uvendia.Domain.ProductOrderDetail.Quantity
+  - Uvendia.Domain.ProductOrderDetail.Retoured
+  - Uvendia.Domain.ProductOrderDetail.SalePrice
+  - Uvendia.Domain.ProductOrderDetail.UnitPrice
+  - Uvendia.Domain.ProductOrderDetail.UnitPriceId
+  langs:
+  - csharp
+  - vb
+  name: ProductOrderDetail
+  nameWithType: ProductOrderDetail
+  fullName: Uvendia.Domain.ProductOrderDetail
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductOrderDetail
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 10
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: 'public class ProductOrderDetail : Webshop, IDazzlingEntity'
+    content.vb: >-
+      Public Class ProductOrderDetail
+          Inherits Webshop
+          Implements IDazzlingEntity
+  inheritance:
+  - System.Object
+  - Uvendia.Domain.Webshop
+  implements:
+  - Dazzling.Studio.SqlRepository.IDazzlingEntity
+  inheritedMembers:
+  - Uvendia.Domain.Webshop.PropertyIdChanged
+  - Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  - Uvendia.Domain.Webshop.CreatedOn
+  - Uvendia.Domain.Webshop.ModifiedOn
+  - Uvendia.Domain.Webshop.CreatedBy
+  - Uvendia.Domain.Webshop.ModifiedBy
+  - Uvendia.Domain.Webshop.PublicatedOn
+  - Uvendia.Domain.Webshop.Rowversion
+  - Uvendia.Domain.Webshop.IsValid
+  - Uvendia.Domain.Webshop.IsValid(System.String)
+  - Uvendia.Domain.Webshop.GetValidationErrors
+  - Uvendia.Domain.Webshop.GetCurrentCultureName
+  - Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.ProductOrderDetail.#ctor
+  commentId: M:Uvendia.Domain.ProductOrderDetail.#ctor
+  id: '#ctor'
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: ProductOrderDetail()
+  nameWithType: ProductOrderDetail.ProductOrderDetail()
+  fullName: Uvendia.Domain.ProductOrderDetail.ProductOrderDetail()
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 12
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public ProductOrderDetail()
+    content.vb: Public Sub New
+  overload: Uvendia.Domain.ProductOrderDetail.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.Id
+  commentId: P:Uvendia.Domain.ProductOrderDetail.Id
+  id: Id
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ProductOrderDetail.Id
+  fullName: Uvendia.Domain.ProductOrderDetail.Id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Id
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Uvendia.Domain.ProductOrderDetail.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.OrderId
+  commentId: P:Uvendia.Domain.ProductOrderDetail.OrderId
+  id: OrderId
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: OrderId
+  nameWithType: ProductOrderDetail.OrderId
+  fullName: Uvendia.Domain.ProductOrderDetail.OrderId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderId
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public long OrderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property OrderId As Long
+  overload: Uvendia.Domain.ProductOrderDetail.OrderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.Order
+  commentId: P:Uvendia.Domain.ProductOrderDetail.Order
+  id: Order
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: ProductOrderDetail.Order
+  fullName: Uvendia.Domain.ProductOrderDetail.Order
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Order
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public Order Order { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Order
+    content.vb: Public Property Order As Order
+  overload: Uvendia.Domain.ProductOrderDetail.Order*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.Quantity
+  commentId: P:Uvendia.Domain.ProductOrderDetail.Quantity
+  id: Quantity
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: ProductOrderDetail.Quantity
+  fullName: Uvendia.Domain.ProductOrderDetail.Quantity
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Quantity
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public int Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Quantity As Integer
+  overload: Uvendia.Domain.ProductOrderDetail.Quantity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.Discount
+  commentId: P:Uvendia.Domain.ProductOrderDetail.Discount
+  id: Discount
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: Discount
+  nameWithType: ProductOrderDetail.Discount
+  fullName: Uvendia.Domain.ProductOrderDetail.Discount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Discount
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public decimal Discount { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Discount As Decimal
+  overload: Uvendia.Domain.ProductOrderDetail.Discount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.Product
+  commentId: P:Uvendia.Domain.ProductOrderDetail.Product
+  id: Product
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: ProductOrderDetail.Product
+  fullName: Uvendia.Domain.ProductOrderDetail.Product
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Product
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public Product Product { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Product
+    content.vb: Public Property Product As Product
+  overload: Uvendia.Domain.ProductOrderDetail.Product*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.ProductId
+  commentId: P:Uvendia.Domain.ProductOrderDetail.ProductId
+  id: ProductId
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: ProductOrderDetail.ProductId
+  fullName: Uvendia.Domain.ProductOrderDetail.ProductId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductId
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 29
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public long ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProductId As Long
+  overload: Uvendia.Domain.ProductOrderDetail.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.UnitPrice
+  commentId: P:Uvendia.Domain.ProductOrderDetail.UnitPrice
+  id: UnitPrice
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: UnitPrice
+  nameWithType: ProductOrderDetail.UnitPrice
+  fullName: Uvendia.Domain.ProductOrderDetail.UnitPrice
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UnitPrice
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public Price UnitPrice { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Price
+    content.vb: Public Property UnitPrice As Price
+  overload: Uvendia.Domain.ProductOrderDetail.UnitPrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.UnitPriceId
+  commentId: P:Uvendia.Domain.ProductOrderDetail.UnitPriceId
+  id: UnitPriceId
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: UnitPriceId
+  nameWithType: ProductOrderDetail.UnitPriceId
+  fullName: Uvendia.Domain.ProductOrderDetail.UnitPriceId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UnitPriceId
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 35
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public long? UnitPriceId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property UnitPriceId As Long?
+  overload: Uvendia.Domain.ProductOrderDetail.UnitPriceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.SalePrice
+  commentId: P:Uvendia.Domain.ProductOrderDetail.SalePrice
+  id: SalePrice
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: SalePrice
+  nameWithType: ProductOrderDetail.SalePrice
+  fullName: Uvendia.Domain.ProductOrderDetail.SalePrice
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: SalePrice
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 47
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets or sets the sale price.\n"
+  example: []
+  syntax:
+    content: public decimal SalePrice { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+      description: "\nThe sale price.\n"
+    content.vb: Public Property SalePrice As Decimal
+  overload: Uvendia.Domain.ProductOrderDetail.SalePrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.MetaData
+  commentId: P:Uvendia.Domain.ProductOrderDetail.MetaData
+  id: MetaData
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: MetaData
+  nameWithType: ProductOrderDetail.MetaData
+  fullName: Uvendia.Domain.ProductOrderDetail.MetaData
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MetaData
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 49
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public string MetaData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MetaData As String
+  overload: Uvendia.Domain.ProductOrderDetail.MetaData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.Retoured
+  commentId: P:Uvendia.Domain.ProductOrderDetail.Retoured
+  id: Retoured
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: Retoured
+  nameWithType: ProductOrderDetail.Retoured
+  fullName: Uvendia.Domain.ProductOrderDetail.Retoured
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Retoured
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 51
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public bool Retoured { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Retoured As Boolean
+  overload: Uvendia.Domain.ProductOrderDetail.Retoured*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.CalculateTotal
+  commentId: M:Uvendia.Domain.ProductOrderDetail.CalculateTotal
+  id: CalculateTotal
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: CalculateTotal()
+  nameWithType: ProductOrderDetail.CalculateTotal()
+  fullName: Uvendia.Domain.ProductOrderDetail.CalculateTotal()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CalculateTotal
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 57
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nCalculates the total (incl. VAT).\n"
+  example: []
+  syntax:
+    content: public decimal CalculateTotal()
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Function CalculateTotal As Decimal
+  overload: Uvendia.Domain.ProductOrderDetail.CalculateTotal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.CalculateVAT
+  commentId: M:Uvendia.Domain.ProductOrderDetail.CalculateVAT
+  id: CalculateVAT
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: CalculateVAT()
+  nameWithType: ProductOrderDetail.CalculateVAT()
+  fullName: Uvendia.Domain.ProductOrderDetail.CalculateVAT()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CalculateVAT
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 69
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets the Value Added Tax.\n"
+  example: []
+  syntax:
+    content: public decimal CalculateVAT()
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Function CalculateVAT As Decimal
+  overload: Uvendia.Domain.ProductOrderDetail.CalculateVAT*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.CalculateTotalWithoutVAT
+  commentId: M:Uvendia.Domain.ProductOrderDetail.CalculateTotalWithoutVAT
+  id: CalculateTotalWithoutVAT
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: CalculateTotalWithoutVAT()
+  nameWithType: ProductOrderDetail.CalculateTotalWithoutVAT()
+  fullName: Uvendia.Domain.ProductOrderDetail.CalculateTotalWithoutVAT()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CalculateTotalWithoutVAT
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 82
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets the total price (per unit) without vat.\n"
+  example: []
+  syntax:
+    content: public decimal CalculateTotalWithoutVAT()
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Function CalculateTotalWithoutVAT As Decimal
+  overload: Uvendia.Domain.ProductOrderDetail.CalculateTotalWithoutVAT*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.CalculatePriceWithDiscount
+  commentId: M:Uvendia.Domain.ProductOrderDetail.CalculatePriceWithDiscount
+  id: CalculatePriceWithDiscount
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: CalculatePriceWithDiscount()
+  nameWithType: ProductOrderDetail.CalculatePriceWithDiscount()
+  fullName: Uvendia.Domain.ProductOrderDetail.CalculatePriceWithDiscount()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CalculatePriceWithDiscount
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 92
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nCalculates the price with discount.\n"
+  example: []
+  syntax:
+    content: public decimal CalculatePriceWithDiscount()
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Function CalculatePriceWithDiscount As Decimal
+  overload: Uvendia.Domain.ProductOrderDetail.CalculatePriceWithDiscount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.ProductOrderDetail.Create(System.Guid,Uvendia.Domain.Product,Uvendia.Domain.Price,System.Int32,System.Boolean,System.Decimal,System.String)
+  commentId: M:Uvendia.Domain.ProductOrderDetail.Create(System.Guid,Uvendia.Domain.Product,Uvendia.Domain.Price,System.Int32,System.Boolean,System.Decimal,System.String)
+  id: Create(System.Guid,Uvendia.Domain.Product,Uvendia.Domain.Price,System.Int32,System.Boolean,System.Decimal,System.String)
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: Create(Guid, Product, Price, Int32, Boolean, Decimal, String)
+  nameWithType: ProductOrderDetail.Create(Guid, Product, Price, Int32, Boolean, Decimal, String)
+  fullName: Uvendia.Domain.ProductOrderDetail.Create(System.Guid, Uvendia.Domain.Product, Uvendia.Domain.Price, System.Int32, System.Boolean, System.Decimal, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Create
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 101
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static ProductOrderDetail Create(Guid id, Product product, Price unitPrice, int quantity, bool retoured, decimal additionalDiscount = 0M, string metaData = null)
+    parameters:
+    - id: id
+      type: System.Guid
+    - id: product
+      type: Uvendia.Domain.Product
+    - id: unitPrice
+      type: Uvendia.Domain.Price
+    - id: quantity
+      type: System.Int32
+    - id: retoured
+      type: System.Boolean
+    - id: additionalDiscount
+      type: System.Decimal
+    - id: metaData
+      type: System.String
+    return:
+      type: Uvendia.Domain.ProductOrderDetail
+    content.vb: Public Shared Function Create(id As Guid, product As Product, unitPrice As Price, quantity As Integer, retoured As Boolean, additionalDiscount As Decimal = 0D, metaData As String = Nothing) As ProductOrderDetail
+  overload: Uvendia.Domain.ProductOrderDetail.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.ProductOrderDetail.Create(System.Guid,Uvendia.Domain.Product,Uvendia.Domain.Price,Uvendia.Domain.Order,System.Int32,System.Boolean,System.Decimal,System.String)
+  commentId: M:Uvendia.Domain.ProductOrderDetail.Create(System.Guid,Uvendia.Domain.Product,Uvendia.Domain.Price,Uvendia.Domain.Order,System.Int32,System.Boolean,System.Decimal,System.String)
+  id: Create(System.Guid,Uvendia.Domain.Product,Uvendia.Domain.Price,Uvendia.Domain.Order,System.Int32,System.Boolean,System.Decimal,System.String)
+  parent: Uvendia.Domain.ProductOrderDetail
+  langs:
+  - csharp
+  - vb
+  name: Create(Guid, Product, Price, Order, Int32, Boolean, Decimal, String)
+  nameWithType: ProductOrderDetail.Create(Guid, Product, Price, Order, Int32, Boolean, Decimal, String)
+  fullName: Uvendia.Domain.ProductOrderDetail.Create(System.Guid, Uvendia.Domain.Product, Uvendia.Domain.Price, Uvendia.Domain.Order, System.Int32, System.Boolean, System.Decimal, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/ProductOrderDetail.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Create
+    path: ../../dazzling.studio/Uvendia.Domain/ProductOrderDetail.cs
+    startLine: 106
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static ProductOrderDetail Create(Guid id, Product product, Price unitPrice, Order order, int quantity, bool retoured, decimal additionalDiscount = 0M, string metaData = null)
+    parameters:
+    - id: id
+      type: System.Guid
+    - id: product
+      type: Uvendia.Domain.Product
+    - id: unitPrice
+      type: Uvendia.Domain.Price
+    - id: order
+      type: Uvendia.Domain.Order
+    - id: quantity
+      type: System.Int32
+    - id: retoured
+      type: System.Boolean
+    - id: additionalDiscount
+      type: System.Decimal
+    - id: metaData
+      type: System.String
+    return:
+      type: Uvendia.Domain.ProductOrderDetail
+    content.vb: Public Shared Function Create(id As Guid, product As Product, unitPrice As Price, order As Order, quantity As Integer, retoured As Boolean, additionalDiscount As Decimal = 0D, metaData As String = Nothing) As ProductOrderDetail
+  overload: Uvendia.Domain.ProductOrderDetail.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Uvendia.Domain.Webshop
+  commentId: T:Uvendia.Domain.Webshop
+  parent: Uvendia.Domain
+  name: Webshop
+  nameWithType: Webshop
+  fullName: Uvendia.Domain.Webshop
+- uid: Dazzling.Studio.SqlRepository.IDazzlingEntity
+  commentId: T:Dazzling.Studio.SqlRepository.IDazzlingEntity
+  parent: Dazzling.Studio.SqlRepository
+  name: IDazzlingEntity
+  nameWithType: IDazzlingEntity
+  fullName: Dazzling.Studio.SqlRepository.IDazzlingEntity
+- uid: Uvendia.Domain.Webshop.PropertyIdChanged
+  commentId: E:Uvendia.Domain.Webshop.PropertyIdChanged
+  parent: Uvendia.Domain.Webshop
+  name: PropertyIdChanged
+  nameWithType: Webshop.PropertyIdChanged
+  fullName: Uvendia.Domain.Webshop.PropertyIdChanged
+- uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  commentId: M:Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: OnPropertyIdChanged(Object, EventArgs)
+  nameWithType: Webshop.OnPropertyIdChanged(Object, EventArgs)
+  fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object, System.EventArgs)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+    name: OnPropertyIdChanged
+    nameWithType: Webshop.OnPropertyIdChanged
+    fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+    name: OnPropertyIdChanged
+    nameWithType: Webshop.OnPropertyIdChanged
+    fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.CreatedOn
+  commentId: P:Uvendia.Domain.Webshop.CreatedOn
+  parent: Uvendia.Domain.Webshop
+  name: CreatedOn
+  nameWithType: Webshop.CreatedOn
+  fullName: Uvendia.Domain.Webshop.CreatedOn
+- uid: Uvendia.Domain.Webshop.ModifiedOn
+  commentId: P:Uvendia.Domain.Webshop.ModifiedOn
+  parent: Uvendia.Domain.Webshop
+  name: ModifiedOn
+  nameWithType: Webshop.ModifiedOn
+  fullName: Uvendia.Domain.Webshop.ModifiedOn
+- uid: Uvendia.Domain.Webshop.CreatedBy
+  commentId: P:Uvendia.Domain.Webshop.CreatedBy
+  parent: Uvendia.Domain.Webshop
+  name: CreatedBy
+  nameWithType: Webshop.CreatedBy
+  fullName: Uvendia.Domain.Webshop.CreatedBy
+- uid: Uvendia.Domain.Webshop.ModifiedBy
+  commentId: P:Uvendia.Domain.Webshop.ModifiedBy
+  parent: Uvendia.Domain.Webshop
+  name: ModifiedBy
+  nameWithType: Webshop.ModifiedBy
+  fullName: Uvendia.Domain.Webshop.ModifiedBy
+- uid: Uvendia.Domain.Webshop.PublicatedOn
+  commentId: P:Uvendia.Domain.Webshop.PublicatedOn
+  parent: Uvendia.Domain.Webshop
+  name: PublicatedOn
+  nameWithType: Webshop.PublicatedOn
+  fullName: Uvendia.Domain.Webshop.PublicatedOn
+- uid: Uvendia.Domain.Webshop.Rowversion
+  commentId: P:Uvendia.Domain.Webshop.Rowversion
+  parent: Uvendia.Domain.Webshop
+  name: Rowversion
+  nameWithType: Webshop.Rowversion
+  fullName: Uvendia.Domain.Webshop.Rowversion
+- uid: Uvendia.Domain.Webshop.IsValid
+  commentId: M:Uvendia.Domain.Webshop.IsValid
+  parent: Uvendia.Domain.Webshop
+  name: IsValid()
+  nameWithType: Webshop.IsValid()
+  fullName: Uvendia.Domain.Webshop.IsValid()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.IsValid
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.IsValid
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.IsValid(System.String)
+  commentId: M:Uvendia.Domain.Webshop.IsValid(System.String)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: IsValid(String)
+  nameWithType: Webshop.IsValid(String)
+  fullName: Uvendia.Domain.Webshop.IsValid(System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.IsValid(System.String)
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.IsValid(System.String)
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetValidationErrors
+  commentId: M:Uvendia.Domain.Webshop.GetValidationErrors
+  parent: Uvendia.Domain.Webshop
+  name: GetValidationErrors()
+  nameWithType: Webshop.GetValidationErrors()
+  fullName: Uvendia.Domain.Webshop.GetValidationErrors()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: Webshop.GetValidationErrors
+    fullName: Uvendia.Domain.Webshop.GetValidationErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: Webshop.GetValidationErrors
+    fullName: Uvendia.Domain.Webshop.GetValidationErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+  commentId: M:Uvendia.Domain.Webshop.GetCurrentCultureName
+  parent: Uvendia.Domain.Webshop
+  name: GetCurrentCultureName()
+  nameWithType: Webshop.GetCurrentCultureName()
+  fullName: Uvendia.Domain.Webshop.GetCurrentCultureName()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+    name: GetCurrentCultureName
+    nameWithType: Webshop.GetCurrentCultureName
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+    name: GetCurrentCultureName
+    nameWithType: Webshop.GetCurrentCultureName
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  commentId: M:Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  parent: Uvendia.Domain.Webshop
+  name: GetCurrentCultureInfo()
+  nameWithType: Webshop.GetCurrentCultureInfo()
+  fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+    name: GetCurrentCultureInfo
+    nameWithType: Webshop.GetCurrentCultureInfo
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+    name: GetCurrentCultureInfo
+    nameWithType: Webshop.GetCurrentCultureInfo
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  commentId: M:Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: GetTranslation(IList<Translation>, String)
+  nameWithType: Webshop.GetTranslation(IList<Translation>, String)
+  fullName: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList<Uvendia.Domain.Translation>, System.String)
+  nameWithType.vb: Webshop.GetTranslation(IList(Of Translation), String)
+  fullName.vb: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList(Of Uvendia.Domain.Translation), System.String)
+  name.vb: GetTranslation(IList(Of Translation), String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+    name: GetTranslation
+    nameWithType: Webshop.GetTranslation
+    fullName: Uvendia.Domain.Webshop.GetTranslation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+    name: GetTranslation
+    nameWithType: Webshop.GetTranslation
+    fullName: Uvendia.Domain.Webshop.GetTranslation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.SqlRepository
+  commentId: N:Dazzling.Studio.SqlRepository
+  name: Dazzling.Studio.SqlRepository
+  nameWithType: Dazzling.Studio.SqlRepository
+  fullName: Dazzling.Studio.SqlRepository
+- uid: Uvendia.Domain.ProductOrderDetail.#ctor*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.#ctor
+  name: ProductOrderDetail
+  nameWithType: ProductOrderDetail.ProductOrderDetail
+  fullName: Uvendia.Domain.ProductOrderDetail.ProductOrderDetail
+- uid: Uvendia.Domain.ProductOrderDetail.Id*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.Id
+  name: Id
+  nameWithType: ProductOrderDetail.Id
+  fullName: Uvendia.Domain.ProductOrderDetail.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Uvendia.Domain.ProductOrderDetail.OrderId*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.OrderId
+  name: OrderId
+  nameWithType: ProductOrderDetail.OrderId
+  fullName: Uvendia.Domain.ProductOrderDetail.OrderId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.ProductOrderDetail.Order*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.Order
+  name: Order
+  nameWithType: ProductOrderDetail.Order
+  fullName: Uvendia.Domain.ProductOrderDetail.Order
+- uid: Uvendia.Domain.Order
+  commentId: T:Uvendia.Domain.Order
+  parent: Uvendia.Domain
+  name: Order
+  nameWithType: Order
+  fullName: Uvendia.Domain.Order
+- uid: Uvendia.Domain.ProductOrderDetail.Quantity*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.Quantity
+  name: Quantity
+  nameWithType: ProductOrderDetail.Quantity
+  fullName: Uvendia.Domain.ProductOrderDetail.Quantity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.ProductOrderDetail.Discount*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.Discount
+  name: Discount
+  nameWithType: ProductOrderDetail.Discount
+  fullName: Uvendia.Domain.ProductOrderDetail.Discount
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: Uvendia.Domain.ProductOrderDetail.Product*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.Product
+  name: Product
+  nameWithType: ProductOrderDetail.Product
+  fullName: Uvendia.Domain.ProductOrderDetail.Product
+- uid: Uvendia.Domain.Product
+  commentId: T:Uvendia.Domain.Product
+  parent: Uvendia.Domain
+  name: Product
+  nameWithType: Product
+  fullName: Uvendia.Domain.Product
+- uid: Uvendia.Domain.ProductOrderDetail.ProductId*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.ProductId
+  name: ProductId
+  nameWithType: ProductOrderDetail.ProductId
+  fullName: Uvendia.Domain.ProductOrderDetail.ProductId
+- uid: Uvendia.Domain.ProductOrderDetail.UnitPrice*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.UnitPrice
+  name: UnitPrice
+  nameWithType: ProductOrderDetail.UnitPrice
+  fullName: Uvendia.Domain.ProductOrderDetail.UnitPrice
+- uid: Uvendia.Domain.Price
+  commentId: T:Uvendia.Domain.Price
+  parent: Uvendia.Domain
+  name: Price
+  nameWithType: Price
+  fullName: Uvendia.Domain.Price
+- uid: Uvendia.Domain.ProductOrderDetail.UnitPriceId*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.UnitPriceId
+  name: UnitPriceId
+  nameWithType: ProductOrderDetail.UnitPriceId
+  fullName: Uvendia.Domain.ProductOrderDetail.UnitPriceId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.ProductOrderDetail.SalePrice*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.SalePrice
+  name: SalePrice
+  nameWithType: ProductOrderDetail.SalePrice
+  fullName: Uvendia.Domain.ProductOrderDetail.SalePrice
+- uid: Uvendia.Domain.ProductOrderDetail.MetaData*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.MetaData
+  name: MetaData
+  nameWithType: ProductOrderDetail.MetaData
+  fullName: Uvendia.Domain.ProductOrderDetail.MetaData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.ProductOrderDetail.Retoured*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.Retoured
+  name: Retoured
+  nameWithType: ProductOrderDetail.Retoured
+  fullName: Uvendia.Domain.ProductOrderDetail.Retoured
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.ProductOrderDetail.CalculateTotal*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.CalculateTotal
+  name: CalculateTotal
+  nameWithType: ProductOrderDetail.CalculateTotal
+  fullName: Uvendia.Domain.ProductOrderDetail.CalculateTotal
+- uid: Uvendia.Domain.ProductOrderDetail.CalculateVAT*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.CalculateVAT
+  name: CalculateVAT
+  nameWithType: ProductOrderDetail.CalculateVAT
+  fullName: Uvendia.Domain.ProductOrderDetail.CalculateVAT
+- uid: Uvendia.Domain.ProductOrderDetail.CalculateTotalWithoutVAT*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.CalculateTotalWithoutVAT
+  name: CalculateTotalWithoutVAT
+  nameWithType: ProductOrderDetail.CalculateTotalWithoutVAT
+  fullName: Uvendia.Domain.ProductOrderDetail.CalculateTotalWithoutVAT
+- uid: Uvendia.Domain.ProductOrderDetail.CalculatePriceWithDiscount*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.CalculatePriceWithDiscount
+  name: CalculatePriceWithDiscount
+  nameWithType: ProductOrderDetail.CalculatePriceWithDiscount
+  fullName: Uvendia.Domain.ProductOrderDetail.CalculatePriceWithDiscount
+- uid: Uvendia.Domain.ProductOrderDetail.Create*
+  commentId: Overload:Uvendia.Domain.ProductOrderDetail.Create
+  name: Create
+  nameWithType: ProductOrderDetail.Create
+  fullName: Uvendia.Domain.ProductOrderDetail.Create
+- uid: Uvendia.Domain.ProductOrderDetail
+  commentId: T:Uvendia.Domain.ProductOrderDetail
+  parent: Uvendia.Domain
+  name: ProductOrderDetail
+  nameWithType: ProductOrderDetail
+  fullName: Uvendia.Domain.ProductOrderDetail

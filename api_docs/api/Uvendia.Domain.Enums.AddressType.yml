@@ -1,0 +1,722 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Enums.AddressType
+  commentId: T:Uvendia.Domain.Enums.AddressType
+  id: AddressType
+  parent: Uvendia.Domain.Enums
+  children:
+  - Uvendia.Domain.Enums.AddressType.Default
+  - Uvendia.Domain.Enums.AddressType.Description
+  - Uvendia.Domain.Enums.AddressType.GetAddressTypeByID(System.Int16)
+  - Uvendia.Domain.Enums.AddressType.GetAddressTypes
+  - Uvendia.Domain.Enums.AddressType.Id
+  - Uvendia.Domain.Enums.AddressType.ShipAddress
+  - Uvendia.Domain.Enums.AddressType.ToString
+  langs:
+  - csharp
+  - vb
+  name: AddressType
+  nameWithType: AddressType
+  fullName: Uvendia.Domain.Enums.AddressType
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/AddressType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddressType
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/AddressType.cs
+    startLine: 8
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public class AddressType
+    content.vb: Public Class AddressType
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Enums.AddressType.Description
+  commentId: P:Uvendia.Domain.Enums.AddressType.Description
+  id: Description
+  parent: Uvendia.Domain.Enums.AddressType
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: AddressType.Description
+  fullName: Uvendia.Domain.Enums.AddressType.Description
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/AddressType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Description
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/AddressType.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Description As String
+  overload: Uvendia.Domain.Enums.AddressType.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.AddressType.Id
+  commentId: P:Uvendia.Domain.Enums.AddressType.Id
+  id: Id
+  parent: Uvendia.Domain.Enums.AddressType
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: AddressType.Id
+  fullName: Uvendia.Domain.Enums.AddressType.Id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/AddressType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Id
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/AddressType.cs
+    startLine: 29
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public short Id { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Id As Short
+  overload: Uvendia.Domain.Enums.AddressType.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Enums.AddressType.GetAddressTypeByID(System.Int16)
+  commentId: M:Uvendia.Domain.Enums.AddressType.GetAddressTypeByID(System.Int16)
+  id: GetAddressTypeByID(System.Int16)
+  parent: Uvendia.Domain.Enums.AddressType
+  langs:
+  - csharp
+  - vb
+  name: GetAddressTypeByID(Int16)
+  nameWithType: AddressType.GetAddressTypeByID(Int16)
+  fullName: Uvendia.Domain.Enums.AddressType.GetAddressTypeByID(System.Int16)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/AddressType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetAddressTypeByID
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/AddressType.cs
+    startLine: 34
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static AddressType GetAddressTypeByID(short id)
+    parameters:
+    - id: id
+      type: System.Int16
+    return:
+      type: Uvendia.Domain.Enums.AddressType
+    content.vb: Public Shared Function GetAddressTypeByID(id As Short) As AddressType
+  overload: Uvendia.Domain.Enums.AddressType.GetAddressTypeByID*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.AddressType.GetAddressTypes
+  commentId: M:Uvendia.Domain.Enums.AddressType.GetAddressTypes
+  id: GetAddressTypes
+  parent: Uvendia.Domain.Enums.AddressType
+  langs:
+  - csharp
+  - vb
+  name: GetAddressTypes()
+  nameWithType: AddressType.GetAddressTypes()
+  fullName: Uvendia.Domain.Enums.AddressType.GetAddressTypes()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/AddressType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetAddressTypes
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/AddressType.cs
+    startLine: 40
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static List<AddressType> GetAddressTypes()
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Enums.AddressType}
+    content.vb: Public Shared Function GetAddressTypes As List(Of AddressType)
+  overload: Uvendia.Domain.Enums.AddressType.GetAddressTypes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.AddressType.Default
+  commentId: F:Uvendia.Domain.Enums.AddressType.Default
+  id: Default
+  parent: Uvendia.Domain.Enums.AddressType
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: AddressType.Default
+  fullName: Uvendia.Domain.Enums.AddressType.Default
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/AddressType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Default
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/AddressType.cs
+    startLine: 45
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static AddressType Default
+    return:
+      type: Uvendia.Domain.Enums.AddressType
+    content.vb: Public Shared Default As AddressType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.AddressType.ShipAddress
+  commentId: F:Uvendia.Domain.Enums.AddressType.ShipAddress
+  id: ShipAddress
+  parent: Uvendia.Domain.Enums.AddressType
+  langs:
+  - csharp
+  - vb
+  name: ShipAddress
+  nameWithType: AddressType.ShipAddress
+  fullName: Uvendia.Domain.Enums.AddressType.ShipAddress
+  type: Field
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/AddressType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ShipAddress
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/AddressType.cs
+    startLine: 46
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public static AddressType ShipAddress
+    return:
+      type: Uvendia.Domain.Enums.AddressType
+    content.vb: Public Shared ShipAddress As AddressType
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.Enums.AddressType.ToString
+  commentId: M:Uvendia.Domain.Enums.AddressType.ToString
+  id: ToString
+  parent: Uvendia.Domain.Enums.AddressType
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AddressType.ToString()
+  fullName: Uvendia.Domain.Enums.AddressType.ToString()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Enums/AddressType.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ToString
+    path: ../../dazzling.studio/Uvendia.Domain/Enums/AddressType.cs
+    startLine: 48
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Enums
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Uvendia.Domain.Enums.AddressType.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Uvendia.Domain.Enums
+  commentId: N:Uvendia.Domain.Enums
+  name: Uvendia.Domain.Enums
+  nameWithType: Uvendia.Domain.Enums
+  fullName: Uvendia.Domain.Enums
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Enums.AddressType.Description*
+  commentId: Overload:Uvendia.Domain.Enums.AddressType.Description
+  name: Description
+  nameWithType: AddressType.Description
+  fullName: Uvendia.Domain.Enums.AddressType.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Enums.AddressType.Id*
+  commentId: Overload:Uvendia.Domain.Enums.AddressType.Id
+  name: Id
+  nameWithType: AddressType.Id
+  fullName: Uvendia.Domain.Enums.AddressType.Id
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Uvendia.Domain.Enums.AddressType.GetAddressTypeByID*
+  commentId: Overload:Uvendia.Domain.Enums.AddressType.GetAddressTypeByID
+  name: GetAddressTypeByID
+  nameWithType: AddressType.GetAddressTypeByID
+  fullName: Uvendia.Domain.Enums.AddressType.GetAddressTypeByID
+- uid: Uvendia.Domain.Enums.AddressType
+  commentId: T:Uvendia.Domain.Enums.AddressType
+  parent: Uvendia.Domain.Enums
+  name: AddressType
+  nameWithType: AddressType
+  fullName: Uvendia.Domain.Enums.AddressType
+- uid: Uvendia.Domain.Enums.AddressType.GetAddressTypes*
+  commentId: Overload:Uvendia.Domain.Enums.AddressType.GetAddressTypes
+  name: GetAddressTypes
+  nameWithType: AddressType.GetAddressTypes
+  fullName: Uvendia.Domain.Enums.AddressType.GetAddressTypes
+- uid: System.Collections.Generic.List{Uvendia.Domain.Enums.AddressType}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Enums.AddressType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<AddressType>
+  nameWithType: List<AddressType>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Enums.AddressType>
+  nameWithType.vb: List(Of AddressType)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Enums.AddressType)
+  name.vb: List(Of AddressType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Enums.AddressType
+    name: AddressType
+    nameWithType: AddressType
+    fullName: Uvendia.Domain.Enums.AddressType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Enums.AddressType
+    name: AddressType
+    nameWithType: AddressType
+    fullName: Uvendia.Domain.Enums.AddressType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Enums.AddressType.ToString*
+  commentId: Overload:Uvendia.Domain.Enums.AddressType.ToString
+  name: ToString
+  nameWithType: AddressType.ToString
+  fullName: Uvendia.Domain.Enums.AddressType.ToString

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Validation.IPropertyValidation
+  commentId: T:Uvendia.Domain.Validation.IPropertyValidation
+  id: IPropertyValidation
+  parent: Uvendia.Domain.Validation
+  children:
+  - Uvendia.Domain.Validation.IPropertyValidation.ErrorMessage
+  - Uvendia.Domain.Validation.IPropertyValidation.IsValid(Uvendia.Domain.PropertyValue)
+  langs:
+  - csharp
+  - vb
+  name: IPropertyValidation
+  nameWithType: IPropertyValidation
+  fullName: Uvendia.Domain.Validation.IPropertyValidation
+  type: Interface
+  source:
+    remote:
+      path: Uvendia.Domain/Validation/IPropertyValidation.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IPropertyValidation
+    path: ../../dazzling.studio/Uvendia.Domain/Validation/IPropertyValidation.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Validation
+  summary: "\nInterface for implementing custom property validations\n"
+  example: []
+  syntax:
+    content: public interface IPropertyValidation
+    content.vb: Public Interface IPropertyValidation
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Uvendia.Domain.Validation.IPropertyValidation.ErrorMessage
+  commentId: P:Uvendia.Domain.Validation.IPropertyValidation.ErrorMessage
+  id: ErrorMessage
+  parent: Uvendia.Domain.Validation.IPropertyValidation
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: IPropertyValidation.ErrorMessage
+  fullName: Uvendia.Domain.Validation.IPropertyValidation.ErrorMessage
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Validation/IPropertyValidation.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ErrorMessage
+    path: ../../dazzling.studio/Uvendia.Domain/Validation/IPropertyValidation.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Validation
+  summary: "\nGets or sets the error message.\n"
+  example: []
+  syntax:
+    content: string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe error message.\n"
+    content.vb: Property ErrorMessage As String
+  overload: Uvendia.Domain.Validation.IPropertyValidation.ErrorMessage*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Uvendia.Domain.Validation.IPropertyValidation.IsValid(Uvendia.Domain.PropertyValue)
+  commentId: M:Uvendia.Domain.Validation.IPropertyValidation.IsValid(Uvendia.Domain.PropertyValue)
+  id: IsValid(Uvendia.Domain.PropertyValue)
+  parent: Uvendia.Domain.Validation.IPropertyValidation
+  langs:
+  - csharp
+  - vb
+  name: IsValid(PropertyValue)
+  nameWithType: IPropertyValidation.IsValid(PropertyValue)
+  fullName: Uvendia.Domain.Validation.IPropertyValidation.IsValid(Uvendia.Domain.PropertyValue)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Validation/IPropertyValidation.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsValid
+    path: ../../dazzling.studio/Uvendia.Domain/Validation/IPropertyValidation.cs
+    startLine: 28
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Validation
+  summary: "\nReturns true if property-value is valid.\n"
+  example: []
+  syntax:
+    content: bool IsValid(PropertyValue propertyValue)
+    parameters:
+    - id: propertyValue
+      type: Uvendia.Domain.PropertyValue
+      description: The property value.
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if the specified property value is valid; otherwise, <code>false</code>.\n"
+    content.vb: Function IsValid(propertyValue As PropertyValue) As Boolean
+  overload: Uvendia.Domain.Validation.IPropertyValidation.IsValid*
+references:
+- uid: Uvendia.Domain.Validation
+  commentId: N:Uvendia.Domain.Validation
+  name: Uvendia.Domain.Validation
+  nameWithType: Uvendia.Domain.Validation
+  fullName: Uvendia.Domain.Validation
+- uid: Uvendia.Domain.Validation.IPropertyValidation.ErrorMessage*
+  commentId: Overload:Uvendia.Domain.Validation.IPropertyValidation.ErrorMessage
+  name: ErrorMessage
+  nameWithType: IPropertyValidation.ErrorMessage
+  fullName: Uvendia.Domain.Validation.IPropertyValidation.ErrorMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Validation.IPropertyValidation.IsValid*
+  commentId: Overload:Uvendia.Domain.Validation.IPropertyValidation.IsValid
+  name: IsValid
+  nameWithType: IPropertyValidation.IsValid
+  fullName: Uvendia.Domain.Validation.IPropertyValidation.IsValid
+- uid: Uvendia.Domain.PropertyValue
+  commentId: T:Uvendia.Domain.PropertyValue
+  parent: Uvendia.Domain
+  name: PropertyValue
+  nameWithType: PropertyValue
+  fullName: Uvendia.Domain.PropertyValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain

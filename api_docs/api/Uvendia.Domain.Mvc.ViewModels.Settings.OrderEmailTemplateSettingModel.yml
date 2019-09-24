@@ -1,0 +1,679 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  id: OrderEmailTemplateSettingModel
+  parent: Uvendia.Domain.Mvc.ViewModels.Settings
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.#ctor
+  - Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Languages
+  - Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Logo
+  - Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSetting
+  langs:
+  - csharp
+  - vb
+  name: OrderEmailTemplateSettingModel
+  nameWithType: OrderEmailTemplateSettingModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderEmailTemplateSettingModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels.Settings
+  summary: "\nOrderEmailTemplateSetting Model\n"
+  example: []
+  syntax:
+    content: 'public class OrderEmailTemplateSettingModel : WebshopModel'
+    content.vb: >-
+      Public Class OrderEmailTemplateSettingModel
+          Inherits WebshopModel
+  seealso:
+  - linkId: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+    commentId: T:Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  inheritedMembers:
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  - Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.#ctor
+  commentId: M:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.#ctor
+  id: '#ctor'
+  parent: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  langs:
+  - csharp
+  - vb
+  name: OrderEmailTemplateSettingModel()
+  nameWithType: OrderEmailTemplateSettingModel.OrderEmailTemplateSettingModel()
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSettingModel()
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels.Settings
+  summary: "\nInitializes a new instance of the <xref href=\"Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public OrderEmailTemplateSettingModel()
+    content.vb: Public Sub New
+  overload: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSetting
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSetting
+  id: OrderEmailTemplateSetting
+  parent: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  langs:
+  - csharp
+  - vb
+  name: OrderEmailTemplateSetting
+  nameWithType: OrderEmailTemplateSettingModel.OrderEmailTemplateSetting
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSetting
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: OrderEmailTemplateSetting
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+    startLine: 41
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels.Settings
+  summary: "\nGets or sets the order email template setting.\n"
+  example: []
+  syntax:
+    content: public OrderEmailTemplateSetting OrderEmailTemplateSetting { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+      description: "\nThe order email template setting.\n"
+    content.vb: Public Property OrderEmailTemplateSetting As OrderEmailTemplateSetting
+  overload: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSetting*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Logo
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Logo
+  id: Logo
+  parent: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  langs:
+  - csharp
+  - vb
+  name: Logo
+  nameWithType: OrderEmailTemplateSettingModel.Logo
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Logo
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Logo
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+    startLine: 57
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels.Settings
+  summary: "\nGets or sets the logo.\n"
+  example: []
+  syntax:
+    content: public CloudinaryImageControl Logo { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+      description: "\nThe logo.\n"
+    content.vb: Public Property Logo As CloudinaryImageControl
+  overload: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Logo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Languages
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Languages
+  id: Languages
+  parent: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  langs:
+  - csharp
+  - vb
+  name: Languages
+  nameWithType: OrderEmailTemplateSettingModel.Languages
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Languages
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Languages
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/Settings/OrderEmailTemplateSettingModel.cs
+    startLine: 67
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels.Settings
+  summary: "\nGets the languages.\n"
+  example: []
+  syntax:
+    content: public List<Language> Languages { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Uvendia.Domain.Entities.Language}
+      description: "\nThe languages.\n"
+    content.vb: Public ReadOnly Property Languages As List(Of Language)
+  overload: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Languages*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  name: WebshopModel
+  nameWithType: WebshopModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings
+  commentId: N:Uvendia.Domain.Mvc.ViewModels.Settings
+  name: Uvendia.Domain.Mvc.ViewModels.Settings
+  nameWithType: Uvendia.Domain.Mvc.ViewModels.Settings
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreePath
+  nameWithType: WebshopModel.TreePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreePath
+- uid: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.WebshopModel
+  name: TreeSelectedNodePath
+  nameWithType: WebshopModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.WebshopModel.TreeSelectedNodePath
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+  parent: Uvendia.Domain.Mvc.ViewModels.Settings
+  name: OrderEmailTemplateSettingModel
+  nameWithType: OrderEmailTemplateSettingModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.#ctor*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.#ctor
+  name: OrderEmailTemplateSettingModel
+  nameWithType: OrderEmailTemplateSettingModel.OrderEmailTemplateSettingModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSettingModel
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSetting*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSetting
+  name: OrderEmailTemplateSetting
+  nameWithType: OrderEmailTemplateSettingModel.OrderEmailTemplateSetting
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.OrderEmailTemplateSetting
+- uid: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+  commentId: T:Uvendia.Domain.Settings.OrderEmailTemplateSetting
+  parent: Uvendia.Domain.Settings
+  name: OrderEmailTemplateSetting
+  nameWithType: OrderEmailTemplateSetting
+  fullName: Uvendia.Domain.Settings.OrderEmailTemplateSetting
+- uid: Uvendia.Domain.Settings
+  commentId: N:Uvendia.Domain.Settings
+  name: Uvendia.Domain.Settings
+  nameWithType: Uvendia.Domain.Settings
+  fullName: Uvendia.Domain.Settings
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Logo*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Logo
+  name: Logo
+  nameWithType: OrderEmailTemplateSettingModel.Logo
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Logo
+- uid: Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+  commentId: T:Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+  parent: Uvendia.Domain.Mvc.HtmlControls
+  name: CloudinaryImageControl
+  nameWithType: CloudinaryImageControl
+  fullName: Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl
+- uid: Uvendia.Domain.Mvc.HtmlControls
+  commentId: N:Uvendia.Domain.Mvc.HtmlControls
+  name: Uvendia.Domain.Mvc.HtmlControls
+  nameWithType: Uvendia.Domain.Mvc.HtmlControls
+  fullName: Uvendia.Domain.Mvc.HtmlControls
+- uid: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Languages*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Languages
+  name: Languages
+  nameWithType: OrderEmailTemplateSettingModel.Languages
+  fullName: Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.Languages
+- uid: System.Collections.Generic.List{Uvendia.Domain.Entities.Language}
+  commentId: T:System.Collections.Generic.List{Uvendia.Domain.Entities.Language}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Language>
+  nameWithType: List<Language>
+  fullName: System.Collections.Generic.List<Uvendia.Domain.Entities.Language>
+  nameWithType.vb: List(Of Language)
+  fullName.vb: System.Collections.Generic.List(Of Uvendia.Domain.Entities.Language)
+  name.vb: List(Of Language)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Entities.Language
+    name: Language
+    nameWithType: Language
+    fullName: Uvendia.Domain.Entities.Language
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Entities.Language
+    name: Language
+    nameWithType: Language
+    fullName: Uvendia.Domain.Entities.Language
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

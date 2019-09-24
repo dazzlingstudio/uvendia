@@ -1,0 +1,881 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.CurrentUser
+  commentId: T:Uvendia.Domain.CurrentUser
+  id: CurrentUser
+  parent: Uvendia.Domain
+  children:
+  - Uvendia.Domain.CurrentUser.AddClaim(System.String,System.String)
+  - Uvendia.Domain.CurrentUser.CreatedAt
+  - Uvendia.Domain.CurrentUser.Email
+  - Uvendia.Domain.CurrentUser.FullName
+  - Uvendia.Domain.CurrentUser.GetClaim(System.String)
+  - Uvendia.Domain.CurrentUser.IsAdmin
+  - Uvendia.Domain.CurrentUser.IsAuthenticated
+  - Uvendia.Domain.CurrentUser.IsInRole(System.String)
+  - Uvendia.Domain.CurrentUser.LanguageCode
+  - Uvendia.Domain.CurrentUser.UserId
+  langs:
+  - csharp
+  - vb
+  name: CurrentUser
+  nameWithType: CurrentUser
+  fullName: Uvendia.Domain.CurrentUser
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CurrentUser
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public class CurrentUser
+    content.vb: Public Class CurrentUser
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.CurrentUser.IsAdmin
+  commentId: P:Uvendia.Domain.CurrentUser.IsAdmin
+  id: IsAdmin
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: IsAdmin
+  nameWithType: CurrentUser.IsAdmin
+  fullName: Uvendia.Domain.CurrentUser.IsAdmin
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsAdmin
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static bool IsAdmin { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsAdmin As Boolean
+  overload: Uvendia.Domain.CurrentUser.IsAdmin*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.CurrentUser.IsAuthenticated
+  commentId: P:Uvendia.Domain.CurrentUser.IsAuthenticated
+  id: IsAuthenticated
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: IsAuthenticated
+  nameWithType: CurrentUser.IsAuthenticated
+  fullName: Uvendia.Domain.CurrentUser.IsAuthenticated
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsAuthenticated
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static bool IsAuthenticated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsAuthenticated As Boolean
+  overload: Uvendia.Domain.CurrentUser.IsAuthenticated*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.CurrentUser.UserId
+  commentId: P:Uvendia.Domain.CurrentUser.UserId
+  id: UserId
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: CurrentUser.UserId
+  fullName: Uvendia.Domain.CurrentUser.UserId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UserId
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static string UserId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property UserId As String
+  overload: Uvendia.Domain.CurrentUser.UserId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.CurrentUser.FullName
+  commentId: P:Uvendia.Domain.CurrentUser.FullName
+  id: FullName
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: CurrentUser.FullName
+  fullName: Uvendia.Domain.CurrentUser.FullName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: FullName
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static string FullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FullName As String
+  overload: Uvendia.Domain.CurrentUser.FullName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.CurrentUser.Email
+  commentId: P:Uvendia.Domain.CurrentUser.Email
+  id: Email
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: CurrentUser.Email
+  fullName: Uvendia.Domain.CurrentUser.Email
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Email
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static string Email { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Email As String
+  overload: Uvendia.Domain.CurrentUser.Email*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.CurrentUser.LanguageCode
+  commentId: P:Uvendia.Domain.CurrentUser.LanguageCode
+  id: LanguageCode
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: CurrentUser.LanguageCode
+  fullName: Uvendia.Domain.CurrentUser.LanguageCode
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: LanguageCode
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static string LanguageCode { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property LanguageCode As String
+  overload: Uvendia.Domain.CurrentUser.LanguageCode*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.CurrentUser.CreatedAt
+  commentId: P:Uvendia.Domain.CurrentUser.CreatedAt
+  id: CreatedAt
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: CurrentUser.CreatedAt
+  fullName: Uvendia.Domain.CurrentUser.CreatedAt
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CreatedAt
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  syntax:
+    content: public static DateTime? CreatedAt { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Shared ReadOnly Property CreatedAt As Date?
+  overload: Uvendia.Domain.CurrentUser.CreatedAt*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Uvendia.Domain.CurrentUser.AddClaim(System.String,System.String)
+  commentId: M:Uvendia.Domain.CurrentUser.AddClaim(System.String,System.String)
+  id: AddClaim(System.String,System.String)
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: AddClaim(String, String)
+  nameWithType: CurrentUser.AddClaim(String, String)
+  fullName: Uvendia.Domain.CurrentUser.AddClaim(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: AddClaim
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 39
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nAdds the claim.\n"
+  example: []
+  syntax:
+    content: public static void AddClaim(string type, string value)
+    parameters:
+    - id: type
+      type: System.String
+      description: The type.
+    - id: value
+      type: System.String
+      description: The value.
+    content.vb: Public Shared Sub AddClaim(type As String, value As String)
+  overload: Uvendia.Domain.CurrentUser.AddClaim*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.CurrentUser.GetClaim(System.String)
+  commentId: M:Uvendia.Domain.CurrentUser.GetClaim(System.String)
+  id: GetClaim(System.String)
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: GetClaim(String)
+  nameWithType: CurrentUser.GetClaim(String)
+  fullName: Uvendia.Domain.CurrentUser.GetClaim(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: GetClaim
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 49
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nGets the claim.\n"
+  example: []
+  syntax:
+    content: public static string GetClaim(string type)
+    parameters:
+    - id: type
+      type: System.String
+      description: The type.
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetClaim(type As String) As String
+  overload: Uvendia.Domain.CurrentUser.GetClaim*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Uvendia.Domain.CurrentUser.IsInRole(System.String)
+  commentId: M:Uvendia.Domain.CurrentUser.IsInRole(System.String)
+  id: IsInRole(System.String)
+  parent: Uvendia.Domain.CurrentUser
+  langs:
+  - csharp
+  - vb
+  name: IsInRole(String)
+  nameWithType: CurrentUser.IsInRole(String)
+  fullName: Uvendia.Domain.CurrentUser.IsInRole(System.String)
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/CurrentUser.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsInRole
+    path: ../../dazzling.studio/Uvendia.Domain/CurrentUser.cs
+    startLine: 61
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain
+  summary: "\nDetermines whether [is in role] [the specified role].\n"
+  example: []
+  syntax:
+    content: public static bool IsInRole(string role)
+    parameters:
+    - id: role
+      type: System.String
+      description: The role.
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if [is in role] [the specified role]; otherwise, <code>false</code>.\n"
+    content.vb: Public Shared Function IsInRole(role As String) As Boolean
+  overload: Uvendia.Domain.CurrentUser.IsInRole*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.CurrentUser.IsAdmin*
+  commentId: Overload:Uvendia.Domain.CurrentUser.IsAdmin
+  name: IsAdmin
+  nameWithType: CurrentUser.IsAdmin
+  fullName: Uvendia.Domain.CurrentUser.IsAdmin
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.CurrentUser.IsAuthenticated*
+  commentId: Overload:Uvendia.Domain.CurrentUser.IsAuthenticated
+  name: IsAuthenticated
+  nameWithType: CurrentUser.IsAuthenticated
+  fullName: Uvendia.Domain.CurrentUser.IsAuthenticated
+- uid: Uvendia.Domain.CurrentUser.UserId*
+  commentId: Overload:Uvendia.Domain.CurrentUser.UserId
+  name: UserId
+  nameWithType: CurrentUser.UserId
+  fullName: Uvendia.Domain.CurrentUser.UserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.CurrentUser.FullName*
+  commentId: Overload:Uvendia.Domain.CurrentUser.FullName
+  name: FullName
+  nameWithType: CurrentUser.FullName
+  fullName: Uvendia.Domain.CurrentUser.FullName
+- uid: Uvendia.Domain.CurrentUser.Email*
+  commentId: Overload:Uvendia.Domain.CurrentUser.Email
+  name: Email
+  nameWithType: CurrentUser.Email
+  fullName: Uvendia.Domain.CurrentUser.Email
+- uid: Uvendia.Domain.CurrentUser.LanguageCode*
+  commentId: Overload:Uvendia.Domain.CurrentUser.LanguageCode
+  name: LanguageCode
+  nameWithType: CurrentUser.LanguageCode
+  fullName: Uvendia.Domain.CurrentUser.LanguageCode
+- uid: Uvendia.Domain.CurrentUser.CreatedAt*
+  commentId: Overload:Uvendia.Domain.CurrentUser.CreatedAt
+  name: CreatedAt
+  nameWithType: CurrentUser.CreatedAt
+  fullName: Uvendia.Domain.CurrentUser.CreatedAt
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.CurrentUser.AddClaim*
+  commentId: Overload:Uvendia.Domain.CurrentUser.AddClaim
+  name: AddClaim
+  nameWithType: CurrentUser.AddClaim
+  fullName: Uvendia.Domain.CurrentUser.AddClaim
+- uid: Uvendia.Domain.CurrentUser.GetClaim*
+  commentId: Overload:Uvendia.Domain.CurrentUser.GetClaim
+  name: GetClaim
+  nameWithType: CurrentUser.GetClaim
+  fullName: Uvendia.Domain.CurrentUser.GetClaim
+- uid: Uvendia.Domain.CurrentUser.IsInRole*
+  commentId: Overload:Uvendia.Domain.CurrentUser.IsInRole
+  name: IsInRole
+  nameWithType: CurrentUser.IsInRole
+  fullName: Uvendia.Domain.CurrentUser.IsInRole

@@ -1,0 +1,1697 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Cart.CartItem
+  commentId: T:Uvendia.Domain.Cart.CartItem
+  id: CartItem
+  parent: Uvendia.Domain.Cart
+  children:
+  - Uvendia.Domain.Cart.CartItem.CalculateSubtotal
+  - Uvendia.Domain.Cart.CartItem.CookieId
+  - Uvendia.Domain.Cart.CartItem.Description
+  - Uvendia.Domain.Cart.CartItem.Id
+  - Uvendia.Domain.Cart.CartItem.IsActive
+  - Uvendia.Domain.Cart.CartItem.ItemDiscount
+  - Uvendia.Domain.Cart.CartItem.MetaData
+  - Uvendia.Domain.Cart.CartItem.Name
+  - Uvendia.Domain.Cart.CartItem.PriceDefinitionName
+  - Uvendia.Domain.Cart.CartItem.Product
+  - Uvendia.Domain.Cart.CartItem.ProductId
+  - Uvendia.Domain.Cart.CartItem.Quantity
+  - Uvendia.Domain.Cart.CartItem.TicketCancellationInsured
+  - Uvendia.Domain.Cart.CartItem.TicketSale
+  - Uvendia.Domain.Cart.CartItem.TicketSaleId
+  - Uvendia.Domain.Cart.CartItem.UnitPrice
+  - Uvendia.Domain.Cart.CartItem.UnitPriceId
+  langs:
+  - csharp
+  - vb
+  name: CartItem
+  nameWithType: CartItem
+  fullName: Uvendia.Domain.Cart.CartItem
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CartItem
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: 'public class CartItem : Webshop, IDazzlingEntity'
+    content.vb: >-
+      Public Class CartItem
+          Inherits Webshop
+          Implements IDazzlingEntity
+  inheritance:
+  - System.Object
+  - Uvendia.Domain.Webshop
+  implements:
+  - Dazzling.Studio.SqlRepository.IDazzlingEntity
+  inheritedMembers:
+  - Uvendia.Domain.Webshop.PropertyIdChanged
+  - Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  - Uvendia.Domain.Webshop.CreatedOn
+  - Uvendia.Domain.Webshop.ModifiedOn
+  - Uvendia.Domain.Webshop.CreatedBy
+  - Uvendia.Domain.Webshop.ModifiedBy
+  - Uvendia.Domain.Webshop.PublicatedOn
+  - Uvendia.Domain.Webshop.Rowversion
+  - Uvendia.Domain.Webshop.IsValid
+  - Uvendia.Domain.Webshop.IsValid(System.String)
+  - Uvendia.Domain.Webshop.GetValidationErrors
+  - Uvendia.Domain.Webshop.GetCurrentCultureName
+  - Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Cart.CartItem.Id
+  commentId: P:Uvendia.Domain.Cart.CartItem.Id
+  id: Id
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: CartItem.Id
+  fullName: Uvendia.Domain.Cart.CartItem.Id
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Id
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Uvendia.Domain.Cart.CartItem.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.CookieId
+  commentId: P:Uvendia.Domain.Cart.CartItem.CookieId
+  id: CookieId
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: CookieId
+  nameWithType: CartItem.CookieId
+  fullName: Uvendia.Domain.Cart.CartItem.CookieId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CookieId
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 15
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public Guid? CookieId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Guid}
+    content.vb: Public Property CookieId As Guid?
+  overload: Uvendia.Domain.Cart.CartItem.CookieId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.ProductId
+  commentId: P:Uvendia.Domain.Cart.CartItem.ProductId
+  id: ProductId
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: CartItem.ProductId
+  fullName: Uvendia.Domain.Cart.CartItem.ProductId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ProductId
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 16
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public long? ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property ProductId As Long?
+  overload: Uvendia.Domain.Cart.CartItem.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.TicketSaleId
+  commentId: P:Uvendia.Domain.Cart.CartItem.TicketSaleId
+  id: TicketSaleId
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: TicketSaleId
+  nameWithType: CartItem.TicketSaleId
+  fullName: Uvendia.Domain.Cart.CartItem.TicketSaleId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketSaleId
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public long? TicketSaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property TicketSaleId As Long?
+  overload: Uvendia.Domain.Cart.CartItem.TicketSaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.TicketCancellationInsured
+  commentId: P:Uvendia.Domain.Cart.CartItem.TicketCancellationInsured
+  id: TicketCancellationInsured
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: TicketCancellationInsured
+  nameWithType: CartItem.TicketCancellationInsured
+  fullName: Uvendia.Domain.Cart.CartItem.TicketCancellationInsured
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketCancellationInsured
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 18
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public bool TicketCancellationInsured { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TicketCancellationInsured As Boolean
+  overload: Uvendia.Domain.Cart.CartItem.TicketCancellationInsured*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.Name
+  commentId: P:Uvendia.Domain.Cart.CartItem.Name
+  id: Name
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CartItem.Name
+  fullName: Uvendia.Domain.Cart.CartItem.Name
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Name
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 19
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Uvendia.Domain.Cart.CartItem.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.Description
+  commentId: P:Uvendia.Domain.Cart.CartItem.Description
+  id: Description
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CartItem.Description
+  fullName: Uvendia.Domain.Cart.CartItem.Description
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Description
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 20
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Uvendia.Domain.Cart.CartItem.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.Quantity
+  commentId: P:Uvendia.Domain.Cart.CartItem.Quantity
+  id: Quantity
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: CartItem.Quantity
+  fullName: Uvendia.Domain.Cart.CartItem.Quantity
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Quantity
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 21
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public int Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Quantity As Integer
+  overload: Uvendia.Domain.Cart.CartItem.Quantity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.UnitPrice
+  commentId: P:Uvendia.Domain.Cart.CartItem.UnitPrice
+  id: UnitPrice
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: UnitPrice
+  nameWithType: CartItem.UnitPrice
+  fullName: Uvendia.Domain.Cart.CartItem.UnitPrice
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UnitPrice
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 22
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public decimal UnitPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property UnitPrice As Decimal
+  overload: Uvendia.Domain.Cart.CartItem.UnitPrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.UnitPriceId
+  commentId: P:Uvendia.Domain.Cart.CartItem.UnitPriceId
+  id: UnitPriceId
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: UnitPriceId
+  nameWithType: CartItem.UnitPriceId
+  fullName: Uvendia.Domain.Cart.CartItem.UnitPriceId
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: UnitPriceId
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 23
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public long UnitPriceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property UnitPriceId As Long
+  overload: Uvendia.Domain.Cart.CartItem.UnitPriceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.PriceDefinitionName
+  commentId: P:Uvendia.Domain.Cart.CartItem.PriceDefinitionName
+  id: PriceDefinitionName
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: PriceDefinitionName
+  nameWithType: CartItem.PriceDefinitionName
+  fullName: Uvendia.Domain.Cart.CartItem.PriceDefinitionName
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PriceDefinitionName
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 24
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public string PriceDefinitionName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PriceDefinitionName As String
+  overload: Uvendia.Domain.Cart.CartItem.PriceDefinitionName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.IsActive
+  commentId: P:Uvendia.Domain.Cart.CartItem.IsActive
+  id: IsActive
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: CartItem.IsActive
+  fullName: Uvendia.Domain.Cart.CartItem.IsActive
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: IsActive
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 25
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsActive As Boolean
+  overload: Uvendia.Domain.Cart.CartItem.IsActive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.MetaData
+  commentId: P:Uvendia.Domain.Cart.CartItem.MetaData
+  id: MetaData
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: MetaData
+  nameWithType: CartItem.MetaData
+  fullName: Uvendia.Domain.Cart.CartItem.MetaData
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: MetaData
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 26
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public string MetaData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MetaData As String
+  overload: Uvendia.Domain.Cart.CartItem.MetaData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.ItemDiscount
+  commentId: P:Uvendia.Domain.Cart.CartItem.ItemDiscount
+  id: ItemDiscount
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: ItemDiscount
+  nameWithType: CartItem.ItemDiscount
+  fullName: Uvendia.Domain.Cart.CartItem.ItemDiscount
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: ItemDiscount
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 27
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public decimal ItemDiscount { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property ItemDiscount As Decimal
+  overload: Uvendia.Domain.Cart.CartItem.ItemDiscount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Cart.CartItem.Product
+  commentId: P:Uvendia.Domain.Cart.CartItem.Product
+  id: Product
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: CartItem.Product
+  fullName: Uvendia.Domain.Cart.CartItem.Product
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Product
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 31
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public Proxy<Product> Product { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Proxies.Proxy{Uvendia.Domain.Product}
+    content.vb: Public ReadOnly Property Product As Proxy(Of Product)
+  overload: Uvendia.Domain.Cart.CartItem.Product*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Cart.CartItem.TicketSale
+  commentId: P:Uvendia.Domain.Cart.CartItem.TicketSale
+  id: TicketSale
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: TicketSale
+  nameWithType: CartItem.TicketSale
+  fullName: Uvendia.Domain.Cart.CartItem.TicketSale
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TicketSale
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 45
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  syntax:
+    content: public Proxy<TicketSale> TicketSale { get; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.Proxies.Proxy{Uvendia.Domain.TicketSale}
+    content.vb: Public ReadOnly Property TicketSale As Proxy(Of TicketSale)
+  overload: Uvendia.Domain.Cart.CartItem.TicketSale*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Uvendia.Domain.Cart.CartItem.CalculateSubtotal
+  commentId: M:Uvendia.Domain.Cart.CartItem.CalculateSubtotal
+  id: CalculateSubtotal
+  parent: Uvendia.Domain.Cart.CartItem
+  langs:
+  - csharp
+  - vb
+  name: CalculateSubtotal()
+  nameWithType: CartItem.CalculateSubtotal()
+  fullName: Uvendia.Domain.Cart.CartItem.CalculateSubtotal()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Cart/CartItem.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: CalculateSubtotal
+    path: ../../dazzling.studio/Uvendia.Domain/Cart/CartItem.cs
+    startLine: 61
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Cart
+  summary: "\nCalculates the subtotal.\n"
+  example: []
+  syntax:
+    content: public decimal CalculateSubtotal()
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Function CalculateSubtotal As Decimal
+  overload: Uvendia.Domain.Cart.CartItem.CalculateSubtotal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Uvendia.Domain.Cart
+  commentId: N:Uvendia.Domain.Cart
+  name: Uvendia.Domain.Cart
+  nameWithType: Uvendia.Domain.Cart
+  fullName: Uvendia.Domain.Cart
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Uvendia.Domain.Webshop
+  commentId: T:Uvendia.Domain.Webshop
+  parent: Uvendia.Domain
+  name: Webshop
+  nameWithType: Webshop
+  fullName: Uvendia.Domain.Webshop
+- uid: Dazzling.Studio.SqlRepository.IDazzlingEntity
+  commentId: T:Dazzling.Studio.SqlRepository.IDazzlingEntity
+  parent: Dazzling.Studio.SqlRepository
+  name: IDazzlingEntity
+  nameWithType: IDazzlingEntity
+  fullName: Dazzling.Studio.SqlRepository.IDazzlingEntity
+- uid: Uvendia.Domain.Webshop.PropertyIdChanged
+  commentId: E:Uvendia.Domain.Webshop.PropertyIdChanged
+  parent: Uvendia.Domain.Webshop
+  name: PropertyIdChanged
+  nameWithType: Webshop.PropertyIdChanged
+  fullName: Uvendia.Domain.Webshop.PropertyIdChanged
+- uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  commentId: M:Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: OnPropertyIdChanged(Object, EventArgs)
+  nameWithType: Webshop.OnPropertyIdChanged(Object, EventArgs)
+  fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object, System.EventArgs)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+    name: OnPropertyIdChanged
+    nameWithType: Webshop.OnPropertyIdChanged
+    fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.OnPropertyIdChanged(System.Object,System.EventArgs)
+    name: OnPropertyIdChanged
+    nameWithType: Webshop.OnPropertyIdChanged
+    fullName: Uvendia.Domain.Webshop.OnPropertyIdChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.CreatedOn
+  commentId: P:Uvendia.Domain.Webshop.CreatedOn
+  parent: Uvendia.Domain.Webshop
+  name: CreatedOn
+  nameWithType: Webshop.CreatedOn
+  fullName: Uvendia.Domain.Webshop.CreatedOn
+- uid: Uvendia.Domain.Webshop.ModifiedOn
+  commentId: P:Uvendia.Domain.Webshop.ModifiedOn
+  parent: Uvendia.Domain.Webshop
+  name: ModifiedOn
+  nameWithType: Webshop.ModifiedOn
+  fullName: Uvendia.Domain.Webshop.ModifiedOn
+- uid: Uvendia.Domain.Webshop.CreatedBy
+  commentId: P:Uvendia.Domain.Webshop.CreatedBy
+  parent: Uvendia.Domain.Webshop
+  name: CreatedBy
+  nameWithType: Webshop.CreatedBy
+  fullName: Uvendia.Domain.Webshop.CreatedBy
+- uid: Uvendia.Domain.Webshop.ModifiedBy
+  commentId: P:Uvendia.Domain.Webshop.ModifiedBy
+  parent: Uvendia.Domain.Webshop
+  name: ModifiedBy
+  nameWithType: Webshop.ModifiedBy
+  fullName: Uvendia.Domain.Webshop.ModifiedBy
+- uid: Uvendia.Domain.Webshop.PublicatedOn
+  commentId: P:Uvendia.Domain.Webshop.PublicatedOn
+  parent: Uvendia.Domain.Webshop
+  name: PublicatedOn
+  nameWithType: Webshop.PublicatedOn
+  fullName: Uvendia.Domain.Webshop.PublicatedOn
+- uid: Uvendia.Domain.Webshop.Rowversion
+  commentId: P:Uvendia.Domain.Webshop.Rowversion
+  parent: Uvendia.Domain.Webshop
+  name: Rowversion
+  nameWithType: Webshop.Rowversion
+  fullName: Uvendia.Domain.Webshop.Rowversion
+- uid: Uvendia.Domain.Webshop.IsValid
+  commentId: M:Uvendia.Domain.Webshop.IsValid
+  parent: Uvendia.Domain.Webshop
+  name: IsValid()
+  nameWithType: Webshop.IsValid()
+  fullName: Uvendia.Domain.Webshop.IsValid()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.IsValid
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.IsValid
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.IsValid(System.String)
+  commentId: M:Uvendia.Domain.Webshop.IsValid(System.String)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: IsValid(String)
+  nameWithType: Webshop.IsValid(String)
+  fullName: Uvendia.Domain.Webshop.IsValid(System.String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.IsValid(System.String)
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.IsValid(System.String)
+    name: IsValid
+    nameWithType: Webshop.IsValid
+    fullName: Uvendia.Domain.Webshop.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetValidationErrors
+  commentId: M:Uvendia.Domain.Webshop.GetValidationErrors
+  parent: Uvendia.Domain.Webshop
+  name: GetValidationErrors()
+  nameWithType: Webshop.GetValidationErrors()
+  fullName: Uvendia.Domain.Webshop.GetValidationErrors()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: Webshop.GetValidationErrors
+    fullName: Uvendia.Domain.Webshop.GetValidationErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: Webshop.GetValidationErrors
+    fullName: Uvendia.Domain.Webshop.GetValidationErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+  commentId: M:Uvendia.Domain.Webshop.GetCurrentCultureName
+  parent: Uvendia.Domain.Webshop
+  name: GetCurrentCultureName()
+  nameWithType: Webshop.GetCurrentCultureName()
+  fullName: Uvendia.Domain.Webshop.GetCurrentCultureName()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+    name: GetCurrentCultureName
+    nameWithType: Webshop.GetCurrentCultureName
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureName
+    name: GetCurrentCultureName
+    nameWithType: Webshop.GetCurrentCultureName
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  commentId: M:Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  parent: Uvendia.Domain.Webshop
+  name: GetCurrentCultureInfo()
+  nameWithType: Webshop.GetCurrentCultureInfo()
+  fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo()
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+    name: GetCurrentCultureInfo
+    nameWithType: Webshop.GetCurrentCultureInfo
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+    name: GetCurrentCultureInfo
+    nameWithType: Webshop.GetCurrentCultureInfo
+    fullName: Uvendia.Domain.Webshop.GetCurrentCultureInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  commentId: M:Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+  parent: Uvendia.Domain.Webshop
+  isExternal: true
+  name: GetTranslation(IList<Translation>, String)
+  nameWithType: Webshop.GetTranslation(IList<Translation>, String)
+  fullName: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList<Uvendia.Domain.Translation>, System.String)
+  nameWithType.vb: Webshop.GetTranslation(IList(Of Translation), String)
+  fullName.vb: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList(Of Uvendia.Domain.Translation), System.String)
+  name.vb: GetTranslation(IList(Of Translation), String)
+  spec.csharp:
+  - uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+    name: GetTranslation
+    nameWithType: Webshop.GetTranslation
+    fullName: Uvendia.Domain.Webshop.GetTranslation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Webshop.GetTranslation(System.Collections.Generic.IList{Uvendia.Domain.Translation},System.String)
+    name: GetTranslation
+    nameWithType: Webshop.GetTranslation
+    fullName: Uvendia.Domain.Webshop.GetTranslation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Translation
+    name: Translation
+    nameWithType: Translation
+    fullName: Uvendia.Domain.Translation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Dazzling.Studio.SqlRepository
+  commentId: N:Dazzling.Studio.SqlRepository
+  name: Dazzling.Studio.SqlRepository
+  nameWithType: Dazzling.Studio.SqlRepository
+  fullName: Dazzling.Studio.SqlRepository
+- uid: Uvendia.Domain.Cart.CartItem.Id*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.Id
+  name: Id
+  nameWithType: CartItem.Id
+  fullName: Uvendia.Domain.Cart.CartItem.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Uvendia.Domain.Cart.CartItem.CookieId*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.CookieId
+  name: CookieId
+  nameWithType: CartItem.CookieId
+  fullName: Uvendia.Domain.Cart.CartItem.CookieId
+- uid: System.Nullable{System.Guid}
+  commentId: T:System.Nullable{System.Guid}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Guid>
+  nameWithType: Nullable<Guid>
+  fullName: System.Nullable<System.Guid>
+  nameWithType.vb: Nullable(Of Guid)
+  fullName.vb: System.Nullable(Of System.Guid)
+  name.vb: Nullable(Of Guid)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Cart.CartItem.ProductId*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.ProductId
+  name: ProductId
+  nameWithType: CartItem.ProductId
+  fullName: Uvendia.Domain.Cart.CartItem.ProductId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Cart.CartItem.TicketSaleId*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.TicketSaleId
+  name: TicketSaleId
+  nameWithType: CartItem.TicketSaleId
+  fullName: Uvendia.Domain.Cart.CartItem.TicketSaleId
+- uid: Uvendia.Domain.Cart.CartItem.TicketCancellationInsured*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.TicketCancellationInsured
+  name: TicketCancellationInsured
+  nameWithType: CartItem.TicketCancellationInsured
+  fullName: Uvendia.Domain.Cart.CartItem.TicketCancellationInsured
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Uvendia.Domain.Cart.CartItem.Name*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.Name
+  name: Name
+  nameWithType: CartItem.Name
+  fullName: Uvendia.Domain.Cart.CartItem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Cart.CartItem.Description*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.Description
+  name: Description
+  nameWithType: CartItem.Description
+  fullName: Uvendia.Domain.Cart.CartItem.Description
+- uid: Uvendia.Domain.Cart.CartItem.Quantity*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.Quantity
+  name: Quantity
+  nameWithType: CartItem.Quantity
+  fullName: Uvendia.Domain.Cart.CartItem.Quantity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Uvendia.Domain.Cart.CartItem.UnitPrice*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.UnitPrice
+  name: UnitPrice
+  nameWithType: CartItem.UnitPrice
+  fullName: Uvendia.Domain.Cart.CartItem.UnitPrice
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: Uvendia.Domain.Cart.CartItem.UnitPriceId*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.UnitPriceId
+  name: UnitPriceId
+  nameWithType: CartItem.UnitPriceId
+  fullName: Uvendia.Domain.Cart.CartItem.UnitPriceId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Uvendia.Domain.Cart.CartItem.PriceDefinitionName*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.PriceDefinitionName
+  name: PriceDefinitionName
+  nameWithType: CartItem.PriceDefinitionName
+  fullName: Uvendia.Domain.Cart.CartItem.PriceDefinitionName
+- uid: Uvendia.Domain.Cart.CartItem.IsActive*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.IsActive
+  name: IsActive
+  nameWithType: CartItem.IsActive
+  fullName: Uvendia.Domain.Cart.CartItem.IsActive
+- uid: Uvendia.Domain.Cart.CartItem.MetaData*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.MetaData
+  name: MetaData
+  nameWithType: CartItem.MetaData
+  fullName: Uvendia.Domain.Cart.CartItem.MetaData
+- uid: Uvendia.Domain.Cart.CartItem.ItemDiscount*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.ItemDiscount
+  name: ItemDiscount
+  nameWithType: CartItem.ItemDiscount
+  fullName: Uvendia.Domain.Cart.CartItem.ItemDiscount
+- uid: Uvendia.Domain.Cart.CartItem.Product*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.Product
+  name: Product
+  nameWithType: CartItem.Product
+  fullName: Uvendia.Domain.Cart.CartItem.Product
+- uid: Uvendia.Domain.Proxies.Proxy{Uvendia.Domain.Product}
+  commentId: T:Uvendia.Domain.Proxies.Proxy{Uvendia.Domain.Product}
+  parent: Uvendia.Domain.Proxies
+  definition: Uvendia.Domain.Proxies.Proxy`1
+  name: Proxy<Product>
+  nameWithType: Proxy<Product>
+  fullName: Uvendia.Domain.Proxies.Proxy<Uvendia.Domain.Product>
+  nameWithType.vb: Proxy(Of Product)
+  fullName.vb: Uvendia.Domain.Proxies.Proxy(Of Uvendia.Domain.Product)
+  name.vb: Proxy(Of Product)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy
+    nameWithType: Proxy
+    fullName: Uvendia.Domain.Proxies.Proxy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.Product
+    name: Product
+    nameWithType: Product
+    fullName: Uvendia.Domain.Product
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy
+    nameWithType: Proxy
+    fullName: Uvendia.Domain.Proxies.Proxy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.Product
+    name: Product
+    nameWithType: Product
+    fullName: Uvendia.Domain.Product
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies.Proxy`1
+  commentId: T:Uvendia.Domain.Proxies.Proxy`1
+  name: Proxy<TEntity>
+  nameWithType: Proxy<TEntity>
+  fullName: Uvendia.Domain.Proxies.Proxy<TEntity>
+  nameWithType.vb: Proxy(Of TEntity)
+  fullName.vb: Uvendia.Domain.Proxies.Proxy(Of TEntity)
+  name.vb: Proxy(Of TEntity)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy
+    nameWithType: Proxy
+    fullName: Uvendia.Domain.Proxies.Proxy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy
+    nameWithType: Proxy
+    fullName: Uvendia.Domain.Proxies.Proxy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Proxies
+  commentId: N:Uvendia.Domain.Proxies
+  name: Uvendia.Domain.Proxies
+  nameWithType: Uvendia.Domain.Proxies
+  fullName: Uvendia.Domain.Proxies
+- uid: Uvendia.Domain.Cart.CartItem.TicketSale*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.TicketSale
+  name: TicketSale
+  nameWithType: CartItem.TicketSale
+  fullName: Uvendia.Domain.Cart.CartItem.TicketSale
+- uid: Uvendia.Domain.Proxies.Proxy{Uvendia.Domain.TicketSale}
+  commentId: T:Uvendia.Domain.Proxies.Proxy{Uvendia.Domain.TicketSale}
+  parent: Uvendia.Domain.Proxies
+  definition: Uvendia.Domain.Proxies.Proxy`1
+  name: Proxy<TicketSale>
+  nameWithType: Proxy<TicketSale>
+  fullName: Uvendia.Domain.Proxies.Proxy<Uvendia.Domain.TicketSale>
+  nameWithType.vb: Proxy(Of TicketSale)
+  fullName.vb: Uvendia.Domain.Proxies.Proxy(Of Uvendia.Domain.TicketSale)
+  name.vb: Proxy(Of TicketSale)
+  spec.csharp:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy
+    nameWithType: Proxy
+    fullName: Uvendia.Domain.Proxies.Proxy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Uvendia.Domain.TicketSale
+    name: TicketSale
+    nameWithType: TicketSale
+    fullName: Uvendia.Domain.TicketSale
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Uvendia.Domain.Proxies.Proxy`1
+    name: Proxy
+    nameWithType: Proxy
+    fullName: Uvendia.Domain.Proxies.Proxy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Uvendia.Domain.TicketSale
+    name: TicketSale
+    nameWithType: TicketSale
+    fullName: Uvendia.Domain.TicketSale
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Cart.CartItem.CalculateSubtotal*
+  commentId: Overload:Uvendia.Domain.Cart.CartItem.CalculateSubtotal
+  name: CalculateSubtotal
+  nameWithType: CartItem.CalculateSubtotal
+  fullName: Uvendia.Domain.Cart.CartItem.CalculateSubtotal

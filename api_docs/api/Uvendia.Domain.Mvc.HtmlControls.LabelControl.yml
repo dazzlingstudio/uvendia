@@ -1,0 +1,632 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.HtmlControls.LabelControl
+  commentId: T:Uvendia.Domain.Mvc.HtmlControls.LabelControl
+  id: LabelControl
+  parent: Uvendia.Domain.Mvc.HtmlControls
+  children:
+  - Uvendia.Domain.Mvc.HtmlControls.LabelControl.#ctor(Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)
+  - Uvendia.Domain.Mvc.HtmlControls.LabelControl.RenderControl
+  langs:
+  - csharp
+  - vb
+  name: LabelControl
+  nameWithType: LabelControl
+  fullName: Uvendia.Domain.Mvc.HtmlControls.LabelControl
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/HtmlControls/LabelControl.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: LabelControl
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/HtmlControls/LabelControl.cs
+    startLine: 9
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.HtmlControls
+  syntax:
+    content: 'public class LabelControl : BaseControl'
+    content.vb: >-
+      Public Class LabelControl
+          Inherits BaseControl
+  inheritance:
+  - System.Object
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  inheritedMembers:
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl._property
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl._propertyValue
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.Property
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.PropertyValue
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.PrefixControlId
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.ControlId
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.ContainerCssClass
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderLabel
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.CreateDefaultContainer
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.ToString
+  - Uvendia.Domain.Mvc.HtmlControls.BaseControl.Create(Uvendia.Domain.Enums.DataType,Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.HtmlControls.LabelControl.#ctor(Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)
+  commentId: M:Uvendia.Domain.Mvc.HtmlControls.LabelControl.#ctor(Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)
+  id: '#ctor(Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)'
+  parent: Uvendia.Domain.Mvc.HtmlControls.LabelControl
+  langs:
+  - csharp
+  - vb
+  name: LabelControl(Property, PropertyValue)
+  nameWithType: LabelControl.LabelControl(Property, PropertyValue)
+  fullName: Uvendia.Domain.Mvc.HtmlControls.LabelControl.LabelControl(Uvendia.Domain.Property, Uvendia.Domain.PropertyValue)
+  type: Constructor
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/HtmlControls/LabelControl.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: .ctor
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/HtmlControls/LabelControl.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.HtmlControls
+  syntax:
+    content: public LabelControl(Property property, PropertyValue propertyValue)
+    parameters:
+    - id: property
+      type: Uvendia.Domain.Property
+    - id: propertyValue
+      type: Uvendia.Domain.PropertyValue
+    content.vb: Public Sub New(property As  Property, propertyValue As PropertyValue)
+  overload: Uvendia.Domain.Mvc.HtmlControls.LabelControl.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.HtmlControls.LabelControl.RenderControl
+  commentId: M:Uvendia.Domain.Mvc.HtmlControls.LabelControl.RenderControl
+  id: RenderControl
+  parent: Uvendia.Domain.Mvc.HtmlControls.LabelControl
+  langs:
+  - csharp
+  - vb
+  name: RenderControl()
+  nameWithType: LabelControl.RenderControl()
+  fullName: Uvendia.Domain.Mvc.HtmlControls.LabelControl.RenderControl()
+  type: Method
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/HtmlControls/LabelControl.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: RenderControl
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/HtmlControls/LabelControl.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.HtmlControls
+  syntax:
+    content: public override string RenderControl()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function RenderControl As String
+  overridden: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderControl
+  overload: Uvendia.Domain.Mvc.HtmlControls.LabelControl.RenderControl*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Uvendia.Domain.Mvc.HtmlControls
+  commentId: N:Uvendia.Domain.Mvc.HtmlControls
+  name: Uvendia.Domain.Mvc.HtmlControls
+  nameWithType: Uvendia.Domain.Mvc.HtmlControls
+  fullName: Uvendia.Domain.Mvc.HtmlControls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  commentId: T:Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  parent: Uvendia.Domain.Mvc.HtmlControls
+  name: BaseControl
+  nameWithType: BaseControl
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl._property
+  commentId: F:Uvendia.Domain.Mvc.HtmlControls.BaseControl._property
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: _property
+  nameWithType: BaseControl._property
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl._property
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl._propertyValue
+  commentId: F:Uvendia.Domain.Mvc.HtmlControls.BaseControl._propertyValue
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: _propertyValue
+  nameWithType: BaseControl._propertyValue
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl._propertyValue
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.Property
+  commentId: P:Uvendia.Domain.Mvc.HtmlControls.BaseControl.Property
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: Property
+  nameWithType: BaseControl.Property
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.Property
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.PropertyValue
+  commentId: P:Uvendia.Domain.Mvc.HtmlControls.BaseControl.PropertyValue
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: PropertyValue
+  nameWithType: BaseControl.PropertyValue
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.PropertyValue
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.PrefixControlId
+  commentId: P:Uvendia.Domain.Mvc.HtmlControls.BaseControl.PrefixControlId
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: PrefixControlId
+  nameWithType: BaseControl.PrefixControlId
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.PrefixControlId
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ControlId
+  commentId: P:Uvendia.Domain.Mvc.HtmlControls.BaseControl.ControlId
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: ControlId
+  nameWithType: BaseControl.ControlId
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ControlId
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ContainerCssClass
+  commentId: P:Uvendia.Domain.Mvc.HtmlControls.BaseControl.ContainerCssClass
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: ContainerCssClass
+  nameWithType: BaseControl.ContainerCssClass
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ContainerCssClass
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderLabel
+  commentId: P:Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderLabel
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: RenderLabel
+  nameWithType: BaseControl.RenderLabel
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderLabel
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.CreateDefaultContainer
+  commentId: M:Uvendia.Domain.Mvc.HtmlControls.BaseControl.CreateDefaultContainer
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: CreateDefaultContainer()
+  nameWithType: BaseControl.CreateDefaultContainer()
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.CreateDefaultContainer()
+  spec.csharp:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.CreateDefaultContainer
+    name: CreateDefaultContainer
+    nameWithType: BaseControl.CreateDefaultContainer
+    fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.CreateDefaultContainer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.CreateDefaultContainer
+    name: CreateDefaultContainer
+    nameWithType: BaseControl.CreateDefaultContainer
+    fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.CreateDefaultContainer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ToString
+  commentId: M:Uvendia.Domain.Mvc.HtmlControls.BaseControl.ToString
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: ToString()
+  nameWithType: BaseControl.ToString()
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ToString()
+  spec.csharp:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ToString
+    name: ToString
+    nameWithType: BaseControl.ToString
+    fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ToString
+    name: ToString
+    nameWithType: BaseControl.ToString
+    fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.Create(Uvendia.Domain.Enums.DataType,Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)
+  commentId: M:Uvendia.Domain.Mvc.HtmlControls.BaseControl.Create(Uvendia.Domain.Enums.DataType,Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: Create(DataType, Property, PropertyValue)
+  nameWithType: BaseControl.Create(DataType, Property, PropertyValue)
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.Create(Uvendia.Domain.Enums.DataType, Uvendia.Domain.Property, Uvendia.Domain.PropertyValue)
+  spec.csharp:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.Create(Uvendia.Domain.Enums.DataType,Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)
+    name: Create
+    nameWithType: BaseControl.Create
+    fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Enums.DataType
+    name: DataType
+    nameWithType: DataType
+    fullName: Uvendia.Domain.Enums.DataType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Property
+    name: Property
+    nameWithType: Property
+    fullName: Uvendia.Domain.Property
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.PropertyValue
+    name: PropertyValue
+    nameWithType: PropertyValue
+    fullName: Uvendia.Domain.PropertyValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.Create(Uvendia.Domain.Enums.DataType,Uvendia.Domain.Property,Uvendia.Domain.PropertyValue)
+    name: Create
+    nameWithType: BaseControl.Create
+    fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uvendia.Domain.Enums.DataType
+    name: DataType
+    nameWithType: DataType
+    fullName: Uvendia.Domain.Enums.DataType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.Property
+    name: Property
+    nameWithType: Property
+    fullName: Uvendia.Domain.Property
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uvendia.Domain.PropertyValue
+    name: PropertyValue
+    nameWithType: PropertyValue
+    fullName: Uvendia.Domain.PropertyValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Uvendia.Domain.Mvc.HtmlControls.LabelControl.#ctor*
+  commentId: Overload:Uvendia.Domain.Mvc.HtmlControls.LabelControl.#ctor
+  name: LabelControl
+  nameWithType: LabelControl.LabelControl
+  fullName: Uvendia.Domain.Mvc.HtmlControls.LabelControl.LabelControl
+- uid: Uvendia.Domain.Property
+  commentId: T:Uvendia.Domain.Property
+  parent: Uvendia.Domain
+  name: Property
+  nameWithType: Property
+  fullName: Uvendia.Domain.Property
+- uid: Uvendia.Domain.PropertyValue
+  commentId: T:Uvendia.Domain.PropertyValue
+  parent: Uvendia.Domain
+  name: PropertyValue
+  nameWithType: PropertyValue
+  fullName: Uvendia.Domain.PropertyValue
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderControl
+  commentId: M:Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderControl
+  parent: Uvendia.Domain.Mvc.HtmlControls.BaseControl
+  name: RenderControl()
+  nameWithType: BaseControl.RenderControl()
+  fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderControl()
+  spec.csharp:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderControl
+    name: RenderControl
+    nameWithType: BaseControl.RenderControl
+    fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderControl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderControl
+    name: RenderControl
+    nameWithType: BaseControl.RenderControl
+    fullName: Uvendia.Domain.Mvc.HtmlControls.BaseControl.RenderControl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uvendia.Domain.Mvc.HtmlControls.LabelControl.RenderControl*
+  commentId: Overload:Uvendia.Domain.Mvc.HtmlControls.LabelControl.RenderControl
+  name: RenderControl
+  nameWithType: LabelControl.RenderControl
+  fullName: Uvendia.Domain.Mvc.HtmlControls.LabelControl.RenderControl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

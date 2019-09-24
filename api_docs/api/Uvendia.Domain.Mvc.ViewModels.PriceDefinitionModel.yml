@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel
+  commentId: T:Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel
+  id: PriceDefinitionModel
+  parent: Uvendia.Domain.Mvc.ViewModels
+  children:
+  - Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.Currencies
+  - Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.PriceDefinition
+  - Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.TreeSelectedNodePath
+  langs:
+  - csharp
+  - vb
+  name: PriceDefinitionModel
+  nameWithType: PriceDefinitionModel
+  fullName: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel
+  type: Class
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PriceDefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PriceDefinitionModel
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PriceDefinitionModel.cs
+    startLine: 11
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: 'public class PriceDefinitionModel : BaseModel'
+    content.vb: >-
+      Public Class PriceDefinitionModel
+          Inherits BaseModel
+  inheritance:
+  - System.Object
+  - Dazzling.Studio.Utils.BaseModel
+  inheritedMembers:
+  - Dazzling.Studio.Utils.BaseModel.Title
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.PriceDefinition
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.PriceDefinition
+  id: PriceDefinition
+  parent: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel
+  langs:
+  - csharp
+  - vb
+  name: PriceDefinition
+  nameWithType: PriceDefinitionModel.PriceDefinition
+  fullName: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.PriceDefinition
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PriceDefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: PriceDefinition
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PriceDefinitionModel.cs
+    startLine: 13
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public PriceDefinition PriceDefinition { get; set; }
+    parameters: []
+    return:
+      type: Uvendia.Domain.PriceDefinition
+    content.vb: Public Property PriceDefinition As PriceDefinition
+  overload: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.PriceDefinition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.TreeSelectedNodePath
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.TreeSelectedNodePath
+  id: TreeSelectedNodePath
+  parent: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel
+  langs:
+  - csharp
+  - vb
+  name: TreeSelectedNodePath
+  nameWithType: PriceDefinitionModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.TreeSelectedNodePath
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PriceDefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: TreeSelectedNodePath
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PriceDefinitionModel.cs
+    startLine: 14
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public string TreeSelectedNodePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TreeSelectedNodePath As String
+  overload: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.TreeSelectedNodePath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.Currencies
+  commentId: P:Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.Currencies
+  id: Currencies
+  parent: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel
+  langs:
+  - csharp
+  - vb
+  name: Currencies
+  nameWithType: PriceDefinitionModel.Currencies
+  fullName: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.Currencies
+  type: Property
+  source:
+    remote:
+      path: Uvendia.Domain/Mvc/ViewModels/PriceDefinitionModel.cs
+      branch: umbraco8
+      repo: https://sherlonus@bitbucket.org/sherlonus/dazzling.studio.git
+    id: Currencies
+    path: ../../dazzling.studio/Uvendia.Domain/Mvc/ViewModels/PriceDefinitionModel.cs
+    startLine: 17
+  assemblies:
+  - Uvendia.Domain
+  namespace: Uvendia.Domain.Mvc.ViewModels
+  syntax:
+    content: public IList<SelectListItem> Currencies { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+    content.vb: Public ReadOnly Property Currencies As IList(Of SelectListItem)
+  overload: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.Currencies*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Uvendia.Domain.Mvc.ViewModels
+  commentId: N:Uvendia.Domain.Mvc.ViewModels
+  name: Uvendia.Domain.Mvc.ViewModels
+  nameWithType: Uvendia.Domain.Mvc.ViewModels
+  fullName: Uvendia.Domain.Mvc.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dazzling.Studio.Utils.BaseModel
+  commentId: T:Dazzling.Studio.Utils.BaseModel
+  parent: Dazzling.Studio.Utils
+  name: BaseModel
+  nameWithType: BaseModel
+  fullName: Dazzling.Studio.Utils.BaseModel
+- uid: Dazzling.Studio.Utils.BaseModel.Title
+  commentId: P:Dazzling.Studio.Utils.BaseModel.Title
+  parent: Dazzling.Studio.Utils.BaseModel
+  name: Title
+  nameWithType: BaseModel.Title
+  fullName: Dazzling.Studio.Utils.BaseModel.Title
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dazzling.Studio.Utils
+  commentId: N:Dazzling.Studio.Utils
+  name: Dazzling.Studio.Utils
+  nameWithType: Dazzling.Studio.Utils
+  fullName: Dazzling.Studio.Utils
+- uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.PriceDefinition*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.PriceDefinition
+  name: PriceDefinition
+  nameWithType: PriceDefinitionModel.PriceDefinition
+  fullName: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.PriceDefinition
+- uid: Uvendia.Domain.PriceDefinition
+  commentId: T:Uvendia.Domain.PriceDefinition
+  parent: Uvendia.Domain
+  name: PriceDefinition
+  nameWithType: PriceDefinition
+  fullName: Uvendia.Domain.PriceDefinition
+- uid: Uvendia.Domain
+  commentId: N:Uvendia.Domain
+  name: Uvendia.Domain
+  nameWithType: Uvendia.Domain
+  fullName: Uvendia.Domain
+- uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.TreeSelectedNodePath*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.TreeSelectedNodePath
+  name: TreeSelectedNodePath
+  nameWithType: PriceDefinitionModel.TreeSelectedNodePath
+  fullName: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.TreeSelectedNodePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.Currencies*
+  commentId: Overload:Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.Currencies
+  name: Currencies
+  nameWithType: PriceDefinitionModel.Currencies
+  fullName: Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.Currencies
+- uid: System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+  commentId: T:System.Collections.Generic.IList{System.Web.Mvc.SelectListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SelectListItem>
+  nameWithType: IList<SelectListItem>
+  fullName: System.Collections.Generic.IList<System.Web.Mvc.SelectListItem>
+  nameWithType.vb: IList(Of SelectListItem)
+  fullName.vb: System.Collections.Generic.IList(Of System.Web.Mvc.SelectListItem)
+  name.vb: IList(Of SelectListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Web.Mvc.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: System.Web.Mvc.SelectListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Web.Mvc.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: System.Web.Mvc.SelectListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
