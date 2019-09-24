@@ -1,4 +1,4 @@
-# Welcome at Uvendia
+# Welcome to Uvendia
 ## Introduction
 
 **Uvendia** is an e-commerce component that runs on **Umbraco 8**.
