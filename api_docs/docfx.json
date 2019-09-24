@@ -52,8 +52,8 @@
     ],
     "dest": "_site",
 	"globalMetadata": {
-	  "_appLogoPath": "",
-	  "_disableNavbar": true,	  
+	  "_appLogoPath": "https://www.uvendia.com/content/images/uvendia.jpg",
+	  "_disableNavbar": false,	  
 	  "_disableContribution": true,
 	  "_appTitle": "Uvendia Code Documentation",
 	  "_appFooter": "<span>Uvendia Code Documentation</span>"

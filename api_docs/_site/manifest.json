@@ -1,0 +1,3008 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/PROJECTS/uvendia/api_docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.ActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.ActionType.html",
+          "hash": "BjPkivzUvg3etdCDC8uc0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Address.html",
+          "hash": "ptW3BksqO8K/Gzu/JVDBOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Cart.CartAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Cart.CartAction.html",
+          "hash": "YeoGHBVEChZmbTz/ZSh3zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Cart.CartItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Cart.CartItem.html",
+          "hash": "0XzlFt8j+HtVb3WXK2UUAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Cart.CurrentCart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Cart.CurrentCart.html",
+          "hash": "60ZJKyvMfsWPOwjp3WUHEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Cart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Cart.html",
+          "hash": "LyabLTsa/Ra8PKEcZ4+L4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Category.html",
+          "hash": "NGWMSvXhKBJwBqXUOHLITw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.CategoryDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.CategoryDefinition.html",
+          "hash": "OeYXT4OZAHVolnlXJq/omA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.CloudinaryMediaObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.CloudinaryMediaObject.html",
+          "hash": "gWKR+aWbcvaRs0SxopjXuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.CurrentUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.CurrentUser.html",
+          "hash": "Ua7X7MsJp3m11zTbUIWW+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.CustomOrderEmailArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.CustomOrderEmailArgs.html",
+          "hash": "bgx9Su9pOJyxcAZ7vlyTsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Customer.html",
+          "hash": "ZP2b+gVF/aQmQRMSJPogUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Definition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Definition.html",
+          "hash": "mEBi7CKM/g1rueXlfkX+jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.Api.ApiCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.Api.ApiCategory.html",
+          "hash": "EV8jzvF02yDGwaoNV8gg7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.Api.ApiJsTreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.Api.ApiJsTreeNode.html",
+          "hash": "rjuj1whd37quH63xrHSjuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.Api.ApiProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.Api.ApiProduct.html",
+          "hash": "dmycudmbMpncDcXm1mTZaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.Api.ApiStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.Api.ApiStore.html",
+          "hash": "nYvNb6K18ImzQZEylOu8KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.Api.html",
+          "hash": "KtdAaFWDZ3w50Du0BrFXhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.Country.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.Country.html",
+          "hash": "zB+cW3D5uUx/BI+nfCVsLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.EventSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.EventSearch.html",
+          "hash": "2JW4p0RinmiT41H46aMnVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.InvoiceDataTransferObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.InvoiceDataTransferObject.html",
+          "hash": "fSYR07hafNghwMh6pNg7Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.InvoiceDetailDataTransferObject.html",
+          "hash": "x0U3vDd7xxxa3j+fDbz18A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.Language.html",
+          "hash": "Pn/ktasRy8R3HxJZLYRTjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.OrderSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.OrderSearch.html",
+          "hash": "lPPXo1sk3uWzfNLJSdYxMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.ProductSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.ProductSearch.html",
+          "hash": "xt3CW4+rCF/okQ6UrKDtBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.ProductStockIndicationDataTransferObject.html",
+          "hash": "/CtoWQqc6MWPM0ojq7bVPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.SoldTicketDataTransferObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.SoldTicketDataTransferObject.html",
+          "hash": "UZky7cwoK9TaYAj/ZopedQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.TicketDataTransferObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.TicketDataTransferObject.html",
+          "hash": "G8LcczXM9qBtHuSqU3upTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Entities.html",
+          "hash": "El9P7Xu/W2kTTen7c8M9aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.AddressType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.AddressType.html",
+          "hash": "kd657VvASayiYR0SGH9Faw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.CloudinaryFileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.CloudinaryFileType.html",
+          "hash": "r4xdDfQN7UPWqPxIGJuUNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.DataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.DataType.html",
+          "hash": "1C3gJyywWK4ImawgNKH/mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.DefinitionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.DefinitionType.html",
+          "hash": "vmoOBe7eQ/Uo885C+MQ1AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.EventStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.EventStatus.html",
+          "hash": "8U/UDap4HnWYx61nWqHSFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.EventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.EventType.html",
+          "hash": "DCgQ6p38nk2uaKScRfIo7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.OrderStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.OrderStatus.html",
+          "hash": "DkVioNsGQ/L1zm/Jgbsxqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.PersonTitle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.PersonTitle.html",
+          "hash": "vAhwBHLks5w6ZH8ydy0aqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.ProductPictureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.ProductPictureType.html",
+          "hash": "YqPug3s4UYFm1qWrNZyveA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.ProductSortyBy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.ProductSortyBy.html",
+          "hash": "NUKS1KIROHaz54bZKtzoTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.RoleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.RoleType.html",
+          "hash": "V7lcgsowlQ8K9vGK5B1dPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Enums.html",
+          "hash": "g2bLMuhlxIm/yCe4LqFlkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Event.html",
+          "hash": "1uOJRwpfZlTGg37s5uF8/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Exceptions.ItemNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Exceptions.ItemNotFoundException.html",
+          "hash": "etgCyPIpYVs8T3hMkkfCUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Exceptions.LicenseInvalidException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Exceptions.LicenseInvalidException.html",
+          "hash": "hfNCEUid/otx1BTN4sLe0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Exceptions.OrderAlreadyProcessedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Exceptions.OrderAlreadyProcessedException.html",
+          "hash": "WHgoUm/vxTbWRNgxVhJ12g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Exceptions.OrderInvalidException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Exceptions.OrderInvalidException.html",
+          "hash": "+YBugfx46+u8h9hE7VwPwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Exceptions.UvendiaException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Exceptions.UvendiaException.html",
+          "hash": "FeMJYlzNLxp0171MxcHLQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Exceptions.html",
+          "hash": "vOo9/A85R4/wax2VDto8Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Extendable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Extendable.html",
+          "hash": "8Q1oAvfL+t6lhAgrsZW/kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Factories.EmailHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Factories.EmailHelper.html",
+          "hash": "THjjND4mjo1EqXSKbJE4Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Factories.PriceCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Factories.PriceCreator.html",
+          "hash": "r+9cJcn/S198iSIYxXNRag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Factories.ReportCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Factories.ReportCreator.html",
+          "hash": "La42JM3FBsclA1zI6QvXtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Factories.TranslationCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Factories.TranslationCreator.html",
+          "hash": "ySthlxZPP8zXBFf1HzAP+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Factories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Factories.html",
+          "hash": "vstuRaX1ymccDAb/dtKZAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.ICustomOrderEmailTransfer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.ICustomOrderEmailTransfer.html",
+          "hash": "0AH+HPEX3KYyGvXysOfQ1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.IPriceable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.IPriceable.html",
+          "hash": "Y1hU0P92rViEdmGQ1Kaqkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.ITranslation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.ITranslation.html",
+          "hash": "sNYqpKLq6HYmr1MMwPngJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Inventory.html",
+          "hash": "mxjOdMPwiH129s5Z+UoKGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mail.TestCustomOrderEmailTranser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mail.TestCustomOrderEmailTranser.html",
+          "hash": "E/4CDl1rOrgFnRo5axyYYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mail.html",
+          "hash": "RAQhvgXFQGVnIsBPwKtCig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.EventDisplayNameResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.EventDisplayNameResolver.html",
+          "hash": "VzaNb4kPF6gc1Sr4KzUePw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.ProductDiscountDecimalToStringResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.ProductDiscountDecimalToStringResolver.html",
+          "hash": "Vh9Oam2YrrBuss7ltawcwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.ProductDisplayNameResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.ProductDisplayNameResolver.html",
+          "hash": "4ZkmRXSfZ1YLvKUG6X3Uww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.ProductPriceDecimalToStringResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.ProductPriceDecimalToStringResolver.html",
+          "hash": "rCUKEaOYuX4Fdnp3PCCHWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.ProductTotalDecimalToStringResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.ProductTotalDecimalToStringResolver.html",
+          "hash": "SDvJqbd86WUB5pqe4e83+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.TicketDiscountDecimalToStringResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.TicketDiscountDecimalToStringResolver.html",
+          "hash": "JA+1+VZg3almg4wmOC39zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.TicketPriceDecimalToStringResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.TicketPriceDecimalToStringResolver.html",
+          "hash": "TrS1MK3wG27rHMoGGHeY+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.TicketTotalDecimalToStringResolver.html",
+          "hash": "Rs+5gXcD2itBLddrcdZOJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mappings.html",
+          "hash": "V4BxuUoD1XVuq2X6AuOFWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.BundleConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.BundleConfig.html",
+          "hash": "wB3BKcFk8enmOBmylyhvIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.BaseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.BaseController.html",
+          "hash": "OQ18u0375LlS5VEPj9PYSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.CatalogApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.CatalogApiController.html",
+          "hash": "rSw5TcbmAJianYccKYmuvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.CategoryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.CategoryController.html",
+          "hash": "3D2FLXEm8iZLYEZ68/tCBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.DefinitionController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.DefinitionController.html",
+          "hash": "CAPUMeTRS87kFrh4hfGiQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.EventController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.EventController.html",
+          "hash": "diHTFiBAMXvrOY72803+MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.MailController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.MailController.html",
+          "hash": "jvWZcMbgANYTak/EYB+JGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.OrderController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.OrderController.html",
+          "hash": "K7NCg2491yiIRTTb5l3szQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.PaymentMethodController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.PaymentMethodController.html",
+          "hash": "Xe+Bmctwsb09ckUgGOqaug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.PriceController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.PriceController.html",
+          "hash": "b/O1KWE6R1cmz51XcNSGcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.ProductController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.ProductController.html",
+          "hash": "ndLFMsvWUtrxvZSICypL3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.ProductOrderDetailController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.ProductOrderDetailController.html",
+          "hash": "uviABh1MdzQXbsvhQ0KKaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.PropertyController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.PropertyController.html",
+          "hash": "7cQxTknirqRHt4DTrLt+lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.SearchController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.SearchController.html",
+          "hash": "NqzhK3RHrNkJAN8y7kva5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.SettingsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.SettingsController.html",
+          "hash": "pAZ1Gn7m1Na1k5+9xSq8mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.ShippingMethodController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.ShippingMethodController.html",
+          "hash": "3fdfI0OWxND2Q4rlSZyOJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.StoreController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.StoreController.html",
+          "hash": "h2VYKKLb/ct9wywHTTZ8pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.TicketOrderDetailController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.TicketOrderDetailController.html",
+          "hash": "v9m6JpIpGecVkRixSET4Wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.TicketSaleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.TicketSaleController.html",
+          "hash": "7WzOSVfUFtNj2n/b+Qnl8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.Controllers.html",
+          "hash": "5obflALSPBUJZU3sRWaAng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.BaseControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.BaseControl.html",
+          "hash": "QoiU2JDFjFnfsqEH/YFa+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.CheckBoxControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.CheckBoxControl.html",
+          "hash": "57f2KUYBKFxGdeQtFUnfeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.CloudinaryFileControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.CloudinaryFileControl.html",
+          "hash": "+Z3RCv7A2idhqRG+/UO68w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.CloudinaryImageControl.html",
+          "hash": "3W418Vuk/2xRz793rjNXXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.CloudinaryVideoControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.CloudinaryVideoControl.html",
+          "hash": "SDjo4hN9MHM9dDolDdD+MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.DateTimeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.DateTimeControl.html",
+          "hash": "mxa1aDsWz6Ln6oxXSTbYnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.DropDownListControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.DropDownListControl.html",
+          "hash": "Jz+csaStZywlYRXbejkbSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.EditorControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.EditorControl.html",
+          "hash": "6lw/A4wktkAwGgc6k9YdzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.HtmlControlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.HtmlControlFactory.html",
+          "hash": "WlBCRFcR9I0YFJkvCI04Cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.LabelControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.LabelControl.html",
+          "hash": "GENwbcNfoPjxICYsPUicxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.NumberControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.NumberControl.html",
+          "hash": "9tZ4FNmSn0V5XWQ7/OsIKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.TextBoxControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.TextBoxControl.html",
+          "hash": "STLEZ4Lf13AkdBw0lwlR4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.HtmlControls.html",
+          "hash": "BoqEBra+J6m4GJ/mGX8KMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.RouteConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.RouteConfig.html",
+          "hash": "zgDmvWmsKc9lUWLwcnfI5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.UmbracoStartUpHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.UmbracoStartUpHandlers.html",
+          "hash": "2vVTDOiJ7wciNX6pWi9jWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.UvendiaSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.UvendiaSection.html",
+          "hash": "lmBoMeA97UFyL4E8DlwfzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.UvendiaTreeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.UvendiaTreeController.html",
+          "hash": "e3sR/zDZktIx62s018sdJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.AvailableInCountryModel.html",
+          "hash": "pMYYi0w1G67YVFl3//njaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.CategoriesModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.CategoriesModel.html",
+          "hash": "I3JCJYudjykV1urVeY18BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.CategoryDeleteModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.CategoryDeleteModel.html",
+          "hash": "oOrgMMgrCrLrbJcmkIxpmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.CategoryModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.CategoryModel.html",
+          "hash": "xDRtw9l4+D0kxDgqPX7D2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.CloudinaryFileModel.html",
+          "hash": "jSpSogCZ/sh6J3uy8Xp5bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.DefinitionModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.DefinitionModel.html",
+          "hash": "GkztyXjmibKCEWK2DOZtOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.DefinitionsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.DefinitionsModel.html",
+          "hash": "LcwseDMoWVw4Eg9ejAPnvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.DeleteModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.DeleteModel.html",
+          "hash": "e6Ohp4+FTf5HDU8tnLrTPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.EventModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.EventModel.html",
+          "hash": "62xJonXVNr6Lk0PPo2DxAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.EventsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.EventsModel.html",
+          "hash": "GIoj3W2xEvNTyxNik6k2Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.IPriceModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.IPriceModel.html",
+          "hash": "JWqBVrNKYAt9Wr5HbvRH1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ITranslationModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ITranslationModel.html",
+          "hash": "yzoHfpdBcbKfjq4/I2rymw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.InvoiceSettingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.InvoiceSettingModel.html",
+          "hash": "1R7EYbhAZjD1c322/hbyuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Mail.OrderMailModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Mail.OrderMailModel.html",
+          "hash": "O2MPSdbafdrXGCXXVup2aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Mail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Mail.html",
+          "hash": "sa0K519iiiS58iKUj2SUpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.OrderDetailModel.html",
+          "hash": "0UUSMvWj3gAz/ClXCSB0LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.OrderModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.OrderModel.html",
+          "hash": "5FmKpCYjZfT4SYXnrKLF7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.OrderNumberModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.OrderNumberModel.html",
+          "hash": "5VVvr9nMlervMeko7K4U2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.OrdersModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.OrdersModel.html",
+          "hash": "DvUFozY+WgxJqs2e4p3elg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PagedListWebshopModel-1.html",
+          "hash": "RmhYGq+1YWTgYKQxsOOzJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PaymentMethodModel.html",
+          "hash": "dMSZU1hTE8TRrU9ga8rbrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PaymentMethodsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PaymentMethodsModel.html",
+          "hash": "2wwTegUyM7mUnKFUEenddA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PriceDefinitionModel.html",
+          "hash": "bhKrnR1uLvEjR7BdWIMboA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PriceDefinitionsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PriceDefinitionsModel.html",
+          "hash": "tWe42M5N1GTJYXhjWxhuvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ProductModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ProductModel.html",
+          "hash": "rdT/m1fhQa2T2mJaWrT2wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ProductsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ProductsModel.html",
+          "hash": "fxPxkU0Sfjacn9Nd4QbAMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PropertiesModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PropertiesModel.html",
+          "hash": "pGjC/lsoWjLUcEIZu0Rvmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PropertyModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.PropertyModel.html",
+          "hash": "RFvkIyFfnIMf4UvPATWwAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ReportModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ReportModel.html",
+          "hash": "XQhKj3Zsvmz8MZnltCO+6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.SearchEventModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.SearchEventModel.html",
+          "hash": "fxc/lF0CUmTagcUNsnd1pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.SearchOrderModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.SearchOrderModel.html",
+          "hash": "olS3bfFSR1ROwJgmUUsyEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.SearchProductModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.SearchProductModel.html",
+          "hash": "am6NDtAYhKexc0y6IzkFIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingModel.html",
+          "hash": "am7il8nvIicPqoxFZ8bwjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Settings.OrderEmailTemplateSettingsModel.html",
+          "hash": "gHGYIfgRFfYwponYNiBjYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.Settings.html",
+          "hash": "eLhpmEeOfC+SpsiRdWSeAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ShippingMethodModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ShippingMethodModel.html",
+          "hash": "FkbCWjfIqz7JFTMgzIJYKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ShippingMethodsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.ShippingMethodsModel.html",
+          "hash": "4Y3nTMUuA1Ev2H1hT4M7Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.StoreModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.StoreModel.html",
+          "hash": "QITH9RjTykypWbx3gMo1Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.StoresModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.StoresModel.html",
+          "hash": "/Jn6iV2cP/g42vV1KbXyog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.TicketTypeModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.TicketTypeModel.html",
+          "hash": "zorj5xZY1qX936Sj2W1ABw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.TicketTypesModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.TicketTypesModel.html",
+          "hash": "4eth3s3YE9wdDU/tXbyFTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.WebshopModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.WebshopModel.html",
+          "hash": "YDjRt5RmmJIXvBr7VyoDGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.eTicketSettingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.eTicketSettingModel.html",
+          "hash": "AnFp31q5a3ozwzlQNkSowQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.ViewModels.html",
+          "hash": "ORkXwIhvd8eKB+8Y2RU0oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Mvc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Mvc.html",
+          "hash": "PjsbE5mldSiy0oRbGt8znA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Order.html",
+          "hash": "vFbeRV7Y7uqML+Ycx/UrdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.PaymentMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.PaymentMethod.html",
+          "hash": "0Y0XK123Ge29rin2kugvgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.PaymentMethodSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.PaymentMethodSetting.html",
+          "hash": "E+TZNQ5nLT0PKYtz6YCs7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Price.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Price.html",
+          "hash": "3IqKiJGbLWzb+wgnhNn+8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.PriceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.PriceDefinition.html",
+          "hash": "AlJYdNJGuquOuLYUSaHImw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Product.html",
+          "hash": "XJRx8rl636tM5BLxypZ8JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.ProductOrderDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.ProductOrderDetail.html",
+          "hash": "j9WsEvXJyQWBFaHkdtnEQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Property.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Property.html",
+          "hash": "vhk84gtN9DzeIaQW+luBIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.PropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.PropertyValue.html",
+          "hash": "BOKvZlA2PHjWjGZ4Ckrsfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.Proxy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.Proxy-1.html",
+          "hash": "CaeCpgevWxHouGRLor79PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyCategory.html",
+          "hash": "Ctbvu6+7/HmWJ36C8mY83g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyCategoryProducts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyCategoryProducts.html",
+          "hash": "JJQVgq2ivVNbXX5J6Pe43A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyCategoryTranslations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyCategoryTranslations.html",
+          "hash": "jbkAQkymEhQNb3M+hSxjnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyDefinition.html",
+          "hash": "rfVhJttBRyw7ykD9puZU4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyEvent.html",
+          "hash": "vrBUOw+qUv6WwGw7bTDLTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyEventCancellationPriceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyEventCancellationPriceCollection.html",
+          "hash": "CaT3uAJePrguJzf8/KsypQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyEventTranslations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyEventTranslations.html",
+          "hash": "nOPydR1VfL19x46xZmZqWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyList-1.html",
+          "hash": "XnES6njmTQpgKy/tiju3CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyParentProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyParentProduct.html",
+          "hash": "XlClOv+p11T7NclN0Zoerw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyPaymentPriceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyPaymentPriceCollection.html",
+          "hash": "JW9R8JKx3V15/ylwrKi7Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyProduct.html",
+          "hash": "jXo/wkJAb1748gmZS8MJtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyProductCategories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyProductCategories.html",
+          "hash": "RQlZ874vDKU2Yj9Phg/QMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyProductInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyProductInventory.html",
+          "hash": "lcO/cU2B0ImF4bjyJD0HZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyProductPriceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyProductPriceCollection.html",
+          "hash": "YejUOnLuj3sg4Z0AQynrOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyProductReviews.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyProductReviews.html",
+          "hash": "p662Ki3pEZ0lkmOBzqIKNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyProductTranslations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyProductTranslations.html",
+          "hash": "1/0LeK9WzvvrpEeKVU6TCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyProductVariants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyProductVariants.html",
+          "hash": "8EaNc2zz3X4K+O9OTBWXWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyPropertyValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyPropertyValues.html",
+          "hash": "1i/wNPCrjnyM5hDr6DWIQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyShippingPriceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyShippingPriceCollection.html",
+          "hash": "rR7vo5/61Q4ztjuXNAfcjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyStoreCategories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyStoreCategories.html",
+          "hash": "EJyHNCImUJtiq8cH5KINHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyStoreTranslations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyStoreTranslations.html",
+          "hash": "/GRs6JKkNrEWahLRHT88yA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxySubCategories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxySubCategories.html",
+          "hash": "ukqclY63GjuA7tZU/gCAug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyTicketSale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyTicketSale.html",
+          "hash": "bdpqH7eb1hYFFIn+RJYqEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyTicketType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyTicketType.html",
+          "hash": "OAe9NlMbh+KT9xg7ULqLgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.ProxyTotalTicketAvailable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.ProxyTotalTicketAvailable.html",
+          "hash": "PZmHc3OcVVCnR3MZhEx0/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Proxies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Proxies.html",
+          "hash": "JGM8XCpjbAayXGOsy08scg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Addresses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Addresses.html",
+          "hash": "5MYUma8H1jXopmOGxWkW1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Cart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Cart.html",
+          "hash": "r7cbB3178+PxFWEuXklBDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Categories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Categories.html",
+          "hash": "I5qgenlg3fLA5IdIyBrQAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.CloudinaryMediaObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.CloudinaryMediaObjects.html",
+          "hash": "WZqceWBjrminrGNhiN+3vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Definitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Definitions.html",
+          "hash": "rbYzH1Xmsa7LOicfxmR4EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Events.html",
+          "hash": "gU1K3oBfHDWCBJduNcKANA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Inventories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Inventories.html",
+          "hash": "l7dVOqYO9Ck3C6mIWJeU3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Orders.html",
+          "hash": "G1LSLw7MWHlqpPtZn+cVSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.PaymentMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.PaymentMethods.html",
+          "hash": "Uy9epPX4QI6+cfOy7v1Lew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.PriceDefinitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.PriceDefinitions.html",
+          "hash": "AGIaxxkDdb6vbTiA0wATcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Prices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Prices.html",
+          "hash": "Yun6doi86L8HgCzb/StMUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.ProductOrderDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.ProductOrderDetails.html",
+          "hash": "pYW5u70CDB/FTqb5Fa06Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Products.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Products.html",
+          "hash": "M9FbCBkKe2fVAsZuqU0VzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Properties.html",
+          "hash": "2jMpAYWXZnTMdfQh5T4ELg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.PropertyValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.PropertyValues.html",
+          "hash": "kOEouSLDi4ZCaxUFXKl8HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Reviews.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Reviews.html",
+          "hash": "EXnhcHS9CZG/2Vf3Q7RdnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.ShippingMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.ShippingMethods.html",
+          "hash": "yICDChM7YFdHU09OhvmQLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Stores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Stores.html",
+          "hash": "BZcHjVAR/eIw27XotLgx6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Subscriptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Subscriptions.html",
+          "hash": "y+UrM8AyMvm3CTTrh5H4Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.TicketOrderDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.TicketOrderDetails.html",
+          "hash": "TBFjs44hiutx7cXhElyvag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.TicketSales.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.TicketSales.html",
+          "hash": "XkqJEAj5W/7w+AR/MKAyxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.Translations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.Translations.html",
+          "hash": "Tt9Qdbon/DjST7P+hcbCow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.UmbracoSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.UmbracoSettings.html",
+          "hash": "8oRV6dcW2x/WLlyB2adoPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.UvendiaContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.UvendiaContext.html",
+          "hash": "oCQgcknAR5cNKwuT9eZijg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.UvendiaRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.UvendiaRepository-1.html",
+          "hash": "OGlgttj22HfCnfsNSgqgiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.UvendiaSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.UvendiaSettings.html",
+          "hash": "oJTZws3QUtcY9Fhdt5SZWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Repositories.html",
+          "hash": "FIUvIGef/T1HpiRJip4eNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Review.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Review.html",
+          "hash": "UvrHXdDOUX2B+Ud3AT/jwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.AvailableInCountry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.AvailableInCountry.html",
+          "hash": "SVK8ZZAQAP+tU4cwST5sdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.InvoiceSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.InvoiceSetting.html",
+          "hash": "qbrwWTm7QdLsH/Qux4XIVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.InvoiceSettingDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.InvoiceSettingDetail.html",
+          "hash": "RMIjdndyi4qyOk2i2j4gRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.OrderEmailTemplateSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.OrderEmailTemplateSetting.html",
+          "hash": "Bqkhjpczio4PxrEyg4UbPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.OrderEmailTemplateSettingDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.OrderEmailTemplateSettingDetail.html",
+          "hash": "XmHN4VqoTGKXpChZOa7Q7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.OrderNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.OrderNumber.html",
+          "hash": "NeEwiM6FBEg6BE9SmVH3vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.SerializedSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.SerializedSettings.html",
+          "hash": "Jao87aUU+hvdXE+PQRtF+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.TicketType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.TicketType.html",
+          "hash": "+uhlk89Ev5kTU0viPkJCwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.eTicketSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.eTicketSetting.html",
+          "hash": "1yTYKonr0XgUYg7Xpy6QfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.eTicketSettingDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.eTicketSettingDetail.html",
+          "hash": "9G31jA+W3YVDnUSj1FWMYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Settings.html",
+          "hash": "EzPlYGwjDSRxie7reOnGOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.ShippingMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.ShippingMethod.html",
+          "hash": "30hv+/uizRZuBD8kiJCjKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Store.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Store.html",
+          "hash": "vf2mqf1AQ0sCvVF1/BYytA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Subscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Subscription.html",
+          "hash": "s6DKHz19Ib95eU1fDg199Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.TicketOrderDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.TicketOrderDetail.html",
+          "hash": "JSaxCKXb0geCa9r7NeMPpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.TicketSale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.TicketSale.html",
+          "hash": "EQ17JKhbM6PthFku4k3Xxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Translation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Translation.html",
+          "hash": "mHMpsoedMe84H+UooghG6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.UmbracoUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.UmbracoUtils.html",
+          "hash": "UCTntwtDXfGHmrblWccaVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Validation.ExtendedPropertyValidateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Validation.ExtendedPropertyValidateAttribute.html",
+          "hash": "brIdLJT4UmekN9H/sI3/MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Validation.IPropertyValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Validation.IPropertyValidation.html",
+          "hash": "rLMJ9zOLSAP0B32u+0eMEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Validation.TestValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Validation.TestValidation.html",
+          "hash": "8cY8Ef690q43b667zjm8CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Validation.html",
+          "hash": "vYEpQkdogvh1Q7HBOcxXcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.Webshop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.Webshop.html",
+          "hash": "CCqUcJSMKssnvPpjaQwCEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.WebshopUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.WebshopUtils.html",
+          "hash": "CvEXso51/WeiRJWtkKAvAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Uvendia.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Uvendia.Domain.html",
+          "hash": "l29yDJ9OHjn6yIIs+9HxkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "2g/53nhgtqokfPoPhHOetQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "vGdWAuRjUES172+8EyskvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "3t6uTJoAEr+mkaXE5aGNrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "bAEVijIdmz0jmTA3A+rSaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "rRxd2oMdEKyU+ZTSpRzM5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 240,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

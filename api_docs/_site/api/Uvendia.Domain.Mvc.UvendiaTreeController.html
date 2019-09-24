@@ -1,0 +1,558 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UvendiaTreeController
+   | Uvendia Code Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UvendiaTreeController
+   | Uvendia Code Documentation ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../https://www.uvendia.com/content/images/uvendia.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController">
+  
+  
+  <h1 id="Uvendia_Domain_Mvc_UvendiaTreeController" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController" class="text-break">Class UvendiaTreeController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Web.Http.ApiController</span></div>
+    <div class="level2"><span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase</span></div>
+    <div class="level3"><span class="xref">Umbraco.Web.WebApi.UmbracoApiController</span></div>
+    <div class="level4"><span class="xref">Umbraco.Web.WebApi.UmbracoAuthorizedApiController</span></div>
+    <div class="level5"><span class="xref">Umbraco.Web.Trees.TreeControllerBase</span></div>
+    <div class="level6"><span class="xref">Umbraco.Web.Trees.TreeController</span></div>
+    <div class="level7"><span class="xref">UvendiaTreeController</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Web.Http.Controllers.IHttpController</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">Umbraco.Core.Composing.IDiscoverable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeController.RootNodeDisplayName</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeController.TreeGroup</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeController.TreeAlias</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeController.TreeTitle</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeController.TreeUse</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeController.SectionAlias</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeController.SortOrder</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeController.IsSingleNodeTree</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.GetRootNode(System.Net.Http.Formatting.FormDataCollection)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.GetNodes(System.String, System.Net.Http.Formatting.FormDataCollection)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.GetMenu(System.String, System.Net.Http.Formatting.FormDataCollection)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateTreeNode(System.String, System.String, System.Net.Http.Formatting.FormDataCollection, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateTreeNode(System.String, System.String, System.Net.Http.Formatting.FormDataCollection, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateTreeNode(System.String, System.String, System.Net.Http.Formatting.FormDataCollection, System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateTreeNode(Umbraco.Core.Models.Entities.IEntitySlim, System.Guid, System.String, System.Net.Http.Formatting.FormDataCollection, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateTreeNode(Umbraco.Core.Models.Entities.IUmbracoEntity, System.Guid, System.String, System.Net.Http.Formatting.FormDataCollection, System.String, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateTreeNode(System.String, System.String, System.Net.Http.Formatting.FormDataCollection, System.String, System.String, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateTreeNode(System.String, System.String, System.Net.Http.Formatting.FormDataCollection, System.String, System.String, System.Boolean, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateTreeNode(System.String, System.String, System.Net.Http.Formatting.FormDataCollection, System.String, System.String, System.Boolean, System.String, Umbraco.Core.Udi)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.AddQueryStringsToAdditionalData(Umbraco.Web.Models.Trees.TreeNode, System.Net.Http.Formatting.FormDataCollection)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.IsDialog(System.Net.Http.Formatting.FormDataCollection)</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.TreeNodesRendering</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.RootNodeRendering</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.Trees.TreeControllerBase.MenuRendering</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoAuthorizedApiController.UserManager</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetHttpContext()</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.TryGetOwinContext()</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.GlobalSettings</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContext</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.UmbracoContextAccessor</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.SqlContext</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.Services</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.AppCaches</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.Logger</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.ApplicationUrl</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.Members</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.Umbraco</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.Mapper</span>
+    </div>
+    <div>
+      <span class="xref">Umbraco.Web.WebApi.UmbracoApiControllerBase.Security</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Validate&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Validate&lt;TEntity&gt;(TEntity, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.BadRequest()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.BadRequest(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Conflict()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Content&lt;T&gt;(System.Net.HttpStatusCode, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Content&lt;T&gt;(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Content&lt;T&gt;(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Content&lt;T&gt;(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.Net.Http.Headers.MediaTypeHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Created&lt;T&gt;(System.String, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Created&lt;T&gt;(System.Uri, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.CreatedAtRoute&lt;T&gt;(System.String, System.Object, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.CreatedAtRoute&lt;T&gt;(System.String, System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.InternalServerError()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.InternalServerError(System.Exception)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Json&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Json&lt;T&gt;(T, Newtonsoft.Json.JsonSerializerSettings)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Json&lt;T&gt;(T, Newtonsoft.Json.JsonSerializerSettings, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.NotFound()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Ok()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Ok&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Redirect(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Redirect(System.Uri)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.RedirectToRoute(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.RedirectToRoute(System.String, System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ResponseMessage(System.Net.Http.HttpResponseMessage)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.StatusCode(System.Net.HttpStatusCode)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable&lt;System.Net.Http.Headers.AuthenticationHeaderValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Initialize(System.Web.Http.Controllers.HttpControllerContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Configuration</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ControllerContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ActionContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ModelState</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Request</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.RequestContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Url</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.User</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Uvendia.Domain.Mvc.html">Uvendia.Domain.Mvc</a></h6>
+  <h6><strong>Assembly</strong>: Uvendia.Domain.dll</h6>
+  <h5 id="Uvendia_Domain_Mvc_UvendiaTreeController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tree(&quot;uvendia&quot;, &quot;uvendia&quot;, TreeTitle = &quot;Uvendia&quot;, SortOrder = 999)]
+public class UvendiaTreeController : TreeController, IHttpController, IDisposable, IDiscoverable, ITree</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Uvendia_Domain_Mvc_UvendiaTreeController__ctor_" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController.#ctor*"></a>
+  <h4 id="Uvendia_Domain_Mvc_UvendiaTreeController__ctor" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController.#ctor">UvendiaTreeController()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UvendiaTreeController()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Uvendia_Domain_Mvc_UvendiaTreeController_CreateRootNode_" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController.CreateRootNode*"></a>
+  <h4 id="Uvendia_Domain_Mvc_UvendiaTreeController_CreateRootNode_System_Net_Http_Formatting_FormDataCollection_" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController.CreateRootNode(System.Net.Http.Formatting.FormDataCollection)">CreateRootNode(FormDataCollection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override TreeNode CreateRootNode(FormDataCollection queryStrings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Http.Formatting.FormDataCollection</span></td>
+        <td><span class="parametername">queryStrings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Umbraco.Web.Models.Trees.TreeNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Umbraco.Web.Trees.TreeControllerBase.CreateRootNode(System.Net.Http.Formatting.FormDataCollection)</span></div>
+  <a id="Uvendia_Domain_Mvc_UvendiaTreeController_GetMenuForNode_" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController.GetMenuForNode*"></a>
+  <h4 id="Uvendia_Domain_Mvc_UvendiaTreeController_GetMenuForNode_System_String_System_Net_Http_Formatting_FormDataCollection_" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController.GetMenuForNode(System.String,System.Net.Http.Formatting.FormDataCollection)">GetMenuForNode(String, FormDataCollection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override MenuItemCollection GetMenuForNode(string id, FormDataCollection queryStrings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.Http.Formatting.FormDataCollection</span></td>
+        <td><span class="parametername">queryStrings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Umbraco.Web.Models.Trees.MenuItemCollection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Umbraco.Web.Trees.TreeControllerBase.GetMenuForNode(System.String, System.Net.Http.Formatting.FormDataCollection)</span></div>
+  <a id="Uvendia_Domain_Mvc_UvendiaTreeController_GetTreeNodes_" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController.GetTreeNodes*"></a>
+  <h4 id="Uvendia_Domain_Mvc_UvendiaTreeController_GetTreeNodes_System_String_System_Net_Http_Formatting_FormDataCollection_" data-uid="Uvendia.Domain.Mvc.UvendiaTreeController.GetTreeNodes(System.String,System.Net.Http.Formatting.FormDataCollection)">GetTreeNodes(String, FormDataCollection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override TreeNodeCollection GetTreeNodes(string id, FormDataCollection queryStrings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.Http.Formatting.FormDataCollection</span></td>
+        <td><span class="parametername">queryStrings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Umbraco.Web.Models.Trees.TreeNodeCollection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Umbraco.Web.Trees.TreeControllerBase.GetTreeNodes(System.String, System.Net.Http.Formatting.FormDataCollection)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Web.Http.Controllers.IHttpController</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">Umbraco.Core.Composing.IDiscoverable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Uvendia Code Documentation</span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
