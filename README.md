@@ -1,5 +1,6 @@
 # Uvendia
 The ``Asset Management System`` for your e-commerce website!
+Manage all your ``Products`` and ``Events`` and generate ``invoices`` and ``tickets`` using only one system that runs on [Umbraco 8](https://umbraco.com/umbraco-8/).
 
 ## Version History
 
