@@ -4,5 +4,8 @@ Prefix the description of the change with `[major]`, `[minor]`, or `[patch]` in 
 
 ## Released
 
-### 1.0.0
+### 1.0.1
 * First release
+
+### 1.0.2
+* Using a net47 specific QR code generator

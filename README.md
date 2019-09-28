@@ -79,4 +79,7 @@ The ORM (Object Relational Mapper) used is **[Dapper](https://github.com/StackEx
 
 ## License
 If you are running Umbraco's **Uvendia** plug-in component on your local machine, no license is required. When you are convinced about the product and want to deploy it to your development, staging or production environment, you are going to need a License for that.
+
 > License is only required for the Umbraco's **Uvendia** component. NO License is needed for the actual e-commerce webshop that is using the ```Uvendia.Domain.dll``` assembly.
+
+> Go to [Uvendia.com](https://www.uvendia.com) to purchase your license.
