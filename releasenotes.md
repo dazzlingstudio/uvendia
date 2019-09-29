@@ -9,3 +9,6 @@ Prefix the description of the change with `[major]`, `[minor]`, or `[patch]` in 
 
 ### 1.0.2
 * Using a net47 specific QR code generator
+
+### 1.0.3
+* Masked payment settings for users with limited access. User with no publish rights not allowed to see the settings.
