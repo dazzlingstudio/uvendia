@@ -1,18 +1,18 @@
 # Quick start
 ## Installation
 
-Run this command in your ``Visual Studio`` ``Package Manager Console``:
+Run this command in your ``Visual Studio`` ``Package Manager Console`` for a full installation:
 
 > ``Install-Package Uvendia.Domain``
 
 ### Database
-Please run the SQL script ``uvendia.sql`` located at ``\umbraco\uvendia\content\sql\uvendia.sql`` after installation on your develop SQL Server. This script will generate all the tables, table indexes, table schema, stored procedures and triggers you need for **Uvendia**. You can also create a separate database if you want to, just make sure your connection string has the name ``unvendiaDbDSN``.
+Please run the SQL script ``uvendia.sql`` located at ``\umbraco\uvendia\content\sql\uvendia.sql`` after installation on your develop SQL Server. This script will generate all the tables, table indexes, table schema, stored procedures and triggers you need for **Uvendia**. You can also create a separate database if you want to, just make sure your connection string has the name ``uvendiaDbDSN``.
 
 #### SQLCMD mode
 Make sure SQLCMD mode is enabled before running the sql script. [Here](https://www.sqlshack.com/use-sqlcmd-commands-ssms-query-editor/) you can find how to enable it.
 
 ### Connection string
-By ``default`` **Uvendia** will always take the **Umbraco** connection string named ``umbracoDbDSN``. But in case you want your **Uvendia** database table to be created on a separate database, you can configured another connection string with the name ``unvendiaDbDSN``.
+By ``default`` **Uvendia** will always take the **Umbraco** connection string named ``umbracoDbDSN``. But in case you want your **Uvendia** database table to be created on a separate database, you can configured another connection string with the name ``uvendiaDbDSN``.
 
 ## Assign Access
 > To assign access to the current user, please sign in into **Umbraco CMS** go to ``Users > Groups > [Select your group] > Sections > Add > Uvendia``. After that ``refresh`` the page.

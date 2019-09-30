@@ -12,3 +12,6 @@ Prefix the description of the change with `[major]`, `[minor]`, or `[patch]` in 
 
 ### 1.0.3
 * Masked payment settings for users with limited access. User with no publish rights not allowed to see the settings.
+
+### 1.0.4
+* Connection string typo correction: unvendiaDbDSN to ``uvendiaDbDSN``
