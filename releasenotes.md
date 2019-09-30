@@ -15,3 +15,6 @@ Prefix the description of the change with `[major]`, `[minor]`, or `[patch]` in 
 
 ### 1.0.4
 * Connection string typo correction: unvendiaDbDSN to ``uvendiaDbDSN``
+
+### 1.0.5
+* Disable the client discovery server

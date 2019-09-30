@@ -1,7 +1,7 @@
 # Quick start
 ## Installation
 
-Run this command in your ``Visual Studio`` ``Package Manager Console`` for a full installation:
+Run this command in your ``Visual Studio`` ``Package Manager Console`` for a **FULL installation**:
 
 > ``Install-Package Uvendia.Domain``
 
