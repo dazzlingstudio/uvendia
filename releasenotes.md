@@ -18,3 +18,12 @@ Prefix the description of the change with `[major]`, `[minor]`, or `[patch]` in 
 
 ### 1.0.5
 * Disable the client discovery server
+
+### 1.1.0
+* Css fixes
+* IE delete ticket sale fix in js
+* Event selector (plugin)
+* Keep tab selected after form submit
+
+### 1.1.1
+* Include License.md
